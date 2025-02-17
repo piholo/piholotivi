@@ -63,9 +63,7 @@ def filter_italian_channels(channels, base_url):
             count = seen.get(clean_name, 0) + 1
             seen[clean_name] = count
             if count > 1:
-                clean_name = f"{clean_name} ({source_tag}{count})"
-            else:
-                clean_name = f"{clean_name} ({source_tag})"
+                clean_name = f"{clean_name} ({count})"
             results.append((clean_name, f"{base_url}/play/{ch['id']}/index.m3u8", base_url))
     
     return results
@@ -116,7 +114,7 @@ def save_m3u8(organized_channels):
         for service, categories in organized_channels.items():
             for category, channels in categories.items():
                 for name, url, base_url, user_agent in channels:
-                    f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/vavoo.png" group-title="{category}" http-user-agent="{user_agent}/2.6" http-referrer="{base_url}",{name}\n')
+                    f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="" group-title="{category}" http-user-agent="{user_agent}/2.6" http-referrer="{base_url}",{name}\n')
                     f.write(f"#EXTVLCOPT:http-user-agent={user_agent}/2.6\n")
                     f.write(f"#EXTVLCOPT:http-referrer={base_url}/\n")
                     f.write(f'#EXTHTTP:{{"User-Agent":"{user_agent}/2.6","Referer":"{base_url}/"}}\n')
