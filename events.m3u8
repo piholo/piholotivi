@@ -317,11 +317,41 @@ https://zekonew.iosplayer.ru/zeko/premium36/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
 
+#EXTINF:-1 tvg-id="287d06ca-6f4c-c69a-4b22-d3081c8eaee9" tvg-name="England - League One : Reading vs Birmingham City 02/22/25 - 13:30 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Reading vs Birmingham City 02/22/25 - 13:30 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium169/mono.m3u8
+
 #EXTINF:-1 tvg-id="b8db0672-f42d-47cc-00d4-af5974273ca3" tvg-name="England - League One : Rotherham United vs Barnsley 02/22/25 - 13:30 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Rotherham United vs Barnsley 02/22/25 - 13:30 (CET) Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium171/mono.m3u8
+
+#EXTINF:-1 tvg-id="f8cda88b-436d-76e2-b83c-fe0be037e5ed" tvg-name="England - League Two : Crewe Alexandra vs Barrow 02/22/25 - 13:30 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Crewe Alexandra vs Barrow 02/22/25 - 13:30 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium180/mono.m3u8
+
+#EXTINF:-1 tvg-id="81f76d1c-2dbc-2134-c30f-f46e8026695f" tvg-name="England - League Two : Morecambe vs Walsall 02/22/25 - 13:30 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Morecambe vs Walsall 02/22/25 - 13:30 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium181/mono.m3u8
+
+#EXTINF:-1 tvg-id="a013ac6e-deda-4e16-1b3d-bd5ce9a1fa6f" tvg-name="England - Championship : Coventry City vs Preston North End 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Coventry City vs Preston North End 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium186/mono.m3u8
+
+#EXTINF:-1 tvg-id="81f631d4-a392-31a7-d777-a4774c66e0a8" tvg-name="England - Championship : Norwich City vs Stoke City 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Norwich City vs Stoke City 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium187/mono.m3u8
 
 #EXTINF:-1 tvg-id="5fb8d16c-2720-797d-32eb-d6899be578c7" tvg-name="England - Championship : Norwich City vs Stoke City 02/22/25 - 16:00 (CET) Vodafone Sport" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Norwich City vs Stoke City 02/22/25 - 16:00 (CET) Vodafone Sport
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -347,11 +377,119 @@ https://ddy6new.iosplayer.ru/ddy6/premium498/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium622/mono.m3u8
 
+#EXTINF:-1 tvg-id="5cec4eb5-edd9-6831-1ca3-5cfb04fc6d82" tvg-name="England - Championship : Portsmouth vs Queens Park Rangers 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Portsmouth vs Queens Park Rangers 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium188/mono.m3u8
+
+#EXTINF:-1 tvg-id="ce88cb2d-d4e8-0839-fc3e-058be0f3eab0" tvg-name="England - Championship : Swansea City vs Blackburn Rovers 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Swansea City vs Blackburn Rovers 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium189/mono.m3u8
+
 #EXTINF:-1 tvg-id="3da9c2a9-0ed4-2f1a-3d4c-bf374eb93eff" tvg-name="England - Championship : Swansea City vs Blackburn Rovers 02/22/25 - 16:00 (CET) CBS Sports Golazo USA" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : Swansea City vs Blackburn Rovers 02/22/25 - 16:00 (CET) CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium910/mono.m3u8
+
+#EXTINF:-1 tvg-id="14296c07-f26b-4776-913e-4de2e0c53cb8" tvg-name="England - Championship : West Bromwich Albion vs Oxford United 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Championship : West Bromwich Albion vs Oxford United 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium190/mono.m3u8
+
+#EXTINF:-1 tvg-id="d0e6e660-7c69-dee1-bb5e-4bcf15ed6269" tvg-name="England - League One : Blackpool vs Crawley Town 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Blackpool vs Crawley Town 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium191/mono.m3u8
+
+#EXTINF:-1 tvg-id="885f6e66-c2b6-d2c5-fa5d-310011b7e948" tvg-name="England - League One : Bolton Wanderers vs Leyton Orient 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Bolton Wanderers vs Leyton Orient 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium192/mono.m3u8
+
+#EXTINF:-1 tvg-id="a8e56e0c-20de-435d-2031-d750c40db9b4" tvg-name="England - League One : Cambridge United vs Stockport County 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Cambridge United vs Stockport County 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium193/mono.m3u8
+
+#EXTINF:-1 tvg-id="2a45c2ab-8cbf-edb0-f264-accc79ac1b1e" tvg-name="England - League One : Charlton Athletic vs Exeter City 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Charlton Athletic vs Exeter City 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium194/mono.m3u8
+
+#EXTINF:-1 tvg-id="9b49bd26-df57-c59a-8715-a10343dac043" tvg-name="England - League One : Huddersfield Town vs Peterborough United 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Huddersfield Town vs Peterborough United 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium195/mono.m3u8
+
+#EXTINF:-1 tvg-id="edcd465e-3638-6821-f6e0-7cc06c52c49f" tvg-name="England - League One : Lincoln City vs Burton Albion 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Lincoln City vs Burton Albion 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium196/mono.m3u8
+
+#EXTINF:-1 tvg-id="b09b2a5c-badc-c32a-c159-0f538a0f4efb" tvg-name="England - League One : Northampton Town vs Bristol Rovers 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Northampton Town vs Bristol Rovers 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium197/mono.m3u8
+
+#EXTINF:-1 tvg-id="66245bfa-4fcc-a39a-b683-d2e6337ea2df" tvg-name="England - League One : Shrewsbury Town vs Stevenage 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Shrewsbury Town vs Stevenage 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium198/mono.m3u8
+
+#EXTINF:-1 tvg-id="5f987c71-a65e-688e-abf3-ad39fec21bbe" tvg-name="England - League One : Wycombe Wanderers vs Wigan Athletic 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League One : Wycombe Wanderers vs Wigan Athletic 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium199/mono.m3u8
+
+#EXTINF:-1 tvg-id="7394988f-847f-d9b4-e64d-1bcb702753a1" tvg-name="England - League Two : Accrington Stanley vs Doncaster Rovers 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Accrington Stanley vs Doncaster Rovers 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium200/mono.m3u8
+
+#EXTINF:-1 tvg-id="1064005c-3985-c3cf-3f76-be1d1efa2197" tvg-name="England - League Two : Bradford City vs Milton Keynes Dons 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Bradford City vs Milton Keynes Dons 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium201/mono.m3u8
+
+#EXTINF:-1 tvg-id="8dcdcd03-969b-6662-0562-8059568cc69b" tvg-name="England - League Two : Bromley vs Harrogate Town 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Bromley vs Harrogate Town 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium202/mono.m3u8
+
+#EXTINF:-1 tvg-id="01d74256-3860-2ab6-96a4-02f23ae8cc93" tvg-name="England - League Two : Carlisle United vs Gillingham 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Carlisle United vs Gillingham 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium203/mono.m3u8
+
+#EXTINF:-1 tvg-id="0f1259e0-a18f-f6b6-b535-106e122c9a56" tvg-name="England - League Two : Colchester United vs AFC Wimbledon 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Colchester United vs AFC Wimbledon 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium204/mono.m3u8
+
+#EXTINF:-1 tvg-id="080aadfb-e7c9-9b26-1141-25c63a9bedd4" tvg-name="England - League Two : Grimsby Town vs Fleetwood Town 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Grimsby Town vs Fleetwood Town 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium205/mono.m3u8
 
 #EXTINF:-1 tvg-id="839fbc50-1223-b513-5496-f63cdc1110c1" tvg-name="England - League Two : Newport County vs Cheltenham Town 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Newport County vs Cheltenham Town 02/22/25 - 16:00 (CET) Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -370,6 +508,30 @@ https://ddy6new.iosplayer.ru/ddy6/premium207/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium208/mono.m3u8
+
+#EXTINF:-1 tvg-id="93829b43-922f-e15a-e1e3-db63ef7ddc76" tvg-name="England - League Two : Swindon Town vs Chesterfield 02/22/25 - 16:00 (CET) Sky Sports+" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - League Two : Swindon Town vs Chesterfield 02/22/25 - 16:00 (CET) Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium209/mono.m3u8
+
+#EXTINF:-1 tvg-id="7914c120-c8dc-d19f-3e35-11287900f7f9" tvg-name="Scottish Premiership : Aberdeen vs Kilmarnock 02/22/25 - 16:00 (CET) SPFL Feed" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Scottish Premiership : Aberdeen vs Kilmarnock 02/22/25 - 16:00 (CET) SPFL Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium210/mono.m3u8
+
+#EXTINF:-1 tvg-id="1825bc54-30be-b45f-6835-14f2ceb81f9d" tvg-name="Scottish Premiership : Dundee United vs Motherwell 02/22/25 - 16:00 (CET) SPFL Feed" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Scottish Premiership : Dundee United vs Motherwell 02/22/25 - 16:00 (CET) SPFL Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium211/mono.m3u8
+
+#EXTINF:-1 tvg-id="5ab33edf-6e59-5ed3-a8b3-17fa18d0752b" tvg-name="Scottish Premiership : Rangers vs St. Mirren 02/22/25 - 16:00 (CET) SPFL Feed" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Scottish Premiership : Rangers vs St. Mirren 02/22/25 - 16:00 (CET) SPFL Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium212/mono.m3u8
 
 #EXTINF:-1 tvg-id="dd2467ac-778e-edb3-693d-ffbc6c6fa611" tvg-name="Scottish Premiership : Ross County vs Dundee 02/22/25 - 16:00 (CET) SPFL Feed" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Scottish Premiership : Ross County vs Dundee 02/22/25 - 16:00 (CET) SPFL Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1247,6 +1409,12 @@ https://ddh2new.iosplayer.ru/ddh2/premium17/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium128/mono.m3u8
 
+#EXTINF:-1 tvg-id="7746d0ba-8ae8-905b-54b4-a48268586eba" tvg-name="Austria 2. Liga : Liefering vs Lafnitz 02/22/25 - 14:30 (CET) ORF Sport Plus" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Austria 2. Liga : Liefering vs Lafnitz 02/22/25 - 14:30 (CET) ORF Sport Plus
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium173/mono.m3u8
+
 #EXTINF:-1 tvg-id="d5385b0e-34f3-193c-0ff0-a55c6a702e2f" tvg-name="Poland - Ekstraklasa : Korona Kielce vs Śląsk Wrocław 02/22/25 - 14:45 (CET) Canal+ Sport 3 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Poland - Ekstraklasa : Korona Kielce vs Śląsk Wrocław 02/22/25 - 14:45 (CET) Canal+ Sport 3 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -1529,6 +1697,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium811/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium5/mono.m3u8
 
+#EXTINF:-1 tvg-id="5cb85aed-f5f6-2c97-6efb-63b11b049863" tvg-name="Bundesliga : Mainz 05 vs St. Pauli 02/22/25 - 15:30 (CET) ESPN+ USA" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Mainz 05 vs St. Pauli 02/22/25 - 15:30 (CET) ESPN+ USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium175/mono.m3u8
+
 #EXTINF:-1 tvg-id="75b17a55-d426-2982-e43e-4288a2b5b498" tvg-name="Bundesliga : Mainz 05 vs St. Pauli 02/22/25 - 15:30 (CET) beIN Sports MAX 6 France" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Mainz 05 vs St. Pauli 02/22/25 - 15:30 (CET) beIN Sports MAX 6 France
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -1540,6 +1714,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium496/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium3/mono.m3u8
+
+#EXTINF:-1 tvg-id="a6846099-f729-4951-8591-31d2bbda0242" tvg-name="Bundesliga : Borussia M'gladbach vs Augsburg 02/22/25 - 15:30 (CET) ESPN+ USA" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Borussia M'gladbach vs Augsburg 02/22/25 - 15:30 (CET) ESPN+ USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium176/mono.m3u8
 
 #EXTINF:-1 tvg-id="eb6c1016-cee6-24d0-9dac-6e8345241ea6" tvg-name="Bundesliga : Borussia M'gladbach vs Augsburg 02/22/25 - 15:30 (CET) beIN Sports MAX 5 France" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Borussia M'gladbach vs Augsburg 02/22/25 - 15:30 (CET) beIN Sports MAX 5 France
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1558,6 +1738,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium428/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium4/mono.m3u8
+
+#EXTINF:-1 tvg-id="3ed8c56c-da09-dfa0-5282-8d8044b591f7" tvg-name="Bundesliga : Holstein Kiel vs Bayer Leverkusen 02/22/25 - 15:30 (CET) ESPN+ USA" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Holstein Kiel vs Bayer Leverkusen 02/22/25 - 15:30 (CET) ESPN+ USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium177/mono.m3u8
 
 #EXTINF:-1 tvg-id="4767d76c-162f-8a24-ef43-613cd4aac9a3" tvg-name="Bundesliga : Holstein Kiel vs Bayer Leverkusen 02/22/25 - 15:30 (CET) DAZN Eleven 5 Portugal" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bundesliga : Holstein Kiel vs Bayer Leverkusen 02/22/25 - 15:30 (CET) DAZN Eleven 5 Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1943,6 +2129,12 @@ https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium464/mono.m3u8
 
+#EXTINF:-1 tvg-id="8a3c3b5e-801e-f1da-45b1-ed25f1533ae8" tvg-name="England - Premier League : Ipswich Town vs Tottenham Hotspur 02/22/25 - 16:00 (CET) Canal+ Live 6 France" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Premier League : Ipswich Town vs Tottenham Hotspur 02/22/25 - 16:00 (CET) Canal+ Live 6 France
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
+
 #EXTINF:-1 tvg-id="9918ee46-1497-d658-7010-f7197e695d0d" tvg-name="England - Premier League : Ipswich Town vs Tottenham Hotspur 02/22/25 - 16:00 (CET) Cytavision Sports 6 Cyprus" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", England - Premier League : Ipswich Town vs Tottenham Hotspur 02/22/25 - 16:00 (CET) Cytavision Sports 6 Cyprus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -2062,6 +2254,18 @@ https://ddy6new.iosplayer.ru/ddy6/premium110/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium151/mono.m3u8
+
+#EXTINF:-1 tvg-id="de8ede0b-a85c-6e4a-004b-6fabfcf56188" tvg-name="Germany Amateur Regionalliga : 1. FC Lokomotive Leipzig vs. Hertha BSC II 02/22/25 - 16:00 (CET) MDR Sachsen" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Germany Amateur Regionalliga : 1. FC Lokomotive Leipzig vs. Hertha BSC II 02/22/25 - 16:00 (CET) MDR Sachsen
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium178/mono.m3u8
+
+#EXTINF:-1 tvg-id="0de051a6-69ca-97d2-7644-14fd8ae769ed" tvg-name="Bosnia and Herzegovina - Premijer Liga : Željezničar vs Sarajevo 02/22/25 - 16:00 (CET) Arena Sport 5 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Bosnia and Herzegovina - Premijer Liga : Željezničar vs Sarajevo 02/22/25 - 16:00 (CET) Arena Sport 5 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium179/mono.m3u8
 
 #EXTINF:-1 tvg-id="9f64eeed-5c9d-927d-84b8-71bb300568d2" tvg-name="Cyprus - First Division : Karmiotissa vs AEK Larnaca 02/22/25 - 16:00 (CET) Cytavision Sports 1 Cyprus" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Cyprus - First Division : Karmiotissa vs AEK Larnaca 02/22/25 - 16:00 (CET) Cytavision Sports 1 Cyprus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2548,6 +2752,18 @@ https://ddh2new.iosplayer.ru/ddh2/premium18/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium718/mono.m3u8
+
+#EXTINF:-1 tvg-id="2303f6c6-d69d-42f1-ae4c-84ffa8c01f05" tvg-name="Switzerland Super League : Lausanne Sport vs Grasshopper 02/22/25 - 18:00 (CET) Blue Sport 4 Live" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Switzerland Super League : Lausanne Sport vs Grasshopper 02/22/25 - 18:00 (CET) Blue Sport 4 Live
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium180/mono.m3u8
+
+#EXTINF:-1 tvg-id="a0a11839-e745-7704-18df-bc3ca0d4de3d" tvg-name="Switzerland Super League : Zürich vs Yverdon Sport 02/22/25 - 18:00 (CET) Blue Sport D 1" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Switzerland Super League : Zürich vs Yverdon Sport 02/22/25 - 18:00 (CET) Blue Sport D 1
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium181/mono.m3u8
 
 #EXTINF:-1 tvg-id="5d678bb1-945e-f2e4-088a-93ec70d9c9f8" tvg-name="Belgium - Pro League : Westerlo vs Sporting Charleroi 02/22/25 - 18:15 (CET) DAZN Pro League 1 Belgium" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Belgium - Pro League : Westerlo vs Sporting Charleroi 02/22/25 - 18:15 (CET) DAZN Pro League 1 Belgium
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -3340,12 +3556,6 @@ https://ddh2new.iosplayer.ru/ddh2/premium3/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium260/mono.m3u8
-
-#EXTINF:-1 tvg-id="4a1dab32-6aed-fdc7-a3e0-5309b5a1b949" tvg-name="Germany - Bundesliga 2 : Hannover 96 vs Paderborn 02/22/25 - 20:30 (CET) Sport1 DE" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Germany - Bundesliga 2 : Hannover 96 vs Paderborn 02/22/25 - 20:30 (CET) Sport1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium641/mono.m3u8
 
 #EXTINF:-1 tvg-id="f758dce2-0556-daea-67b0-32831d7c0098" tvg-name="Germany - Bundesliga 2 : Hannover 96 vs Paderborn 02/22/25 - 20:30 (CET) Sky Sport Top Event DE" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Germany - Bundesliga 2 : Hannover 96 vs Paderborn 02/22/25 - 20:30 (CET) Sky Sport Top Event DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4227,7 +4437,7 @@ https://zekonew.iosplayer.ru/zeko/premium38/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium368/mono.m3u8
+https://zekonew.iosplayer.ru/zeko/premium368/mono.m3u8
 
 #EXTINF:-1 tvg-id="71a3fad2-b094-6d2a-2aa9-3b436d15f16f" tvg-name="ICC Champions Trophy : Australia vs England 02/22/25 - 10:00 (CET) Sky Sport 2 NZ" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ICC Champions Trophy : Australia vs England 02/22/25 - 10:00 (CET) Sky Sport 2 NZ
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4499,11 +4709,23 @@ https://dokko1new.iosplayer.ru/dokko1/premium589/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium590/mono.m3u8
 
+#EXTINF:-1 tvg-id="84d67c4f-f0df-1684-f28e-41225894f7f1" tvg-name="Undisputed World Light-Heavyweight Title : Artur Beterbiev vs Dmitry Bivol 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Undisputed World Light-Heavyweight Title : Artur Beterbiev vs Dmitry Bivol 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
+
 #EXTINF:-1 tvg-id="143029a9-d88f-1c94-48b7-63d5e519dd7e" tvg-name="Undisputed World Light-Heavyweight Title : Artur Beterbiev vs Dmitry Bivol 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Undisputed World Light-Heavyweight Title : Artur Beterbiev vs Dmitry Bivol 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
+
+#EXTINF:-1 tvg-id="a0017720-200b-2903-4642-6c458d03f17a" tvg-name="IBF Heavyweight Title : Daniel Dubois vs Joseph Parker 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", IBF Heavyweight Title : Daniel Dubois vs Joseph Parker 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
 
 #EXTINF:-1 tvg-id="17eaec83-8892-042f-9d4b-2bf94d85e9c7" tvg-name="IBF Heavyweight Title : Daniel Dubois vs Joseph Parker 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", IBF Heavyweight Title : Daniel Dubois vs Joseph Parker 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4511,11 +4733,23 @@ https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
 
+#EXTINF:-1 tvg-id="2bd3cdcd-2779-4685-94a5-3fdef10d27c8" tvg-name="WBC Lightweight Title : Shakur Stevenson vs Floyd Schofield 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", WBC Lightweight Title : Shakur Stevenson vs Floyd Schofield 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
+
 #EXTINF:-1 tvg-id="e6e987ca-b87b-6384-9fdd-de2ea8a2b7ad" tvg-name="WBC Lightweight Title : Shakur Stevenson vs Floyd Schofield 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", WBC Lightweight Title : Shakur Stevenson vs Floyd Schofield 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
+
+#EXTINF:-1 tvg-id="dd20c3bf-d342-af08-0a8b-b5b490494583" tvg-name="WBC Middleweight Title : Carlos Adames vs Hamzah Sheeraz 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", WBC Middleweight Title : Carlos Adames vs Hamzah Sheeraz 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
 
 #EXTINF:-1 tvg-id="f2d3f761-0ba3-6279-14cb-056407437c3b" tvg-name="WBC Middleweight Title : Carlos Adames vs Hamzah Sheeraz 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", WBC Middleweight Title : Carlos Adames vs Hamzah Sheeraz 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4523,17 +4757,35 @@ https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
 
+#EXTINF:-1 tvg-id="92779574-c457-6cc3-35f7-89bca6b07458" tvg-name="12 rounds Super-Welterweight : Vergil Ortiz Jr vs Israil Madrimov 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 rounds Super-Welterweight : Vergil Ortiz Jr vs Israil Madrimov 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
+
 #EXTINF:-1 tvg-id="07c0d116-a394-ed54-9e3c-5a886aa56e6d" tvg-name="12 rounds Super-Welterweight : Vergil Ortiz Jr vs Israil Madrimov 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 rounds Super-Welterweight : Vergil Ortiz Jr vs Israil Madrimov 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
 
+#EXTINF:-1 tvg-id="4d560a3d-f4e7-069a-a454-09374a27ebf2" tvg-name="12 Rounds Heavyweight : Zhilei Zhang vs Agit Kabayel 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 Rounds Heavyweight : Zhilei Zhang vs Agit Kabayel 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
+
 #EXTINF:-1 tvg-id="ceae71cf-ce00-0af0-3eb0-51817ba24588" tvg-name="12 Rounds Heavyweight : Zhilei Zhang vs Agit Kabayel 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 Rounds Heavyweight : Zhilei Zhang vs Agit Kabayel 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium33/mono.m3u8
+
+#EXTINF:-1 tvg-id="2877f5d9-0f56-75f8-b048-faa112ae5c22" tvg-name="12 Rounds Light-Heavyweight Joshua Buatsi vs Callum Smith 02/22/25 - 16:00 (CET) Sky Sport Box Office" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 Rounds Light-Heavyweight Joshua Buatsi vs Callum Smith 02/22/25 - 16:00 (CET) Sky Sport Box Office
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddh2new.iosplayer.ru/ddh2/premium184/mono.m3u8
 
 #EXTINF:-1 tvg-id="76e5ae78-7bf7-e1d3-6a66-2fce7089fc6d" tvg-name="12 Rounds Light-Heavyweight Joshua Buatsi vs Callum Smith 02/22/25 - 16:00 (CET) TNT Sports 3 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", 12 Rounds Light-Heavyweight Joshua Buatsi vs Callum Smith 02/22/25 - 16:00 (CET) TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4811,6 +5063,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium591/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium38/mono.m3u8
 
+#EXTINF:-1 tvg-id="df41e335-b9ae-d8e4-e615-99c8cbf81f86" tvg-name="World Snooker - Snooker World Open Live World Open - Yushan, Jiangxi Province, China 02/22/25 - 02:30 (CET) TNT Sports 5 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", World Snooker - Snooker World Open Live World Open - Yushan, Jiangxi Province, China 02/22/25 - 02:30 (CET) TNT Sports 5 UK
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
+
 #EXTINF:-1 tvg-id="98cf1188-06d2-5913-a117-3719b023a0ea" tvg-name="Sestriere | Women's Giant Slalom World Cup | Run 1 02/22/25 - 10:45 (CET) EuroSport 1 UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Sestriere | Women's Giant Slalom World Cup | Run 1 02/22/25 - 10:45 (CET) EuroSport 1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -4948,6 +5206,12 @@ https://windnew.iosplayer.ru/wind/premium408/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium406/mono.m3u8
+
+#EXTINF:-1 tvg-id="fb756923-f910-abb3-f105-32523990e2c9" tvg-name="MLB : Houston Astros vs New York Mets 02/22/25 - 19:10 (CET) MLB League Pass" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", MLB : Houston Astros vs New York Mets 02/22/25 - 19:10 (CET) MLB League Pass
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
 
 #EXTINF:-1 tvg-id="b4746349-49fc-2cd8-c56b-ad4c4c3077c4" tvg-name="MLB : Houston Astros vs New York Mets 02/22/25 - 19:10 (CET) SportsNet New York USA" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", MLB : Houston Astros vs New York Mets 02/22/25 - 19:10 (CET) SportsNet New York USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5855,12 +6119,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium154/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
 
-#EXTINF:-1 tvg-id="51facefa-d6f8-9f7a-c2fa-1da878308631" tvg-name="Champions League Women : CSM Bucharestvs.CS Gloria 2018 Bistrita-Nasaud 02/22/25 - 16:00 (CET) Digi Sport 3 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : CSM Bucharestvs.CS Gloria 2018 Bistrita-Nasaud 02/22/25 - 16:00 (CET) Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://top2new.iosplayer.ru/top2/premium402/mono.m3u8
-
 #EXTINF:-1 tvg-id="501ba851-5ee6-8495-3400-29c3ea11905b" tvg-name="Champions League Women : CSM Bucharestvs.CS Gloria 2018 Bistrita-Nasaud 02/22/25 - 16:00 (CET) Prima Sport 2 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : CSM Bucharestvs.CS Gloria 2018 Bistrita-Nasaud 02/22/25 - 16:00 (CET) Prima Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -5926,12 +6184,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium773/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium809/mono.m3u8
-
-#EXTINF:-1 tvg-id="5a2837b2-cb83-83f2-bb96-f6022b115c36" tvg-name="EHF European League Women : Herning-Ikast Haandbold vs. SCM Ramnicu Valcea 02/22/25 - 18:00 (CET) Prima Sport 4 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", EHF European League Women : Herning-Ikast Haandbold vs. SCM Ramnicu Valcea 02/22/25 - 18:00 (CET) Prima Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://top2new.iosplayer.ru/top2/premium586/mono.m3u8
 
 #EXTINF:-1 tvg-id="8bea75c1-b866-77aa-23d4-526b2b54ff7a" tvg-name="EHF European League Women : HSG Blomberg-Lippe vs. Mosonmagyarovari KCSE 02/22/25 - 18:00 (CET) Sport 1 Hungary" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", EHF European League Women : HSG Blomberg-Lippe vs. Mosonmagyarovari KCSE 02/22/25 - 18:00 (CET) Sport 1 Hungary
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -6076,6 +6328,12 @@ https://ddh2new.iosplayer.ru/ddh2/premium706/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddh2new.iosplayer.ru/ddh2/premium704/mono.m3u8
+
+#EXTINF:-1 tvg-id="a65f7b8a-dbb4-4021-fdde-64afa75b395a" tvg-name="Norway Eliteserien : Frisk Asker vs. Vaalerenga IF Oslo 02/22/25 - 18:30 (CET) TV2 Sport 1 Norway HD" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Norway Eliteserien : Frisk Asker vs. Vaalerenga IF Oslo 02/22/25 - 18:30 (CET) TV2 Sport 1 Norway HD
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium175/mono.m3u8
 
 #EXTINF:-1 tvg-id="67c0518b-17ef-a621-081c-79d4c27437eb" tvg-name="Switzerland National League : EV Zug vs. ZSC Lions Zurich 02/22/25 - 19:45 (CET) 3 Schweiz" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Switzerland National League : EV Zug vs. ZSC Lions Zurich 02/22/25 - 19:45 (CET) 3 Schweiz
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -7126,12 +7384,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium127/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium159/mono.m3u8
-
-#EXTINF:-1 tvg-id="67213a70-17d5-0f59-c4d5-98f7e14fe093" tvg-name="Germany 1. Bundesliga Women : SSC Schwerin vs. Dresdner SC 02/22/25 - 17:15 (CET) Sport1 Germany" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Germany 1. Bundesliga Women : SSC Schwerin vs. Dresdner SC 02/22/25 - 17:15 (CET) Sport1 Germany
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium641/mono.m3u8
 
 #EXTINF:-1 tvg-id="b1d81887-4739-cc7b-bff3-0c8d83ff3e96" tvg-name="Slovenian league : Maribor vs Calcit Kamnik 02/22/25 - 17:30 (CET) Sport Klub 9 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Slovenian league : Maribor vs Calcit Kamnik 02/22/25 - 17:30 (CET) Sport Klub 9 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
