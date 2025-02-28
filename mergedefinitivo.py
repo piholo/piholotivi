@@ -21,7 +21,7 @@ mStopTime = 0
 
 # File e URL statici per la seconda parte dello script
 daddyLiveChannelsFileName = '247channels.html'
-daddyLiveChannelsURL = 'https://thedaddy.to/24-7-channels.php'
+daddyLiveChannelsURL = 'https://daddylive.mp/24-7-channels.php'
 
 # Headers and related constants from the first code block (assuming these are needed for requests)
 Referer = "https://ilovetoplay.xyz/"
@@ -53,7 +53,7 @@ def get_stream_link(dlhd_id, max_retries=3):
         try:
             # Use timeout for all requests
             response = client.get(
-                f"https://thedaddy.to/embed/stream-{dlhd_id}.php",
+                f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
                 headers=headers,
                 timeout=base_timeout
             )
@@ -116,7 +116,7 @@ def get_stream_link(dlhd_id, max_retries=3):
 
                 if 'server_key' in server_key_data:
                     server_key = server_key_data['server_key']
-                    stream_url = f"https://{server_key}new.iosplayer.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
+                    stream_url = f"https://{server_key}new.koskoros.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
                     print(f"Stream URL retrieved for channel ID: {dlhd_id}")
                     return stream_url
                 else:
@@ -242,12 +242,13 @@ def addChannelsByLeagueSport():
                         if stream_url_dynamic:
                             with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
                                 if channelCount == 1:
-                                    file.write('#EXTM3U\n')
+                                    file.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n')
+                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
 
                                 file.write(f'#EXTINF:-1 tvg-id="{UniqueID}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel}\n')
-                                file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
-                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3\n')
-                                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                                file.write('#EXTVLCOPT:http-referrer=https://newembedplay.xyz\n')
+                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                                file.write('#EXTVLCOPT:http-origin=https://newembedplay.xyz\n')
                                 file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
                             processed_schedule_channels += 1 # Increment counter on successful stream retrieval
                         else:
@@ -464,9 +465,9 @@ def generate_m3u8_247(matches): # Rinominata per evitare conflitti
 
             if stream_url_dynamic:
                 file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name}\n")
-                file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
-                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3\n')
-                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                file.write(f'#EXTVLCOPT:http-referrer=https://newembedplay.xyz\n')
+                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                file.write('#EXTVLCOPT:http-origin=https://newembedplay.xyz\n')
                 file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
                 processed_247_channels += 1 # Increment counter on successful stream retrieval
             else:
@@ -485,7 +486,7 @@ total_schedule_channels = 0 # Counter for total schedule channels attempted
 total_247_channels = 0 # Counter for total 24/7 channels attempted
 
 # Scarica il file JSON con la programmazione
-fetcher.fetchHTML(DADDY_JSON_FILE, "https://thedaddy.to/schedule/schedule-generated.json")
+fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
 
 # Carica i dati dal JSON
 dadjson = loadJSON(DADDY_JSON_FILE)
