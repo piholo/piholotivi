@@ -4478,6 +4478,17 @@
         ],
         "Baseball": [
             {
+                "time": "17:00",
+                "event": "College Baseball : Rice vs Mississippi State",
+                "channels": [
+                    {
+                        "channel_name": "Space City Home Network",
+                        "channel_id": "921"
+                    }
+                ],
+                "channels2": []
+            },
+            {
                 "time": "18:00",
                 "event": "MLB : Toronto Blue Jays vs Detroit tigers",
                 "channels": [
@@ -4717,17 +4728,6 @@
                         "channel_id": "7476821"
                     }
                 ]
-            },
-            {
-                "time": "17:00",
-                "event": "College Baseball : Rice vs Mississippi State",
-                "channels": [
-                    {
-                        "channel_name": "Space City Home Network",
-                        "channel_id": "921"
-                    }
-                ],
-                "channels2": []
             },
             {
                 "time": "17:00",
