@@ -2,7 +2,7 @@ name: Update world 24 7
 
 on:
   schedule:
-    - cron: "0 3 * * 1" # ogni lunedi alle 3
+    - cron: "0 */4 * * *" # ogni lunedi alle 3
   workflow_dispatch:
 
 jobs:
