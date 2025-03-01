@@ -88,7 +88,7 @@ def get_stream_link(dlhd_id, max_retries=3):
                 parent_site_domain = real_link.split('/premiumtv')[0]
                 server_key_link = (f'{parent_site_domain}/server_lookup.php?channel_id=premium{dlhd_id}')
                 server_key_headers = headers.copy()
-                server_key_headers["Referer"] = f"https://newembedplay.xyz/premiumtv/daddyhd.php?id={dlhd_id}"
+                server_key_headers["Referer"] = f"https://newembedplay.xyz/premiumtv/daddylivehd.php?id={dlhd_id}"
                 server_key_headers["Origin"] = "https://newembedplay.xyz"
                 server_key_headers["Sec-Fetch-Site"] = "same-origin"
 
@@ -116,7 +116,7 @@ def get_stream_link(dlhd_id, max_retries=3):
 
                 if 'server_key' in server_key_data:
                     server_key = server_key_data['server_key']
-                    stream_url = f"https://{server_key}new.koskoros.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
+                    stream_url = f"https://{server_key}new.iosplayer.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
                     print(f"Stream URL retrieved for channel ID: {dlhd_id}")
                     return stream_url
                 else:
@@ -201,9 +201,18 @@ def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description)
 def addChannelsByLeagueSport():
     global channelCount
     processed_schedule_channels = 0 # Counter for schedule channels
+    # Define categories to exclude
+    excluded_categories = ["TV Shows", "Cricket", "Aussie rules", "Snooker", "Baseball", 
+                          "Biathlon", "Cross Country", "Horse Racing", "Ice Hockey", 
+                          "Waterpolo", "Golf", "Darts", "Cycling"]
+    
     for day, value in dadjson.items():
         try:
-            for sport in dadjson[day].values():
+            for sport_key, sport in dadjson[day].items():
+                # Skip excluded categories
+                if any(excluded_category in sport_key for excluded_category in excluded_categories):
+                    continue
+                    
                 for game in sport:
                     for channel in game["channels"]:
                         date_time = day.replace("th ", " ").replace("rd ", " ").replace("st ", " ").replace("nd ", " ").replace("Dec Dec", "Dec")
@@ -226,7 +235,21 @@ def addChannelsByLeagueSport():
 
                         UniqueID = unique_ids.pop(0)
                         try:
-                            channelName = game["event"] + " " + formatted_date_time_cet + " " + channel["channel_name"]
+                            channelName = game["event"] + " " + formatted_date_time_cet + "  " + channel["channel_name"]
+                            
+                            # MODIFICATO: Creare un custom tvg-id per canali del gruppo "Eventi"
+                            # Estrazione della parte prima dei ":" e dopo "(CET)"
+                            event_part = ""
+                            channel_part = ""
+                            
+                            if ":" in game["event"]:
+                                event_part = game["event"].split(":")[0].strip()
+                            else:
+                                event_part = game["event"].strip()
+                                
+                            channel_part = channel["channel_name"].strip()
+                            custom_tvg_id = f"{event_part} - {channel_part}"
+                            
                         except TypeError:
                             #print("JSON mal formattato, canale saltato per questa partita.") # Debug removed
                             continue
@@ -244,11 +267,11 @@ def addChannelsByLeagueSport():
                                 if channelCount == 1:
                                     file.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n')
                             with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-
-                                file.write(f'#EXTINF:-1 tvg-id="{UniqueID}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel}\n')
-                                file.write('#EXTVLCOPT:http-referrer=https://newembedplay.xyz\n')
+                                # MODIFICATO: Utilizzo custom_tvg_id invece di UniqueID per tvg-id
+                                file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel} (D)\n')
+                                file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                                file.write('#EXTVLCOPT:http-origin=https://newembedplay.xyz\n')
+                                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
                                 file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
                             processed_schedule_channels += 1 # Increment counter on successful stream retrieval
                         else:
@@ -310,59 +333,59 @@ STATIC_LOGOS = {
 }
 
 STATIC_TVG_IDS = {
-    "sky uno": "skyuno.it",
-    "rai 1": "rai1.it",
-    "rai 2": "rai2.it",
-    "rai 3": "rai3.it",
-    "eurosport 1": "eurosport1.it",
-    "eurosport 2": "eurosport2.it",
-    "italia 1": "italia1.it",
-    "la7": "la7.it",
-    "la7d": "la7d.it",
-    "rai sport": "raisport.it",
-    "rai premium": "raipremium.it",
-    "sky sports golf": "skysportgolf.it",
-    "sky sport motogp": "skysportmotogp.it",
-    "sky sport tennis": "skysporttennis.it",
-    "sky sport f1": "skysportf1.it",
-    "sky sport football": "skysportfootball.it",
-    "sky sport uno": "skysportuno.it",
-    "sky sport arena": "skysportarena.it",
-    "sky cinema collection": "skycinemacollection.it",
-    "sky cinema uno": "skycinemauno.it",
-    "sky cinema action": "skycinemaaction.it",
-    "sky cinema comedy": "skycinemacomedy.it",
-    "sky cinema uno +24": "skycinemaunoPlus24.it",
-    "sky cinema romance": "skycinemaromance.it",
-    "sky cinema family": "skycinemafamily.it",
-    "sky cinema due +24": "SkyCinemaDuePlus24.it",
-    "sky cinema drama": "skycinemadrama.it",
-    "sky cinema suspense": "skycinemasuspense.it",
-    "sky sport 24": "skysport24.it",
-    "sky sport calcio": "SkySportCalcio.it",
-    "sky calcio 1": "SkySport.it",
-    "sky calcio 2": "SkySport2.it",
-    "sky calcio 3": "skysport3.it",
-    "sky calcio 4": "skysport4.it",
-    "sky calcio 5": "skysport5.it",
-    "sky calcio 6": "skysport6.it",
-    "sky calcio 7": "skysport7.it",
-    "sky serie": "skyserie.it",
-    "20 mediaset": "20.it",
+    "sky uno": "sky uno",
+    "rai 1": "rai 1",
+    "rai 2": "rai 2",
+    "rai 3": "rai 3",
+    "eurosport 1": "eurosport 1",
+    "eurosport 2": "eurosport 2",
+    "italia 1": "italia 1",
+    "la7": "la7",
+    "la7d": "la7d",
+    "rai sport": "rai sport",
+    "rai premium": "rai premium",
+    "sky sports golf": "sky sport golf",
+    "sky sport motogp": "sky sport motogp",
+    "sky sport tennis": "sky sport tennis",
+    "sky sport f1": "sky sport f1",
+    "sky sport football": "sky sport football",
+    "sky sport uno": "sky sport uno",
+    "sky sport arena": "sky sport arena",
+    "sky cinema collection": "sky cinema collection",
+    "sky cinema uno": "sky cinema uno",
+    "sky cinema action": "sky cinema action",
+    "sky cinema comedy": "sky cinema comedy",
+    "sky cinema uno +24": "sky cinema uno +24",
+    "sky cinema romance": "sky cinemar omance",
+    "sky cinema family": "sky cinema family",
+    "sky cinema due +24": "sky cinema Due +24",
+    "sky cinema drama": "sky cinema drama",
+    "sky cinema suspense": "sky cinema suspense",
+    "sky sport 24": "sky sport 24",
+    "sky sport calcio": "Sky Sport Calcio",
+    "sky calcio 1": "Sky Sport",
+    "sky calcio 2": "Sky Sport 2",
+    "sky calcio 3": "sky sport 3",
+    "sky calcio 4": "sky sport 4",
+    "sky calcio 5": "sky sport 5",
+    "sky calcio 6": "sky sport 6",
+    "sky calcio 7": "sky sport 7",
+    "sky serie": "sky serie",
+    "20 mediaset": "Mediaset 20",
 }
 
 STATIC_CATEGORIES = {
-    "sky uno": "Intrattenimento",
-    "rai 1": "Intrattenimento",
-    "rai 2": "Intrattenimento",
-    "rai 3": "Intrattenimento",
+    "sky uno": "Sky",
+    "rai 1": "Rai Tv",
+    "rai 2": "Rai Tv",
+    "rai 3": "Rai Tv",
     "eurosport 1": "Sport",
     "eurosport 2": "Sport",
-    "italia 1": "Intrattenimento",
-    "la7": "Intrattenimento",
-    "la7d": "Intrattenimento",
+    "italia 1": "Mediaset",
+    "la7": "Tv Italia",
+    "la7d": "Tv Italia",
     "rai sport": "Sport",
-    "rai premium": "Intrattenimento",
+    "rai premium": "Rai Tv",
     "sky sports golf": "Sport",
     "sky sport motogp": "Sport",
     "sky sport tennis": "Sport",
@@ -370,16 +393,16 @@ STATIC_CATEGORIES = {
     "sky sport football": "Sport",
     "sky sport uno": "Sport",
     "sky sport arena": "Sport",
-    "sky cinema collection": "Film & Serie TV",
-    "sky cinema uno": "Film & Serie TV",
-    "sky cinema action": "Film & Serie TV",
-    "sky cinema comedy": "Film & Serie TV",
-    "sky cinema uno +24": "Film & Serie TV",
-    "sky cinema romance": "Film & Serie TV",
-    "sky cinema family": "Film & Serie TV",
-    "sky cinema due +24": "Film & Serie TV",
-    "sky cinema drama": "Film & Serie TV",
-    "sky cinema suspense": "Film & Serie TV",
+    "sky cinema collection": "Sky",
+    "sky cinema uno": "Sky",
+    "sky cinema action": "Sky",
+    "sky cinema comedy": "Sky",
+    "sky cinema uno +24": "Sky",
+    "sky cinema romance": "Sky",
+    "sky cinema family": "Sky",
+    "sky cinema due +24": "Sky",
+    "sky cinema drama": "Sky",
+    "sky cinema suspense": "Sky",
     "sky sport 24": "Sport",
     "sky sport calcio": "Sport",
     "sky calcio 1": "Sport",
@@ -389,8 +412,8 @@ STATIC_CATEGORIES = {
     "sky calcio 5": "Sport",
     "sky calcio 6": "Sport",
     "sky calcio 7": "Sport",
-    "sky serie": "Film & Serie TV",
-    "20 mediaset": "Intrattenimento",
+    "sky serie": "Sky",
+    "20 mediaset": "Mediaset",
 }
 
 def fetch_with_debug(filename, url):
@@ -464,10 +487,11 @@ def generate_m3u8_247(matches): # Rinominata per evitare conflitti
             stream_url_dynamic = get_stream_link(channel_id) # Removed site and MFP_CREDENTIALS arguments
 
             if stream_url_dynamic:
-                file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name}\n")
-                file.write(f'#EXTVLCOPT:http-referrer=https://newembedplay.xyz\n')
+                # MODIFICATO: Aggiunto (D) dopo il nome del canale
+                file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
+                file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                file.write('#EXTVLCOPT:http-origin=https://newembedplay.xyz\n')
+                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
                 file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
                 processed_247_channels += 1 # Increment counter on successful stream retrieval
             else:
