@@ -34,6 +34,7 @@ jobs:
           rm -f 247world.m3u8
           rm -f 247world.xml
           python 247world.py
+          python onlyevents.py
           
       - name: Force commit and push the changes (no history)
         run: |
