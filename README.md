@@ -4,17 +4,17 @@ M3U Url
 
 With MediaFlow Proxy on Render 
 
-https://paste.ee/r/2FY59w1E/0
+https://paste.ee/r/vUgmGnV1/0
 
 
 With MediaFlow Proxy on HuggingFace
 
-https://paste.ee/r/UCyTBCF2/0
+https://paste.ee/r/nnfXKzVa/0
 
 
 With MediaFlow Proxy on VPS
 
-https://paste.ee/r/2FY59w1E/0
+https://paste.ee/r/vUgmGnV1/0
 
 Or 
 
