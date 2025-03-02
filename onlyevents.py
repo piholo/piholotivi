@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import random
 import uuid
-import fetcher
 import json
 import os
 import datetime
@@ -10,17 +9,21 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-# Costanti
+# Constants
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "events.m3u8"
-EPG_OUTPUT_FILE = "events.xml"
+M3U8_OUTPUT_FILE = "onlyevents.m3u8"
+EPG_OUTPUT_FILE = "onlyevents.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 mStartTime = 0
 mStopTime = 0
 
 # Headers for requests
+Referer = "https://ilovetoplay.xyz/"
+Origin = "https://ilovetoplay.xyz"
+key_url = "https%3A%2F%2Fkey2.keylocking.ru%2F"
+
 headers = {
     "Accept": "*/*",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,ru;q=0.5",
@@ -34,9 +37,9 @@ headers = {
     "Sec-Fetch-Storage-Access": "active",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
 }
-client = requests
 
 def get_stream_link(dlhd_id, max_retries=3):
+    """Get the stream link for a channel ID with retry mechanism"""
     print(f"Getting stream link for channel ID: {dlhd_id}...")
 
     base_timeout = 10  # Base timeout in seconds
@@ -44,8 +47,8 @@ def get_stream_link(dlhd_id, max_retries=3):
     for attempt in range(max_retries):
         try:
             # Use timeout for all requests
-            response = client.get(
-                f"https://thedaddy.to/embed/stream-{dlhd_id}.php",
+            response = requests.get(
+                f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
                 headers=headers,
                 timeout=base_timeout
             )
@@ -56,6 +59,7 @@ def get_stream_link(dlhd_id, max_retries=3):
             if not response_text:
                 print(f"Warning: Empty response received for channel ID: {dlhd_id} (attempt {attempt+1}/{max_retries})")
                 if attempt < max_retries - 1:
+                    # Calculate exponential backoff with jitter
                     sleep_time = (2 ** attempt) + random.uniform(0, 1)
                     print(f"Retrying in {sleep_time:.2f} seconds...")
                     time.sleep(sleep_time)
@@ -79,11 +83,11 @@ def get_stream_link(dlhd_id, max_retries=3):
                 parent_site_domain = real_link.split('/premiumtv')[0]
                 server_key_link = (f'{parent_site_domain}/server_lookup.php?channel_id=premium{dlhd_id}')
                 server_key_headers = headers.copy()
-                server_key_headers["Referer"] = f"https://newembedplay.xyz/premiumtv/daddyhd.php?id={dlhd_id}"
+                server_key_headers["Referer"] = f"https://newembedplay.xyz/premiumtv/daddylivehd.php?id={dlhd_id}"
                 server_key_headers["Origin"] = "https://newembedplay.xyz"
                 server_key_headers["Sec-Fetch-Site"] = "same-origin"
 
-                response_key = client.get(
+                response_key = requests.get(
                     server_key_link,
                     headers=server_key_headers,
                     allow_redirects=False,
@@ -156,21 +160,23 @@ def get_stream_link(dlhd_id, max_retries=3):
 
     return None  # If we get here, all retries failed
 
-# Rimuove i file esistenti per garantirne la rigenerazione
+# Remove existing files to ensure regeneration
 for file in [M3U8_OUTPUT_FILE, EPG_OUTPUT_FILE, DADDY_JSON_FILE]:
     if os.path.exists(file):
         os.remove(file)
 
-# Funzioni per la gestione dei canali di programmazione
 def generate_unique_ids(count, seed=42):
+    """Generate unique IDs for channels"""
     random.seed(seed)
     return [str(uuid.UUID(int=random.getrandbits(128))) for _ in range(count)]
 
 def loadJSON(filepath):
+    """Load JSON data from a file"""
     with open(filepath, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 def createSingleChannelEPGData(UniqueID, tvgName):
+    """Create XML element for a channel in EPG"""
     xmlChannel = ET.Element('channel', id=UniqueID)
     xmlDisplayName = ET.SubElement(xmlChannel, 'display-name')
     xmlIcon = ET.SubElement(xmlChannel, 'icon', src=LOGO)
@@ -179,6 +185,7 @@ def createSingleChannelEPGData(UniqueID, tvgName):
     return xmlChannel
 
 def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description):
+    """Create XML element for a programme in EPG"""
     programme = ET.Element('programme', start=f"{startTime} +0000", stop=f"{stopTime} +0000", channel=UniqueID)
 
     title = ET.SubElement(programme, 'title')
@@ -189,91 +196,131 @@ def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description)
 
     return programme
 
-def addChannelsByLeagueSport():
+def fetch_schedule_json(url):
+    """Fetch JSON data from a URL"""
+    try:
+        print(f"Downloading schedule data from {url}...")
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        
+        with open(DADDY_JSON_FILE, 'wb') as file:
+            file.write(response.content)
+        
+        print(f"Schedule data downloaded successfully to {DADDY_JSON_FILE}")
+        return True
+    except requests.exceptions.RequestException as e:
+        print(f"Error downloading schedule: {e}")
+        return False
+
+def process_event_channels():
+    """Process only event channels from the schedule"""
     global channelCount
     processed_schedule_channels = 0
-    for day, value in dadjson.items():
+    
+    # Define categories to exclude - these must match exact category names in JSON
+    excluded_categories = [
+        "TV Shows", "Cricket", "Aussie rules", "Snooker", "Baseball",
+        "Biathlon", "Cross Country", "Horse Racing", "Ice Hockey",
+        "Waterpolo", "Golf", "Darts", "Cycling"
+    ]
+    
+    # Debug counters
+    total_events = 0
+    skipped_events = 0
+    category_stats = {}  # To track how many events per category
+    
+    # First pass to gather category statistics
+    for day, day_data in dadjson.items():
         try:
-            for sport in dadjson[day].values():
-                for game in sport:
-                    for channel in game["channels"]:
-                        date_time = day.replace("th ", " ").replace("rd ", " ").replace("st ", " ").replace("nd ", " ").replace("Dec Dec", "Dec")
-                        date_time = date_time.replace("-", game["time"] + " -")
-                        date_format = "%A %d %b %Y %H:%M - Schedule Time UK GMT"
-
+            for sport_key, sport_events in day_data.items():
+                if sport_key not in category_stats:
+                    category_stats[sport_key] = 0
+                category_stats[sport_key] += len(sport_events)
+        except (KeyError, TypeError):
+            pass  # Skip problematic days
+    
+    # Print category statistics
+    print("\n=== Available Categories ===")
+    for category, count in sorted(category_stats.items()):
+        excluded = "EXCLUDED" if category in excluded_categories else ""
+        print(f"{category}: {count} events {excluded}")
+    print("===========================\n")
+    
+    # Initialize M3U8 file with header
+    with open(M3U8_OUTPUT_FILE, 'w', encoding='utf-8') as file:
+        file.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n\n')
+    
+    # Second pass to process events
+    for day, day_data in dadjson.items():
+        try:
+            for sport_key, sport_events in day_data.items():
+                total_events += len(sport_events)
+                
+                # Skip only exact category matches
+                if sport_key in excluded_categories:
+                    skipped_events += len(sport_events)
+                    continue
+                
+                for game in sport_events:
+                    for channel in game.get("channels", []):
                         try:
-                            start_date_utc = datetime.datetime.strptime(date_time, date_format)
-                        except ValueError:
-                            continue
-
-                        amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
-                        start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.utc).astimezone(amsterdam_timezone)
-
-                        mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
-                        mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
-
-                        formatted_date_time_cet = start_date_amsterdam.strftime("%m/%d/%y") + " - " + start_date_amsterdam.strftime("%H:%M") + " (CET)"
-
-                        UniqueID = unique_ids.pop(0)
-                        try:
-                            channelName = game["event"] + " " + formatted_date_time_cet + " " + channel["channel_name"]
-                        except TypeError:
-                            continue
-
-                        channelID = f"{channel['channel_id']}"
-                        tvgName = channelName
-                        tvLabel = tvgName
-                        channelCount += 1
-                        print(f"Processing schedule channel: {channelName} - Channel Count: {channelCount}")
-
-                        stream_url_dynamic = get_stream_link(channelID)
-
-                        if stream_url_dynamic:
-                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-                                if channelCount == 1:
-                                    file.write('#EXTM3U\n')
-
-                                file.write(f'#EXTINF:-1 tvg-id="{UniqueID}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel}\n')
-                                file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
-                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3\n')
-                                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
-                                file.write(f"{stream_url_dynamic}\n\n")
-                            processed_schedule_channels += 1
-                        else:
-                            print(f"Failed to get stream URL for channel ID: {channelID}. Skipping M3U8 entry for this channel.")
-
-                        xmlChannel = createSingleChannelEPGData(UniqueID, tvgName)
-                        root.append(xmlChannel)
-
-                        programme = createSingleEPGData(mStartTime, mStopTime, UniqueID, channelName, "No Description")
-                        root.append(programme)
-        except KeyError as e:
-            pass
-    return processed_schedule_channels
-
-# Inizio del codice principale
-channelCount = 0
-unique_ids = generate_unique_ids(NUM_CHANNELS)
-total_schedule_channels = 0
-
-# Scarica il file JSON con la programmazione
-fetcher.fetchHTML(DADDY_JSON_FILE, "https://thedaddy.to/schedule/schedule-generated.json")
-
-# Carica i dati dal JSON
-dadjson = loadJSON(DADDY_JSON_FILE)
-
-# Crea il nodo radice dell'EPG
-root = ET.Element('tv')
-
-# Aggiunge i canali reali
-total_schedule_channels = addChannelsByLeagueSport()
-
-# Verifica se sono stati creati canali validi
-if channelCount == 0:
-    print("Nessun canale valido trovato dalla programmazione.")
-else:
-    tree = ET.ElementTree(root)
-    tree.write(EPG_OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-    print(f"EPG generato con {channelCount} canali validi.")
-
-print(f"Script completato. Canali programmazione aggiunti: {total_schedule_channels}")
+                            # Remove the "Schedule Time UK GMT" part and split the remaining string
+                            clean_day = day.replace(" - Schedule Time UK GMT", "")
+                            
+                            # Remove ordinal suffixes (st, nd, rd, th)
+                            clean_day = clean_day.replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            
+                            # Split the cleaned string
+                            day_parts = clean_day.split()
+                            
+                            if len(day_parts) >= 4:  # Make sure we have enough parts
+                                day_num = day_parts[1]
+                                month_name = day_parts[2]
+                                year = day_parts[3]
+                                
+                                # Get time from game data
+                                time_str = game.get("time", "00:00")
+                                
+                                # Convert time from UK to CET (add 1 hour)
+                                time_parts = time_str.split(":")
+                                if len(time_parts) == 2:
+                                    hour = int(time_parts[0])
+                                    minute = time_parts[1]
+                                    # Add one hour to UK time
+                                    hour_cet = (hour + 1) % 24
+                                    # Ensure hour has two digits
+                                    hour_cet_str = f"{hour_cet:02d}"
+                                    # New time_str with CET time
+                                    time_str_cet = f"{hour_cet_str}:{minute}"
+                                else:
+                                    # If time format is incorrect, keep original
+                                    time_str_cet = time_str
+                                
+                                # Convert month name to number
+                                month_map = {
+                                    "January": "01", "February": "02", "March": "03", "April": "04",
+                                    "May": "05", "June": "06", "July": "07", "August": "08",
+                                    "September": "09", "October": "10", "November": "11", "December": "12"
+                                }
+                                month_num = month_map.get(month_name, "01")  # Default to January if not found
+                                
+                                # Ensure day has leading zero if needed
+                                if len(day_num) == 1:
+                                    day_num = f"0{day_num}"
+                                
+                                # Extract last two digits of year
+                                year_short = year[2:4]  
+                                
+                                # Format as requested: "01/03/25 - 10:10" with CET time
+                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
+                                
+                                # Create proper datetime objects for EPG
+                                date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
+                                start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                                
+                                # Convert to Amsterdam timezone
+                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                                start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
+                                
+                                # Format for EPG
+                                mStartTime = start
