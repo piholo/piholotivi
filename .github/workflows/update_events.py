@@ -31,8 +31,8 @@ jobs:
         run: |
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
-          python mergedefinitivo.py
-          python mergedefinitivo.py
+          python onlyevents.py
+          python itaevents.py
           
       - name: Force commit and push the changes (no history)
         run: |
