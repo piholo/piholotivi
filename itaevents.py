@@ -12,8 +12,8 @@ import time
 # Costanti
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "mergeita.m3u8"
-EPG_OUTPUT_FILE = "mergeita.xml"
+M3U8_OUTPUT_FILE = "itaevents.m3u8"
+EPG_OUTPUT_FILE = "itaevents.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 # Define keywords for filtering channels
