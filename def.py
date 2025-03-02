@@ -1,45 +1,389 @@
-import requests
+import xml.etree.ElementTree as ET
+import random
+import uuid
+import fetcher
 import json
-import re
 import os
+import datetime
+import pytz
+import requests
+from bs4 import BeautifulSoup, SoupStrainer
+import time
+# Costanti
+NUM_CHANNELS = 10000
+DADDY_JSON_FILE = "daddyliveSchedule.json"
+M3U8_OUTPUT_FILE = "mergeita.m3u8"
+EPG_OUTPUT_FILE = "mergeita.xml"
+LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
-BASE_URL = "https://vavoo.to"
-OUTPUT_FILE = "channels_italy.m3u8"
+mStartTime = 0
+mStopTime = 0
 
-CATEGORY_KEYWORDS = {
-    "Sport": ["sport", "dazn", "eurosport", "sky sport", "rai sport", "sport", "dazn", "tennis", "moto", "f1", "golf", "sportitalia", "sport italia", "solo calcio", "solocalcio"],
-    "Film": ["primafila", "cinema", "movie", "film", "serie", "hbo", "fox"],
-    "Notizie": ["news", "tg", "rai news", "sky tg", "tgcom"],
-    "Intrattenimento": ["rai", "mediaset", "italia", "focus", "real time"],
-    "Bambini": ["cartoon", "boing", "nick", "disney", "baby", "boing", "cartoon", "k2", "discovery k2", "nick", "super", "frisbee"],
-    "Documentari": ["discovery", "geo", "history", "nat geo", "nature", "arte", "documentary"],
-    "Musica": ["mtv", "vh1", "radio", "music"]
+# File e URL statici per la seconda parte dello script
+daddyLiveChannelsFileName = '247channels.html'
+daddyLiveChannelsURL = 'https://daddylive.mp/24-7-channels.php'
+
+# Headers and related constants from the first code block (assuming these are needed for requests)
+Referer = "https://ilovetoplay.xyz/"
+Origin = "https://ilovetoplay.xyz"
+key_url = "https%3A%2F%2Fkey2.keylocking.ru%2F"
+
+headers = { # **Define base headers *without* Referer and Origin**
+    "Accept": "*/*",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,ru;q=0.5",
+    "Priority": "u=1, i",
+    "sec-ch-ua": '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+    "Sec-Ch-UA-Mobile": "?0",
+    "Sec-Ch-UA-Platform": "Windows",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Storage-Access": "active",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
 }
+# Simulated client and credentials - Replace with your actual client and credentials if needed
+client = requests # Using requests as a synchronous client
 
-CATEGORY_KEYWORDS2 = {
-    "Sky": ["sky cin", "tv 8", "fox", "comedy central", "animal planet", "nat geo", "tv8", "sky atl", "sky uno", "sky prima", "sky serie", "sky arte", "sky docum", "sky natu", "cielo", "history", "sky tg"],
-    "Rai Tv": ["rai"],
-    "Mediaset": ["mediaset", "canale 5", "rete 4", "italia", "focus", "tg com 24", "tgcom 24", "premium crime", "iris", "mediaset iris", "cine 34", "27 twenty seven", "27 twentyseven"],
-    "Discovery": ["discovery", "real time", "investigation", "top crime", "wwe", "hgtv", "nove", "dmax", "food network", "warner tv"],
-    "Rakuten": ["rakuten"]
-}
+def get_stream_link(dlhd_id, max_retries=3):
+    print(f"Getting stream link for channel ID: {dlhd_id}...")
 
-CHANNEL_FILTERS = [
-    "sky", "fox", "rai", "cine34", "real time", "crime+ investigation", "top crime", "wwe", "tennis", "k2",
-    "inter", "rsi", "la 7", "la7", "la 7d", "la7d", "27 twentyseven", "premium crime", "comedy central", "super!",
-    "animal planet", "hgtv", "catfish", "rakuten", "nickelodeon", "cartoonito", "nick jr",
-    "history", "nat geo", "tv8", "canale 5", "italia", "mediaset", "rete 4", "focus", "iris", "discovery", "dazn",
-    "cine 34", "la 5", "giallo", "dmax", "cielo", "eurosport", "disney+", "food", "tv 8", "mototrend", "boing",
-    "frisbee", "deejay tv", "cartoon network", "tg com 24", "warner tv", "boing plus", "27 twenty seven", "tgcom 24",
-    "sky uno"
-]
+    base_timeout = 10  # Base timeout in seconds
 
-CHANNEL_REMOVE = [
-    "maria+vision", "telepace", "uninettuno", "lombardia", "cusano", "fm italia", "juwelo", "kiss kiss", "qvc", "rete tv",
-    "italia 3", "fishing", "inter tv", "avengers"
-]
+    for attempt in range(max_retries):
+        try:
+            # Use timeout for all requests
+            response = client.get(
+                f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
+                headers=headers,
+                timeout=base_timeout
+            )
+            response.raise_for_status()
+            response.encoding = 'utf-8'
 
-CHANNEL_LOGOS = {
+            response_text = response.text
+            if not response_text:
+                print(f"Warning: Empty response received for channel ID: {dlhd_id} (attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    # Calculate exponential backoff with jitter
+                    sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                    print(f"Retrying in {sleep_time:.2f} seconds...")
+                    time.sleep(sleep_time)
+                    continue
+                return None
+
+            soup = BeautifulSoup(response_text, 'html.parser')
+            iframe = soup.find('iframe', id='thatframe')
+
+            if iframe is None:
+                print(f"Debug: iframe with id 'thatframe' NOT FOUND for channel ID {dlhd_id} (attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                    print(f"Retrying in {sleep_time:.2f} seconds...")
+                    time.sleep(sleep_time)
+                    continue
+                return None
+
+            if iframe and iframe.get('src'):
+                real_link = iframe.get('src')
+                parent_site_domain = real_link.split('/premiumtv')[0]
+                server_key_link = (f'{parent_site_domain}/server_lookup.php?channel_id=premium{dlhd_id}')
+                server_key_headers = headers.copy()
+                server_key_headers["Referer"] = f"https://newembedplay.xyz/premiumtv/daddylivehd.php?id={dlhd_id}"
+                server_key_headers["Origin"] = "https://newembedplay.xyz"
+                server_key_headers["Sec-Fetch-Site"] = "same-origin"
+
+                response_key = client.get(
+                    server_key_link,
+                    headers=server_key_headers,
+                    allow_redirects=False,
+                    timeout=base_timeout
+                )
+
+                # Add adaptive delay between requests
+                time.sleep(random.uniform(1, 3))
+                response_key.raise_for_status()
+
+                try:
+                    server_key_data = response_key.json()
+                except json.JSONDecodeError:
+                    print(f"JSON Decode Error for channel ID {dlhd_id}: Invalid JSON response: {response_key.text[:100]}...")
+                    if attempt < max_retries - 1:
+                        sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                        print(f"Retrying in {sleep_time:.2f} seconds...")
+                        time.sleep(sleep_time)
+                        continue
+                    return None
+
+                if 'server_key' in server_key_data:
+                    server_key = server_key_data['server_key']
+                    stream_url = f"https://{server_key}new.iosplayer.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
+                    print(f"Stream URL retrieved for channel ID: {dlhd_id}")
+                    return stream_url
+                else:
+                    print(f"Error: 'server_key' not found in JSON response from {server_key_link} (attempt {attempt+1}/{max_retries})")
+                    if attempt < max_retries - 1:
+                        sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                        print(f"Retrying in {sleep_time:.2f} seconds...")
+                        time.sleep(sleep_time)
+                        continue
+                    return None
+            else:
+                print(f"Error: iframe with id 'thatframe' found, but 'src' attribute is missing for channel ID {dlhd_id} (attempt {attempt+1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                    print(f"Retrying in {sleep_time:.2f} seconds...")
+                    time.sleep(sleep_time)
+                    continue
+                return None
+
+        except requests.exceptions.Timeout:
+            print(f"Timeout error for channel ID {dlhd_id} (attempt {attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                print(f"Retrying in {sleep_time:.2f} seconds...")
+                time.sleep(sleep_time)
+                continue
+            return None
+
+        except requests.exceptions.RequestException as e:
+            print(f"Request Exception for channel ID {dlhd_id} (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                print(f"Retrying in {sleep_time:.2f} seconds...")
+                time.sleep(sleep_time)
+                continue
+            return None
+
+        except Exception as e:
+            print(f"General Exception for channel ID {dlhd_id} (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                print(f"Retrying in {sleep_time:.2f} seconds...")
+                time.sleep(sleep_time)
+                continue
+            return None
+
+    return None  # If we get here, all retries failed
+
+# Rimuove i file esistenti per garantirne la rigenerazione
+for file in [M3U8_OUTPUT_FILE, EPG_OUTPUT_FILE, DADDY_JSON_FILE, daddyLiveChannelsFileName]:
+    if os.path.exists(file):
+        os.remove(file)
+
+# Funzioni prima parte dello script
+def generate_unique_ids(count, seed=42):
+    random.seed(seed)
+    return [str(uuid.UUID(int=random.getrandbits(128))) for _ in range(count)]
+
+def loadJSON(filepath):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+def createSingleChannelEPGData(UniqueID, tvgName):
+    xmlChannel = ET.Element('channel', id=UniqueID)
+    xmlDisplayName = ET.SubElement(xmlChannel, 'display-name')
+    xmlIcon = ET.SubElement(xmlChannel, 'icon', src=LOGO)
+
+    xmlDisplayName.text = tvgName
+    return xmlChannel
+
+def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description):
+    programme = ET.Element('programme', start=f"{startTime} +0000", stop=f"{stopTime} +0000", channel=UniqueID)
+
+    title = ET.SubElement(programme, 'title')
+    desc = ET.SubElement(programme, 'desc')
+
+    title.text = channelName
+    desc.text = description
+
+    return programme
+
+def addChannelsByLeagueSport():
+    global channelCount
+    processed_schedule_channels = 0  # Counter for schedule channels
+    
+    # Define categories to exclude - these must match exact category names in JSON
+    excluded_categories = [
+        "TV Shows", "Cricket", "Aussie rules", "Snooker", "Baseball",
+        "Biathlon", "Cross Country", "Horse Racing", "Ice Hockey",
+        "Waterpolo", "Golf", "Darts", "Cycling"
+    ]
+    
+    # Debug counters
+    total_events = 0
+    skipped_events = 0
+    category_stats = {}  # To track how many events per category
+    
+    # First pass to gather category statistics
+    for day, day_data in dadjson.items():
+        try:
+            for sport_key, sport_events in day_data.items():
+                if sport_key not in category_stats:
+                    category_stats[sport_key] = 0
+                category_stats[sport_key] += len(sport_events)
+        except (KeyError, TypeError):
+            pass  # Skip problematic days
+    
+    # Print category statistics
+    print("\n=== Available Categories ===")
+    for category, count in sorted(category_stats.items()):
+        excluded = "EXCLUDED" if category in excluded_categories else ""
+        print(f"{category}: {count} events {excluded}")
+    print("===========================\n")
+    
+    # Second pass to process events
+    for day, day_data in dadjson.items():
+        try:
+            for sport_key, sport_events in day_data.items():
+                total_events += len(sport_events)
+                
+                # Skip only exact category matches
+                if sport_key in excluded_categories:
+                    skipped_events += len(sport_events)
+                    continue
+                
+                for game in sport_events:
+                    for channel in game.get("channels", []):
+                        try:
+                            # Remove the "Schedule Time UK GMT" part and split the remaining string
+                            clean_day = day.replace(" - Schedule Time UK GMT", "")
+                            
+                            # Remove ordinal suffixes (st, nd, rd, th)
+                            clean_day = clean_day.replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            
+                            # Split the cleaned string
+                            day_parts = clean_day.split()
+                            
+                            if len(day_parts) >= 4:  # Make sure we have enough parts
+                                day_num = day_parts[1]
+                                month_name = day_parts[2]
+                                year = day_parts[3]
+                                
+                                # Get time from game data
+                                time_str = game.get("time", "00:00")
+                                
+                                # Converti l'orario da UK a CET (aggiungi 1 ora)
+                                time_parts = time_str.split(":")
+                                if len(time_parts) == 2:
+                                    hour = int(time_parts[0])
+                                    minute = time_parts[1]
+                                    # Aggiungi un'ora all'orario UK
+                                    hour_cet = (hour + 1) % 24
+                                    # Assicura che l'ora abbia due cifre
+                                    hour_cet_str = f"{hour_cet:02d}"
+                                    # Nuovo time_str con orario CET
+                                    time_str_cet = f"{hour_cet_str}:{minute}"
+                                else:
+                                    # Se il formato dell'orario non è corretto, mantieni l'originale
+                                    time_str_cet = time_str
+                                
+                                # Convert month name to number
+                                month_map = {
+                                    "January": "01", "February": "02", "March": "03", "April": "04",
+                                    "May": "05", "June": "06", "July": "07", "August": "08",
+                                    "September": "09", "October": "10", "November": "11", "December": "12"
+                                }
+                                month_num = month_map.get(month_name, "01")  # Default to January if not found
+                                
+                                # Ensure day has leading zero if needed
+                                if len(day_num) == 1:
+                                    day_num = f"0{day_num}"
+                                
+                                # Create a datetime object in UTC (no timezone conversion yet)
+                                year_short = year[2:4]  # Extract last two digits of year
+                                
+                                # Format as requested: "01/03/25 - 10:10" con orario CET
+                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
+                                
+                                # Also create proper datetime objects for EPG
+                                # Make sure we're using clean numbers for the date components
+                                date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
+                                start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                                
+                                # Convert to Amsterdam timezone
+                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                                start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
+                                
+                                # Format for EPG
+                                mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
+                                mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
+                                
+                            else:
+                                print(f"Invalid date format after cleaning: {clean_day}")
+                                continue
+                            
+                        except Exception as e:
+                            print(f"Error processing date '{day}': {e}")
+                            print(f"Game time: {game.get('time', 'No time found')}")
+                            continue
+
+                        # Get next unique ID
+                        UniqueID = unique_ids.pop(0)
+                        
+                        try:
+                            # Build channel name with new date format
+                            channelName = game["event"] + " " + formatted_date_time + "  " + channel["channel_name"]
+
+                            # Extract event part and channel part for TVG ID
+                            if ":" in game["event"]:
+                                event_part = game["event"].split(":")[0].strip()
+                            else:
+                                event_part = game["event"].strip()
+
+                            channel_part = channel["channel_name"].strip()
+                            custom_tvg_id = f"{event_part} - {channel_part}"
+
+                        except (TypeError, KeyError) as e:
+                            print(f"Error processing event: {e}")
+                            continue
+
+                        # Process channel information
+                        channelID = f"{channel['channel_id']}"
+                        tvgName = channelName
+                        tvLabel = tvgName
+                        channelCount += 1
+                        print(f"Processing channel {channelCount}: {sport_key} - {channelName}")
+
+                        # Get stream URL
+                        stream_url_dynamic = get_stream_link(channelID)
+
+                        if stream_url_dynamic:
+                            # Write to M3U8 file
+                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                if channelCount == 1:
+                                    file.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n')
+                            
+                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel} (D)\n')
+                                file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                                file.write(f"{stream_url_dynamic}\n\n")
+                            
+                            processed_schedule_channels += 1
+                        else:
+                            print(f"Failed to get stream URL for channel ID: {channelID}")
+
+                        # Add to EPG
+                        xmlChannel = createSingleChannelEPGData(UniqueID, tvgName)
+                        root.append(xmlChannel)
+
+                        programme = createSingleEPGData(mStartTime, mStopTime, UniqueID, channelName, "No Description")
+                        root.append(programme)
+                        
+        except KeyError as e:
+            print(f"KeyError: {e} - Key may not exist in JSON structure")
+    
+    # Print summary
+    print(f"\n=== Processing Summary ===")
+    print(f"Total events found: {total_events}")
+    print(f"Events skipped due to category filters: {skipped_events}")
+    print(f"Channels successfully processed: {processed_schedule_channels}")
+    print(f"===========================\n")
+    
+    return processed_schedule_channels
+
+STATIC_LOGOS = {
     "sky uno": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png",
     "rai 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png",
     "rai 2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png",
@@ -47,23 +391,20 @@ CHANNEL_LOGOS = {
     "eurosport 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
     "eurosport 2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png",
     "italia 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png",
-    "la 7": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png",
-    "la 7 d": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png",
-    "rai sport+": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png",
-    "rai sport [live during events only]": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png",
+    "la7": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png",
+    "la7d": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png",
+    "rai sport": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png",
     "rai premium": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-premium-it.png",
-    "sky sport golf": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
-    "sky sport moto gp": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
+    "sky sports golf": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
+    "sky sport motogp": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
     "sky sport tennis": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
     "sky sport f1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
     "sky sport football": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png",
-    "sky sport football [live during events only]": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png",
     "sky sport uno": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",
     "sky sport arena": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
     "sky cinema collection": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png",
     "sky cinema uno": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png",
     "sky cinema action": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png",
-    "sky cinema action (backup)": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png",
     "sky cinema comedy": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png",
     "sky cinema uno +24": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-plus24-it.png",
     "sky cinema romance": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png",
@@ -72,8 +413,8 @@ CHANNEL_LOGOS = {
     "sky cinema drama": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png",
     "sky cinema suspense": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png",
     "sky sport 24": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
-    "sky sport 24 [live during events only]": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
     "sky sport calcio": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png",
+    "sky sport": "https://play-lh.googleusercontent.com/u7UNH06SU4KsMM4ZGWr7wghkJYN75PNCEMxnIYULpA__VPg8zfEOYMIAhUaIdmZnqw=w480-h960-rw",
     "sky calcio 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-1-alt-de.png",
     "sky calcio 2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-2-alt-de.png",
     "sky calcio 3": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-3-alt-de.png",
@@ -82,203 +423,233 @@ CHANNEL_LOGOS = {
     "sky calcio 6": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-6-alt-de.png",
     "sky calcio 7": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-7-alt-de.png",
     "sky serie": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png",
-    "crime+ investigation": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg",
     "20 mediaset": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png",
-    "mediaset 20": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png",
-    "27 twenty seven": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/260px-Twentyseven_logo.svg.png",
-    "27 twentyseven": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png",
-    "canale 5": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale5-it.png",
-    "cine 34 mediaset": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png",
-    "cine 34": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png",
-    "discovery focus": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png",
-    "focus": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png",
-    "italia 2": "https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/520px-Logo_Italia2.svg.png",
-    "mediaset italia 2": "https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/520px-Logo_Italia2.svg.png",
-    "mediaset italia": "https://www.italiasera.it/wp-content/uploads/2019/06/Mediaset-640x366.png",
-    "mediaset extra": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png",
-    "mediaset 1": "https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0",
-    "mediaset infinity+ 1": "https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0",
-    "mediaset infinity+ 2": "https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0",
-    "mediaset infinity+ 5": "https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0",
-    "mediaset iris": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png",
-    "iris": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png",
-    "rete 4": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png",
-    "sport italia (backup)": "https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k",
-    "sport italia": "https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k",
-    "sportitalia plus": "https://www.capitaladv.eu/wp-content/uploads/2020/07/LOGO-SPORTITALIA-PLUS-HD_2-1.png",
-    "sport italia solo calcio [live during events only]": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png",
-    "sportitalia solocalcio": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png",
-    "dazn": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DAZN_logo.svg/1024px-DAZN_logo.svg.png",
-    "dazn 1": "https://upload.wikimedia.org/wikipedia/commons/4/49/DAZN_1.svg",
-    "dazn 2": "https://upload.wikimedia.org/wikipedia/commons/7/76/DAZN_2.svg",
-    "zona dazn": "https://www.digital-news.it/img/palinsesti/2023/12/1701423631-zona-dazn.webp",
-    "motortrend": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/2560px-Motor_Trend_logo.svg.png",
-    "sky sport max": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png",
-    "sky sport nba": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
-    "sky sport serie a": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png",
-    "sky sports f1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
-    "sky super tennis": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
-    "tennis channel": "https://images.tennis.com/image/upload/t_16-9_768/v1620828532/tenniscom-prd/assets/Fallback/Tennis_Fallback_v6_f5tjzv.jpg",
-    "super tennis": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png",
-    "tv 8": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png",
-    "sky primafila 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 3": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 4": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 5": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 6": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 7": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 8": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 9": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 10": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 11": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 12": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 13": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 14": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 15": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 16": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 17": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky primafila 18": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png",
-    "sky cinema due": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png",
-    "sky atlantic": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png",
-    "nat geo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png",
-    "discovery nove": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png",
-    "discovery channel": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png",
-    "real time": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png",
-    "rai 5": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-5-it.png",
-    "rai gulp": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-gulp-it.png",
-    "rai italia": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png",
-    "rai movie": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png",
-    "rai news 24": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-news-24-it.png",
-    "rai scuola": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-scuola-it.png",
-    "rai storia": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-storia-it.png",
-    "rai yoyo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-yoyo-it.png",
-    "rai 4": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-4-it.png",
-    "rai 4k": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rai_4K_-_Logo_2017.svg/1200px-Rai_4K_-_Logo_2017.svg.png",
-    "hgtv": "https://d204lf4nuskf6u.cloudfront.net/italy-images/c2cbeaabb81be73e81c7f4291cf798e3.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90dhkyaUQQ82V1zGPD7O5%2BS",
-    "top crime": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png",
-    "cielo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png",
-    "dmax": "https://cdn.cookielaw.org/logos/50417659-aa29-4f7f-b59d-f6e887deed53/a32be519-de41-40f4-abed-d2934ba6751b/9a44af24-5ca6-4098-aa95-594755bd7b2d/dmax_logo.png",
-    "food network": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Food_Network_-_Logo_2016.png",
-    "giallo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/giallo-it.png",
-    "history": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png",
-    "la 5": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png",
-    "la 7 d": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png",
-    "sky arte": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png",
-    "sky documentaries": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png",
-    "sky nature": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png",
-    "warner tv": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1200px-Warner_TV_Italy.svg.png",
-    "fox": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fox-it.png",
-    "nat geo wild": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png",
-    "animal planet": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/2560px-2018_Animal_Planet_logo.svg.png",
-    "boing": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png",
-    "k2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png",
-    "discovery k2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png",
-    "nick jr": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nick-jr-it.png",
-    "nickelodeon": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nickelodeon-it.png",
-    "premium crime": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/premium-crime-it.png",
-    "rakuten action movies": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "rakuten comedy movies": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "rakuten drama": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "rakuten family": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "rakuten top free": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "rakuten tv shows": "https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200",
-    "boing plus": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Boing_Plus_logo_2020.svg/1200px-Boing_Plus_logo_2020.svg.png",
-    "wwe channel": "https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg",
-    "rsi la 2": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png",
-    "rsi la 1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png",
-    "cartoon network": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoon-network-it.png",
-    "sky tg 24": "https://play-lh.googleusercontent.com/0RJjBW8_r64dWLAbG7kUVrkESbBr9Ukx30pDI83e5_o1obv2MTC7KSpBAIhhXvJAkXE",
-    "tg com 24": "https://yt3.googleusercontent.com/ytc/AIdro_kVh4SupZFtHrALXp9dRWD9aahJOUfl8rhSF8VroefSLg=s900-c-k-c0x00ffffff-no-rj",
-    "cartoonito": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png",
-    "super!": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png",
-    "deejay tv": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/deejay-tv-it.png",
-    "cartoonito (backup)": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png",
-    "frisbee": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/frisbee-it.png",
-    "catfish": "https://upload.wikimedia.org/wikipedia/commons/4/46/Catfish%2C_the_TV_Show_Logo.PNG",
-    "disney+ film": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png",
-    "comedy central": "https://yt3.googleusercontent.com/FPzu1EWCI54fIh2j9JEp0NOzwoeugjL4sZTQCdoxoQY1U4QHyKx2L3wPSw27IueuZGchIxtKfv8=s900-c-k-c0x00ffffff-no-rj"
+    "dazn 1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png"
 }
 
-def clean_channel_name(name):
-    """Pulisce e modifica il nome del canale aggiungendo (V)."""
-    name = re.sub(r"\s*(\|E|\|H|\(6\)|\(7\)|\.c|\.s)\s*", "", name)
-    return f"{name} (V)"
+STATIC_TVG_IDS = {
+    "sky uno": "sky uno",
+    "rai 1": "rai 1",
+    "rai 2": "rai 2",
+    "rai 3": "rai 3",
+    "eurosport 1": "eurosport 1",
+    "eurosport 2": "eurosport 2",
+    "italia 1": "italia 1",
+    "la7": "la7",
+    "la7d": "la7d",
+    "rai sport": "rai sport",
+    "rai premium": "rai premium",
+    "sky sports golf": "sky sport golf",
+    "sky sport motogp": "sky sport motogp",
+    "sky sport tennis": "sky sport tennis",
+    "sky sport f1": "sky sport f1",
+    "sky sport football": "sky sport football",
+    "sky sport uno": "sky sport uno",
+    "sky sport arena": "sky sport arena",
+    "sky cinema collection": "sky cinema collection",
+    "sky cinema uno": "sky cinema uno",
+    "sky cinema action": "sky cinema action",
+    "sky cinema comedy": "sky cinema comedy",
+    "sky cinema uno +24": "sky cinema uno +24",
+    "sky cinema romance": "sky cinemar omance",
+    "sky cinema family": "sky cinema family",
+    "sky cinema due +24": "sky cinema Due +24",
+    "sky cinema drama": "sky cinema drama",
+    "sky cinema suspense": "sky cinema suspense",
+    "sky sport 24": "sky sport 24",
+    "sky sport calcio": "Sky Sport Calcio",
+    "sky calcio 1": "Sky Sport",
+    "sky calcio 2": "Sky Sport 2",
+    "sky calcio 3": "sky sport 3",
+    "sky calcio 4": "sky sport 4",
+    "sky calcio 5": "sky sport 5",
+    "sky calcio 6": "sky sport 6",
+    "sky calcio 7": "sky sport 7",
+    "sky serie": "sky serie",
+    "20 mediaset": "Mediaset 20",
+}
 
-def normalize_tvg_id(name):
-    """Normalizza il tvg-id con solo la prima lettera maiuscola."""
-    return " ".join(word.capitalize() for word in name.replace("(V)", "").strip().split())
+STATIC_CATEGORIES = {
+    "sky uno": "Sky",
+    "rai 1": "Rai Tv",
+    "rai 2": "Rai Tv",
+    "rai 3": "Rai Tv",
+    "eurosport 1": "Sport",
+    "eurosport 2": "Sport",
+    "italia 1": "Mediaset",
+    "la7": "Tv Italia",
+    "la7d": "Tv Italia",
+    "rai sport": "Sport",
+    "rai premium": "Rai Tv",
+    "sky sports golf": "Sport",
+    "sky sport motogp": "Sport",
+    "sky sport tennis": "Sport",
+    "sky sport f1": "Sport",
+    "sky sport football": "Sport",
+    "sky sport uno": "Sport",
+    "sky sport arena": "Sport",
+    "sky cinema collection": "Sky",
+    "sky cinema uno": "Sky",
+    "sky cinema action": "Sky",
+    "sky cinema comedy": "Sky",
+    "sky cinema uno +24": "Sky",
+    "sky cinema romance": "Sky",
+    "sky cinema family": "Sky",
+    "sky cinema due +24": "Sky",
+    "sky cinema drama": "Sky",
+    "sky cinema suspense": "Sky",
+    "sky sport 24": "Sport",
+    "sky sport calcio": "Sport",
+    "sky calcio 1": "Sport",
+    "sky calcio 2": "Sport",
+    "sky calcio 3": "Sport",
+    "sky calcio 4": "Sport",
+    "sky calcio 5": "Sport",
+    "sky calcio 6": "Sport",
+    "sky calcio 7": "Sport",
+    "sky serie": "Sky",
+    "20 mediaset": "Mediaset",
+}
 
-def assign_category(name):
-    """Assegna la categoria in base ai due dizionari."""
-    name_lower = name.lower()
-    category1 = next((category for category, keywords in CATEGORY_KEYWORDS.items() if any(keyword in name_lower for keyword in keywords)), "")
-    category2 = next((category for category, keywords in CATEGORY_KEYWORDS2.items() if any(keyword in name_lower for keyword in keywords)), "")
-    categories = ";".join(filter(None, [category1, category2]))
-    return categories if categories else "Altro"
-
-def extract_user_agent():
-    return "VAVOO/2.6"
-
-def fetch_channels():
-    """Scarica i dati JSON dai canali di Vavoo."""
+def fetch_with_debug(filename, url):
     try:
-        response = requests.get(f"{BASE_URL}/channels", timeout=10)
+        #print(f'Downloading {url}...') # Debug removed
+        response = requests.get(url, timeout=10)
         response.raise_for_status()
-        return response.json()
-    except requests.RequestException as e:
-        print(f"Errore durante il download: {e}")
-        return []
 
-def filter_channels(channels):
-    """Filtra i canali secondo CHANNEL_FILTERS e CHANNEL_REMOVE."""
-    results = []
-    seen = {}
+        with open(filename, 'wb') as file:
+            file.write(response.content)
 
-    for ch in channels:
-        if ch.get("country") == "Italy":
-            original_name = ch["name"].lower()
-            if any(f in original_name for f in CHANNEL_REMOVE):
-                continue
-            if not any(f in original_name for f in CHANNEL_FILTERS):
-                continue
+        #print(f'File {filename} downloaded successfully.') # Debug removed
+    except requests.exceptions.RequestException as e:
+        #print(f'Error downloading {url}: {e}') # Debug removed
+        pass # No debug print, just skip
 
-            clean_name = clean_channel_name(ch["name"])
-            category = assign_category(clean_name)
-            count = seen.get(clean_name, 0) + 1
-            seen[clean_name] = count
-            if count > 1:
-                clean_name = f"{clean_name} ({count})"
 
-            results.append((clean_name, f"{BASE_URL}/play/{ch['id']}/index.m3u8", category))
+def search_category(channel_name):
+    return STATIC_CATEGORIES.get(channel_name.lower().strip(), "Undefined")
 
-    return results
+def search_streams(file_path, keyword):
+    matches = []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            soup = BeautifulSoup(file.read(), 'html.parser')
+            links = soup.find_all('a', href=True)
 
-def save_m3u8(channels):
-    """Salva i canali in un file M3U8."""
-    if os.path.exists(OUTPUT_FILE):
-        os.remove(OUTPUT_FILE)
+        for link in links:
+            if keyword.lower() in link.text.lower():
+                href = link['href']
+                stream_number = href.split('-')[-1].replace('.php', '')
+                stream_name = link.text.strip()
+                match = (stream_number, stream_name)
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n\n')
-        user_agent = extract_user_agent()
-        for name, url, category in channels:
-            tvg_id = normalize_tvg_id(name)
-            tvg_id_clean = re.sub(r"\s*\(\d+\)$", "", tvg_id)  # Rimuove numeri tra parentesi solo per tvg-id
-            base_tvg_id = tvg_id.lower()  # Questo serve per cercare il logo nel dizionario
+                if match not in matches:
+                    matches.append(match)
+    except FileNotFoundError:
+        #print(f'The file {file_path} does not exist.') # Debug removed
+        pass # No debug print, just skip
+    return matches
 
-            logo = CHANNEL_LOGOS.get(base_tvg_id, "")
+def search_logo(channel_name):
+    channel_name_lower = channel_name.lower().strip()
+    for key, url in STATIC_LOGOS.items():
+        if key in channel_name_lower:
+            return url
+    return "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png"
 
-            f.write(f'#EXTINF:-1 tvg-id="{tvg_id_clean}" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={user_agent}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={BASE_URL}/\n')
-            f.write(f"{url}\n\n")
+def search_tvg_id(channel_name):
+    channel_name_lower = channel_name.lower().strip()
+    for key, tvg_id in STATIC_TVG_IDS.items():
+        if key in channel_name_lower:
+            return tvg_id
+    return "unknown"
 
-def main():
-    channels = fetch_channels()
-    filtered_channels = filter_channels(channels)
-    save_m3u8(filtered_channels)
-    print(f"File {OUTPUT_FILE} creato con successo!")
+def generate_m3u8_247(matches): # Rinominata per evitare conflitti
+    if not matches:
+        #print("No matches found for 24/7 channels. Skipping M3U8 generation.") # Debug removed
+        return
 
-if __name__ == "__main__":
-    main()
+    processed_247_channels = 0 # Counter for 24/7 channels
+    with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file: # Appende al file esistente
+        for channel in matches:
+            channel_id = channel[0]
+            channel_name = channel[1].replace("Italy", "").replace("8", "").replace("(251)", "").replace("(252)", "").replace("(253)", "").replace("(254)", "").replace("(255)", "").replace("(256)", "").replace("(257)", "").replace("HD+", "")
+            tvicon_path = search_logo(channel_name)
+            tvg_id = search_tvg_id(channel_name)
+            category = search_category(channel_name)
+            print(f"Processing 24/7 channel: {channel_name} - Channel Count (24/7): {processed_247_channels + 1}") # Progress print: 24/7 channel processing
+
+            stream_url_dynamic = get_stream_link(channel_id) # Removed site and MFP_CREDENTIALS arguments
+
+            if stream_url_dynamic:
+                # MODIFICATO: Aggiunto (D) dopo il nome del canale
+                file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
+                file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
+                processed_247_channels += 1 # Increment counter on successful stream retrieval
+            else:
+                print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.") # Debug removed
+                pass # No debug print, just skip
+    
+    # Aggiungi manualmente il canale DAZN 1
+    print("Aggiunta manuale del canale DAZN 1")
+    channel_id = "877"
+    channel_name = "DAZN 1"
+    tvicon_path = STATIC_LOGOS.get("dazn 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png")
+    tvg_id = "DAZN 1"
+    category = "Sport"
+
+    stream_url_dynamic = get_stream_link(channel_id)
+    if stream_url_dynamic:
+        with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+            file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
+            file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+            file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+            file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+            file.write(f"{stream_url_dynamic}\n\n")
+            processed_247_channels += 1
+    else:
+        print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
+        
+    #print("M3U8 file updated with 24/7 channels.") # Debug removed
+    return processed_247_channels # Return count of processed 24/7 channels
+
+
+# Inizio del codice principale
+
+# Inizializza contatore e genera ID univoci
+channelCount = 0
+unique_ids = generate_unique_ids(NUM_CHANNELS)
+total_schedule_channels = 0 # Counter for total schedule channels attempted
+total_247_channels = 0 # Counter for total 24/7 channels attempted
+
+# Scarica il file JSON con la programmazione
+fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
+
+# Carica i dati dal JSON
+dadjson = loadJSON(DADDY_JSON_FILE)
+
+# Crea il nodo radice dell'EPG
+root = ET.Element('tv')
+
+# Aggiunge i canali reali
+total_schedule_channels = addChannelsByLeagueSport()
+
+# Verifica se sono stati creati canali validi
+if channelCount == 0:
+    print("Nessun canale valido trovato dalla programmazione. Genero solo i canali 24/7.") # Debug removed
+    pass # No debug print, just skip
+else:
+    tree = ET.ElementTree(root)
+    tree.write(EPG_OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
+    print(f"EPG generato con {channelCount} canali validi.") # Debug removed
+    pass # No debug print, just skip
+
+# Fetch e generazione M3U8 per i canali 24/7
+fetch_with_debug(daddyLiveChannelsFileName, daddyLiveChannelsURL)
+matches_247 = search_streams(daddyLiveChannelsFileName, "Italy") # Cerca tutti i canali
+total_247_channels = generate_m3u8_247(matches_247)
+
+print(f"Script completato. Canali programmazione aggiunti: {total_schedule_channels}, Canali 24/7 aggiunti: {total_247_channels}") # Debug removed
