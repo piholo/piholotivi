@@ -126,6 +126,26 @@
                     {
                         "channel_name": "E! Entertainment Television",
                         "channel_id": "315"
+                    },
+                    {
+                        "channel_name": "Movistar+",
+                        "channel_id": "437"
+                    },
+                    {
+                        "channel_name": "ITV1 UK",
+                        "channel_id": "350"
+                    },
+                    {
+                        "channel_name": "CTV CA",
+                        "channel_id": "602"
+                    },
+                    {
+                        "channel_name": "Rai 1 Italy",
+                        "channel_id": "850"
+                    },
+                    {
+                        "channel_name": "RTP 1 Portugal",
+                        "channel_id": "719"
                     }
                 ],
                 "channels2": []
@@ -200,6 +220,10 @@
                     {
                         "channel_name": "ABC USA",
                         "channel_id": "51"
+                    },
+                    {
+                        "channel_name": "Movistar+",
+                        "channel_id": "437"
                     }
                 ],
                 "channels2": []
@@ -233,6 +257,54 @@
                     "1": {
                         "channel_name": "ABC NY USA",
                         "channel_id": "766"
+                    },
+                    "2": {
+                        "channel_name": "TNT ES",
+                        "channel_id": "41"
+                    },
+                    "3": {
+                        "channel_name": "Movistar+",
+                        "channel_id": "437"
+                    },
+                    "4": {
+                        "channel_name": "ITV1 UK",
+                        "channel_id": "350"
+                    },
+                    "5": {
+                        "channel_name": "CTV CA",
+                        "channel_id": "602"
+                    },
+                    "6": {
+                        "channel_name": "CTV2 CA",
+                        "channel_id": "838"
+                    },
+                    "7": {
+                        "channel_name": "TV2 Denmark",
+                        "channel_id": "817"
+                    },
+                    "8": {
+                        "channel_name": "ProSieben (PRO7) DE",
+                        "channel_id": "730"
+                    },
+                    "9": {
+                        "channel_name": "Rai 1 Italy",
+                        "channel_id": "850"
+                    },
+                    "10": {
+                        "channel_name": "RTP 1 Portugal",
+                        "channel_id": "719"
+                    },
+                    "11": {
+                        "channel_name": "RTP 2 Portugal",
+                        "channel_id": "720"
+                    },
+                    "12": {
+                        "channel_name": "SRF2 Swiss",
+                        "channel_id": "76"
+                    },
+                    "13": {
+                        "channel_name": "Canal+ Premium Poland",
+                        "channel_id": "566"
                     }
                 },
                 "channels2": []
@@ -4995,204 +5067,6 @@
                 "channels2": []
             },
             {
-                "time": "05:00",
-                "event": "UTR (F) - DubaI (EAU) : Greta Fenyves vs Elena Grekul",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7567138",
-                        "channel_id": "7567138"
-                    }
-                ]
-            },
-            {
-                "time": "05:00",
-                "event": "UTR (F) - DubaI (EAU) : Denisa Pospisilova vs Aleksandra Julia Jelen",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7567139",
-                        "channel_id": "7567139"
-                    }
-                ]
-            },
-            {
-                "time": "05:00",
-                "event": "UTR (F) - DubaI (EAU) : Denise Hrdinkova vs Sandugash Kenzhibayeva",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7566626",
-                        "channel_id": "7566626"
-                    }
-                ]
-            },
-            {
-                "time": "06:10",
-                "event": "UTR (F) - DubaI (EAU) : Renata Voracova vs Hanna Bougouffa",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7567141",
-                        "channel_id": "7567141"
-                    }
-                ]
-            },
-            {
-                "time": "06:10",
-                "event": "UTR (F) - DubaI (EAU) : Mille Johanna Moerk vs Sarafina Olivia Hansen",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7567140",
-                        "channel_id": "7567140"
-                    }
-                ]
-            },
-            {
-                "time": "08:00",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Jasza Szajrych vs Maximus Jones",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568998",
-                        "channel_id": "7568998"
-                    }
-                ]
-            },
-            {
-                "time": "08:00",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Mateo Barreiros Reyes vs Facundo Juarez",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7569001",
-                        "channel_id": "7569001"
-                    }
-                ]
-            },
-            {
-                "time": "08:00",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Daniel Michalski vs Sebastian Prechtel",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568997",
-                        "channel_id": "7568997"
-                    }
-                ]
-            },
-            {
-                "time": "08:30",
-                "event": "Challenger - Hersonissos (GRE) - Qualifiers : Christos Glavas vs Stuart Parker",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568359",
-                        "channel_id": "7568359"
-                    }
-                ]
-            },
-            {
-                "time": "08:30",
-                "event": "Challenger - Hersonissos (GRE) - Qualifiers : Alexandr Binda vs Michalis Sakellaridis",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568362",
-                        "channel_id": "7568362"
-                    }
-                ]
-            },
-            {
-                "time": "09:00",
-                "event": "Challenger - Thionville (FRA) - Qualifiers : Henri Squire vs Lukas Pokorny",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568464",
-                        "channel_id": "7568464"
-                    }
-                ]
-            },
-            {
-                "time": "09:00",
-                "event": "Challenger - Thionville (FRA) - Qualifiers : Lucas Poullain vs Kris Van Wyk",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568465",
-                        "channel_id": "7568465"
-                    }
-                ]
-            },
-            {
-                "time": "09:10",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Franco Agamenone vs Paulo Andre Saraiva",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7569005",
-                        "channel_id": "7569005"
-                    }
-                ]
-            },
-            {
-                "time": "09:10",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Adrian Oetzbach vs Neil Oberleitner",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7569002",
-                        "channel_id": "7569002"
-                    }
-                ]
-            },
-            {
-                "time": "09:10",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Courtney John Lock vs Dominik Kellovsky",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568999",
-                        "channel_id": "7568999"
-                    }
-                ]
-            },
-            {
-                "time": "09:10",
-                "event": "Challenger - Kigali (RWA) - Qualifiers : Luka Pavlovic vs Julien de Cuyper",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7569004",
-                        "channel_id": "7569004"
-                    }
-                ]
-            },
-            {
-                "time": "09:40",
-                "event": "Challenger - Hersonissos (GRE) - Qualifiers : Petros Tsitsipas vs Filippo Romano",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568364",
-                        "channel_id": "7568364"
-                    }
-                ]
-            },
-            {
-                "time": "09:40",
-                "event": "Challenger - Hersonissos (GRE) - Qualifiers : Christos Antonopoulos vs Demetris Azoides",
-                "channels": [],
-                "channels2": [
-                    {
-                        "channel_name": "SD-7568358",
-                        "channel_id": "7568358"
-                    }
-                ]
-            },
-            {
                 "time": "10:10",
                 "event": "Challenger - Thionville (FRA) - Qualifiers : Daniel Masur vs Etienne Donnet",
                 "channels": [],
@@ -5466,6 +5340,70 @@
                         "channel_id": "7527348"
                     }
                 ]
+            },
+            {
+                "time": "20:35",
+                "event": "WTA - Merida (MEX) - Double : A.Danilina\/I.Khromacheva vs K.Piter\/M.Sherif",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "21:30",
+                "event": "WTA - Austin (USA) - Double : A.Blinkova\/Y.Yuan vs M.Kessler\/S.Zhang",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "WTA - Indian Wells (USA) - Qualifiers : Sara Errani vs Cristina Bucsa",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "WTA - Indian Wells (USA) - Qualifiers : Claire Liu vs Yulia Starodubtseva",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "WTA - Indian Wells (USA) - Qualifiers : Whitney Osuigwe vs Nuria Parrizas Diaz",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "Challenger - San Diego (USA) : Eliot Spizzirri vs Mackenzie McDonald",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "WTA - Indian Wells (USA) - Qualifiers : Laura Siegemund vs Kaja Juvan",
+                "channels": [],
+                "channels2": []
+            },
+            {
+                "time": "22:30",
+                "event": "Santiago Open : Laslo Djere vs Sebastian Baez (USA)",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Channel",
+                        "channel_id": "40"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "23:00",
+                "event": "WTA Merida Open : Emma Navarro vs Emiliana Arango (UK)",
+                "channels": [
+                    {
+                        "channel_name": "Sky Sports Main Event",
+                        "channel_id": "38"
+                    }
+                ],
+                "channels2": []
             }
         ],
         "Motorsport": [
