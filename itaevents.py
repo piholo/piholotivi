@@ -12,8 +12,8 @@ import time
 # Constants
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "filtered_events.m3u8"
-EPG_OUTPUT_FILE = "filtered_events.xml"
+M3U8_OUTPUT_FILE = "itaevents.m3u8"
+EPG_OUTPUT_FILE = "itaevents.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 mStartTime = 0
