@@ -33,8 +33,6 @@ jobs:
           rm -f 247channels.html
           rm -f mergeita.m3u8
           rm -f mergeita.xml
-          rm -f events.m3u8
-          rm -f events.xml
           python mergedefinitivo.py
           
       - name: Force commit and push the changes (no history)
