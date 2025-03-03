@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import time
 
 # Costanti
-M3U8_OUTPUT_FILE = "canali247.m3u8"
+M3U8_OUTPUT_FILE = "247ita.m3u8"
 
 # File e URL statici
 daddyLiveChannelsFileName = '247channels.html'
