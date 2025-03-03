@@ -3,9 +3,11 @@ DONT USE ANY OF THE XML EPG, For the italian lists it's not needed any EPG
 M3U Url
 
 With MediaFlow Proxy on Render 
-
+Itafree, VV, DD + Full events
 https://paste.ee/r/vUgmGnV1/0
 
+Itafree, VV, DD + Ita events
+https://paste.ee/r/bYWfWLj0/0
 
 With MediaFlow Proxy on HuggingFace
 
@@ -26,6 +28,8 @@ Resolver, this should be pasted in the first advance setting (URL Script Resolve
 https://paste.ee/d/R24c9IeI/0
 
 
+Only events
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/onlyevents.m3u8
 
 
 International 
