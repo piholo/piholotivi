@@ -32,7 +32,6 @@ jobs:
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
           rm -f 247ita.m3u8
-          rm -f 247ita.xml
           python 247ita.py
           
       - name: Force commit and push the changes (no history)
