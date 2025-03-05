@@ -1,8 +1,6 @@
 name: Update ita Events
 
 on:
-  schedule:
-    - cron: "0 */3 * * *" # ogni 3 ore
   workflow_dispatch:
 
 jobs:
