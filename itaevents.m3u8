@@ -1,181 +1,271 @@
-#EXTM3U url-tvg="http://epg-guide.com/it.gz"
-#EXTINF:-1 tvg-id="Tennis Battle of Legends - Tennis Channel" tvg-name="Tennis Battle of Legends 03/03/25 - 02:00  Tennis Channel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Tennis Battle of Legends 03/03/25 - 02:00  Tennis Channel (D)
+#EXTM3U
+#EXTINF:-1 tvg-id="Tennis The Eisenhower Cup Live - Tennis Channel" tvg-name="Tennis The Eisenhower Cup Live 04/03/25 - 04:30  Tennis Channel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Tennis The Eisenhower Cup Live 04/03/25 - 04:30  Tennis Channel (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - SKY Go Italia" tvg-name="Italy - Serie C : Renate vs Atalanta II 03/03/25 - 20:30  SKY Go Italia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie C : Renate vs Atalanta II 03/03/25 - 20:30  SKY Go Italia (D)
+#EXTINF:-1 tvg-id="CEV Cup Women - Sport 2 Hungary" tvg-name="CEV Cup Women : Vasas SC vs. Csm Volei Alba Blaj 04/03/25 - 17:00  Sport 2 Hungary" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", CEV Cup Women : Vasas SC vs. Csm Volei Alba Blaj 04/03/25 - 17:00  Sport 2 Hungary (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium4/mono.m3u8
+https://nfsnew.iosplayer.ru/nfs/premium15/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Sky Sport 253 IT" tvg-name="Italy - Serie C : Perugia vs Ascoli 03/03/25 - 20:30  Sky Sport 253 IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie C : Perugia vs Ascoli 03/03/25 - 20:30  Sky Sport 253 IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium5/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - RAI Sport 1 IT" tvg-name="Italy - Serie C : Perugia vs Ascoli 03/03/25 - 20:30  RAI Sport 1 IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie C : Perugia vs Ascoli 03/03/25 - 20:30  RAI Sport 1 IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Sky Sport 254 IT" tvg-name="Italy - Serie C : Cavese vs Casertana 03/03/25 - 20:30  Sky Sport 254 IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie C : Cavese vs Casertana 03/03/25 - 20:30  Sky Sport 254 IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium6/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Sky Sport 251 IT" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport 251 IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport 251 IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium8/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Sky Sport Uno IT" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport Uno IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport Uno IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium461/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Sky Sport Calcio IT" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport Calcio IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sky Sport Calcio IT (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - DAZN2 DE" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  DAZN2 DE" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  DAZN2 DE (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium427/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Sport TV2 Portugal" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sport TV2 Portugal" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sport TV2 Portugal (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium74/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Eleven Sports 1 Poland" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Eleven Sports 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Eleven Sports 1 Poland (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium71/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Abu Dhabi Sports Premium 1" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Abu Dhabi Sports Premium 1" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Abu Dhabi Sports Premium 1 (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium609/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Digi Sport 2 Romania" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Digi Sport 2 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Digi Sport 2 Romania (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://wikinew.iosplayer.ru/wiki/premium401/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Prima Sport 2 Romania" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Prima Sport 2 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Prima Sport 2 Romania (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://wikinew.iosplayer.ru/wiki/premium584/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Ziggo Sport 1 NL" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Ziggo Sport 1 NL" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Ziggo Sport 1 NL (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium393/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Ziggo Sport 2 NL" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Ziggo Sport 2 NL" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Ziggo Sport 2 NL (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium398/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Match! Football 1 Russia" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Match! Football 1 Russia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Match! Football 1 Russia (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium136/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Cytavision Sports 4 Cyprus" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Cytavision Sports 4 Cyprus" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Cytavision Sports 4 Cyprus (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium914/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Arena 2 Premium Serbia" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Arena 2 Premium Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Arena 2 Premium Serbia (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium135/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Cosmote Sport 1 Greece" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Cosmote Sport 1 Greece" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Cosmote Sport 1 Greece (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium622/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Arena Sport 2 Croatia" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Arena Sport 2 Croatia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Arena Sport 2 Croatia (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium433/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - TV2 Sport Denmark" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  TV2 Sport Denmark" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  TV2 Sport Denmark (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium810/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - TV4 Fotball" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  TV4 Fotball" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  TV4 Fotball (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium747/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - ESPN4 Brazil" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  ESPN4 Brazil" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  ESPN4 Brazil (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium85/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - MAX Sport 3 Bulgaria" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  MAX Sport 3 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  MAX Sport 3 Bulgaria (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium474/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - SuperSport Football" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  SuperSport Football" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  SuperSport Football (D)
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium56/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Sport 4 Israel" tvg-name="Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sport 4 Israel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Italy - Serie A : Juventus vs Hellas Verona 03/03/25 - 20:45  Sport 4 Israel (D)
+#EXTINF:-1 tvg-id="CEV Cup Women - Sport 4 Israel" tvg-name="CEV Cup Women : Vasas SC vs. Csm Volei Alba Blaj 04/03/25 - 17:00  Sport 4 Israel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", CEV Cup Women : Vasas SC vs. Csm Volei Alba Blaj 04/03/25 - 17:00  Sport 4 Israel (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium143/mono.m3u8
 
-#EXTINF:-1 tvg-id="PlusLiga - Polsat Sport 1 Poland" tvg-name="PlusLiga : AZS Olsztyn vs. KS Norwid Czestochowa 03/03/25 - 05:30  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", PlusLiga : AZS Olsztyn vs. KS Norwid Czestochowa 03/03/25 - 05:30  Polsat Sport 1 Poland (D)
+#EXTINF:-1 tvg-id="PlusLiga - Polsat Sport 1 Poland" tvg-name="PlusLiga : MKS Slepsk Suwalki vs. GKS Katowice 04/03/25 - 17:30  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", PlusLiga : MKS Slepsk Suwalki vs. GKS Katowice 04/03/25 - 17:30  Polsat Sport 1 Poland (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
-#EXTINF:-1 tvg-id="PlusLiga - Sport Klub 2 Serbia" tvg-name="PlusLiga : AZS Olsztyn vs. KS Norwid Czestochowa 03/03/25 - 05:30  Sport Klub 2 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", PlusLiga : AZS Olsztyn vs. KS Norwid Czestochowa 03/03/25 - 05:30  Sport Klub 2 Serbia (D)
+#EXTINF:-1 tvg-id="Challenge Cup Women - Arena Sport 9 Croatia HD" tvg-name="Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Arena Sport 9 Croatia HD" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Arena Sport 9 Croatia HD (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium30/mono.m3u8
+
+#EXTINF:-1 tvg-id="Challenge Cup Women - Cosmote Sport 6 Greece" tvg-name="Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Cosmote Sport 6 Greece" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Cosmote Sport 6 Greece (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium627/mono.m3u8
+
+#EXTINF:-1 tvg-id="Challenge Cup Women - Sport 4 Israel" tvg-name="Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Sport 4 Israel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Challenge Cup Women : Chieri 76 Volleyball vs. Roma Volley Club 04/03/25 - 20:00  Sport 4 Israel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium143/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Polsat Sport 1 Poland" tvg-name="Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  Polsat Sport 1 Poland (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - JOJ Sport Slovakia HD" tvg-name="Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  JOJ Sport Slovakia HD" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  JOJ Sport Slovakia HD (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Max Sport 1 Bulgaria" tvg-name="Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  Max Sport 1 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Volley Monza vs. Eczacibasi Istanbul 04/03/25 - 20:30  Max Sport 1 Bulgaria (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Tournament in Indian Wells - Tennis Channel" tvg-name="ATP Tournament in Indian Wells 05/03/25 - 06:00  Tennis Channel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Tournament in Indian Wells 05/03/25 - 06:00  Tennis Channel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Tournament in Indian Wells - TSN3" tvg-name="ATP Tournament in Indian Wells 05/03/25 - 06:00  TSN3" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Tournament in Indian Wells 05/03/25 - 06:00  TSN3 (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium113/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Tournament in Indian Wells - Sky Sports Tennis UK" tvg-name="ATP Tournament in Indian Wells 05/03/25 - 06:00  Sky Sports Tennis UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Tournament in Indian Wells 05/03/25 - 06:00  Sky Sports Tennis UK (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Tournament in Indian Wells - beIN SPORTS Australia 2" tvg-name="ATP Tournament in Indian Wells 05/03/25 - 06:00  beIN SPORTS Australia 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Tournament in Indian Wells 05/03/25 - 06:00  beIN SPORTS Australia 2 (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium492/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Tournament in Indian Wells - Max Sport 1 Bulgaria" tvg-name="ATP Tournament in Indian Wells 05/03/25 - 06:00  Max Sport 1 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Tournament in Indian Wells 05/03/25 - 06:00  Max Sport 1 Bulgaria (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis - Tennis Channel" tvg-name="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Tennis Channel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Tennis Channel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis - TSN3" tvg-name="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  TSN3" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  TSN3 (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium113/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis - Sky Sports Tennis UK" tvg-name="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sky Sports Tennis UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sky Sports Tennis UK (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis - Sport Klub 2 Serbia" tvg-name="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sport Klub 2 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sport Klub 2 Serbia (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium102/mono.m3u8
 
-#EXTINF:-1 tvg-id="Orlen Liga Women - Polsat Sport 1 Poland" tvg-name="Orlen Liga Women : MKS Kalisz vs. KS Palac Bydgoszcz 03/03/25 - 20:30  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Orlen Liga Women : MKS Kalisz vs. KS Palac Bydgoszcz 03/03/25 - 20:30  Polsat Sport 1 Poland (D)
+#EXTINF:-1 tvg-id="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis - Sport Klub HD Serbia" tvg-name="ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sport Klub HD Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP/WTA 1st Round 2025 BNP Paribas Open Tennis 05/03/25 - 20:00  Sport Klub HD Serbia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Masters &amp; WTA 1000 Indian Wells - Tennis Channel" tvg-name="ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Tennis Channel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Tennis Channel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Masters &amp; WTA 1000 Indian Wells - TSN3" tvg-name="ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  TSN3" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  TSN3 (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium113/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Masters &amp; WTA 1000 Indian Wells - Sky Sports Tennis UK" tvg-name="ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Sky Sports Tennis UK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Sky Sports Tennis UK (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP Masters &amp; WTA 1000 Indian Wells - Sport Klub 1 Serbia" tvg-name="ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Sport Klub 1 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", ATP Masters &amp; WTA 1000 Indian Wells 05/03/25 - 03:00  Sport Klub 1 Serbia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Polsat Sport 2 Poland" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Polsat Sport 2 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Polsat Sport 2 Poland (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium50/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - МАТЧ! Igra Russia" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  МАТЧ! Igra Russia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  МАТЧ! Igra Russia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Arena Sport 1 Serbia" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Arena Sport 1 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Arena Sport 1 Serbia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium429/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Cosmote Sport 7 Greece" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Cosmote Sport 7 Greece" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Cosmote Sport 7 Greece (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium628/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Max Sport 1 Bulgaria" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Max Sport 1 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Max Sport 1 Bulgaria (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Sport 3 Israel" tvg-name="Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Sport 3 Israel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Vakifbank SK vs. Fenerbahce Istanbul 05/03/25 - 17:15  Sport 3 Israel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="MEVZA Playoffs - SPTV Croatia" tvg-name="MEVZA Playoffs : HAOK Mladost vs SK Posojilnica 05/03/25 - 17:30  SPTV Croatia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", MEVZA Playoffs : HAOK Mladost vs SK Posojilnica 05/03/25 - 17:30  SPTV Croatia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium22/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Polsat Sport 1 Poland" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Polsat Sport 1 Poland (D)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Arena Sport 3 Serbia" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Arena Sport 3 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Arena Sport 3 Serbia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Arena Sport 4 Croatia" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Arena Sport 4 Croatia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Arena Sport 4 Croatia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium580/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Zona DAZN IT" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Zona DAZN IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Zona DAZN IT (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Sky Sport Arena Italy" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Sky Sport Arena Italy" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Sky Sport Arena Italy (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Max Sport 4 Bulgaria" tvg-name="Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Max Sport 4 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : Budowlani Lodz vs. Pallavolo Scandicci 05/03/25 - 18:00  Max Sport 4 Bulgaria (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium475/mono.m3u8
+
+#EXTINF:-1 tvg-id="MEVZA Women Playoffs - SPTV Croatia" tvg-name="MEVZA Women Playoffs : Mladost Zagreb vs. Ok Dinamo 05/03/25 - 17:30  SPTV Croatia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", MEVZA Women Playoffs : Mladost Zagreb vs. Ok Dinamo 05/03/25 - 17:30  SPTV Croatia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium22/mono.m3u8
+
+#EXTINF:-1 tvg-id="CEV Cup Women - Sport 3 Israel" tvg-name="CEV Cup Women : Novara W vs Thy W 05/03/25 - 20:00  Sport 3 Israel" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", CEV Cup Women : Novara W vs Thy W 05/03/25 - 20:00  Sport 3 Israel (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Polsat Sport 1 Poland" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Polsat Sport 1 Poland" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Polsat Sport 1 Poland (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Zona DAZN IT" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Zona DAZN IT" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Zona DAZN IT (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Arena Sport 3 Serbia" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Arena Sport 3 Serbia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Arena Sport 3 Serbia (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Sky Sport Arena Italy" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Sky Sport Arena Italy" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Sky Sport Arena Italy (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - JOJ Sport Slovakia HD" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  JOJ Sport Slovakia HD" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  JOJ Sport Slovakia HD (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium23/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League Women - Max Sport 4 Bulgaria" tvg-name="Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Max Sport 4 Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Eventi", Champions League Women : KS Rzeszow vs. Volley Conegliano 05/03/25 - 20:30  Max Sport 4 Bulgaria (D)
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium475/mono.m3u8
 
