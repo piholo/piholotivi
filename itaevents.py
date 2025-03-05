@@ -242,7 +242,7 @@ def process_events():
     for day, day_data in dadjson.items():
         try:
             for sport_key, sport_events in day_data.items():
-            clean_sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
+                clean_sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
                 total_events += len(sport_events)
 
                 # Skip only exact category matches
