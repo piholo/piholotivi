@@ -1,4 +1,3 @@
-import xml.etree.ElementTree as ET
 import random
 import uuid
 import fetcher
@@ -7,13 +6,13 @@ import os
 import datetime
 import pytz
 import requests
-from bs4 import BeautifulSoup, SoupStrainer
+from bs4 import BeautifulSoup
 import time
+
 # Costanti
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "mergeita.m3u8"
-EPG_OUTPUT_FILE = "mergeita.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 mStartTime = 0
@@ -28,7 +27,7 @@ Referer = "https://ilovetoplay.xyz/"
 Origin = "https://ilovetoplay.xyz"
 key_url = "https%3A%2F%2Fkey2.keylocking.ru%2F"
 
-headers = { # **Define base headers *without* Referer and Origin**
+headers = { 
     "Accept": "*/*",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,ru;q=0.5",
     "Priority": "u=1, i",
@@ -41,8 +40,8 @@ headers = { # **Define base headers *without* Referer and Origin**
     "Sec-Fetch-Storage-Access": "active",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
 }
-# Simulated client and credentials - Replace with your actual client and credentials if needed
-client = requests # Using requests as a synchronous client
+
+client = requests 
 
 def get_stream_link(dlhd_id, max_retries=3):
     print(f"Getting stream link for channel ID: {dlhd_id}...")
@@ -51,7 +50,6 @@ def get_stream_link(dlhd_id, max_retries=3):
 
     for attempt in range(max_retries):
         try:
-            # Use timeout for all requests
             response = client.get(
                 f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
                 headers=headers,
@@ -64,7 +62,6 @@ def get_stream_link(dlhd_id, max_retries=3):
             if not response_text:
                 print(f"Warning: Empty response received for channel ID: {dlhd_id} (attempt {attempt+1}/{max_retries})")
                 if attempt < max_retries - 1:
-                    # Calculate exponential backoff with jitter
                     sleep_time = (2 ** attempt) + random.uniform(0, 1)
                     print(f"Retrying in {sleep_time:.2f} seconds...")
                     time.sleep(sleep_time)
@@ -99,7 +96,6 @@ def get_stream_link(dlhd_id, max_retries=3):
                     timeout=base_timeout
                 )
 
-                # Add adaptive delay between requests
                 time.sleep(random.uniform(1, 3))
                 response_key.raise_for_status()
 
@@ -166,7 +162,7 @@ def get_stream_link(dlhd_id, max_retries=3):
     return None  # If we get here, all retries failed
 
 # Rimuove i file esistenti per garantirne la rigenerazione
-for file in [M3U8_OUTPUT_FILE, EPG_OUTPUT_FILE, DADDY_JSON_FILE, daddyLiveChannelsFileName]:
+for file in [M3U8_OUTPUT_FILE, daddyLiveChannelsFileName]:
     if os.path.exists(file):
         os.remove(file)
 
@@ -179,25 +175,6 @@ def loadJSON(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def createSingleChannelEPGData(UniqueID, tvgName):
-    xmlChannel = ET.Element('channel', id=UniqueID)
-    xmlDisplayName = ET.SubElement(xmlChannel, 'display-name')
-    xmlIcon = ET.SubElement(xmlChannel, 'icon', src=LOGO)
-
-    xmlDisplayName.text = tvgName
-    return xmlChannel
-
-def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description):
-    programme = ET.Element('programme', start=f"{startTime} +0000", stop=f"{stopTime} +0000", channel=UniqueID)
-
-    title = ET.SubElement(programme, 'title')
-    desc = ET.SubElement(programme, 'desc')
-
-    title.text = channelName
-    desc.text = description
-
-    return programme
-
 def addChannelsByLeagueSport():
     global channelCount
     processed_schedule_channels = 0  # Counter for schedule channels
@@ -206,7 +183,7 @@ def addChannelsByLeagueSport():
     excluded_categories = [
         "TV Shows", "Cricket", "Aussie rules", "Snooker", "Baseball",
         "Biathlon", "Cross Country", "Horse Racing", "Ice Hockey",
-        "Waterpolo", "Golf", "Darts", "Cycling"
+        "Waterpolo", "Golf", "Darts", "Cycling", "handball", "squash"
     ]
     
     # Debug counters
@@ -218,6 +195,9 @@ def addChannelsByLeagueSport():
     for day, day_data in dadjson.items():
         try:
             for sport_key, sport_events in day_data.items():
+                # Clean the sport key by removing HTML tags
+                sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
+                
                 if sport_key not in category_stats:
                     category_stats[sport_key] = 0
                 category_stats[sport_key] += len(sport_events)
@@ -235,6 +215,9 @@ def addChannelsByLeagueSport():
     for day, day_data in dadjson.items():
         try:
             for sport_key, sport_events in day_data.items():
+                # Clean the sport key by removing HTML tags
+                sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
+                
                 total_events += len(sport_events)
                 
                 # Skip only exact category matches
@@ -295,19 +278,6 @@ def addChannelsByLeagueSport():
                                 # Format as requested: "01/03/25 - 10:10" con orario CET
                                 formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
                                 
-                                # Also create proper datetime objects for EPG
-                                # Make sure we're using clean numbers for the date components
-                                date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
-                                start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-                                
-                                # Convert to Amsterdam timezone
-                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
-                                start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
-                                
-                                # Format for EPG
-                                mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
-                                mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
-                                
                             else:
                                 print(f"Invalid date format after cleaning: {clean_day}")
                                 continue
@@ -352,9 +322,9 @@ def addChannelsByLeagueSport():
                             with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
                                 if channelCount == 1:
                                     file.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n')
-                            
                             with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-                                file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel} (D)\n')
+                                # Use sport_key as the group-title, with (D) added to the label
+                                file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="{sport_key}", {tvLabel} (D)\n')
                                 file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                 file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
@@ -364,13 +334,6 @@ def addChannelsByLeagueSport():
                         else:
                             print(f"Failed to get stream URL for channel ID: {channelID}")
 
-                        # Add to EPG
-                        xmlChannel = createSingleChannelEPGData(UniqueID, tvgName)
-                        root.append(xmlChannel)
-
-                        programme = createSingleEPGData(mStartTime, mStopTime, UniqueID, channelName, "No Description")
-                        root.append(programme)
-                        
         except KeyError as e:
             print(f"KeyError: {e} - Key may not exist in JSON structure")
     
@@ -513,21 +476,13 @@ STATIC_CATEGORIES = {
 
 def fetch_with_debug(filename, url):
     try:
-        #print(f'Downloading {url}...') # Debug removed
         response = requests.get(url, timeout=10)
         response.raise_for_status()
 
         with open(filename, 'wb') as file:
             file.write(response.content)
-
-        #print(f'File {filename} downloaded successfully.') # Debug removed
     except requests.exceptions.RequestException as e:
-        #print(f'Error downloading {url}: {e}') # Debug removed
-        pass # No debug print, just skip
-
-
-def search_category(channel_name):
-    return STATIC_CATEGORIES.get(channel_name.lower().strip(), "Undefined")
+        pass
 
 def search_streams(file_path, keyword):
     matches = []
@@ -546,84 +501,40 @@ def search_streams(file_path, keyword):
                 if match not in matches:
                     matches.append(match)
     except FileNotFoundError:
-        #print(f'The file {file_path} does not exist.') # Debug removed
-        pass # No debug print, just skip
+        pass
     return matches
 
-def search_logo(channel_name):
-    channel_name_lower = channel_name.lower().strip()
-    for key, url in STATIC_LOGOS.items():
-        if key in channel_name_lower:
-            return url
-    return "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png"
-
-def search_tvg_id(channel_name):
-    channel_name_lower = channel_name.lower().strip()
-    for key, tvg_id in STATIC_TVG_IDS.items():
-        if key in channel_name_lower:
-            return tvg_id
-    return "unknown"
-
-def generate_m3u8_247(matches): # Rinominata per evitare conflitti
+def generate_m3u8_247(matches):
     if not matches:
-        #print("No matches found for 24/7 channels. Skipping M3U8 generation.") # Debug removed
-        return
+        return 0
 
-    processed_247_channels = 0 # Counter for 24/7 channels
-    with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file: # Appende al file esistente
+    processed_247_channels = 0
+    with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
         for channel in matches:
             channel_id = channel[0]
             channel_name = channel[1].replace("Italy", "").replace("8", "").replace("(251)", "").replace("(252)", "").replace("(253)", "").replace("(254)", "").replace("(255)", "").replace("(256)", "").replace("(257)", "").replace("HD+", "")
-            tvicon_path = search_logo(channel_name)
-            tvg_id = search_tvg_id(channel_name)
-            category = search_category(channel_name)
-            print(f"Processing 24/7 channel: {channel_name} - Channel Count (24/7): {processed_247_channels + 1}") # Progress print: 24/7 channel processing
+            
+            print(f"Processing 24/7 channel: {channel_name} - Channel Count (24/7): {processed_247_channels + 1}")
 
-            stream_url_dynamic = get_stream_link(channel_id) # Removed site and MFP_CREDENTIALS arguments
+            stream_url_dynamic = get_stream_link(channel_id)
 
             if stream_url_dynamic:
-                # MODIFICATO: Aggiunto (D) dopo il nome del canale
-                file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
+                file.write(f"#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{LOGO}\" group-title=\"24/7\", {channel_name} (D)\n")
                 file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                 file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
-                file.write(f"{stream_url_dynamic}\n\n") # Use dynamic stream URL
-                processed_247_channels += 1 # Increment counter on successful stream retrieval
+                file.write(f"{stream_url_dynamic}\n\n")
+                processed_247_channels += 1
             else:
-                print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.") # Debug removed
-                pass # No debug print, just skip
+                print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.")
     
-    # Aggiungi manualmente il canale DAZN 1
-    print("Aggiunta manuale del canale DAZN 1")
-    channel_id = "877"
-    channel_name = "DAZN 1"
-    tvicon_path = STATIC_LOGOS.get("dazn 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png")
-    tvg_id = "DAZN 1"
-    category = "Sport"
-
-    stream_url_dynamic = get_stream_link(channel_id)
-    if stream_url_dynamic:
-        with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-            file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
-            file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
-            file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-            file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
-            file.write(f"{stream_url_dynamic}\n\n")
-            processed_247_channels += 1
-    else:
-        print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
-        
-    #print("M3U8 file updated with 24/7 channels.") # Debug removed
-    return processed_247_channels # Return count of processed 24/7 channels
-
+    return processed_247_channels
 
 # Inizio del codice principale
-
-# Inizializza contatore e genera ID univoci
 channelCount = 0
 unique_ids = generate_unique_ids(NUM_CHANNELS)
-total_schedule_channels = 0 # Counter for total schedule channels attempted
-total_247_channels = 0 # Counter for total 24/7 channels attempted
+total_schedule_channels = 0
+total_247_channels = 0
 
 # Scarica il file JSON con la programmazione
 fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
@@ -631,25 +542,12 @@ fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-gener
 # Carica i dati dal JSON
 dadjson = loadJSON(DADDY_JSON_FILE)
 
-# Crea il nodo radice dell'EPG
-root = ET.Element('tv')
-
 # Aggiunge i canali reali
 total_schedule_channels = addChannelsByLeagueSport()
 
-# Verifica se sono stati creati canali validi
-if channelCount == 0:
-    print("Nessun canale valido trovato dalla programmazione. Genero solo i canali 24/7.") # Debug removed
-    pass # No debug print, just skip
-else:
-    tree = ET.ElementTree(root)
-    tree.write(EPG_OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-    print(f"EPG generato con {channelCount} canali validi.") # Debug removed
-    pass # No debug print, just skip
-
 # Fetch e generazione M3U8 per i canali 24/7
 fetch_with_debug(daddyLiveChannelsFileName, daddyLiveChannelsURL)
-matches_247 = search_streams(daddyLiveChannelsFileName, "Italy") # Cerca tutti i canali
+matches_247 = search_streams(daddyLiveChannelsFileName, "Italy")
 total_247_channels = generate_m3u8_247(matches_247)
 
-print(f"Script completato. Canali programmazione aggiunti: {total_schedule_channels}, Canali 24/7 aggiunti: {total_247_channels}") # Debug removed
+print(f"Script completato. Canali programmazione aggiunti: {total_schedule_channels}, Canali 24/7 aggiunti: {total_247_channels}")
