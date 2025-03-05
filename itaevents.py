@@ -17,7 +17,8 @@ EPG_OUTPUT_FILE = "itaevents.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 # Define keywords for filtering channels
-EVENT_KEYWORDS = ["italy", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley"]
+EVENT_KEYWORDS = ["italy", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley", "serie a", "serie b", "serie c", "uefa champions", "uefa europa",
+                 "conference league", "coppa italia"]
 
 mStartTime = 0
 mStopTime = 0
@@ -46,6 +47,21 @@ headers = { # **Define base headers *without* Referer and Origin**
 }
 # Simulated client and credentials - Replace with your actual client and credentials if needed
 client = requests # Using requests as a synchronous client
+
+def clean_group_title(sport_key):
+    """
+    Clean the sport key to create a proper group-title
+    Handles various input formats robustly
+    """
+    # Remove HTML tags if present
+    clean_key = sport_key.replace("<span>", "").replace("</span>", "").strip()
+
+    # If empty after cleaning, return original key
+    if not clean_key:
+        clean_key = sport_key.strip()
+
+    # Convert to title case to standardize
+    return clean_key.title()
 
 def get_stream_link(dlhd_id, max_retries=3):
     print(f"Getting stream link for channel ID: {dlhd_id}...")
@@ -204,12 +220,12 @@ def createSingleEPGData(startTime, stopTime, UniqueID, channelName, description)
 def should_include_channel(channel_name, event_name, sport_key):
     """Check if channel should be included based on keywords"""
     combined_text = (channel_name + " " + event_name + " " + sport_key).lower()
-    
+
     # Check if any keyword is present in the combined text
     for keyword in EVENT_KEYWORDS:
         if keyword.lower() in combined_text:
             return True
-    
+
     return False
 
 def addChannelsByLeagueSport():
@@ -357,12 +373,12 @@ def addChannelsByLeagueSport():
                         channelID = f"{channel['channel_id']}"
                         tvgName = channelName
                         tvLabel = tvgName
-                        
+
                         # Check if channel should be included based on keywords
                         if should_include_channel(channel_part, event_part, sport_key):
                             channelCount += 1
                             print(f"Processing matched channel {channelCount}: {sport_key} - {channelName}")
-                            
+
                             # Get stream URL
                             stream_url_dynamic = get_stream_link(channelID)
 
@@ -373,7 +389,7 @@ def addChannelsByLeagueSport():
                                         file.write('#EXTM3U\n')
 
                                 with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-                                    file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Eventi", {tvLabel} (D)\n')
+                                    file.write(f'#EXTINF:-1 tvg-id="{custom_tvg_id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="{clean_group_title(sport_key)}", {tvLabel} (D)\n')
                                     file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                     file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
@@ -512,10 +528,10 @@ total_schedule_channels = addChannelsByLeagueSport()
 
 # Verifica se sono stati creati canali validi
 if channelCount == 0:
-    print("Nessun canale valido trovato che corrisponda alle parole chiave.") 
+    print("Nessun canale valido trovato che corrisponda alle parole chiave.")
 else:
     tree = ET.ElementTree(root)
     tree.write(EPG_OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-    print(f"EPG generato con {channelCount} canali filtrati per parole chiave.") 
+    print(f"EPG generato con {channelCount} canali filtrati per parole chiave.")
 
 print(f"Script completato. Canali eventi aggiunti che corrispondono alle parole chiave: {total_schedule_channels}")
