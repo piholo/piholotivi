@@ -262,6 +262,21 @@ def addChannelsByLeagueSport():
                                 # Get time from game data
                                 time_str = game.get("time", "00:00")
                                 
+                                # Converti l'orario da UK a CET (aggiungi 1 ora)
+                                time_parts = time_str.split(":")
+                                if len(time_parts) == 2:
+                                    hour = int(time_parts[0])
+                                    minute = time_parts[1]
+                                    # Aggiungi un'ora all'orario UK
+                                    hour_cet = (hour + 1) % 24
+                                    # Assicura che l'ora abbia due cifre
+                                    hour_cet_str = f"{hour_cet:02d}"
+                                    # Nuovo time_str con orario CET
+                                    time_str_cet = f"{hour_cet_str}:{minute}"
+                                else:
+                                    # Se il formato dell'orario non è corretto, mantieni l'originale
+                                    time_str_cet = time_str
+                                
                                 # Convert month name to number
                                 month_map = {
                                     "January": "01", "February": "02", "March": "03", "April": "04",
@@ -277,8 +292,8 @@ def addChannelsByLeagueSport():
                                 # Create a datetime object in UTC (no timezone conversion yet)
                                 year_short = year[2:4]  # Extract last two digits of year
                                 
-                                # Format as requested: "01/03/25 - 10:10"
-                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str}"
+                                # Format as requested: "01/03/25 - 10:10" con orario CET
+                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
                                 
                                 # Also create proper datetime objects for EPG
                                 # Make sure we're using clean numbers for the date components
@@ -399,6 +414,7 @@ STATIC_LOGOS = {
     "sky cinema suspense": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png",
     "sky sport 24": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
     "sky sport calcio": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png",
+    "sky sport": "https://play-lh.googleusercontent.com/u7UNH06SU4KsMM4ZGWr7wghkJYN75PNCEMxnIYULpA__VPg8zfEOYMIAhUaIdmZnqw=w480-h960-rw",
     "sky calcio 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-1-alt-de.png",
     "sky calcio 2": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-2-alt-de.png",
     "sky calcio 3": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-3-alt-de.png",
@@ -407,7 +423,8 @@ STATIC_LOGOS = {
     "sky calcio 6": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-6-alt-de.png",
     "sky calcio 7": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-7-alt-de.png",
     "sky serie": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png",
-    "20 mediaset": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png"
+    "20 mediaset": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png",
+    "dazn 1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png"
 }
 
 STATIC_TVG_IDS = {
@@ -575,6 +592,27 @@ def generate_m3u8_247(matches): # Rinominata per evitare conflitti
             else:
                 print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.") # Debug removed
                 pass # No debug print, just skip
+    
+    # Aggiungi manualmente il canale DAZN 1
+    print("Aggiunta manuale del canale DAZN 1")
+    channel_id = "877"
+    channel_name = "DAZN 1"
+    tvicon_path = STATIC_LOGOS.get("dazn 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png")
+    tvg_id = "DAZN 1"
+    category = "Sport"
+
+    stream_url_dynamic = get_stream_link(channel_id)
+    if stream_url_dynamic:
+        with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+            file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
+            file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+            file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+            file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+            file.write(f"{stream_url_dynamic}\n\n")
+            processed_247_channels += 1
+    else:
+        print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
+        
     #print("M3U8 file updated with 24/7 channels.") # Debug removed
     return processed_247_channels # Return count of processed 24/7 channels
 
