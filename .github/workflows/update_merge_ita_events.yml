@@ -1,4 +1,4 @@
-name: Update Ita and Events
+name: Update merge Ita and Events
 
 on:
   schedule:
