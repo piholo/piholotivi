@@ -1,5 +1,4 @@
-name: Update ogni 6 ore
-
+name: Update vv ita world
 on:
   schedule:
     - cron: '0 */6 * * *'  # Esegue ogni 6 ore
