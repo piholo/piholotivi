@@ -217,7 +217,7 @@ def process_events():
     for day, day_data in dadjson.items():
         try:
             for sport_key, sport_events in day_data.items():
-            clean_sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
+                clean_sport_key = sport_key.replace("</span>", "").replace("<span>", "").strip()
                 if clean_sport_key not in category_stats:
                     category_stats[clean_sport_key] = 0
                 category_stats[clean_sport_key] += len(sport_events)
