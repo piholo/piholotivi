@@ -581,12 +581,6 @@ https://zekonew.iosplayer.ru/zeko/premium141/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium20/mono.m3u8
 
-#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Vitória Guimarães" tvg-name="UEFA Conference League : Real Betis vs Vitória Guimarães 06/03/25 - 18:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 18:45  Movistar Liga de Campeones 2
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
-
 #EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Vitória Guimarães" tvg-name="UEFA Conference League : Real Betis vs Vitória Guimarães 06/03/25 - 18:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 18:45  Sport TV5 Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -863,6 +857,12 @@ https://windnew.iosplayer.ru/wind/premium49/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium643/mono.m3u8
 
+#EXTINF:-1 tvg-id="Saudi Arabia - Pro League - Al Kholood vs Al Fateh" tvg-name="Saudi Arabia - Pro League : Al Kholood vs Al Fateh 06/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 20:00  SSC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium109/mono.m3u8
+
 #EXTINF:-1 tvg-id="UEFA Europa League - Simulcast" tvg-name="UEFA Europa League : Simulcast 06/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 21:00  Sky Sport Austria 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1120,12 +1120,6 @@ https://nfsnew.iosplayer.ru/nfs/premium15/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium260/mono.m3u8
-
-#EXTINF:-1 tvg-id="UEFA Europa League - Ajax vs Eintracht Frankfurt" tvg-name="UEFA Europa League : Ajax vs Eintracht Frankfurt 06/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 21:00  Movistar Liga de Campeones 2
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
 
 #EXTINF:-1 tvg-id="UEFA Europa League - Ajax vs Eintracht Frankfurt" tvg-name="UEFA Europa League : Ajax vs Eintracht Frankfurt 06/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 06/03/25 - 21:00  beIN SPORTS Australia 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1877,6 +1871,12 @@ https://nfsnew.iosplayer.ru/nfs/premium742/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium409/mono.m3u8
 
+#EXTINF:-1 tvg-id="LFA 203 - Satybaldiev vs. Soares" tvg-name="LFA 203: Satybaldiev vs. Soares 06/03/25 - 05:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", 06/03/25 - 05:00  UFC Fight Pass
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium109/mono.m3u8
+
 #EXTINF:-1 tvg-id="Live European Athletics Indoor Championships - Omnisport Apeldoorn - Live European Athletics Indoor Championships - Omnisport Apeldoorn" tvg-name="Live European Athletics Indoor Championships - Omnisport Apeldoorn 06/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Athletics", 06/03/25 - 18:00  Arena RTE 2
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2224,12 +2224,6 @@ https://nfsnew.iosplayer.ru/nfs/premium19/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium20/mono.m3u8
-
-#EXTINF:-1 tvg-id="NBA - Indiana Pacers vs Atlanta Hawks" tvg-name="NBA : Indiana Pacers vs Atlanta Hawks 06/03/25 - 01:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 06/03/25 - 01:30  Home Feed
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA - Indiana Pacers vs Atlanta Hawks" tvg-name="NBA : Indiana Pacers vs Atlanta Hawks 06/03/25 - 01:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 06/03/25 - 01:30  Away Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -3214,12 +3208,6 @@ https://nfsnew.iosplayer.ru/nfs/premium19/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium20/mono.m3u8
-
-#EXTINF:-1 tvg-id="Egypt - Egypt Cup - National Bank of Egypt vs Al Masry" tvg-name="Egypt - Egypt Cup : National Bank of Egypt vs Al Masry 07/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 07/03/25 - 20:30  Ontime Sports Egypt
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Borussia M'gladbach vs Mainz 05" tvg-name="Bundesliga : Borussia M'gladbach vs Mainz 05 07/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 07/03/25 - 20:30  DAZN1 DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
