@@ -344,7 +344,7 @@ def addChannelsByLeagueSport():
                                     file.write('#EXTM3U\n')
 
                             with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-                                file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{event_details} {formatted_date_time}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {formatted_date_time}  {channel["channel_name"]}\n')
+                                file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{event_details} {formatted_date_time}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
                                 file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
                                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                 file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
