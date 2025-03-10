@@ -9,7 +9,7 @@ https://ddy6new.iosplayer.ru/ddy6/premium170/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
+https://ddy6new.iosplayer.ru/ddy6/premium110/mono.m3u8
 
 #EXTINF:-1 tvg-id="Major League Soccer - Inter Miami vs Charlotte" tvg-name="Major League Soccer : Inter Miami vs Charlotte 09/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 21:00  MLS Season Pass
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -395,6 +395,12 @@ https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium779/mono.m3u8
 
+#EXTINF:-1 tvg-id="Bosnia and Herzegovina - Premijer Liga - Sloga Doboj vs Radnik Bijeljina" tvg-name="Bosnia and Herzegovina - Premijer Liga : Sloga Doboj vs Radnik Bijeljina 09/03/25 - 13:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 13:00  Arena Sport 5 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
+
 #EXTINF:-1 tvg-id="Slovenian 2nd League - Tabor vs Aluminij" tvg-name="Slovenian 2nd League : Tabor vs Aluminij 09/03/25 - 13:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 13:00  Sport Klub 5 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -677,6 +683,12 @@ https://windnew.iosplayer.ru/wind/premium550/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium799/mono.m3u8
 
+#EXTINF:-1 tvg-id="Spain - La Liga - Getafe vs Atlético Madrid" tvg-name="Spain - La Liga : Getafe vs Atlético Madrid 09/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 14:00  DAZN 1 DE
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8
+
 #EXTINF:-1 tvg-id="Spain - La Liga - Getafe vs Atlético Madrid" tvg-name="Spain - La Liga : Getafe vs Atlético Madrid 09/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 14:00  DAZN Eleven 2 Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -760,6 +772,12 @@ https://windnew.iosplayer.ru/wind/premium475/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium81/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Getafe vs Atlético Madrid" tvg-name="Spain - La Liga : Getafe vs Atlético Madrid 09/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 14:00  SuperSport Laliga
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium415/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Getafe vs Atlético Madrid" tvg-name="Spain - La Liga : Getafe vs Atlético Madrid 09/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 14:00  beIN Sports MENA 6
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1403,6 +1421,12 @@ https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium756/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie B - Spezia vs Pisa" tvg-name="Italy - Serie B : Spezia vs Pisa 09/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 15:00  DAZN Italia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
+
 #EXTINF:-1 tvg-id="Portugal - Segunda liga - Marítimo vs Academico Viseu" tvg-name="Portugal - Segunda liga : Marítimo vs Academico Viseu 09/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 15:00  Sport TV+ Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1979,6 +2003,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium291/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium94/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie B - Cittadella vs Südtirol" tvg-name="Italy - Serie B : Cittadella vs Südtirol 09/03/25 - 17:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 17:15  DAZN Italia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
+
 #EXTINF:-1 tvg-id="Slovenia - Prva Liga - Celje vs Primorje" tvg-name="Slovenia - Prva Liga : Celje vs Primorje 09/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 17:30  Sport Klub 9 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2170,6 +2200,12 @@ https://windnew.iosplayer.ru/wind/premium61/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium140/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Hoffenheim vs Heidenheim" tvg-name="Bundesliga : Hoffenheim vs Heidenheim 09/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 17:30  DAZN1 DE
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Hoffenheim vs Heidenheim" tvg-name="Bundesliga : Hoffenheim vs Heidenheim 09/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 17:30  Sky Sports MIX UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2968,6 +3004,12 @@ https://zekonew.iosplayer.ru/zeko/premium425/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium372/mono.m3u8
+
+#EXTINF:-1 tvg-id="France - Ligue 1 - Nice vs Olympique Lyonnais" tvg-name="France - Ligue 1 : Nice vs Olympique Lyonnais 09/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 20:45  DAZN 1 DE
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8
 
 #EXTINF:-1 tvg-id="France - Ligue 1 - Nice vs Olympique Lyonnais" tvg-name="France - Ligue 1 : Nice vs Olympique Lyonnais 09/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 09/03/25 - 20:45  Sport TV4 Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4505,6 +4547,18 @@ https://zekonew.iosplayer.ru/zeko/premium375/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - San Antonio Spurs vs Minnesota Timberwolves" tvg-name="NBA : San Antonio Spurs vs Minnesota Timberwolves 09/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 09/03/25 - 01:00  Away Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Detroit Pistons vs Portland Trail Blazers" tvg-name="NBA : Detroit Pistons vs Portland Trail Blazers 09/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 09/03/25 - 02:00  Home Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Detroit Pistons vs Portland Trail Blazers" tvg-name="NBA : Detroit Pistons vs Portland Trail Blazers 09/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 09/03/25 - 02:00  Away Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -4564,6 +4618,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium817/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="Romania Liga Nationala - AHC Potaissa Turda vs. CSU Suceava" tvg-name="Romania Liga Nationala : AHC Potaissa Turda vs. CSU Suceava 09/03/25 - 16:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", 09/03/25 - 16:30  Pro Arena Romania
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium151/mono.m3u8
 
 #EXTINF:-1 tvg-id="Handball-Bundesliga - THW Kiel vs. Rhein-Neckar Lowen" tvg-name="Handball-Bundesliga : THW Kiel vs. Rhein-Neckar Lowen 09/03/25 - 16:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", 09/03/25 - 16:30  TV3 Sport Denmark
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4648,6 +4708,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium851/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium950/mono.m3u8
+
+#EXTINF:-1 tvg-id="Six Nations - England vs Italy" tvg-name="Six Nations : England vs Italy 09/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", 09/03/25 - 16:00  SuperSport Rugby
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium421/mono.m3u8
 
 #EXTINF:-1 tvg-id="Six Nations - England vs Italy" tvg-name="Six Nations : England vs Italy 09/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", 09/03/25 - 16:00  M+ Vamos Spain
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4793,6 +4859,12 @@ https://windnew.iosplayer.ru/wind/premium58/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium525/mono.m3u8
 
+#EXTINF:-1 tvg-id="World Championship | Trondheim Women | Freestyle Mass Start 50km - World Championship | Trondheim Women | Freestyle Mass Start 50km" tvg-name="World Championship | Trondheim Women | Freestyle Mass Start 50km 09/03/25 - 11:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 09/03/25 - 11:15  EuroSport 2 France
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium773/mono.m3u8
+
 #EXTINF:-1 tvg-id="Gudauri | Snowboard Cross World Cup | Day 2 - Gudauri | Snowboard Cross World Cup | Day 2" tvg-name="Gudauri | Snowboard Cross World Cup | Day 2 09/03/25 - 11:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 09/03/25 - 11:30  TNT Sports 1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -4829,6 +4901,360 @@ https://dokko1new.iosplayer.ru/dokko1/premium839/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium115/mono.m3u8
 
+#EXTINF:-1 tvg-id="Wild Nordic Season 1, Episode 4 - Wild Nordic Season 1, Episode 4" tvg-name="Wild Nordic Season 1, Episode 4 10/03/25 - 13:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 13:00  Nat Geo Wild USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium745/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Price Is Right Season 53, Episode 109 - The Price Is Right Season 53, Episode 109" tvg-name="The Price Is Right Season 53, Episode 109 10/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 16:00  CBSNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium767/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hell's Kitchen Season 13, Episode 9 - Hell's Kitchen Season 13, Episode 9" tvg-name="Hell's Kitchen Season 13, Episode 9 10/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 16:00  AXS TV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium742/mono.m3u8
+
+#EXTINF:-1 tvg-id="My Brilliant Friend Season 1, Episode 1 • Premiere - My Brilliant Friend Season 1, Episode 1 • Premiere" tvg-name="My Brilliant Friend Season 1, Episode 1 • Premiere 10/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 16:00  HBO Zone USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium694/mono.m3u8
+
+#EXTINF:-1 tvg-id="Muchacha italiana viene a casarse Season 1, Episode 36 - Muchacha italiana viene a casarse Season 1, Episode 36" tvg-name="Muchacha italiana viene a casarse Season 1, Episode 36 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 19:00  UniMAS USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium133/mono.m3u8
+
+#EXTINF:-1 tvg-id="Pictionary Season 3, Episode 106 - Pictionary Season 3, Episode 106" tvg-name="Pictionary Season 3, Episode 106 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 19:00  FOXNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium768/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beyond the Gates Season 1, Episode 11 - Beyond the Gates Season 1, Episode 11" tvg-name="Beyond the Gates Season 1, Episode 11 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 19:00  CBS USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium52/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beyond the Gates Season 1, Episode 11 - Beyond the Gates Season 1, Episode 11" tvg-name="Beyond the Gates Season 1, Episode 11 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 19:00  CBSNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium767/mono.m3u8
+
+#EXTINF:-1 tvg-id="General Hospital Season 62, Episode 125 - General Hospital Season 62, Episode 125" tvg-name="General Hospital Season 62, Episode 125 10/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 20:00  ABC NY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium766/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Kelly Clarkson Show Season 6, Episode 106 - The Kelly Clarkson Show Season 6, Episode 106" tvg-name="The Kelly Clarkson Show Season 6, Episode 106 10/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 21:00  NBCNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium769/mono.m3u8
+
+#EXTINF:-1 tvg-id="My Brilliant Friend Season 1, Episode 7 - My Brilliant Friend Season 1, Episode 7" tvg-name="My Brilliant Friend Season 1, Episode 7 10/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 22:00  HBO Zone USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium694/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rubble &amp; Crew Season 2, Episode 24 - Rubble &amp; Crew Season 2, Episode 24" tvg-name="Rubble &amp; Crew Season 2, Episode 24 10/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 22:00  Nick JR. USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium329/mono.m3u8
+
+#EXTINF:-1 tvg-id="American Ninja Warrior Season 13, Episode 10 - American Ninja Warrior Season 13, Episode 10" tvg-name="American Ninja Warrior Season 13, Episode 10 10/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 23:00  VICE TV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium659/mono.m3u8
+
+#EXTINF:-1 tvg-id="Jeopardy! Season 41, Episode 131 - Jeopardy! Season 41, Episode 131" tvg-name="Jeopardy! Season 41, Episode 131 10/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 23:00  ABC NY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium766/mono.m3u8
+
+#EXTINF:-1 tvg-id="Jeopardy! Season 41, Episode 131 - Jeopardy! Season 41, Episode 131" tvg-name="Jeopardy! Season 41, Episode 131 10/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 23:00  ABC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium51/mono.m3u8
+
+#EXTINF:-1 tvg-id="Live From THE PLAYERS Episode 1 • Live - Live From THE PLAYERS Episode 1 • Live" tvg-name="Live From THE PLAYERS Episode 1 • Live 10/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 00:00  Golf Channel USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium318/mono.m3u8
+
+#EXTINF:-1 tvg-id="Las hijas de la señora García Season 1, Episode 38 - Las hijas de la señora García Season 1, Episode 38" tvg-name="Las hijas de la señora García Season 1, Episode 38 10/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 00:00  Univision USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium132/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beyond the Gates Season 1, Episode 1 - Beyond the Gates Season 1, Episode 1" tvg-name="Beyond the Gates Season 1, Episode 1 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  BET USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium306/mono.m3u8
+
+#EXTINF:-1 tvg-id="90 Day - The Last Resort Season 2, Episode 15" tvg-name="90 Day: The Last Resort Season 2, Episode 15 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  TLC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium337/mono.m3u8
+
+#EXTINF:-1 tvg-id="Mysteries of the Unknown Season 9, Episode 11 - Mysteries of the Unknown Season 9, Episode 11" tvg-name="Mysteries of the Unknown Season 9, Episode 11 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  Travel Channel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium340/mono.m3u8
+
+#EXTINF:-1 tvg-id="American Ninja Warrior Season 13, Episode 11 - American Ninja Warrior Season 13, Episode 11" tvg-name="American Ninja Warrior Season 13, Episode 11 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  VICE TV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium659/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spring Baking Championship Season 11, Episode 1 - Spring Baking Championship Season 11, Episode 1" tvg-name="Spring Baking Championship Season 11, Episode 1 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  The Food Network
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium384/mono.m3u8
+
+#EXTINF:-1 tvg-id="All American Season 7, Episode 6 - All American Season 7, Episode 6" tvg-name="All American Season 7, Episode 6 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  CW USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium300/mono.m3u8
+
+#EXTINF:-1 tvg-id="All American Season 7, Episode 6 - All American Season 7, Episode 6" tvg-name="All American Season 7, Episode 6 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  CW PIX 11 USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium280/mono.m3u8
+
+#EXTINF:-1 tvg-id="Extracted Season 1, Episode 5 - Extracted Season 1, Episode 5" tvg-name="Extracted Season 1, Episode 5 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  FOX USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium54/mono.m3u8
+
+#EXTINF:-1 tvg-id="Extracted Season 1, Episode 5 - Extracted Season 1, Episode 5" tvg-name="Extracted Season 1, Episode 5 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  FOXNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium768/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ringo &amp; Friends at the Ryman - Ringo &amp; Friends at the Ryman" tvg-name="Ringo &amp; Friends at the Ryman 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  CBSNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium767/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ringo &amp; Friends at the Ryman - Ringo &amp; Friends at the Ryman" tvg-name="Ringo &amp; Friends at the Ryman 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  CBS USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium52/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Voice Season 27, Episode 6 - The Voice Season 27, Episode 6" tvg-name="The Voice Season 27, Episode 6 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  NBCNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium769/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Voice Season 27, Episode 6 - The Voice Season 27, Episode 6" tvg-name="The Voice Season 27, Episode 6 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  NBC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium53/mono.m3u8
+
+#EXTINF:-1 tvg-id="Papás por conveniencia Season 1, Episode 35 - Papás por conveniencia Season 1, Episode 35" tvg-name="Papás por conveniencia Season 1, Episode 35 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  Univision USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium132/mono.m3u8
+
+#EXTINF:-1 tvg-id="Below Deck Down Under Season 3, Episode 6 - Below Deck Down Under Season 3, Episode 6" tvg-name="Below Deck Down Under Season 3, Episode 6 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  Bravo USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium307/mono.m3u8
+
+#EXTINF:-1 tvg-id="Gypsy Rose - Life After Lock Up Season 2" tvg-name="Gypsy Rose: Life After Lock Up Season 2 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  Lifetime Network
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium326/mono.m3u8
+
+#EXTINF:-1 tvg-id="Calipari - Razor's Edge Season 1, Episode 5" tvg-name="Calipari: Razor's Edge Season 1, Episode 5 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  VICE TV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium659/mono.m3u8
+
+#EXTINF:-1 tvg-id="Love &amp; Hip Hop Miami Season 6, Episode 17 - Love &amp; Hip Hop Miami Season 6, Episode 17" tvg-name="Love &amp; Hip Hop Miami Season 6, Episode 17 10/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 01:00  VH1 USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium344/mono.m3u8
+
+#EXTINF:-1 tvg-id="Fatal Attraction Season 15, Episode 41 - Fatal Attraction Season 15, Episode 41" tvg-name="Fatal Attraction Season 15, Episode 41 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  TV ONE USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium660/mono.m3u8
+
+#EXTINF:-1 tvg-id="History's Greatest Mysteries Season 6, Episode 6 - History's Greatest Mysteries Season 6, Episode 6" tvg-name="History's Greatest Mysteries Season 6, Episode 6 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  History USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium322/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rachael Ray in Tuscany Season 1 - Rachael Ray in Tuscany Season 1" tvg-name="Rachael Ray in Tuscany Season 1 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  FYI USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium665/mono.m3u8
+
+#EXTINF:-1 tvg-id="Celebrity IOU Season 9, Episode 6 - Celebrity IOU Season 9, Episode 6" tvg-name="Celebrity IOU Season 9, Episode 6 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  HGTV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium382/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rescue - HI-Surf Season 1, Episode 17" tvg-name="Rescue: HI-Surf Season 1, Episode 17 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  FOXNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium768/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rescue - HI-Surf Season 1, Episode 17" tvg-name="Rescue: HI-Surf Season 1, Episode 17 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  FOX USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium54/mono.m3u8
+
+#EXTINF:-1 tvg-id="Maine Cabin Masters Season 10, Episode 15 - Maine Cabin Masters Season 10, Episode 15" tvg-name="Maine Cabin Masters Season 10, Episode 15 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  Magnolia Network
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium299/mono.m3u8
+
+#EXTINF:-1 tvg-id="Gypsy Rose - Life After Lock Up Season 2, Episode 1 • Premiere" tvg-name="Gypsy Rose: Life After Lock Up Season 2, Episode 1 • Premiere 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  Lifetime Network
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium326/mono.m3u8
+
+#EXTINF:-1 tvg-id="Contraband - Seized at the Border Season 6, Episode 2" tvg-name="Contraband: Seized at the Border Season 6, Episode 2 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  Discovery USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium313/mono.m3u8
+
+#EXTINF:-1 tvg-id="Baylen Out Loud Season 1, Episode 9 - Baylen Out Loud Season 1, Episode 9" tvg-name="Baylen Out Loud Season 1, Episode 9 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  TLC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium337/mono.m3u8
+
+#EXTINF:-1 tvg-id="Death by Fame Season 3, Episode 8 - Death by Fame Season 3, Episode 8" tvg-name="Death by Fame Season 3, Episode 8 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  ID USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium324/mono.m3u8
+
+#EXTINF:-1 tvg-id="Kiff Season 1 - Kiff Season 1" tvg-name="Kiff Season 1 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  Disney Channel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium312/mono.m3u8
+
+#EXTINF:-1 tvg-id="Kiff Season 1 - Kiff Season 1" tvg-name="Kiff Season 1 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  Disney XD
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium314/mono.m3u8
+
+#EXTINF:-1 tvg-id="Celtics City Season 1, Episode 2 - Celtics City Season 1, Episode 2" tvg-name="Celtics City Season 1, Episode 2 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:00  HBO USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium321/mono.m3u8
+
+#EXTINF:-1 tvg-id="Instant Italian With Anna Gass Season 1, Episode 1 - Instant Italian With Anna Gass Season 1, Episode 1" tvg-name="Instant Italian With Anna Gass Season 1, Episode 1 10/03/25 - 02:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 02:30  FYI USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium665/mono.m3u8
+
+#EXTINF:-1 tvg-id="House Hunters Season 258, Episode 6 - House Hunters Season 258, Episode 6" tvg-name="House Hunters Season 258, Episode 6 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  HGTV USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium382/mono.m3u8
+
+#EXTINF:-1 tvg-id="Pecado original Season 2, Episode 11 - Pecado original Season 2, Episode 11" tvg-name="Pecado original Season 2, Episode 11 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  UniMAS USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium133/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Hunting Party Season 1, Episode 6 - The Hunting Party Season 1, Episode 6" tvg-name="The Hunting Party Season 1, Episode 6 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  NBCNY USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium769/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Hunting Party Season 1, Episode 6 - The Hunting Party Season 1, Episode 6" tvg-name="The Hunting Party Season 1, Episode 6 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  NBC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium53/mono.m3u8
+
+#EXTINF:-1 tvg-id="Confessions of Octomom Season 1, Episode 1 • Premiere - Confessions of Octomom Season 1, Episode 1 • Premiere" tvg-name="Confessions of Octomom Season 1, Episode 1 • Premiere 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  Lifetime Network
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium326/mono.m3u8
+
+#EXTINF:-1 tvg-id="History's Most Shocking Season 1, Episode 6 - History's Most Shocking Season 1, Episode 6" tvg-name="History's Most Shocking Season 1, Episode 6 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  History USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium322/mono.m3u8
+
+#EXTINF:-1 tvg-id="90 Day - The Last Resort Season 2" tvg-name="90 Day: The Last Resort Season 2 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  TLC USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium337/mono.m3u8
+
+#EXTINF:-1 tvg-id="Grave Misfortune - Grave Misfortune" tvg-name="Grave Misfortune 10/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:00  ID USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium324/mono.m3u8
+
+#EXTINF:-1 tvg-id="American Idol Season 23, Episode 1 - American Idol Season 23, Episode 1" tvg-name="American Idol Season 23, Episode 1 10/03/25 - 03:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", 10/03/25 - 03:30  Freeform USA
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium301/mono.m3u8
+
 #EXTINF:-1 tvg-id="Turkey - 1. Lig - Keçiörengücü vs BB Erzurumspor" tvg-name="Turkey - 1. Lig : Keçiörengücü vs BB Erzurumspor 10/03/25 - 11:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 11:30  TRT Spor Turkey
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -4858,6 +5284,12 @@ https://zekonew.iosplayer.ru/zeko/premium63/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Slovenian Youth League - Olimpija vs Maribor" tvg-name="Slovenian Youth League : Olimpija vs Maribor 10/03/25 - 15:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 15:30  Sport Klub 3 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Romania - Liga I - Botoşani vs Unirea Slobozia" tvg-name="Romania - Liga I : Botoşani vs Unirea Slobozia 10/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 16:00  Digi Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4889,6 +5321,12 @@ https://nfsnew.iosplayer.ru/nfs/premium1/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium465/mono.m3u8
 
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Septemvri Sofia vs Hebar 1918" tvg-name="Bulgaria - Parva Liga : Septemvri Sofia vs Hebar 1918 10/03/25 - 16:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 16:30  Sport Klub HD Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
+
 #EXTINF:-1 tvg-id="Czech Republic - 2. liga - Táborsko vs Vysočina Jihlava" tvg-name="Czech Republic - 2. liga : Táborsko vs Vysočina Jihlava 10/03/25 - 16:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 16:30  ČT Sport Czech Republic
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -4918,6 +5356,12 @@ https://zekonew.iosplayer.ru/zeko/premium145/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium3/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen-Bundesliga - Werder Bremen vs Hoffenheim" tvg-name="Frauen-Bundesliga : Werder Bremen vs Hoffenheim 10/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 18:00  DAZN1 DE
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8
 
 #EXTINF:-1 tvg-id="Frauen-Bundesliga - Werder Bremen vs Hoffenheim" tvg-name="Frauen-Bundesliga : Werder Bremen vs Hoffenheim 10/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 18:00  Vodafone Sport
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4991,6 +5435,12 @@ https://windnew.iosplayer.ru/wind/premium49/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium117/mono.m3u8
 
+#EXTINF:-1 tvg-id="Super Lig - Beşiktaş vs Gaziantep FK" tvg-name="Super Lig : Beşiktaş vs Gaziantep FK 10/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 18:30  Sport Klub 3 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
+
 #EXTINF:-1 tvg-id="Sweden - Svenska Cupen - Malmö FF vs Elfsborg" tvg-name="Sweden - Svenska Cupen : Malmö FF vs Elfsborg 10/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 18:30  TV4 Fotball
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5051,6 +5501,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium640/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium85/mono.m3u8
 
+#EXTINF:-1 tvg-id="AFC Champions League Elite - Al Nassr vs Esteghlal" tvg-name="AFC Champions League Elite : Al Nassr vs Esteghlal 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Sport Klub HD Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
+
 #EXTINF:-1 tvg-id="AFC Champions League Elite - Al Nassr vs Esteghlal" tvg-name="AFC Champions League Elite : Al Nassr vs Esteghlal 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Sport 2 Israel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5063,6 +5519,12 @@ https://zekonew.iosplayer.ru/zeko/premium141/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium467/mono.m3u8
 
+#EXTINF:-1 tvg-id="AFC Champions League Elite - Al Sadd vs Al Wasl" tvg-name="AFC Champions League Elite : Al Sadd vs Al Wasl 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Sport Klub 7 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium16/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A (women) - Como vs Sassuolo" tvg-name="Italy - Serie A (women) : Como vs Sassuolo 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Fox Soccer Plus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5074,6 +5536,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium756/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium808/mono.m3u8
+
+#EXTINF:-1 tvg-id="Denmark - Super Liga - Randers vs Brøndby" tvg-name="Denmark - Super Liga : Randers vs Brøndby 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Sport Klub 6 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium17/mono.m3u8
 
 #EXTINF:-1 tvg-id="Poland - Ekstraklasa - Motor Lublin vs Legia Warszawa" tvg-name="Poland - Ekstraklasa : Motor Lublin vs Legia Warszawa 10/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 10/03/25 - 19:00  Canal+ Sport 3 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5837,6 +6305,12 @@ https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
 
+#EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="WWE Monday Night RAW 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="WWE", 10/03/25 - 02:00  Netflix PPV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
+
 #EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="WWE Monday Night RAW 10/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="WWE", 10/03/25 - 02:00  SONY TEN 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5885,6 +6359,12 @@ https://zekonew.iosplayer.ru/zeko/premium142/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium148/mono.m3u8
 
+#EXTINF:-1 tvg-id="Slovenian League (M) - LTH Castings vs Podčetrtek" tvg-name="Slovenian League (M) : LTH Castings vs Podčetrtek 10/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 17:30  Sport Klub 8 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium18/mono.m3u8
+
 #EXTINF:-1 tvg-id="Romania Liga Nationala - Steaua CSM Bucuresti vs. CSU Sibiu" tvg-name="Romania Liga Nationala : Steaua CSM Bucuresti vs. CSU Sibiu 10/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 18:00  Digi Sport 3 Romania
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5920,6 +6400,12 @@ https://nfsnew.iosplayer.ru/nfs/premium10/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium11/mono.m3u8
+
+#EXTINF:-1 tvg-id="Super League - Maccabi Tel Aviv vs Hapoel Afula" tvg-name="Super League : Maccabi Tel Aviv vs Hapoel Afula 10/03/25 - 20:05" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 20:05  Sport Klub 4 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium104/mono.m3u8
 
 #EXTINF:-1 tvg-id="Super League - Maccabi Tel Aviv vs Hapoel Afula" tvg-name="Super League : Maccabi Tel Aviv vs Hapoel Afula 10/03/25 - 20:05" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 20:05  Sport 5 Live Israel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5980,6 +6466,12 @@ https://zekonew.iosplayer.ru/zeko/premium112/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium449/mono.m3u8
+
+#EXTINF:-1 tvg-id="College Basketball - SoCon Tournament, Championship: Teams TBA" tvg-name="College Basketball :SoCon Tournament, Championship: Teams TBA 10/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:00  Sport Klub 3 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Unrivaled Basketball - Mist Basketball Club vs Lunar Owls Basketball Club" tvg-name="Unrivaled Basketball : Mist Basketball Club vs Lunar Owls Basketball Club 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  truTV USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -6089,19 +6581,19 @@ https://nfsnew.iosplayer.ru/nfs/premium11/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium777/mono.m3u8
 
-#EXTINF:-1 tvg-id="NBA - Utah Jazz vs Boston Celtics" tvg-name="NBA : Utah Jazz vs Boston Celtics 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  Home Feed
+#EXTINF:-1 tvg-id="NBA - Utah Jazz (AWAY) vs Boston Celtics (HOME)" tvg-name="NBA : Utah Jazz (AWAY) vs Boston Celtics (HOME) 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  Home Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium12/mono.m3u8
 
-#EXTINF:-1 tvg-id="NBA - Utah Jazz vs Boston Celtics" tvg-name="NBA : Utah Jazz vs Boston Celtics 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  Away Feed
+#EXTINF:-1 tvg-id="NBA - Utah Jazz (AWAY) vs Boston Celtics (HOME)" tvg-name="NBA : Utah Jazz (AWAY) vs Boston Celtics (HOME) 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  Away Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium13/mono.m3u8
 
-#EXTINF:-1 tvg-id="NBA - Utah Jazz vs Boston Celtics" tvg-name="NBA : Utah Jazz vs Boston Celtics 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  NBCS Boston USA
+#EXTINF:-1 tvg-id="NBA - Utah Jazz (AWAY) vs Boston Celtics (HOME)" tvg-name="NBA : Utah Jazz (AWAY) vs Boston Celtics (HOME) 10/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 10/03/25 - 00:30  NBCS Boston USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
@@ -6437,6 +6929,18 @@ https://windnew.iosplayer.ru/wind/premium554/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium316/mono.m3u8
 
+#EXTINF:-1 tvg-id="Varsity Cup '25 - CUT vs Tuks" tvg-name="Varsity Cup '25: CUT vs Tuks 10/03/25 - 15:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", 10/03/25 - 15:40  SuperSport Rugby
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium421/mono.m3u8
+
+#EXTINF:-1 tvg-id="Varsity Cup '25 - NWU vs UFS" tvg-name="Varsity Cup '25: NWU vs UFS 10/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", 10/03/25 - 18:00  SuperSport Rugby
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium421/mono.m3u8
+
 #EXTINF:-1 tvg-id="A1 Padel - Open de Córdoba (T2025): Day 1" tvg-name="A1 Padel: Open de Córdoba (T2025): Day 1 10/03/25 - 13:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Squash", 10/03/25 - 13:00  DAZN2 ES
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -6455,7 +6959,7 @@ https://nfsnew.iosplayer.ru/nfs/premium14/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
-#EXTINF:-1 tvg-id="PlusLiga - GKS Katowicevs.Skra Belchatow" tvg-name="PlusLiga : GKS Katowicevs.Skra Belchatow 10/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", 10/03/25 - 20:30  Polsat Sport 1 Poland
+#EXTINF:-1 tvg-id="PlusLiga - GKS Katowicevs.Skra Belchatow Polsat" tvg-name="PlusLiga : GKS Katowicevs.Skra Belchatow Polsat 10/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", 10/03/25 - 20:30  Sport 1 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
