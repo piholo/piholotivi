@@ -13,7 +13,7 @@ import time
 # Constants
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "itaevents.m3u8"
+M3U8_OUTPUT_FILE = "fullita.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 # Define keywords for filtering channels
