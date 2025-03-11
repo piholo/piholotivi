@@ -25,7 +25,7 @@ jobs:
           pip install bs4
           pip install chardet
           
-      - name: Run EPG grabber script
+      - name: Run fullita script
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
