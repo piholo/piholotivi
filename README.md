@@ -5,18 +5,18 @@ M3U Url
 # With MediaFlow Proxy on Render (DD not working with Render MFP)
 
 ## Itafree and VV
-
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfprender
 
 #  With MediaFlow Proxy on HuggingFace (VV not working with Render MFP)
 
 ## Itafree and DD and All events
-
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfphf_ddALLevents
 
 ## Itafree and DD and Italian events
-
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfphf_ddita
 
 ## Itafree and DD and Only Italian channel events
-
+https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/mfphf_ddfullita
 
 
 
