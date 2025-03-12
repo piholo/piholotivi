@@ -8,11 +8,15 @@ on:
 jobs:
   update-files:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
+    
     steps:
       - name: Checkout repository (no history)
         uses: actions/checkout@v3
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,10 +39,19 @@ jobs:
           rm -f 247world.xml
           python 247world.py
           
-      - name: Force commit and push the changes (no history)
+      - name: Commit and push changes
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update World weekly"
-          git push
+          
+          # Aggiunto pull con rebase per incorporare modifiche recenti
+          git pull --rebase origin main
+          
+          # Aggiunto controllo per committare solo se ci sono modifiche
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "Update World 247 $(date +%H:%M)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
