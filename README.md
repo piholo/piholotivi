@@ -2,40 +2,38 @@ DONT USE ANY OF THE XML EPG, For the italian lists it's not needed any EPG, chec
 
 M3U Url
 
-# With MediaFlow Proxy on Render 
+# With MediaFlow Proxy on Render (DD not working with Render MFP)
+
+## Itafree and VV
 
 
-## Itafree, VV, DD + Full events
+#  With MediaFlow Proxy on HuggingFace (VV not working with Render MFP)
 
-https://paste.ee/r/vUgmGnV1/0
-
-
-## Itafree, VV, DD + Ita events
-
-https://paste.ee/r/bYWfWLj0/0
+## Itafree and DD and All events
 
 
+## Itafree and DD and Italian events
 
-#  With MediaFlow Proxy on HuggingFace
 
-https://paste.ee/r/nnfXKzVa/0
+## Itafree and DD and Only Italian channel events
 
 
 
-#  With MediaFlow Proxy on VPS
 
-https://paste.ee/r/vUgmGnV1/0
+#  With MediaFlow Proxy on VPS (should work everything, it depends on VPS ips)
+
+
 
 Or 
 
 Python script for channels and resolver (stable)
 Python script, need to be downloaded and executed :
 
-https://paste.ee/r/cPmsdYE3/0
+
 
 Resolver, this should be pasted in the first advance setting (URL Script Resolver Python:), remember to select "Abilita Resolver Python"
 
-https://paste.ee/d/R24c9IeI/0
+
 
 
 
@@ -46,7 +44,6 @@ https://github.com/ciccioxm3/omg/raw/refs/heads/main/onlyevents.m3u8
 
 
 #  International MFP on Render or HF or VPS
-
 
 ## 24/7 world DD
 
@@ -69,5 +66,4 @@ https://github.com/ciccioxm3/omg/raw/refs/heads/main/onlyevents.m3u8
 
 ## All together :
 
-[https://paste.ee/r/8zYIuF00/0
-](https://paste.ee/r/FJf9WBSx/0)
+
