@@ -35,4 +35,4 @@ jobs:
           git commit -m "Aggiungi file generato channels_italy"
 
       - name: Pusha il cambiamento
-        run: git push --force
+        run: git push
