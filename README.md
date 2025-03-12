@@ -34,24 +34,22 @@ https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfpvps_fullita
 Or 
 
 Python script for channels and resolver (stable)
+
 Python script, need to be downloaded and executed :
-
-
-
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/ScriptVV.py
 
 Resolver, this should be pasted in the first advance setting (URL Script Resolver Python:), remember to select "Abilita Resolver Python"
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/ResolverVV.py
 
 
 
-
-
-#  Only events MFP on Render or HF or VPS
+#  Only events MFP on HF or VPS
 
 https://github.com/ciccioxm3/omg/raw/refs/heads/main/onlyevents.m3u8
 
 
 
-#  International MFP on Render or HF or VPS
+#  International MFP on HF or VPS
 
 ## 24/7 world DD
 
@@ -67,11 +65,9 @@ https://github.com/ciccioxm3/omg/raw/refs/heads/main/247world.m3u8
 https://github.com/ciccioxm3/omg/raw/refs/heads/main/channels_world.m3u8
 
 
-## Events DD
 
-https://github.com/ciccioxm3/omg/raw/refs/heads/main/onlyevents.m3u8
+# All together VPS :
 
-
-## All together :
-
+## 24/7 world DD, Events, VV
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/ALL_World
 
