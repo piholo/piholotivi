@@ -22,12 +22,20 @@ https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/mfphf_ddfullita
 
 #  With MediaFlow Proxy on VPS (should work everything, it depends on VPS ips)
 
+## Itafree, VV, DD and All events
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfpvps_allevents
 
+## Itafree, VV, DD and Ita events
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfpvps_itaevents
+
+## Itafree, VV, DD and Only Italian channel events
+https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfpvps_fullita
 
 Or 
 
 Python script for channels and resolver (stable)
 Python script, need to be downloaded and executed :
+
 
 
 
