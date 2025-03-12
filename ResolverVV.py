@@ -3,7 +3,8 @@
 #
 # Vavoo Resolver per OMG TV
 # Questo script risolve gli URL di streaming di Vavoo
-# Versione 1.0.3 - Ottimizzata risoluzione e proxy
+# Testato il 27/2/2025
+# Versione 1.0.6 - Ottimizzata risoluzione e proxy con nuovo flusso e log ridotto
 
 import sys
 import json
@@ -15,8 +16,8 @@ import logging
 from urllib.parse import urlparse, parse_qs, urlencode
 
 # Configurazione
-RESOLVER_VERSION = "1.0.3"
-CACHE_DURATION = 30 * 60  # 30 minuti
+RESOLVER_VERSION = "1.0.4"
+CACHE_DURATION = 20 * 60  # 30 minuti
 
 # Configurazione del logging
 logging.basicConfig(
@@ -47,7 +48,7 @@ def create_proxy_session(proxy_config):
         
         proxy_session = requests.Session()
         
-        logger.info(f"Configurazione proxy: URL={proxy_url}, Password={'*'*len(proxy_pwd)}")
+        logger.info(f"Configurazione proxy: URL={proxy_url}")
         
         return proxy_session
         
@@ -213,7 +214,6 @@ def resolve_vavoo_url(url, headers=None, channel_name=None, session=None, signat
     }
 
     try:
-        logger.info(f"Risolvendo URL per canale: {channel_name}")
         response = session.post(
             "https://vavoo.to/vto-cluster/mediahubmx-resolve.json", 
             json=data, 
@@ -249,77 +249,53 @@ def resolve_vavoo_url(url, headers=None, channel_name=None, session=None, signat
 def resolve_link(url, headers=None, channel_name=None, proxy_config=None):
     """
     Funzione principale che risolve un link
+    Solo risolve gli URL che contengono vavoo.to, 
+    per altri URL restituisce immediatamente l'URL originale
     """
     logger.info(f"Risoluzione URL: {url}")
     logger.info(f"Canale: {channel_name}")
-    logger.info(f"Configurazione Proxy: {proxy_config}")
     
-    # Determina la sessione: con proxy se configurato, altrimenti standard
+    # Se l'URL non è di Vavoo
+    if "vavoo.to" not in url:
+        # Restituisci l'URL originale, con proxy se configurato
+        if proxy_config:
+            proxy_url = build_proxy_url(proxy_config, url, headers)
+            return {
+                "resolved_url": url,  # URL originale NON modificato
+                "proxied_url": proxy_url,  # URL proxied generato
+                "headers": headers or {}
+            }
+        # Se non c'è proxy, restituisci solo l'URL originale
+        return {"resolved_url": url, "headers": headers or {}}
+    
+    # Per URL Vavoo, esegui la risoluzione completa
     session = create_proxy_session(proxy_config) if proxy_config else requests.Session()
     
-    # Parsing dell'URL per estrarre parametri e determinare il tipo
-    parsed_url = urlparse(url)
-    
-    # Gestione URL VAVOO
-    if "vavoo.to" in parsed_url.netloc or parsed_url.netloc == "localhost":
-        try:
-            # Ottieni la firma di autenticazione una sola volta
-            signature = get_auth_signature(session)
-            if not signature:
-                logger.error("Impossibile ottenere la firma di autenticazione")
-                return {"resolved_url": url, "headers": headers or {}}
-            
-            # Risolvi l'URL Vavoo usando la sessione proxy e la firma già ottenuta
-            resolved_result = resolve_vavoo_url(url, headers, channel_name, session, signature)
-            
-            # Se proxy è configurato, passa la risoluzione attraverso il proxy
-            if proxy_config:
-                proxy_url = build_proxy_url(proxy_config, resolved_result['resolved_url'], resolved_result['headers'])
-                
-                # Risoluzione finale tramite proxy
-                try:
-                    response = requests.get(proxy_url, allow_redirects=True)
-                    response.raise_for_status()
-                    
-                    # Restituisci l'URL finale pulito (senza proxy)
-                    return resolved_result
-                except Exception as e:
-                    logger.error(f"Errore durante la risoluzione tramite proxy: {e}")
-                    # Fallback all'URL originale se la risoluzione tramite proxy fallisce
-                    return resolved_result
-            
-            return resolved_result
-        
-        except Exception as e:
-            logger.error(f"Errore generale nella risoluzione: {e}")
+    try:
+        # Ottieni la firma di autenticazione una sola volta
+        signature = get_auth_signature(session)
+        if not signature:
+            logger.error("Impossibile ottenere la firma di autenticazione")
             return {"resolved_url": url, "headers": headers or {}}
-    
-    # Per URL non Vavoo, segui la stessa logica
-    if proxy_config:
-        proxy_url = build_proxy_url(proxy_config, url, headers)
         
-        try:
-            response = requests.get(proxy_url, allow_redirects=True)
-            response.raise_for_status()
+        # Risolvi l'URL Vavoo usando la sessione proxy e la firma già ottenuta
+        resolved_result = resolve_vavoo_url(url, headers, channel_name, session, signature)
+        
+        # Se proxy è configurato, passa la risoluzione attraverso il proxy
+        if proxy_config:
+            proxy_url = build_proxy_url(proxy_config, resolved_result['resolved_url'], resolved_result['headers'])
             
-            # Restituisci l'URL finale pulito (senza proxy)
             return {
-                "resolved_url": url,
-                "headers": headers or {}
+                "resolved_url": resolved_result['resolved_url'],
+                "proxied_url": proxy_url,
+                "headers": resolved_result['headers']
             }
-        except Exception as e:
-            logger.error(f"Errore durante la risoluzione tramite proxy: {e}")
-            # Fallback all'URL originale se la risoluzione tramite proxy fallisce
-            return {
-                "resolved_url": url,
-                "headers": headers or {}
-            }
+        
+        return resolved_result
     
-    # URL generico senza proxy
-    return {
-        "resolved_url": url,
-        "headers": headers or {}
-    }
+    except Exception as e:
+        logger.error(f"Errore generale nella risoluzione: {e}")
+        return {"resolved_url": url, "headers": headers or {}}
 
 def main():
     """
