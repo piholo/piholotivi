@@ -313,11 +313,10 @@ def process_events():
                             continue
 
                         # Build channel name with new date format
-                        #channelName = game["event"] + " " + formatted_date_time + "  " + channel["channel_name"]
-                        channelName = formatted_date_time + "  " + channel["channel_name"]
-                        # Extract event and channel parts for analysis
-                        #event_part = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
-                        #channel_part = channel["channel_name"].strip()
+                        if isinstance(channel, dict) and "channel_name" in channel:
+                            channelName = formatted_date_time + "  " + channel["channel_name"]
+                        else:
+                            channelName = formatted_date_time + "  " + str(channel)
                         # Extract event name for the tvg-id
                         event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
                         event_details = game["event"]  # Keep the full event details for tvg-name
