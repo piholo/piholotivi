@@ -44,14 +44,21 @@ jobs:
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
           
-          # Aggiunto pull con rebase per incorporare modifiche recenti
-          git pull --rebase origin main
+          # Stage all changes first
+          git add .
           
-          # Aggiunto controllo per committare solo se ci sono modifiche
+          # Check if there are changes to commit
           if [[ -n $(git status --porcelain) ]]; then
-            git add .
-            git commit -m "Update World 247 $(date +%H:%M)"
-            git push
+            # Commit changes before pulling
+            git commit -m "Update world247 $(date +%H:%M)"
+            
+            # Try to pull with rebase, but force push if it fails
+            if ! git pull --rebase origin main; then
+              echo "Rebase failed, using force push instead"
+              git push --force
+            else
+              git push
+            fi
           else
             echo "No changes to commit"
           fi
