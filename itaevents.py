@@ -349,8 +349,8 @@ def process_events():
                                 filtered_channels += 1
                         else:
                             print(f"Failed to get stream URL for channel ID: {channelID}")
-                        else:
-                            print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
+                    else:
+                        print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
 
         except KeyError as e:
             print(f"KeyError: {e} - Key may not exist in JSON structure")
