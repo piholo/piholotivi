@@ -347,8 +347,8 @@ def process_events():
 
                                 processed_channels += 1
                                 filtered_channels += 1
-                            else:
-                                print(f"Failed to get stream URL for channel ID: {channelID}")
+                        else:
+                            print(f"Failed to get stream URL for channel ID: {channelID}")
                         else:
                             print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
 
