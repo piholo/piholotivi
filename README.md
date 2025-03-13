@@ -7,7 +7,7 @@ M3U Url
 ## Itafree and VV
 https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfprender
 
-#  With MediaFlow Proxy on HuggingFace (VV not working with Render MFP)
+#  With MediaFlow Proxy on HuggingFace (VV not working with HF MFP)
 
 ## Itafree and DD and All events
 https://github.com/ciccioxm3/omg/raw/refs/heads/main/mfphf_ddALLevents
