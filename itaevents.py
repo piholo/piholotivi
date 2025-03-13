@@ -334,7 +334,6 @@ def process_events():
                                 channel_name_str = str(channel)
                             stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
                             
-<<<<<<< HEAD
                             if stream_url_dynamic:
                                 # Around line 361 where you access channel["channel_name"] again
                                 if isinstance(channel, dict) and "channel_name" in channel:
@@ -348,7 +347,6 @@ def process_events():
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                     file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
                                     file.write(f"{stream_url_dynamic}\n\n")
-=======
                             # Around line 361 where you access channel["channel_name"] again
                             if isinstance(channel, dict) and "channel_name" in channel:
                                 channel_name_str = channel["channel_name"]
@@ -359,7 +357,6 @@ def process_events():
                                 file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                 file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
                                 file.write(f"{stream_url_dynamic}\n\n")
->>>>>>> 91ed309d5cad53dfe9c31495789c8e2afa4de147
 
                                 processed_channels += 1
                                 filtered_channels += 1
