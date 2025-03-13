@@ -334,16 +334,19 @@ def process_events():
                                 channel_name_str = str(channel)
                             stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
                             
-                            # Around line 361 where you access channel["channel_name"] again
-                            if isinstance(channel, dict) and "channel_name" in channel:
-                                channel_name_str = channel["channel_name"]
-                            else:
-                                channel_name_str = str(channel)
-                            file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{event_details} {formatted_date_time}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
-                                file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
-                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                                file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
-                                file.write(f"{stream_url_dynamic}\n\n")
+                            if stream_url_dynamic:
+                                # Around line 361 where you access channel["channel_name"] again
+                                if isinstance(channel, dict) and "channel_name" in channel:
+                                    channel_name_str = channel["channel_name"]
+                                else:
+                                    channel_name_str = str(channel)
+                                
+                                with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{event_details} {formatted_date_time}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
+                                    file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+                                    file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                                    file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                                    file.write(f"{stream_url_dynamic}\n\n")
 
                                 processed_channels += 1
                                 filtered_channels += 1
