@@ -302,18 +302,15 @@ def process_events():
                             continue
 
                         # Build channel name with new date format
-                        # Around line 306 in the process_events function
-                        # Change this line:
-                        channelName = formatted_date_time + "  " + channel["channel_name"]
+                        # Remove this problematic line:
+                        # channelName = formatted_date_time + "  " + channel["channel_name"]
                         
-                        # To this (similar to what you already have at line 309):
+                        # Keep only this correct implementation:
                         if isinstance(channel, dict) and "channel_name" in channel:
                             channelName = formatted_date_time + "  " + channel["channel_name"]
                         else:
                             channelName = formatted_date_time + "  " + str(channel)
-                        # Extract event and channel parts for analysis
-                        #event_part = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
-                        #channel_part = channel["channel_name"].strip()
+                        
                         # Extract event name for the tvg-id
                         event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
                         event_details = game["event"]  # Keep the full event details for tvg-name
