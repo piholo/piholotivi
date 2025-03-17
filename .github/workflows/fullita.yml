@@ -2,7 +2,7 @@ name: Update fullita
 
 on:
   schedule:
-    - cron: "*/45 * * * *" # ogni 3 ore
+    - cron: "*/59 * * * *" # ogni 3 ore
   workflow_dispatch:
 
 jobs:
