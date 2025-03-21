@@ -194,7 +194,7 @@ def should_include_channel(channel_name, event_name, sport_key):
 
 def process_events():
     # Fetch JSON schedule
-    fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
+    # fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
 
     # Load JSON data
     dadjson = loadJSON(DADDY_JSON_FILE)
