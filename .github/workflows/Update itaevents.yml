@@ -33,7 +33,6 @@ jobs:
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
-          rm -f daddyliveSchedule.json
           python itaevents.py
           
       - name: Commit and push changes
