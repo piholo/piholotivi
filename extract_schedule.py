@@ -8,67 +8,67 @@ from bs4 import BeautifulSoup
 
 def html_to_json(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
-
+    
     # Initialize the result dictionary
     result = {}
-
-    # Get the date from the first strong tag
-    date_row = soup.find('tr', class_='date-row')
-    if date_row:
-        date = date_row.find('strong').text.strip()
-        result[date] = {}
-    else:
+    
+    # Find all date rows to handle multiple days
+    date_rows = soup.find_all('tr', class_='date-row')
+    
+    if not date_rows:
+        print("AVVISO: Nessuna riga di data trovata nel contenuto HTML!")
         return {}
-
-    # Find all category rows
-    category_rows = soup.find_all('tr', class_='category-row')
-
+    
+    current_date = None
     current_category = None
-
-    for category_row in category_rows:
-        category_name = category_row.find('strong').text.strip() + "</span>"
-        result[date][category_name] = []
-        current_category = category_name
-
-        # Find all event rows that follow this category row until the next category row
-        next_row = category_row.find_next_sibling('tr')
-        while next_row and 'category-row' not in next_row.get('class', []):
-            if 'event-row' in next_row.get('class', []):
-                event_time = next_row.find('div', class_='event-time').find('strong').text.strip()
-                event_info = next_row.find('div', class_='event-info').text.strip()
-
-                event_data = {
-                    "time": event_time,
-                    "event": event_info,
-                    "channels": []
-                }
-
-                # Find the channel row that follows this event row
-                channel_row_id = f"channels-{date}-{current_category}-{len(result[date][current_category])}"
-                channel_row = soup.find('tr', id=channel_row_id)
-
-                if channel_row:
-                    channel_links = channel_row.find_all('a', class_='channel-button-small')
-                    for link in channel_links:
-                        href = link['href']
-                        channel_id_match = re.search(r'stream-(\d+)\.php', href)
-                        if channel_id_match:
-                            channel_id = channel_id_match.group(1)
-                            channel_name = link.text.strip()
-                            # Remove the channel ID from the channel name if it's in parentheses
-                            channel_name = re.sub(r'\s*\(CH-\d+\)$', '', channel_name)
-
-                            event_data["channels"].append({
-                                "channel_name": channel_name,
-                                "channel_id": channel_id
-                            })
-
-                result[date][current_category].append(event_data)
-
-            next_row = next_row.find_next_sibling('tr')
-            if not next_row or ('category-row' in next_row.get('class', [])):
-                break
-
+    
+    # Process each element in the table
+    for row in soup.find_all('tr'):
+        # If it's a date row, set the current date
+        if 'date-row' in row.get('class', []):
+            current_date = row.find('strong').text.strip()
+            result[current_date] = {}
+            current_category = None
+        
+        # If it's a category row, set the current category
+        elif 'category-row' in row.get('class', []) and current_date:
+            current_category = row.find('strong').text.strip() + "</span>"
+            result[current_date][current_category] = []
+        
+        # If it's an event row and we have both date and category
+        elif 'event-row' in row.get('class', []) and current_date and current_category:
+            event_time = row.find('div', class_='event-time').find('strong').text.strip()
+            event_info = row.find('div', class_='event-info').text.strip()
+            
+            event_data = {
+                "time": event_time,
+                "event": event_info,
+                "channels": []
+            }
+            
+            # Find the channel row that follows this event row
+            event_index = len(result[current_date][current_category])
+            channel_row_id = f"channels-{current_date}-{current_category}-{event_index}"
+            channel_row = soup.find('tr', id=channel_row_id)
+            
+            if channel_row:
+                channel_links = channel_row.find_all('a', class_='channel-button-small')
+                for link in channel_links:
+                    href = link['href']
+                    channel_id_match = re.search(r'stream-(\d+)\.php', href)
+                    if channel_id_match:
+                        channel_id = channel_id_match.group(1)
+                        channel_name = link.text.strip()
+                        # Remove the channel ID from the channel name if it's in parentheses
+                        channel_name = re.sub(r'\s*\(CH-\d+\)$', '', channel_name)
+                        
+                        event_data["channels"].append({
+                            "channel_name": channel_name,
+                            "channel_id": channel_id
+                        })
+            
+            result[current_date][current_category].append(event_data)
+    
     return result
 
 def extract_schedule_container():
