@@ -29,12 +29,10 @@ jobs:
           pip install bs4
           pip install chardet
           
-      - name: Run EPG grabber script
+      - name: Run script
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
-          rm -f daddyliveSchedule.json
-          rm -f 247channels.html
           python onlyevents.py
           
       - name: Commit and push changes
