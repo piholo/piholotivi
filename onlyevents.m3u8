@@ -1133,12 +1133,6 @@ https://zekonew.iosplayer.ru/zeko/premium123/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium71/mono.m3u8
 
-#EXTINF:-1 tvg-id="World Cup Qualifying - Paraguay vs Chile" tvg-name="World Cup Qualifying : Paraguay vs Chile 20/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 2
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium1/mono.m3u8
-
 #EXTINF:-1 tvg-id="World Cup Qualifying - Paraguay vs Chile" tvg-name="World Cup Qualifying : Paraguay vs Chile 20/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", #Vamos ES
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1318,12 +1312,6 @@ https://zekonew.iosplayer.ru/zeko/premium433/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium140/mono.m3u8
-
-#EXTINF:-1 tvg-id="World Cup Qualifying - Peru vs Bolivia" tvg-name="World Cup Qualifying : Peru vs Bolivia 20/03/25 - 02:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 2
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium1/mono.m3u8
 
 #EXTINF:-1 tvg-id="World Cup Qualifying - Peru vs Bolivia" tvg-name="World Cup Qualifying : Peru vs Bolivia 20/03/25 - 02:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", #Vamos ES
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1733,6 +1721,12 @@ https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium455/mono.m3u8
 
+#EXTINF:-1 tvg-id="Euroleague - Konferenz" tvg-name="Euroleague : Konferenz 20/03/25 - 20:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Magenta Sport 301
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
+
 #EXTINF:-1 tvg-id="Euroleague - Maccabi Tel-Aviv vs. Virtus Bologna" tvg-name="Euroleague : Maccabi Tel-Aviv vs. Virtus Bologna 20/03/25 - 20:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Magenta Sport 303
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1882,12 +1876,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium151/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium102/mono.m3u8
-
-#EXTINF:-1 tvg-id="NBA G-League - Austin Toros Spurs vs Iowa Wolves" tvg-name="NBA G-League : Austin Toros Spurs vs Iowa Wolves 20/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium152/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA G-League - Texas Legends vs Santa Cruz Warriors" tvg-name="NBA G-League : Texas Legends vs Santa Cruz Warriors 20/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN+ USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2039,6 +2027,18 @@ https://zekonew.iosplayer.ru/zeko/premium763/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium404/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Toronto Raptors vs Golden State Warriors" tvg-name="NBA : Toronto Raptors vs Golden State Warriors 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Home Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Toronto Raptors vs Golden State Warriors" tvg-name="NBA : Toronto Raptors vs Golden State Warriors 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium106/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Toronto Raptors vs Golden State Warriors" tvg-name="NBA : Toronto Raptors vs Golden State Warriors 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBCS Bay Area
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2081,6 +2081,18 @@ https://dokko1new.iosplayer.ru/dokko1/premium628/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Chicago Bulls vs Sacramento Kings" tvg-name="NBA : Chicago Bulls vs Sacramento Kings 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Home Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Chicago Bulls vs Sacramento Kings" tvg-name="NBA : Chicago Bulls vs Sacramento Kings 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium108/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Chicago Bulls vs Sacramento Kings" tvg-name="NBA : Chicago Bulls vs Sacramento Kings 20/03/25 - 03:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBCS California
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2092,6 +2104,18 @@ https://windnew.iosplayer.ru/wind/premium755/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium404/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Milwaukee Bucks vs Los Angeles Lakers" tvg-name="NBA : Milwaukee Bucks vs Los Angeles Lakers 20/03/25 - 03:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Home Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium109/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Milwaukee Bucks vs Los Angeles Lakers" tvg-name="NBA : Milwaukee Bucks vs Los Angeles Lakers 20/03/25 - 03:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium110/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA - Milwaukee Bucks vs Los Angeles Lakers" tvg-name="NBA : Milwaukee Bucks vs Los Angeles Lakers 20/03/25 - 03:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
