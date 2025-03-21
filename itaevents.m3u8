@@ -101,12 +101,6 @@ https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium460/mono.m3u8
 
-#EXTINF:-1 tvg-id="Champions League - Perugia Umbria Volley vs. VV Monza" tvg-name="Champions League : Perugia Umbria Volley vs. VV Monza 20/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match Igra Russia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
-
 #EXTINF:-1 tvg-id="Champions League - Perugia Umbria Volley vs. VV Monza" tvg-name="Champions League : Perugia Umbria Volley vs. VV Monza 20/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Cosmote Sport 7 Greece
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
