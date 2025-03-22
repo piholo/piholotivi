@@ -4,7 +4,9 @@ on:
   schedule:
     - cron: "*/59 * * * *" # ogni 3 ore
   workflow_dispatch:
-
+permissions:
+  contents: write
+  workflows: write
 jobs:
   update-files:
     runs-on: ubuntu-latest
