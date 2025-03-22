@@ -39,9 +39,9 @@ jobs:
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
+          rm -f mergeita.m3u8
           python extract_schedule.py
           rm -f 247channels.html
-          rm -f mergeita.m3u8
           python mergedefinitivo.py
           
       - name: Commit and push changes
