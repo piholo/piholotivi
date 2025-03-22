@@ -5,8 +5,9 @@ on:
     - cron: "*/59 * * * *" # ogni 3 ore
   workflow_dispatch:
 permissions:
-  contents: write
-  workflows: write
+  contents: write  # To push changes to repository
+  actions: write   # To manage workflows
+  pull-requests: write  # If your workflow creates 
 jobs:
   update-files:
     runs-on: ubuntu-latest
