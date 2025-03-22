@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="2025 ADCC San Jose Open - 2025 ADCC San Jose Open" tvg-name="2025 ADCC San Jose Open 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Flotv
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium178/mono.m3u8
+
+#EXTINF:-1 tvg-id="AMA Supercross Championship Birmingham - AMA Supercross Championship Birmingham" tvg-name="AMA Supercross Championship Birmingham 22/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Peacock
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium180/mono.m3u8
+
 #EXTINF:-1 tvg-id="England - League One - Wrexham vs Stockport County" tvg-name="England - League One : Wrexham vs Stockport County 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -683,12 +695,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium540/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium758/mono.m3u8
 
-#EXTINF:-1 tvg-id="World Cup Qualifying - Moldova vs Norway" tvg-name="World Cup Qualifying : Moldova vs Norway 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 6 NZ
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium593/mono.m3u8
-
 #EXTINF:-1 tvg-id="World Cup Qualifying - Moldova vs Norway" tvg-name="World Cup Qualifying : Moldova vs Norway 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV2 Norway
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1072,12 +1078,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium151/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium645/mono.m3u8
-
-#EXTINF:-1 tvg-id="World Cup Qualifying - Israel vs Estonia" tvg-name="World Cup Qualifying : Israel vs Estonia 22/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 6 NZ
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium593/mono.m3u8
 
 #EXTINF:-1 tvg-id="World Cup Qualifying - Israel vs Estonia" tvg-name="World Cup Qualifying : Israel vs Estonia 22/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ETV 2 Estonia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2122,12 +2122,6 @@ https://zekonew.iosplayer.ru/zeko/premium272/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium448/mono.m3u8
-
-#EXTINF:-1 tvg-id="Boxing - Maliek Montgomery vs Jeremy Hill" tvg-name="Boxing : Maliek Montgomery vs Jeremy Hill 22/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium55/mono.m3u8
 
 #EXTINF:-1 tvg-id="IBF Title Fights - Sebastian Fundora vs Chordale Booker" tvg-name="IBF Title Fights : Sebastian Fundora vs Chordale Booker 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", Amazon Prime Video
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
