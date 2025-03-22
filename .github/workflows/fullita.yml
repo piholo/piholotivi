@@ -55,7 +55,7 @@ jobs:
           echo "*.pyc" >> .gitignore
           
           # Stage all changes
-          git add .
+          git add fullita.m3u8 daddyliveSchedule.json schedule_screenshot.png
           
           # Check if there are changes to commit
           if [[ -n $(git status --porcelain) ]]; then
