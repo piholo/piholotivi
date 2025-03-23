@@ -2707,8 +2707,58 @@
                 "channels": []
             },
             {
+                "time": "19:00",
+                "event": "WTA - Miami (USA) - Double : T.Babos/L.Stefani vs E.Mertens/Shuai Zhang",
+                "channels": []
+            },
+            {
+                "time": "19:30",
+                "event": "Challenger - Morelia (MEX) - Qualifiers : Rafael Alfonso De Alba Valdes vs Tyler Zink",
+                "channels": []
+            },
+            {
+                "time": "19:30",
+                "event": "Challenger - Morelia (MEX) - Qualifiers : Robin Catry vs Max Wiskandt",
+                "channels": []
+            },
+            {
+                "time": "19:40",
+                "event": "ATP - Miami (USA) - Double : G.Andreozzi/T.Arribage vs S.Korda/J.Thompson",
+                "channels": []
+            },
+            {
                 "time": "19:40",
                 "event": "ATP - Miami (USA) - Double : S.Gille/J.Zielinski vs M.Gonzalez/A.Molteni",
+                "channels": []
+            },
+            {
+                "time": "19:50",
+                "event": "WTA - Miami (USA) : Emma Raducanu vs Mccartney Kessler",
+                "channels": []
+            },
+            {
+                "time": "20:00",
+                "event": "ITF (M) - Bakersfield (USA) : Johannus Monday vs Alex Rybakov",
+                "channels": []
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - Miami (USA) - Double : S.Errani/J.Paolini vs C.Bucsa/M.Kato",
+                "channels": []
+            },
+            {
+                "time": "21:00",
+                "event": "Challenger - Asuncion (PRY) : Thiago Moura Monteiro vs Emilio Nava",
+                "channels": []
+            },
+            {
+                "time": "22:00",
+                "event": "Challenger - Morelia (MEX) - Qualifiers : Aidan Mayo vs Trey Hilderbrand",
+                "channels": []
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Miami (USA) - Double : A.Krueger/J.Pegula vs X.Jiang/F.H.Wu",
                 "channels": []
             },
             {
@@ -2717,8 +2767,83 @@
                 "channels": []
             },
             {
+                "time": "00:00",
+                "event": "Challenger - Merida (MEX) : Juan Pablo Ficovich vs Felipe Alves",
+                "channels": []
+            },
+            {
                 "time": "00:30",
                 "event": "ATP - Miami (USA) : Francisco Cerundolo vs Tommy Paul",
+                "channels": []
+            },
+            {
+                "time": "02:00",
+                "event": "UTR (M) - Sanmin (TWN) : Jeffrey Hsu vs Alexey Shtengelov",
+                "channels": []
+            },
+            {
+                "time": "02:00",
+                "event": "UTR (F) - Sanmin (TWN) : Mana Ayukawa vs Nao Phang Ziyi",
+                "channels": []
+            },
+            {
+                "time": "02:00",
+                "event": "UTR (M) - Sanmin (TWN) : Michael Fernandez vs Chen Hui Ho",
+                "channels": []
+            },
+            {
+                "time": "02:00",
+                "event": "UTR (F) - Sanmin (TWN) : Shanelle Iaconi vs Yu Hsi Chen",
+                "channels": []
+            },
+            {
+                "time": "03:00",
+                "event": "UTR (F) - Sanmin (TWN) : I Wen Wan vs Ramu Ueda",
+                "channels": []
+            },
+            {
+                "time": "03:10",
+                "event": "UTR (F) - Sanmin (TWN) : Britney Chiu vs Ayaka Ozeki",
+                "channels": []
+            },
+            {
+                "time": "03:10",
+                "event": "UTR (M) - Sanmin (TWN) : Jordan Chiu vs Cheng En Yu",
+                "channels": []
+            },
+            {
+                "time": "03:10",
+                "event": "UTR (F) - Sanmin (TWN) : Michiru Furuya vs Ju-Yun Jeng",
+                "channels": []
+            },
+            {
+                "time": "03:10",
+                "event": "UTR (M) - Sanmin (TWN) : Tzu Li Chang vs Ikem Jesse Beluchi",
+                "channels": []
+            },
+            {
+                "time": "04:10",
+                "event": "UTR (F) - Sanmin (TWN) : Tzeng Mu-Jie vs Madeleine Jessup",
+                "channels": []
+            },
+            {
+                "time": "04:20",
+                "event": "UTR (M) - Sanmin (TWN) : Arjun Mehrotra vs Chen-Yang Hsu",
+                "channels": []
+            },
+            {
+                "time": "04:20",
+                "event": "UTR (F) - Sanmin (TWN) : Azusa Ishii vs Yu Yun Tsai",
+                "channels": []
+            },
+            {
+                "time": "04:20",
+                "event": "UTR (F) - Sanmin (TWN) : Peng Yu Lai vs Junri Namigata",
+                "channels": []
+            },
+            {
+                "time": "04:20",
+                "event": "UTR (M) - Sanmin (TWN) : Yi Chang Lin vs Neeraj Yashpaul",
                 "channels": []
             }
         ],
@@ -4334,7 +4459,7 @@
             },
             {
                 "time": "21:00",
-                "event": "02:30 2025 NCAA Men's Basketball Tournament Second Round: Illinois vs. Kentucky",
+                "event": "NCAA Men's Basketball Tournament 2025 Second Round: Illinois vs. Kentucky",
                 "channels": [
                     {
                         "channel_name": "TSN2",
