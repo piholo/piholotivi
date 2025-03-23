@@ -9879,6 +9879,11 @@
                 "channels": []
             },
             {
+                "time": "12:00",
+                "event": "WTA 125- Antalya (TUR) - Qualifiers : Wushuang Zheng vs Tatiana Prozorova",
+                "channels": []
+            },
+            {
                 "time": "12:30",
                 "event": "Challenger - Napoli (ITA) - Qualifiers : Alessandro Pecci vs Christoph Negritu",
                 "channels": []
@@ -9891,6 +9896,11 @@
             {
                 "time": "12:30",
                 "event": "Challenger - Napoli (ITA) - Qualifiers : Paul Jubb vs Franco Agamenone",
+                "channels": []
+            },
+            {
+                "time": "14:00",
+                "event": "ITF (M) - Toulouse-Balma (FRA) : Harry Wendelken vs Mae Malige",
                 "channels": []
             },
             {
