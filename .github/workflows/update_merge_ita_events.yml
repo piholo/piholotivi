@@ -1,68 +1,68 @@
-name: Update merge Ita and Events
+#name: Update merge Ita and Events
 
-on:
-  schedule:
-    - cron: "0 */3 * * *" # ogni 3 ore
-  workflow_dispatch:
-permissions:
-  contents: write  # To push changes to repository
-  actions: write   # To manage workflows
-  pull-requests: write  # If your workflow creates 
-jobs:
-  update-files:
-    runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: false
-    
-    steps:
-      - name: Checkout repository (no history)
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+#on:
+#  schedule:
+#    - cron: "0 */3 * * *" # ogni 3 ore
+#  workflow_dispatch:
+#permissions:
+#  contents: write  # To push changes to repository
+#  actions: write   # To manage workflows
+#  pull-requests: write  # If your workflow creates 
+#jobs:
+#  update-files:
+#    runs-on: ubuntu-latest
+#    concurrency:
+#      group: ${{ github.workflow }}-${{ github.ref }}
+#      cancel-in-progress: false
+#    
+#    steps:
+#      - name: Checkout repository (no history)
+#        uses: actions/checkout@v3
+#        with:
+#          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+#      - name: Set up Python
+#        uses: actions/setup-python@v4
+#        with:
+#          python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install requests pytz
-          python -m pip install --upgrade pip
-          pip install playwright
-          pip install bs4
-          playwright install chromium
-          pip install chardet
-          
-      - name: Run EPG grabber script
-        env:
-          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
-        run: |
-          rm -f mergeita.m3u8
-          python extract_schedule.py
-          rm -f 247channels.html
-          python mergedefinitivo.py
-          
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "actions-user"
-          git config --global user.email "actions@github.com"
+#      - name: Install dependencies
+#        run: |
+#          python -m pip install requests pytz
+#          python -m pip install --upgrade pip
+#          pip install playwright
+#          pip install bs4
+#          playwright install chromium
+#          pip install chardet
+#          
+#      - name: Run EPG grabber script
+#        env:
+#          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
+#        run: |
+#          rm -f mergeita.m3u8
+#          python extract_schedule.py
+#          rm -f 247channels.html
+#          python mergedefinitivo.py
+#          
+#      - name: Commit and push changes
+#        run: |
+#          git config --global user.name "actions-user"
+#          git config --global user.email "actions@github.com"
           
           # Ignore Python bytecode files to avoid binary conflicts
-          echo "__pycache__/" >> .gitignore
-          echo "*.pyc" >> .gitignore
+#          echo "__pycache__/" >> .gitignore
+#          echo "*.pyc" >> .gitignore
           
           # Stage all changes
-          git add .
+#          git add .
           
           # Check if there are changes to commit
-          if [[ -n $(git status --porcelain) ]]; then
+#         if [[ -n $(git status --porcelain) ]]; then
             # Commit changes
-            git commit -m "Update Fullita $(date +%H:%M)"
+#            git commit -m "Update Fullita $(date +%H:%M)"
             
             # Force push to avoid merge conflicts
-            git push --force origin HEAD:main
-          else
-            echo "No changes to commit"
+#            git push --force origin HEAD:main
+#          else
+#            echo "No changes to commit"
           fi
