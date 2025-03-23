@@ -131,3 +131,45 @@ https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
 
+#EXTINF:-1 tvg-id="World Friendly - Italy U21 vs Denmark U21" tvg-name="18:15 World Friendly : Italy U21 vs Denmark U21" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RAI 2 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium851/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Benevento vs Picerno" tvg-name="20:30 Italy - Serie C : Benevento vs Picerno" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium14/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Benevento vs Picerno" tvg-name="20:30 Italy - Serie C : Benevento vs Picerno" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium15/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Rai Sport 1 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="World Cup Qualifying - England vs Latvia" tvg-name="20:45 World Cup Qualifying : England vs Latvia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ITV 1 UK
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium350/mono.m3u8
+
