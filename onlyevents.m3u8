@@ -1,63 +1,8 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="2025 ADCC San Jose Open - 2025 ADCC San Jose Open" tvg-name="2025 ADCC San Jose Open 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Flotv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium178/mono.m3u8
-
-#EXTINF:-1 tvg-id="AMA Supercross Championship Birmingham - AMA Supercross Championship Birmingham" tvg-name="AMA Supercross Championship Birmingham 22/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Peacock
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium180/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 SMART Modified Tour King of the Modifieds at South Boston Speedway - 2025 SMART Modified Tour King of the Modifieds at South Boston Speedway" tvg-name="2025 SMART Modified Tour King of the Modifieds at South Boston Speedway 22/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium181/mono.m3u8
-
 #EXTINF:-1 tvg-id="wXw - We Love Wrestling 66" tvg-name="wXw: We Love Wrestling 66 22/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Triller TV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium182/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Short Track Super Series at Bridgeport Motorsports Park - 2025 Short Track Super Series at Bridgeport Motorsports Park" tvg-name="2025 Short Track Super Series at Bridgeport Motorsports Park 22/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium183/mono.m3u8
-
-#EXTINF:-1 tvg-id="The Arena Superfights - The Arena Superfights" tvg-name="The Arena Superfights 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium184/mono.m3u8
-
-#EXTINF:-1 tvg-id="King of Kings - KOK World Series" tvg-name="King of Kings : KOK World Series 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium185/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Season Opener at Port Royal Speedway - 2025 Season Opener at Port Royal Speedway" tvg-name="2025 Season Opener at Port Royal Speedway 22/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium186/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Lucas Oil Late Model Dirt Series at Brownstown Speedway - 2025 Lucas Oil Late Model Dirt Series at Brownstown Speedway" tvg-name="2025 Lucas Oil Late Model Dirt Series at Brownstown Speedway 22/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium187/mono.m3u8
-
-#EXTINF:-1 tvg-id="Dirty Boxing Championship - DBX 1: Romero vs. Hylton" tvg-name="Dirty Boxing Championship : DBX 1: Romero vs. Hylton 22/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium188/mono.m3u8
 
 #EXTINF:-1 tvg-id="World of Outlaws Late Models - World of Outlaws Late Models" tvg-name="World of Outlaws Late Models 22/03/25 - 23:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -71,35 +16,11 @@ https://nfsnew.iosplayer.ru/nfs/premium189/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium190/mono.m3u8
 
-#EXTINF:-1 tvg-id="World of Outlaws Sprint Cars - World of Outlaws Sprint Cars" tvg-name="World of Outlaws Sprint Cars 22/03/25 - 00:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium191/mono.m3u8
-
-#EXTINF:-1 tvg-id="Boxing Insider Promotions - Panin vs. Arregui" tvg-name="Boxing Insider Promotions : Panin vs. Arregui 22/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium192/mono.m3u8
-
 #EXTINF:-1 tvg-id="Star Boxing - Rockin' Fights 50" tvg-name="Star Boxing: Rockin' Fights 50 22/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Triller TV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium193/mono.m3u8
-
-#EXTINF:-1 tvg-id="XR Dominator Salina Highbanks Speedway - XR Dominator Salina Highbanks Speedway" tvg-name="XR Dominator Salina Highbanks Speedway 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium194/mono.m3u8
-
-#EXTINF:-1 tvg-id="ARCA East Five Flags - ARCA East Five Flags" tvg-name="ARCA East Five Flags 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium195/mono.m3u8
 
 #EXTINF:-1 tvg-id="BKB 38 - Wolves Brawl II" tvg-name="BKB 38: Wolves Brawl II 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -185,36 +106,6 @@ https://windnew.iosplayer.ru/wind/premium164/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium165/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - League Two - Fleetwood Town vs Tranmere Rovers" tvg-name="England - League Two : Fleetwood Town vs Tranmere Rovers 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium166/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - League Two - Gillingham vs Walsall" tvg-name="England - League Two : Gillingham vs Walsall 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium167/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - League Two - Grimsby Town vs Newport County" tvg-name="England - League Two : Grimsby Town vs Newport County 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - League Two - Port Vale vs Morecambe" tvg-name="England - League Two : Port Vale vs Morecambe 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium169/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - League Two - Swindon Town vs Accrington Stanley" tvg-name="England - League Two : Swindon Town vs Accrington Stanley 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium170/mono.m3u8
-
 #EXTINF:-1 tvg-id="Major League Soccer - Cincinnati vs Atlanta United" tvg-name="Major League Soccer : Cincinnati vs Atlanta United 22/03/25 - 19:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MLS Season Pass
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -292,54 +183,6 @@ https://windnew.iosplayer.ru/wind/premium164/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium165/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - Detroit City vs Birmingham Legion" tvg-name="USL Championship : Detroit City vs Birmingham Legion 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium166/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - Louisville City vs Loudoun United" tvg-name="USL Championship : Louisville City vs Loudoun United 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium167/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - New Mexico United vs El Paso Locomotive" tvg-name="USL Championship : New Mexico United vs El Paso Locomotive 22/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - Lexington vs Indy Eleven" tvg-name="USL Championship : Lexington vs Indy Eleven 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium169/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - Miami FC vs Tampa Bay Rowdies" tvg-name="USL Championship : Miami FC vs Tampa Bay Rowdies 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium170/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL Championship - FC Tulsa vs North Carolina" tvg-name="USL Championship : FC Tulsa vs North Carolina 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium171/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL League One - Richmond Kickers vs Alta" tvg-name="USL League One : Richmond Kickers vs Alta 22/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium175/mono.m3u8
-
-#EXTINF:-1 tvg-id="USL League One - Texoma vs One Knoxville" tvg-name="USL League One : Texoma vs One Knoxville 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium177/mono.m3u8
 
 #EXTINF:-1 tvg-id="Australia - A-League Women - Canberra United vs Sydney FC" tvg-name="Australia - A-League Women : Canberra United vs Sydney FC 22/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -659,12 +502,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium86/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Sassari Torres vs Rimini" tvg-name="Italy - Serie C : Sassari Torres vs Rimini 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium106/mono.m3u8
-
 #EXTINF:-1 tvg-id="Europe - U19 Euro Qualifying - Germany U19 vs Finland U19" tvg-name="Europe - U19 Euro Qualifying : Germany U19 vs Finland U19 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport News DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -779,12 +616,6 @@ https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Pontedera vs Ascoli" tvg-name="Italy - Serie C : Pontedera vs Ascoli 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium106/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie C - Legnago Salus vs Lucchese" tvg-name="Italy - Serie C : Legnago Salus vs Lucchese 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -796,12 +627,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium77/mono.m3u8
-
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - San Miguel vs Arsenal" tvg-name="Argentina - Primera Nacional : San Miguel vs Arsenal 22/03/25 - 17:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="Europe - U19 Euro Qualifying - Portugal U19 vs Wales U19" tvg-name="Europe - U19 Euro Qualifying : Portugal U19 vs Wales U19 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal 11 Portugal
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1157,12 +982,6 @@ https://windnew.iosplayer.ru/wind/premium391/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium392/mono.m3u8
 
-#EXTINF:-1 tvg-id="World Cup Qualifying - Sudan vs Senegal" tvg-name="World Cup Qualifying : Sudan vs Senegal 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium152/mono.m3u8
-
 #EXTINF:-1 tvg-id="World Cup Qualifying - Sudan vs Senegal" tvg-name="World Cup Qualifying : Sudan vs Senegal 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN 2 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1180,12 +999,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium571/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium104/mono.m3u8
-
-#EXTINF:-1 tvg-id="Copa Argentina - Tigre vs Berazategui" tvg-name="Copa Argentina : Tigre vs Berazategui 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="Club Friendly Games - Botafogo vs Novorizontino" tvg-name="Club Friendly Games : Botafogo vs Novorizontino 22/03/25 - 20:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv Brazil
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1505,12 +1318,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium643/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium392/mono.m3u8
 
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - Nueva Chicago vs Estudiantes Río Cuarto" tvg-name="Argentina - Primera Nacional : Nueva Chicago vs Estudiantes Río Cuarto 22/03/25 - 22:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
-
 #EXTINF:-1 tvg-id="Club Friendly Games - Red Bull Bragantino vs Cruzeiro" tvg-name="Club Friendly Games : Red Bull Bragantino vs Cruzeiro 22/03/25 - 22:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv Brazil
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1576,12 +1383,6 @@ https://zekonew.iosplayer.ru/zeko/premium892/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium891/mono.m3u8
-
-#EXTINF:-1 tvg-id="Copa Argentina - Central Córdoba SdE vs Quilmes" tvg-name="Copa Argentina : Central Córdoba SdE vs Quilmes 22/03/25 - 00:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="Club Friendly - Tigres UANL vs Pumas UNAM" tvg-name="Club Friendly : Tigres UANL vs Pumas UNAM 22/03/25 - 01:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", FOX Deportes
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1841,12 +1642,6 @@ https://nfsnew.iosplayer.ru/nfs/premium929/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 11 | Day 3 - WRC Safari Rally Kenya | Special Stages 11 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 11 | Day 3 22/03/25 - 06:35" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
-
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 11 | Day 3 - WRC Safari Rally Kenya | Special Stages 11 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 11 | Day 3 22/03/25 - 06:35" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TTNT Sports 4 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2027,12 +1822,6 @@ https://nfsnew.iosplayer.ru/nfs/premium929/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 13 | Day 3 - WRC Safari Rally Kenya | Special Stages 13 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 13 | Day 3 22/03/25 - 08:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
-
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 13 | Day 3 - WRC Safari Rally Kenya | Special Stages 13 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 13 | Day 3 22/03/25 - 08:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TTNT Sports 4 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2075,12 +1864,6 @@ https://windnew.iosplayer.ru/wind/premium916/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
 
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 15 | Day 3 - WRC Safari Rally Kenya | Special Stages 15 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 15 | Day 3 22/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
-
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 15 | Day 3 - WRC Safari Rally Kenya | Special Stages 15 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 15 | Day 3 22/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TTNT Sports 1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2116,12 +1899,6 @@ https://zekonew.iosplayer.ru/zeko/premium707/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium916/mono.m3u8
-
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 16 | Day 3 - WRC Safari Rally Kenya | Special Stages 16 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 16 | Day 3 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
 
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stages 16 | Day 3 - WRC Safari Rally Kenya | Special Stages 16 | Day 3" tvg-name="WRC Safari Rally Kenya | Special Stages 16 | Day 3 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TTNT Sports 4 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2255,18 +2032,6 @@ https://zekonew.iosplayer.ru/zeko/premium272/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium448/mono.m3u8
 
-#EXTINF:-1 tvg-id="Boxing - Maliek Montgomery vs Jeremy Hill" tvg-name="Boxing : Maliek Montgomery vs Jeremy Hill 22/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium55/mono.m3u8
-
-#EXTINF:-1 tvg-id="IBF Title Fights - Sebastian Fundora vs Chordale Booker" tvg-name="IBF Title Fights : Sebastian Fundora vs Chordale Booker 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", Amazon Prime Video
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium59/mono.m3u8
-
 #EXTINF:-1 tvg-id="IBF Title Fights - Sebastian Fundora vs Chordale Booker" tvg-name="IBF Title Fights : Sebastian Fundora vs Chordale Booker 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", ESPN 2 MX
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2278,12 +2043,6 @@ https://nfsnew.iosplayer.ru/nfs/premium926/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium150/mono.m3u8
-
-#EXTINF:-1 tvg-id="UFC Fight Night Preliminary - Jai Herbert vs Chris Padilla" tvg-name="UFC Fight Night Preliminary : Jai Herbert vs Chris Padilla 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", UFC Fight Pass
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
 
 #EXTINF:-1 tvg-id="UFC Fight Night Preliminary - Jai Herbert vs Chris Padilla" tvg-name="UFC Fight Night Preliminary : Jai Herbert vs Chris Padilla 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2302,12 +2061,6 @@ https://windnew.iosplayer.ru/wind/premium395/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium418/mono.m3u8
-
-#EXTINF:-1 tvg-id="UFC Fight Night Main Card - Leon Edwards vs Sean Brady" tvg-name="UFC Fight Night Main Card : Leon Edwards vs Sean Brady 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", UFC Fight Pass
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
 
 #EXTINF:-1 tvg-id="UFC Fight Night Main Card - Leon Edwards vs Sean Brady" tvg-name="UFC Fight Night Main Card : Leon Edwards vs Sean Brady 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", TNT Sports 1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2374,12 +2127,6 @@ https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium80/mono.m3u8
-
-#EXTINF:-1 tvg-id="LFA 204 - Hugo Cunha vs Denzel Freeman" tvg-name="LFA 204 : Hugo Cunha vs Denzel Freeman 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", UFC Fight Pass
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
 
 #EXTINF:-1 tvg-id="Men's College Wrestling NCAA Championships, Medal Round - Men's College Wrestling NCAA Championships, Medal Round" tvg-name="Men's College Wrestling NCAA Championships, Medal Round 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wrestling", ESPNU USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4667,12 +4414,6 @@ https://zekonew.iosplayer.ru/zeko/premium141/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium14/mono.m3u8
 
-#EXTINF:-1 tvg-id="World Cup Qualifying - Kenya vs Gabon" tvg-name="World Cup Qualifying : Kenya vs Gabon 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
-
 #EXTINF:-1 tvg-id="World Cup Qualifying - Kenya vs Gabon" tvg-name="World Cup Qualifying : Kenya vs Gabon 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportdigital FUSSBALL DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -4690,12 +4431,6 @@ https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium56/mono.m3u8
-
-#EXTINF:-1 tvg-id="World Cup Qualifying - Eswatini vs Mauritius" tvg-name="World Cup Qualifying : Eswatini vs Mauritius 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
 
 #EXTINF:-1 tvg-id="World Cup Qualifying - Eswatini vs Mauritius" tvg-name="World Cup Qualifying : Eswatini vs Mauritius 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportklub 4 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -4906,12 +4641,6 @@ https://windnew.iosplayer.ru/wind/premium61/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium140/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Como vs Sampdoria" tvg-name="Italy - Serie A (women) : Como vs Sampdoria 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 1 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium55/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sweden Damallsvenskan Women - Hacken Gothenburg vs. Malmo FF" tvg-name="Sweden Damallsvenskan Women : Hacken Gothenburg vs. Malmo FF 23/03/25 - 15:10" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV6 Sweden
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5429,12 +5158,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium637/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium95/mono.m3u8
 
-#EXTINF:-1 tvg-id="UEFA Nations League - Slovenia vs Slovakia" tvg-name="UEFA Nations League : Slovenia vs Slovakia 23/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RTVS Sport Slovakia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium106/mono.m3u8
-
 #EXTINF:-1 tvg-id="UEFA Nations League - Slovenia vs Slovakia" tvg-name="UEFA Nations League : Slovenia vs Slovakia 23/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Nova Sport Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5470,12 +5193,6 @@ https://nfsnew.iosplayer.ru/nfs/premium11/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium375/mono.m3u8
-
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - Chacarita Juniors vs Deportivo Morón" tvg-name="Argentina - Primera Nacional : Chacarita Juniors vs Deportivo Morón 23/03/25 - 18:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="United Arab Emirates - UAE League Cup - Al Ahli vs Al Sharjah" tvg-name="United Arab Emirates - UAE League Cup : Al Ahli vs Al Sharjah 23/03/25 - 19:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sharjah Sports
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5596,6 +5313,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium635/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium430/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Nations League - Belgium vs Ukraine" tvg-name="UEFA Nations League : Belgium vs Ukraine 23/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport PSL
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium413/mono.m3u8
 
 #EXTINF:-1 tvg-id="UEFA Nations League - Belgium vs Ukraine" tvg-name="UEFA Nations League : Belgium vs Ukraine 23/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 5
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -5981,12 +5704,6 @@ https://windnew.iosplayer.ru/wind/premium61/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium143/mono.m3u8
 
-#EXTINF:-1 tvg-id="Copa Argentina - Racing Club vs Deportivo Santamarina" tvg-name="Copa Argentina : Racing Club vs Deportivo Santamarina 23/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
-
 #EXTINF:-1 tvg-id="Peru - Primera Division - Los Chankas vs Cienciano" tvg-name="Peru - Primera Division : Los Chankas vs Cienciano 23/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Liga 1 Max Peru
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -6107,12 +5824,6 @@ https://nfsnew.iosplayer.ru/nfs/premium929/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium830/mono.m3u8
 
-#EXTINF:-1 tvg-id="Copa Argentina - San Lorenzo vs Sportivo Las Parejas" tvg-name="Copa Argentina : San Lorenzo vs Sportivo Las Parejas 23/03/25 - 23:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
-
 #EXTINF:-1 tvg-id="Colombia - Primera A - Atlético Nacional vs Medellín" tvg-name="Colombia - Primera A : Atlético Nacional vs Medellín 23/03/25 - 23:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Win+ Futbol Colombia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -6136,12 +5847,6 @@ https://zekonew.iosplayer.ru/zeko/premium597/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium643/mono.m3u8
-
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - Gimnasia Mendoza vs Colón" tvg-name="Argentina - Primera Nacional : Gimnasia Mendoza vs Colón 23/03/25 - 01:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="Colombia - Primera A - Rionegro Águilas vs Envigado" tvg-name="Colombia - Primera A : Rionegro Águilas vs Envigado 23/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Win+ Futbol Colombia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -6425,12 +6130,6 @@ https://nfsnew.iosplayer.ru/nfs/premium929/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 18 | Day 4 - WRC Safari Rally Kenya | Special Stage 18 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 18 | Day 4 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
-
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 18 | Day 4 - WRC Safari Rally Kenya | Special Stage 18 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 18 | Day 4 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -6466,12 +6165,6 @@ https://zekonew.iosplayer.ru/zeko/premium702/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium916/mono.m3u8
-
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 19 | Day 4 - WRC Safari Rally Kenya | Special Stage 19 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 19 | Day 4 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
 
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 19 | Day 4 - WRC Safari Rally Kenya | Special Stage 19 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 19 | Day 4 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -6617,12 +6310,6 @@ https://nfsnew.iosplayer.ru/nfs/premium929/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 20 | Day 4 - WRC Safari Rally Kenya | Special Stage 20 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 20 | Day 4 23/03/25 - 10:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
-
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 20 | Day 4 - WRC Safari Rally Kenya | Special Stage 20 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 20 | Day 4 23/03/25 - 10:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -6658,12 +6345,6 @@ https://zekonew.iosplayer.ru/zeko/premium702/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium916/mono.m3u8
-
-#EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 21 | Day 4 - WRC Safari Rally Kenya | Special Stage 21 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 21 | Day 4 23/03/25 - 12:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Rally Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium607/mono.m3u8
 
 #EXTINF:-1 tvg-id="WRC Safari Rally Kenya | Special Stage 21 | Day 4 - WRC Safari Rally Kenya | Special Stage 21 | Day 4" tvg-name="WRC Safari Rally Kenya | Special Stage 21 | Day 4 23/03/25 - 12:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -6850,12 +6531,6 @@ https://windnew.iosplayer.ru/wind/premium77/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium272/mono.m3u8
-
-#EXTINF:-1 tvg-id="FURY Fighting Championship 103 - Kolton Englund vs Carlton Minus" tvg-name="FURY Fighting Championship 103 : Kolton Englund vs Carlton Minus 23/03/25 - 22:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", UFC Fight Pass
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium55/mono.m3u8
 
 #EXTINF:-1 tvg-id="Judo - Tbilisi Grand Prix" tvg-name="Judo: Tbilisi Grand Prix 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Combat sports", МАТЧ! БОЕЦ Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
