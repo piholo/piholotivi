@@ -1,5 +1,17 @@
 {
     "Sunday 23rd March 2025 - Schedule Time UK GMT": {
+        "PPV Events</span>": [
+            {
+                "time": "00:00",
+                "event": "Anthony Pettis FC 16: Milwaukee Fight Night 7",
+                "channels": [
+                    {
+                        "channel_name": "UFC Fight Pass",
+                        "channel_id": "59"
+                    }
+                ]
+            }
+        ],
         "TV Shows</span>": [
             {
                 "time": "12:00",
