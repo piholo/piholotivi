@@ -1,757 +1,517 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Sassuolo vs Lazio" tvg-name="Italy - Serie A (women) : Sassuolo vs Lazio 22/03/25 - 12:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium426/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Giana Erminio vs Triestina" tvg-name="Italy - Serie C : Giana Erminio vs Triestina 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Campobasso vs Athletic Carpi" tvg-name="Italy - Serie C : Campobasso vs Athletic Carpi 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium77/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Vis Pesaro vs Pianese" tvg-name="Italy - Serie C : Vis Pesaro vs Pianese 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Sorrento vs Latina" tvg-name="Italy - Serie C : Sorrento vs Latina 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium86/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Cavese vs Trapani 1905" tvg-name="Italy - Serie C : Cavese vs Trapani 1905 22/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Milan vs Roma" tvg-name="Italy - Serie A (women) : Milan vs Roma 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RAI Sport 1 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Milan vs Roma" tvg-name="Italy - Serie A (women) : Milan vs Roma 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+#EXTINF:-1 tvg-id="Italy - Serie A (women) - Fiorentina vs Inter Milano" tvg-name="12:30 Italy - Serie A (women) : Fiorentina vs Inter Milano" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium756/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Alcione vs Pro Vercelli" tvg-name="Italy - Serie C : Alcione vs Pro Vercelli 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium76/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Renate vs Clodiense" tvg-name="Italy - Serie C : Renate vs Clodiense 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Legnago Salus vs Lucchese" tvg-name="Italy - Serie C : Legnago Salus vs Lucchese 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium105/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Juventus II vs Foggia" tvg-name="Italy - Serie C : Juventus II vs Foggia 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium77/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Arezzo vs Milan II" tvg-name="Italy - Serie C : Arezzo vs Milan II 22/03/25 - 19:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium86/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Arezzo vs Milan II" tvg-name="Italy - Serie C : Arezzo vs Milan II 22/03/25 - 19:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN5
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium115/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", CANAL+ Sport Poland
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium48/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Serbia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
-
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 4 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Sprint Grid" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Sprint Grid 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Sprint Grid" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Sprint Grid 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Sprint Grid" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Sprint Grid 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium537/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Sprint Grid" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Sprint Grid 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium577/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Sprint Grid" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Sprint Grid 22/03/25 - 02:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium774/mono.m3u8
-
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 1" tvg-name="F1 Academy '25: China Race 1 22/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
-
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 1" tvg-name="F1 Academy '25: China Race 1 22/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
-
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 1" tvg-name="F1 Academy '25: China Race 1 22/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport 3 NZ
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium590/mono.m3u8
-
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 1" tvg-name="F1 Academy '25: China Race 1 22/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Canal+ Sport France
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium122/mono.m3u8
-
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 1" tvg-name="F1 Academy '25: China Race 1 22/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", SuperSport Motorsport
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium424/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Qualifying" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Qualifying 22/03/25 - 08:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Qualifying" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Qualifying 22/03/25 - 08:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Qualifying" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Qualifying 22/03/25 - 08:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium537/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Qualifying" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Qualifying 22/03/25 - 08:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium577/mono.m3u8
-
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Qualifying" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Qualifying 22/03/25 - 08:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium774/mono.m3u8
-
-#EXTINF:-1 tvg-id="The Thermal Club IndyCar Grand Prix Practice Session 2 - The Thermal Club IndyCar Grand Prix Practice Session 2" tvg-name="The Thermal Club IndyCar Grand Prix Practice Session 2 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
-
-#EXTINF:-1 tvg-id="The Thermal Club IndyCar Grand Prix Qualifications - The Thermal Club IndyCar Grand Prix Qualifications" tvg-name="The Thermal Club IndyCar Grand Prix Qualifications 22/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
-
-#EXTINF:-1 tvg-id="The Thermal Club IndyCar Grand Prix Qualifications - The Thermal Club IndyCar Grand Prix Qualifications" tvg-name="The Thermal Club IndyCar Grand Prix Qualifications 22/03/25 - 22:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Top 10 - Rugby Viadana 1970 vs. Hbs Colorno" tvg-name="Italy - Top 10 : Rugby Viadana 1970 vs. Hbs Colorno 22/03/25 - 13:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", Rai Sport 1 Italy HD
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="PlusLiga - Jastrzebski Wegiel vs. Warta Zawiercie" tvg-name="PlusLiga : Jastrzebski Wegiel vs. Warta Zawiercie 22/03/25 - 14:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
-
-#EXTINF:-1 tvg-id="PlusLiga - Jastrzebski Wegiel vs. Warta Zawiercie" tvg-name="PlusLiga : Jastrzebski Wegiel vs. Warta Zawiercie 22/03/25 - 14:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sport Klub 2 Serbia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium102/mono.m3u8
-
-#EXTINF:-1 tvg-id="Bulgaria Super League Women - Slavia Sofia vs. CSKA Sofia" tvg-name="Bulgaria Super League Women : Slavia Sofia vs. CSKA Sofia 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", BNT 3 Bulgaria
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium478/mono.m3u8
-
-#EXTINF:-1 tvg-id="Portugal Liga A1 - Vitoria SC vs. Sporting Cp" tvg-name="Portugal Liga A1 : Vitoria SC vs. Sporting Cp 22/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sport TV7 Portugal
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
-
-#EXTINF:-1 tvg-id="1. Bundesliga Women - SSC Schwerin vs. Alemannia Aachen" tvg-name="1. Bundesliga Women : SSC Schwerin vs. Alemannia Aachen 22/03/25 - 17:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", SPORT1 Germany
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium641/mono.m3u8
-
-#EXTINF:-1 tvg-id="France Ligue A, Women - ASPTT Mulhouse vs Neptunes de Nantes" tvg-name="France Ligue A, Women : ASPTT Mulhouse vs Neptunes de Nantes 22/03/25 - 17:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sport en France
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium110/mono.m3u8
-
-#EXTINF:-1 tvg-id="PlusLiga - KS Norwid Czestochowa vs. Skra Belchatow" tvg-name="PlusLiga : KS Norwid Czestochowa vs. Skra Belchatow 22/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
-
-#EXTINF:-1 tvg-id="Bulgaria Super League - Levski Sofia vs. Cherno More Bask" tvg-name="Bulgaria Super League : Levski Sofia vs. Cherno More Bask 22/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 2 Bulgaria
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium473/mono.m3u8
-
-#EXTINF:-1 tvg-id="France Ligue A - Tours Volley-Ball vs. Nice Volley Ball" tvg-name="France Ligue A : Tours Volley-Ball vs. Nice Volley Ball 22/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", beIN Sports 2 France
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium117/mono.m3u8
-
-#EXTINF:-1 tvg-id="PlusLiga - Projekt Warsaw vs. MKS Slepsk Suwalki" tvg-name="PlusLiga : Projekt Warsaw vs. MKS Slepsk Suwalki 22/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy Serie A1 - Volley Verona vs. Gas Sales Piacenza" tvg-name="Italy Serie A1 : Volley Verona vs. Gas Sales Piacenza 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai Sport 1 Italy HD
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy Serie A1 - Volley Verona vs. Gas Sales Piacenza" tvg-name="Italy Serie A1 : Volley Verona vs. Gas Sales Piacenza 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 3 Bulgaria
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium474/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy Serie A1 - Volley Verona vs. Gas Sales Piacenza" tvg-name="Italy Serie A1 : Volley Verona vs. Gas Sales Piacenza 22/03/25 - 21:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sport Klub 3 Serbia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium103/mono.m3u8
-
-#EXTINF:-1 tvg-id="Men's College Volleyball - Cal State Northridge vs Loyola-Chicago" tvg-name="Men's College Volleyball : Cal State Northridge vs Loyola-Chicago 22/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Marquee Sports Network
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium770/mono.m3u8
-
-#EXTINF:-1 tvg-id="Pro Volleyball Federation - Indy Ignite vs Omaha Supernovas" tvg-name="Pro Volleyball Federation : Indy Ignite vs Omaha Supernovas 22/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Fox Sports 1 USA
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium39/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Fiorentina vs Inter Milano" tvg-name="Italy - Serie A (women) : Fiorentina vs Inter Milano 23/03/25 - 12:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium756/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie C - Pergolettese vs Union ArzignanoChiampo" tvg-name="Italy - Serie C : Pergolettese vs Union ArzignanoChiampo 23/03/25 - 12:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Pergolettese vs Union ArzignanoChiampo" tvg-name="12:30 Italy - Serie C : Pergolettese vs Union ArzignanoChiampo" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium2/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Pergolettese vs Union ArzignanoChiampo" tvg-name="Italy - Serie C : Pergolettese vs Union ArzignanoChiampo 23/03/25 - 12:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Pergolettese vs Union ArzignanoChiampo" tvg-name="12:30 Italy - Serie C : Pergolettese vs Union ArzignanoChiampo" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Catania vs Crotone" tvg-name="Italy - Serie C : Catania vs Crotone 23/03/25 - 12:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Catania vs Crotone" tvg-name="12:30 Italy - Serie C : Catania vs Crotone" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium3/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Novara vs Calcio Padova" tvg-name="Italy - Serie C : Novara vs Calcio Padova 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Novara vs Calcio Padova" tvg-name="15:00 Italy - Serie C : Novara vs Calcio Padova" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium3/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - FeralpiSalò vs Trento" tvg-name="Italy - Serie C : FeralpiSalò vs Trento 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - FeralpiSalò vs Trento" tvg-name="15:00 Italy - Serie C : FeralpiSalò vs Trento" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium5/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Ternana vs Perugia" tvg-name="Italy - Serie C : Ternana vs Perugia 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Ternana vs Perugia" tvg-name="15:00 Italy - Serie C : Ternana vs Perugia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium2/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Sestri Levante vs Pescara" tvg-name="Italy - Serie C : Sestri Levante vs Pescara 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Sestri Levante vs Pescara" tvg-name="15:00 Italy - Serie C : Sestri Levante vs Pescara" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium6/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Gubbio vs Virtus Entella" tvg-name="Italy - Serie C : Gubbio vs Virtus Entella 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Gubbio vs Virtus Entella" tvg-name="15:00 Italy - Serie C : Gubbio vs Virtus Entella" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium7/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Messina" tvg-name="Italy - Serie C : Giugliano vs Messina 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 257 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Messina" tvg-name="15:00 Italy - Serie C : Giugliano vs Messina" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 257 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium8/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Monopoli vs Casertana" tvg-name="Italy - Serie C : Monopoli vs Casertana 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Monopoli vs Casertana" tvg-name="15:00 Italy - Serie C : Monopoli vs Casertana" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium9/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Como vs Sampdoria" tvg-name="Italy - Serie A (women) : Como vs Sampdoria 23/03/25 - 15:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 1 IT
+#EXTINF:-1 tvg-id="Italy - Serie A (women) - Como vs Sampdoria" tvg-name="15:00 Italy - Serie A (women) : Como vs Sampdoria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 1 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium55/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Vicenza vs Caldiero Terme" tvg-name="Italy - Serie C : Vicenza vs Caldiero Terme 23/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Vicenza vs Caldiero Terme" tvg-name="17:30 Italy - Serie C : Vicenza vs Caldiero Terme" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium3/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Virtus Verona vs Lecco" tvg-name="Italy - Serie C : Virtus Verona vs Lecco 23/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Virtus Verona vs Lecco" tvg-name="17:30 Italy - Serie C : Virtus Verona vs Lecco" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium2/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Lumezzane" tvg-name="Italy - Serie C : AlbinoLeffe vs Lumezzane 23/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Lumezzane" tvg-name="17:30 Italy - Serie C : AlbinoLeffe vs Lumezzane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium6/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Pineto vs SPAL" tvg-name="Italy - Serie C : Pineto vs SPAL 23/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Pineto vs SPAL" tvg-name="17:30 Italy - Serie C : Pineto vs SPAL" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium7/mono.m3u8
 
-#EXTINF:-1 tvg-id="UEFA Nations League - France vs Croatia" tvg-name="UEFA Nations League : France vs Croatia 23/03/25 - 20:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TF1 France
+#EXTINF:-1 tvg-id="UEFA Nations League - France vs Croatia" tvg-name="20:45 UEFA Nations League : France vs Croatia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TF1 France
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium469/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN5
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN5
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium115/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", CANAL+ Sport Poland
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", CANAL+ Sport Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium48/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 16:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Serbia
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="16:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="00:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="00:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="00:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="00:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 23/03/25 - 00:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTINF:-1 tvg-id="2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5 - 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-name="00:00 2025 Miami Open Tennis ATP/WTA Early Round Coverage, Day 5" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
 
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="F1 Academy '25: China Race 2 23/03/25 - 03:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
+#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="03:40 F1 Academy '25: China Race 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
 
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="F1 Academy '25: China Race 2 23/03/25 - 03:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
+#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="03:40 F1 Academy '25: China Race 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
 
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="F1 Academy '25: China Race 2 23/03/25 - 03:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", SuperSport Motorsport
+#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="03:40 F1 Academy '25: China Race 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", SuperSport Motorsport
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium424/mono.m3u8
 
-#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="F1 Academy '25: China Race 2 23/03/25 - 03:40" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport 3 NZ
+#EXTINF:-1 tvg-id="F1 Academy '25 - China Race 2" tvg-name="03:40 F1 Academy '25: China Race 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport 3 NZ
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium590/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="06:00 Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="06:00 Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="06:00 Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium537/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="06:00 Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium577/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-name="06:00 Formula 1 : Heineken Chinese Grand Prix - Grand Prix Pit Lane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium774/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Race 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="07:00 Formula 1 : Heineken Chinese Grand Prix - Race" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Race 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="07:00 Formula 1 : Heineken Chinese Grand Prix - Race" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Race 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="07:00 Formula 1 : Heineken Chinese Grand Prix - Race" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", DAZN F1 ES
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium537/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Race 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="07:00 Formula 1 : Heineken Chinese Grand Prix - Race" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 Italy
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium577/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="Formula 1 : Heineken Chinese Grand Prix - Race 23/03/25 - 07:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
+#EXTINF:-1 tvg-id="Formula 1 - Heineken Chinese Grand Prix - Race" tvg-name="07:00 Formula 1 : Heineken Chinese Grand Prix - Race" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ANT+ F1 Greece
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium774/mono.m3u8
 
-#EXTINF:-1 tvg-id="Indycar - The Thermal Club INDYCAR Grand Prix" tvg-name="Indycar: The Thermal Club INDYCAR Grand Prix 23/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
+#EXTINF:-1 tvg-id="Indycar - The Thermal Club INDYCAR Grand Prix" tvg-name="20:00 Indycar: The Thermal Club INDYCAR Grand Prix" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium60/mono.m3u8
 
-#EXTINF:-1 tvg-id="Indycar - The Thermal Club INDYCAR Grand Prix" tvg-name="Indycar: The Thermal Club INDYCAR Grand Prix 23/03/25 - 20:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
+#EXTINF:-1 tvg-id="Indycar - The Thermal Club INDYCAR Grand Prix" tvg-name="20:00 Indycar: The Thermal Club INDYCAR Grand Prix" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sport F1 DE
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium274/mono.m3u8
 
-#EXTINF:-1 tvg-id="Mondiali Indoor 2025-da Nanjing (Cina) - Mondiali Indoor 2025-da Nanjing (Cina)" tvg-name="Mondiali Indoor 2025-da Nanjing (Cina) 23/03/25 - 06:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Athletics", RAI Sport 1 Italy
+#EXTINF:-1 tvg-id="Mondiali Indoor 2025-da Nanjing (Cina) - Mondiali Indoor 2025-da Nanjing (Cina)" tvg-name="06:00 Mondiali Indoor 2025-da Nanjing (Cina)" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Athletics", RAI Sport 1 Italy
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy A1 Women - ASD San Martino di Lupari vs. Brixia Basket" tvg-name="Italy A1 Women : ASD San Martino di Lupari vs. Brixia Basket 23/03/25 - 21:15" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 Italy
+#EXTINF:-1 tvg-id="Italy A1 Women - ASD San Martino di Lupari vs. Brixia Basket" tvg-name="21:15 Italy A1 Women : ASD San Martino di Lupari vs. Brixia Basket" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 Italy
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="SailGP | San Francisco Event 5, Day 2 - SailGP | San Francisco Event 5, Day 2" tvg-name="SailGP | San Francisco Event 5, Day 2 23/03/25 - 22:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Sailing / Boating", Sky Sport Arena Italy
+#EXTINF:-1 tvg-id="SailGP | San Francisco Event 5, Day 2 - SailGP | San Francisco Event 5, Day 2" tvg-name="22:30 SailGP | San Francisco Event 5, Day 2" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Sailing / Boating", Sky Sport Arena Italy
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
 
-#EXTINF:-1 tvg-id="Russia Superliga - Kuzbass Kemerovo vs Zenit Kazan" tvg-name="Russia Superliga : Kuzbass Kemerovo vs Zenit Kazan 23/03/25 - 11:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match Igra Russia
+#EXTINF:-1 tvg-id="Russia Superliga - Kuzbass Kemerovo vs Zenit Kazan" tvg-name="11:00 Russia Superliga : Kuzbass Kemerovo vs Zenit Kazan" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match Igra Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium86/mono.m3u8
 
-#EXTINF:-1 tvg-id="Superleague - Zenit St. Petersburg vs Novosibirsk" tvg-name="Superleague : Zenit St. Petersburg vs Novosibirsk 23/03/25 - 14:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match TV Russia
+#EXTINF:-1 tvg-id="Superleague - Zenit St. Petersburg vs Novosibirsk" tvg-name="14:00 Superleague : Zenit St. Petersburg vs Novosibirsk" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match TV Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium127/mono.m3u8
 
-#EXTINF:-1 tvg-id="PlusLiga - Trefl Gdansk vs. AZS Olsztyn" tvg-name="PlusLiga : Trefl Gdansk vs. AZS Olsztyn 23/03/25 - 14:45" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
+#EXTINF:-1 tvg-id="PlusLiga - Trefl Gdansk vs. AZS Olsztyn" tvg-name="14:45 PlusLiga : Trefl Gdansk vs. AZS Olsztyn" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy Serie A1 - Trentino Volley vs. TOP Volley Cisterna" tvg-name="Italy Serie A1 : Trentino Volley vs. TOP Volley Cisterna 23/03/25 - 15:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai Sport 1 Italy HD
+#EXTINF:-1 tvg-id="Italy Serie A1 - Trentino Volley vs. TOP Volley Cisterna" tvg-name="15:30 Italy Serie A1 : Trentino Volley vs. TOP Volley Cisterna" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai Sport 1 Italy HD
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy Serie A1 - Trentino Volley vs. TOP Volley Cisterna" tvg-name="Italy Serie A1 : Trentino Volley vs. TOP Volley Cisterna 23/03/25 - 15:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 4 Bulgaria
+#EXTINF:-1 tvg-id="Italy Serie A1 - Trentino Volley vs. TOP Volley Cisterna" tvg-name="15:30 Italy Serie A1 : Trentino Volley vs. TOP Volley Cisterna" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 4 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium475/mono.m3u8
 
-#EXTINF:-1 tvg-id="Russia Superliga, Women - Lokomotiv Kaliningrad vs Leningradka St. Petersburg" tvg-name="Russia Superliga, Women : Lokomotiv Kaliningrad vs Leningradka St. Petersburg 23/03/25 - 17:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match Igra Russia
+#EXTINF:-1 tvg-id="Russia Superliga, Women - Lokomotiv Kaliningrad vs Leningradka St. Petersburg" tvg-name="17:00 Russia Superliga, Women : Lokomotiv Kaliningrad vs Leningradka St. Petersburg" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match Igra Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium86/mono.m3u8
 
-#EXTINF:-1 tvg-id="PlusLiga - Resovia Rzeszow vs. MKS Bedzin" tvg-name="PlusLiga : Resovia Rzeszow vs. MKS Bedzin 23/03/25 - 17:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
+#EXTINF:-1 tvg-id="PlusLiga - Resovia Rzeszow vs. MKS Bedzin" tvg-name="17:30 PlusLiga : Resovia Rzeszow vs. MKS Bedzin" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bulgaria Super League - Neftochimik 2010 vs. CSKA Sofia" tvg-name="Bulgaria Super League : Neftochimik 2010 vs. CSKA Sofia 23/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 3 Bulgaria
+#EXTINF:-1 tvg-id="Bulgaria Super League - Neftochimik 2010 vs. CSKA Sofia" tvg-name="18:00 Bulgaria Super League : Neftochimik 2010 vs. CSKA Sofia" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Max Sport 3 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium474/mono.m3u8
 
-#EXTINF:-1 tvg-id="Serbia Superliga - OK Crvena Zvezda vs Partizan Beograd" tvg-name="Serbia Superliga : OK Crvena Zvezda vs Partizan Beograd 23/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Arena Sport 3 Serbia
+#EXTINF:-1 tvg-id="Serbia Superliga - OK Crvena Zvezda vs Partizan Beograd" tvg-name="18:00 Serbia Superliga : OK Crvena Zvezda vs Partizan Beograd" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Arena Sport 3 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium431/mono.m3u8
 
-#EXTINF:-1 tvg-id="Pro Volleyball Federation - Atlanta Vibe vs Columbus Fury" tvg-name="Pro Volleyball Federation : Atlanta Vibe vs Columbus Fury 23/03/25 - 18:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", CBS Sports Network USA
+#EXTINF:-1 tvg-id="Pro Volleyball Federation - Atlanta Vibe vs Columbus Fury" tvg-name="18:00 Pro Volleyball Federation : Atlanta Vibe vs Columbus Fury" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", CBS Sports Network USA
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium308/mono.m3u8
 
-#EXTINF:-1 tvg-id="GREECE - A1 - Play Offs : Panathinaikos vs PAOK" tvg-name="GREECE: A1 - Play Offs : Panathinaikos vs PAOK 23/03/25 - 18:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", ERT 2 Greece
+#EXTINF:-1 tvg-id="GREECE - A1 - Play Offs : Panathinaikos vs PAOK" tvg-name="18:30 GREECE: A1 - Play Offs : Panathinaikos vs PAOK" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", ERT 2 Greece
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium109/mono.m3u8
 
-#EXTINF:-1 tvg-id="I. Liga - Avia Swidnik vs. Bas Bialystok" tvg-name="I. Liga : Avia Swidnik vs. Bas Bialystok 23/03/25 - 20:30" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
+#EXTINF:-1 tvg-id="I. Liga - Avia Swidnik vs. Bas Bialystok" tvg-name="20:30 I. Liga : Avia Swidnik vs. Bas Bialystok" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
-#EXTINF:-1 tvg-id="Superliga Masculina De Vôlei - Suzano vs Cruzeiro" tvg-name="Superliga Masculina De Vôlei : Suzano vs Cruzeiro 23/03/25 - 23:00" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sportv2 Brazil
+#EXTINF:-1 tvg-id="Superliga Masculina De Vôlei - Suzano vs Cruzeiro" tvg-name="23:00 Superliga Masculina De Vôlei : Suzano vs Cruzeiro" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sportv2 Brazil
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium79/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Benevento vs Picerno" tvg-name="20:30 Italy - Serie C : Benevento vs Picerno" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium14/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Benevento vs Picerno" tvg-name="20:30 Italy - Serie C : Benevento vs Picerno" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium15/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Potenza Calcio" tvg-name="20:30 Italy - Serie C : Avellino vs Potenza Calcio" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Rai Sport 1 IT
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA Miami Tennis Tournament 2025 - WTA Miami Tennis Tournament 2025" tvg-name="16:00 WTA Miami Tennis Tournament 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium102/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis - ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-name="00:00 ATP 3rd Round; WTA Round of 16 2025 Miami Open Tennis" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="Turkiye Cup Knockout Stage - Halkbank Ankara vs. Istanbul Genclik" tvg-name="11:00 Turkiye Cup Knockout Stage : Halkbank Ankara vs. Istanbul Genclik" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Spor TRT Spor Turkiye
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium889/mono.m3u8
+
+#EXTINF:-1 tvg-id="Turkiye Cup Knockout Stage - Fenerbahce SK Istanbul vs. Arkas Izmir" tvg-name="13:30 Turkiye Cup Knockout Stage : Fenerbahce SK Istanbul vs. Arkas Izmir" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", TRT Spor Turkiye
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium889/mono.m3u8
+
+#EXTINF:-1 tvg-id="Russia Superliga Women - Dinamo Kazan vs Zarechie-Odintsovo" tvg-name="17:00 Russia Superliga Women : Dinamo Kazan vs Zarechie-Odintsovo" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", MATCH Igra Russia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium17/mono.m3u8
+
+#EXTINF:-1 tvg-id="PlusLiga - Lkps Lublin vs. Cuprum Stilon Gorzow" tvg-name="17:30 PlusLiga : Lkps Lublin vs. Cuprum Stilon Gorzow" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="Poland Liga Siatkowki Women - Radomka Radom vs. Bks Bielsko-Biala" tvg-name="20:30 Poland Liga Siatkowki Women : Radomka Radom vs. Bks Bielsko-Biala" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Polsat Sport 1 Poland
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium47/mono.m3u8
 
