@@ -335,8 +335,8 @@ def process_events():
                                     # Estrai l'orario dal formatted_date_time
                                     time_only = time_str_cet if time_str_cet else "00:00"
                                     
-                                    # Crea il nuovo formato per tvg-name con l'orario all'inizio
-                                    tvg_name = f"{time_only} {event_details}"
+                                    # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
+                                    tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
                                     
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
                                     file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
