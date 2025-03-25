@@ -2969,6 +2969,12 @@ https://nfsnew.iosplayer.ru/nfs/premium32/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium57/mono.m3u8
 
+#EXTINF:-1 tvg-id="Sun Valley | Women's Giant Slalom World Cup | Run 1 - Sun Valley | Women's Giant Slalom World Cup | Run 1" tvg-name="16:15 Sun Valley | Women's Giant Slalom World Cup | Run 1" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Alpine Ski", EuroSport 1 Spain
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium524/mono.m3u8
+
 #EXTINF:-1 tvg-id="Sun Valley | Women's Giant Slalom World Cup | Run 1 - Sun Valley | Women's Giant Slalom World Cup | Run 1" tvg-name="16:15 Sun Valley | Women's Giant Slalom World Cup | Run 1" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Alpine Ski", EuroSport 1 France
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2987,13 +2993,19 @@ https://nfsnew.iosplayer.ru/nfs/premium32/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium343/mono.m3u8
 
-#EXTINF:-1 tvg-id="NBL - Whai vs Tuatara" tvg-name="07:00 NBL : Whai vs Tuatara" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sky Sport 3 NZ
+#EXTINF:-1 tvg-id="NBL - Whai vs Tuatara/Auckland Huskies" tvg-name="07:00 NBL : Whai vs Tuatara/Auckland Huskies" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sky Sport 3 NZ
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium590/mono.m3u8
 
 #EXTINF:-1 tvg-id="Basket League - Elitzur Shomron vs Hapoel Migdal Emek" tvg-name="17:35 Basket League : Elitzur Shomron vs Hapoel Migdal Emek" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport 5 Plus Israel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium145/mono.m3u8
+
+#EXTINF:-1 tvg-id="Basket League - Ironi Ra'anana vs Ironi Nahariya" tvg-name="17:35 Basket League : Ironi Ra'anana vs Ironi Nahariya" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport 5 Plus Israel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
@@ -3029,6 +3041,12 @@ https://ddy6new.iosplayer.ru/ddy6/premium290/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium635/mono.m3u8
 
+#EXTINF:-1 tvg-id="Eurocup - Bahcesehir Koleji vs Gran Canaria" tvg-name="18:00 Eurocup : Bahcesehir Koleji vs Gran Canaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Prima Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://wikinew.iosplayer.ru/wiki/premium585/mono.m3u8
+
 #EXTINF:-1 tvg-id="Eurocup - Bahcesehir Koleji vs Gran Canaria" tvg-name="18:00 Eurocup : Bahcesehir Koleji vs Gran Canaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Max Sport 3 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -3052,6 +3070,12 @@ https://windnew.iosplayer.ru/wind/premium134/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium529/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Lietuvos Rytas vs Unicaja Malaga" tvg-name="18:30 Champions League : Lietuvos Rytas vs Unicaja Malaga" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://zekonew.iosplayer.ru/zeko/premium433/mono.m3u8
 
 #EXTINF:-1 tvg-id="Champions League - Lietuvos Rytas vs Unicaja Malaga" tvg-name="18:30 Champions League : Lietuvos Rytas vs Unicaja Malaga" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Premium 2 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -3125,6 +3149,12 @@ https://nfsnew.iosplayer.ru/nfs/premium23/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium633/mono.m3u8
 
+#EXTINF:-1 tvg-id="Euroleague - Monaco vs Zalgiris Kaunas" tvg-name="19:00 Euroleague : Monaco vs Zalgiris Kaunas" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 5 Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium107/mono.m3u8
+
 #EXTINF:-1 tvg-id="Champions League - Tenerife vs Manresa" tvg-name="20:00 Champions League : Tenerife vs Manresa" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 6 Croatia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -3142,6 +3172,12 @@ https://windnew.iosplayer.ru/wind/premium429/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium12/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Tenerife vs Manresa" tvg-name="20:00 Champions League : Tenerife vs Manresa" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Cosmote Sport 5 Greece
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium626/mono.m3u8
 
 #EXTINF:-1 tvg-id="Champions League - Tenerife vs Manresa" tvg-name="20:00 Champions League : Tenerife vs Manresa" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport 5 Plus Israel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -3184,6 +3220,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium632/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium475/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Barcelona vs Bayern" tvg-name="20:30 Euroleague : Barcelona vs Bayern" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub HD Serbia
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://windnew.iosplayer.ru/wind/premium453/mono.m3u8
 
 #EXTINF:-1 tvg-id="Eurocup - Valencia vs Hapoel Tel-Aviv" tvg-name="20:30 Eurocup : Valencia vs Hapoel Tel-Aviv" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Magenta Sport 311
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
