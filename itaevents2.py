@@ -119,7 +119,7 @@ def get_stream_link(dlhd_id, event_name="", channel_name="", max_retries=3):
 
                 if 'server_key' in server_key_data:
                     server_key = server_key_data['server_key']
-                    stream_url = f"https://{server_key}new.iosplayer.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
+                    stream_url = f"https://{server_key}new.koskoros.ru/{server_key}/premium{dlhd_id}/mono.m3u8"
                     print(f"Stream URL retrieved for channel ID: {dlhd_id} - {event_name} on {channel_name}")
                     return stream_url
                 else:
@@ -346,9 +346,9 @@ def process_events():
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
                                     
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
-                                    file.write('#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+                                    file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                                    file.write('#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                                    file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
                                     file.write(f"{stream_url_dynamic}\n\n")
 
                                 processed_channels += 1
