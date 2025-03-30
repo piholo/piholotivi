@@ -1,4 +1,28 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="Top Tier Boxing - Ursu vs. James: Capitalise" tvg-name="16:30 Top Tier Boxing : Ursu vs. James: Capitalise" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", DAZN PPV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium172/mono.m3u8
+
+#EXTINF:-1 tvg-id="2025 NASCAR Whelen Modified Tour Schedule - NWMT Thompson" tvg-name="21:15 2025 NASCAR Whelen Modified Tour Schedule : NWMT Thompson" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium156/mono.m3u8
+
+#EXTINF:-1 tvg-id="EBI 23 - The Featherweights" tvg-name="23:00 EBI 23: The Featherweights" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", UFC Fight Pass
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium158/mono.m3u8
+
+#EXTINF:-1 tvg-id="GCW - Amerikaz Most Wanted 2025" tvg-name="23:00 GCW: Amerikaz Most Wanted 2025" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Triller TV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium159/mono.m3u8
+
 #EXTINF:-1 tvg-id="Australia - A-League - Central Coast Mariners vs Perth Glory" tvg-name="05:00 Australia - A-League : Central Coast Mariners vs Perth Glory" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
