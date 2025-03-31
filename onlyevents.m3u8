@@ -41,12 +41,6 @@ https://top2new.iosplayer.ru/top2/premium400/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://wikinew.iosplayer.ru/wiki/premium583/mono.m3u8
 
-#EXTINF:-1 tvg-id="Russia - Premier League - Akron vs Rostov" tvg-name="16:30 Russia - Premier League : Akron vs Rostov" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MATCH! Premier Russia
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium573/mono.m3u8
-
 #EXTINF:-1 tvg-id="Russia - Premier League - Akron vs Rostov" tvg-name="16:30 Russia - Premier League : Akron vs Rostov" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 3 Croatia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
