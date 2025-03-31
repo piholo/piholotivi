@@ -1,8 +1,8 @@
-name: Update world 24 7 2
+name: Update Ita 24 7 old
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # ogni lunedi alle 3
+    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
   workflow_dispatch:
 
 jobs:
@@ -35,9 +35,8 @@ jobs:
         run: |
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
-          rm -f 247world2.m3u8
-          rm -f 247world2.xml
-          python 247world2.py
+          rm -f 247itaold.m3u8
+          python 247itaold.py
           
       - name: Commit and push changes
         run: |
@@ -54,7 +53,7 @@ jobs:
           # Check if there are changes to commit
           if [[ -n $(git status --porcelain) ]]; then
             # Commit changes
-            git commit -m "Update world247 $(date +%H:%M)"
+            git commit -m "Update ita247 $(date +%H:%M)"
             
             # Force push to avoid merge conflicts
             git push --force origin HEAD:main

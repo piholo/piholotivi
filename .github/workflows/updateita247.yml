@@ -1,4 +1,4 @@
-name: Update Ita 24 7 
+name: Update Ita 24 7 2
 
 on:
   schedule:
@@ -35,8 +35,8 @@ jobs:
         run: |
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
-          rm -f 247ita.m3u8
-          python 247ita.py
+          rm -f 247ita2.m3u8
+          python 247ita2.py
           
       - name: Commit and push changes
         run: |

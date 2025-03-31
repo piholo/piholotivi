@@ -1,8 +1,8 @@
-name: Update fullita
+name: Update fullita2
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # ogni 3 ore
+    - cron: "0 */5 * * *" # ogni 3 ore
   workflow_dispatch:
 permissions:
   contents: write  # To push changes to repository
@@ -41,7 +41,7 @@ jobs:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
           python extract_schedule.py
-          python fullita.py
+          python fullita2.py
           
 # ... existing code ...
 
@@ -55,7 +55,7 @@ jobs:
           echo "*.pyc" >> .gitignore
           
           # Stage all changes
-          git add fullita.m3u8 daddyliveSchedule.json schedule_screenshot.png
+          git add fullita2.m3u8 daddyliveSchedule.json schedule_screenshot.png
           
           # Check if there are changes to commit
           if [[ -n $(git status --porcelain) ]]; then

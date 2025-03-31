@@ -1,13 +1,17 @@
-name: Update Ita 24 7 2
+name: Update fullita old
 
 on:
   schedule:
-    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
+    - cron: "0 */2 * * *" # ogni 3 ore
   workflow_dispatch:
-
+permissions:
+  contents: write  # To push changes to repository
+  actions: write   # To manage workflows
+  pull-requests: write  # If your workflow creates 
 jobs:
   update-files:
     runs-on: ubuntu-latest
+    # Aggiunto controllo di concorrenza
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: false
@@ -26,18 +30,21 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install requests pytz
+          python -m pip install --upgrade pip
+          pip install playwright
           pip install bs4
+          playwright install chromium
           pip install chardet
           
-      - name: Run EPG grabber script
+      - name: Run fullitaold script
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
-          rm -f daddyliveSchedule.json
-          rm -f 247channels.html
-          rm -f 247ita2.m3u8
-          python 247ita2.py
+          python extract_schedule.py
+          python fullitaold.py
           
+# ... existing code ...
+
       - name: Commit and push changes
         run: |
           git config --global user.name "actions-user"
@@ -48,12 +55,12 @@ jobs:
           echo "*.pyc" >> .gitignore
           
           # Stage all changes
-          git add .
+          git add fullitaold.m3u8 daddyliveSchedule.json schedule_screenshot.png
           
           # Check if there are changes to commit
           if [[ -n $(git status --porcelain) ]]; then
             # Commit changes
-            git commit -m "Update ita247 $(date +%H:%M)"
+            git commit -m "Update Fullita $(date +%H:%M)"
             
             # Force push to avoid merge conflicts
             git push --force origin HEAD:main

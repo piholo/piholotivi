@@ -1,4 +1,4 @@
-name: Update world 24 7
+name: Update world 24 7 2
 
 on:
   schedule:
@@ -35,9 +35,9 @@ jobs:
         run: |
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
-          rm -f 247world.m3u8
-          rm -f 247world.xml
-          python 247world.py
+          rm -f 247world2.m3u8
+          rm -f 247world2.xml
+          python 247world2.py
           
       - name: Commit and push changes
         run: |
