@@ -13,12 +13,15 @@ import time
 # Constants
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "itaevents2.m3u8"
+M3U8_OUTPUT_FILE = "fullita.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 # Define keywords for filtering channels
 EVENT_KEYWORDS = ["italy", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley", "serie a", "serie b", "serie c", "uefa champions", "uefa europa",
                  "conference league", "coppa italia"]
+
+# Aggiungi una nuova lista di canali specifici da includere
+CHANNEL_KEYWORDS = ["IT", "Italia", "Rai Sport", "Amazon", "Canale 5", "Rai 1"]
 
 # Headers for requests
 headers = {
@@ -188,6 +191,14 @@ def should_include_channel(channel_name, event_name, sport_key):
     # Check if any keyword is present in the combined text
     for keyword in EVENT_KEYWORDS:
         if keyword.lower() in combined_text:
+            # Verifica anche se il canale contiene una delle stringhe specifiche
+            for channel_keyword in CHANNEL_KEYWORDS:
+                if channel_keyword in channel_name:
+                    return True
+
+    # Controlla se il canale contiene una delle stringhe specifiche anche se non ha match con EVENT_KEYWORDS
+    for channel_keyword in CHANNEL_KEYWORDS:
+        if channel_keyword in channel_name:
             return True
 
     return False
@@ -302,42 +313,24 @@ def process_events():
                             continue
 
                         # Build channel name with new date format
-                        # Remove this problematic line:
-                        # channelName = formatted_date_time + "  " + channel["channel_name"]
-                        
-                        # Keep only this correct implementation:
                         if isinstance(channel, dict) and "channel_name" in channel:
                             channelName = formatted_date_time + "  " + channel["channel_name"]
                         else:
                             channelName = formatted_date_time + "  " + str(channel)
-                        
                         # Extract event name for the tvg-id
                         event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
                         event_details = game["event"]  # Keep the full event details for tvg-name
                         # Check if channel should be included based on keywords
                         if should_include_channel(channelName, event_name, sport_key):
                             # Process channel information
-                            # Around line 350 where you access channel['channel_id']
-                            if isinstance(channel, dict) and "channel_id" in channel:
-                                channelID = f"{channel['channel_id']}"
-                            else:
-                                # Generate a fallback ID
-                                channelID = str(uuid.uuid4())
-                            
-                            # Around line 353 where you access channel["channel_name"]
-                            if isinstance(channel, dict) and "channel_name" in channel:
-                                channel_name_str = channel["channel_name"]
-                            else:
-                                channel_name_str = str(channel)
-                            stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
-                            
+                            channelID = f"{channel['channel_id']}"
+                            tvgName = channelName
+
+                            # Get stream URL
+                            stream_url_dynamic = get_stream_link(channelID, event_details, channel["channel_name"])
+
                             if stream_url_dynamic:
-                                # Around line 361 where you access channel["channel_name"] again
-                                if isinstance(channel, dict) and "channel_name" in channel:
-                                    channel_name_str = channel["channel_name"]
-                                else:
-                                    channel_name_str = str(channel)
-                                
+                                # Append to M3U8 file
                                 with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
                                     # Estrai l'orario dal formatted_date_time
                                     time_only = time_str_cet if time_str_cet else "00:00"
@@ -345,7 +338,7 @@ def process_events():
                                     # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
                                     
-                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
+                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
                                     file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                     file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')

@@ -13,8 +13,8 @@ import time
 # Costanti
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
-M3U8_OUTPUT_FILE = "247world2.m3u8"
-EPG_OUTPUT_FILE = "247world2.xml"
+M3U8_OUTPUT_FILE = "247world.m3u8"
+EPG_OUTPUT_FILE = "247world.xml"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 mStartTime = 0

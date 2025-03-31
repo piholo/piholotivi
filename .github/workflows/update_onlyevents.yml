@@ -1,4 +1,4 @@
-name: Update OnlyEvents2
+name: Update OnlyEvents
 
 on:
   schedule:

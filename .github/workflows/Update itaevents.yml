@@ -1,4 +1,4 @@
-name: Update itaEvents2
+name: Update itaEvents
 
 on:
   schedule:
