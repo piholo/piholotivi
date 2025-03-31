@@ -1,62 +1,62 @@
-name: Update Ita 24 7 old
-
-on:
-  schedule:
-    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
-  workflow_dispatch:
-
-jobs:
-  update-files:
-    runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: false
-    
-    steps:
-      - name: Checkout repository (no history)
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install requests pytz
-          pip install bs4
-          pip install chardet
-          
-      - name: Run EPG grabber script
-        env:
-          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
-        run: |
-          rm -f daddyliveSchedule.json
-          rm -f 247channels.html
-          rm -f 247itaold.m3u8
-          python 247itaold.py
-          
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "actions-user"
-          git config --global user.email "actions@github.com"
-          
-          # Ignore Python bytecode files to avoid binary conflicts
-          echo "__pycache__/" >> .gitignore
-          echo "*.pyc" >> .gitignore
-          
-          # Stage all changes
-          git add .
-          
-          # Check if there are changes to commit
-          if [[ -n $(git status --porcelain) ]]; then
-            # Commit changes
-            git commit -m "Update ita247 $(date +%H:%M)"
-            
-            # Force push to avoid merge conflicts
-            git push --force origin HEAD:main
-          else
-            echo "No changes to commit"
-          fi
+#name: Update Ita 24 7 old
+#
+#on:
+#  schedule:
+#    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
+#  workflow_dispatch:
+#
+#jobs:
+#  update-files:
+#    runs-on: ubuntu-latest
+#    concurrency:
+#      group: ${{ github.workflow }}-${{ github.ref }}
+#      cancel-in-progress: false
+#    
+#    steps:
+#      - name: Checkout repository (no history)
+#        uses: actions/checkout@v3
+#        with:
+#          fetch-depth: 0
+#
+#      - name: Set up Python
+#        uses: actions/setup-python@v4
+#        with:
+#          python-version: '3.x'
+#
+#      - name: Install dependencies
+#        run: |
+#          python -m pip install requests pytz
+#          pip install bs4
+#          pip install chardet
+#          
+#      - name: Run EPG grabber script
+#        env:
+#          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
+#        run: |
+#          rm -f daddyliveSchedule.json
+#          rm -f 247channels.html
+#          rm -f 247itaold.m3u8
+#          python 247itaold.py
+#          
+#      - name: Commit and push changes
+#        run: |
+#          git config --global user.name "actions-user"
+#          git config --global user.email "actions@github.com"
+#          
+#          # Ignore Python bytecode files to avoid binary conflicts
+#          echo "__pycache__/" >> .gitignore
+#          echo "*.pyc" >> .gitignore
+#          
+#          # Stage all changes
+#          git add .
+#          
+#          # Check if there are changes to commit
+#          if [[ -n $(git status --porcelain) ]]; then
+#            # Commit changes
+#            git commit -m "Update ita247 $(date +%H:%M)"
+#            
+#            # Force push to avoid merge conflicts
+#            git push --force origin HEAD:main
+#          else
+#            echo "No changes to commit"
+#          fi
