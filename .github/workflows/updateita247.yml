@@ -36,7 +36,7 @@ jobs:
           rm -f daddyliveSchedule.json
           rm -f 247channels.html
           rm -f 247ita.m3u8
-          python 247ita.py
+          python 247ita copy.py
           
       - name: Commit and push changes
         run: |
