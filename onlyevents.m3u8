@@ -35,11 +35,29 @@ https://ddy6new.iosplayer.ru/ddy6/premium154/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium155/mono.m3u8
 
+#EXTINF:-1 tvg-id="England - League One - Mansfield Town vs Charlton Athletic" tvg-name="19:45 England - League One : Mansfield Town vs Charlton Athletic" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium156/mono.m3u8
+
 #EXTINF:-1 tvg-id="England - League One - Northampton Town vs Rotherham United" tvg-name="19:45 England - League One : Northampton Town vs Rotherham United" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium157/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - League One - Stockport County vs Stevenage" tvg-name="19:45 England - League One : Stockport County vs Stevenage" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium158/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - League One - Wigan Athletic vs Bolton Wanderers" tvg-name="19:45 England - League One : Wigan Athletic vs Bolton Wanderers" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://dokko1new.iosplayer.ru/dokko1/premium159/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - League One - Wycombe Wanderers vs Shrewsbury Town" tvg-name="19:45 England - League One : Wycombe Wanderers vs Shrewsbury Town" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -100,6 +118,12 @@ https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium169/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - League Two - Port Vale vs Bradford City" tvg-name="19:45 England - League Two : Port Vale vs Bradford City" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium170/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - League Two - Swindon Town vs AFC Wimbledon" tvg-name="19:45 England - League Two : Swindon Town vs AFC Wimbledon" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
