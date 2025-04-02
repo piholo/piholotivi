@@ -17,11 +17,12 @@ M3U8_OUTPUT_FILE = "fullita.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 
 # Define keywords for filtering channels
-EVENT_KEYWORDS = ["italy", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley", "serie a", "serie b", "serie c", "uefa champions", "uefa europa",
-                 "conference league", "coppa italia"]
+EVENT_KEYWORDS = ["italy", "italia", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley", 
+                 "serie a", "serie b", "serie c", "uefa champions", "champions league", "uefa europa",
+                 "conference league", "coppa italia", "milan", "inter", "juventus", "napoli", "roma", "lazio"]
 
 # Aggiungi una nuova lista di canali specifici da includere
-CHANNEL_KEYWORDS = ["IT", "Italia", "Rai Sport", "Amazon", "Canale 5", "Rai 1"]
+CHANNEL_KEYWORDS = ["IT", "Italia", "Rai Sport", "Amazon", "Canale 5", "Rai 1", "Sky Sport", "DAZN"]
 
 # Headers for requests
 headers = {
@@ -187,18 +188,20 @@ def clean_group_title(sport_key):
 def should_include_channel(channel_name, event_name, sport_key):
     """Check if channel should be included based on keywords"""
     combined_text = (channel_name + " " + event_name + " " + sport_key).lower()
+    
+    # Debug output to see what we're trying to match
+    print(f"Checking text: {combined_text[:100]}...")
 
     # Check if any keyword is present in the combined text
     for keyword in EVENT_KEYWORDS:
         if keyword.lower() in combined_text:
-            # Verifica anche se il canale contiene una delle stringhe specifiche
-            for channel_keyword in CHANNEL_KEYWORDS:
-                if channel_keyword in channel_name:
-                    return True
-
+            print(f"Keyword match found: {keyword}")
+            return True
+            
     # Controlla se il canale contiene una delle stringhe specifiche anche se non ha match con EVENT_KEYWORDS
     for channel_keyword in CHANNEL_KEYWORDS:
         if channel_keyword in channel_name:
+            print(f"Channel keyword match found: {channel_keyword}")
             return True
 
     return False
@@ -268,10 +271,19 @@ def process_events():
                             clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
                             day_parts = clean_day.split()
 
-                            if len(day_parts) >= 4:
-                                day_num = day_parts[1]
-                                month_name = day_parts[2]
-                                year = day_parts[3]
+                            if len(day_parts) >= 3:  # Changed from 4 to 3 to handle "Wednesday 02 2025" format
+                                # Extract day, month, and year based on the format
+                                if len(day_parts) == 3:  # Format: "Wednesday 02 2025"
+                                    day_of_week = day_parts[0]
+                                    day_num = day_parts[1]
+                                    year = day_parts[2]
+                                    # Default to current month if not specified
+                                    current_month = datetime.datetime.now().strftime("%B")
+                                    month_name = current_month
+                                else:  # Original format with 4+ parts
+                                    day_num = day_parts[1]
+                                    month_name = day_parts[2]
+                                    year = day_parts[3]
 
                                 # Get time from game data
                                 time_str = game.get("time", "00:00")
@@ -281,7 +293,8 @@ def process_events():
                                 if len(time_parts) == 2:
                                     hour = int(time_parts[0])
                                     minute = time_parts[1]
-                                    hour_cet = (hour + 1) % 24
+                                    # Add 2 hours to account for source data not being updated after DST change
+                                    hour_cet = (hour + 2) % 24
                                     hour_cet_str = f"{hour_cet:02d}"
                                     time_str_cet = f"{hour_cet_str}:{minute}"
                                 else:
@@ -354,6 +367,10 @@ def process_events():
         except KeyError as e:
             print(f"KeyError: {e} - Key may not exist in JSON structure")
 
+    # Add at the top of the file with other constants
+    DEBUG_MODE = True  # Set to False in production
+    
+    # Then in the process_events function, add this before the return statement:
     # Print summary
     print(f"\n=== Processing Summary ===")
     print(f"Total events found: {total_events}")
@@ -362,6 +379,28 @@ def process_events():
     print(f"Channels successfully processed: {processed_channels}")
     print(f"Keywords used for filtering: {EVENT_KEYWORDS}")
     print(f"===========================\n")
+    
+    # Debug: If no channels were found, print some sample events to help diagnose
+    if processed_channels == 0 and DEBUG_MODE:
+        print("\n=== DEBUG: Sample Events ===")
+        sample_count = 0
+        for day, day_data in dadjson.items():
+            try:
+                for sport_key, sport_events in day_data.items():
+                    if sport_key not in excluded_categories and sample_count < 5:
+                        for game in sport_events[:2]:  # Show up to 2 games per category
+                            print(f"Day: {day}")
+                            print(f"Sport: {sport_key}")
+                            print(f"Event: {game.get('event', 'No event')}")
+                            print(f"Time: {game.get('time', 'No time')}")
+                            print(f"Channels: {game.get('channels', [])}")
+                            print("---")
+                            sample_count += 1
+                            if sample_count >= 5:
+                                break
+            except Exception as e:
+                print(f"Error in debug section: {e}")
+        print("===========================\n")
 
     return processed_channels
 
