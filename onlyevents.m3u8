@@ -467,6 +467,18 @@ https://wikinew.newkso.ru/wiki/premium583/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium134/mono.m3u8
 
+#EXTINF:-1 tvg-id="Albanian Cup - Vllaznia Shkodër vs Dinamo City" tvg-name="19:00 Albanian Cup : Vllaznia Shkodër vs Dinamo City - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RTSH Sport Albania
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium174/mono.m3u8
+
+#EXTINF:-1 tvg-id="Slovenian Cup - 1/4 Final: Maribor vs Celje" tvg-name="19:00 Slovenian Cup: 1/4 Final: Maribor vs Celje - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport Klub 8 Serbia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium177/mono.m3u8
+
 #EXTINF:-1 tvg-id="Greece - Greek Cup - AEK Athens vs Olympiakos Piraeus" tvg-name="19:30 Greece - Greek Cup : AEK Athens vs Olympiakos Piraeus - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 1 Greece
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1955,6 +1967,12 @@ https://dokko1new.newkso.ru/dokko1/premium589/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium162/mono.m3u8
 
+#EXTINF:-1 tvg-id="Slovenian League (M) - Triglav Elektro Gorenjska Prodaja vs KK Krka Novo Mesto" tvg-name="18:00 Slovenian League (M): Triglav Elektro Gorenjska Prodaja vs KK Krka Novo Mesto - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 7 Serbia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium178/mono.m3u8
+
 #EXTINF:-1 tvg-id="ABA Liga 2 - KK Bosna Royal Sarajevo vs. Kk Zlatibor" tvg-name="18:00 ABA Liga 2 : KK Bosna Royal Sarajevo vs. Kk Zlatibor - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 2 Croatia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2626,6 +2644,12 @@ https://windnew.newkso.ru/wind/premium475/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Slovenian league (w) - Playoff - 1/4 Final (G1): Branik Maribor vs Šempeter" tvg-name="18:30 Slovenian league (w): Playoff - 1/4 Final (G1): Branik Maribor vs Šempeter - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sport Klub 10 Serbia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium179/mono.m3u8
 
 #EXTINF:-1 tvg-id="2025 World Men's Curling Championship - Norway vs. Canada" tvg-name="17:00 2025 World Men's Curling Championship : Norway vs. Canada - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", TSN1
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
