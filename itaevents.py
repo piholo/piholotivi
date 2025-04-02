@@ -305,6 +305,9 @@ def process_events():
                                 uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
                                 rome_time = uk_time.astimezone(rome_tz)
                                 
+                                # Add +1 hour to correct the time
+                                rome_time = rome_time + datetime.timedelta(hours=1)
+                                
                                 # Format for display
                                 time_str_rome = rome_time.strftime("%H:%M")
                             else:
