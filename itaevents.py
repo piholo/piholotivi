@@ -257,94 +257,127 @@ def process_events():
                             clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
                             day_parts = clean_day.split()
 
-                            if len(day_parts) >= 4:
-                                day_num = day_parts[1]
-                                month_name = day_parts[2]
-                                year = day_parts[3]
-
-                                # Get time from game data
-                                time_str = game.get("time", "00:00")
-
-                                # Convert time from UK to CET (add 1 hour)
-                                time_parts = time_str.split(":")
-                                if len(time_parts) == 2:
-                                    hour = int(time_parts[0])
-                                    minute = time_parts[1]
-                                    hour_cet = (hour + 1) % 24
-                                    hour_cet_str = f"{hour_cet:02d}"
-                                    time_str_cet = f"{hour_cet_str}:{minute}"
+                            # Handle various date formats
+                            if len(day_parts) >= 4:  # Standard format: Weekday Month Day Year
+                                day_num = day_parts[2]  # Day is usually the third part
+                                month_name = day_parts[1]  # Month is usually the second part
+                                year = day_parts[3]  # Year is usually the fourth part
+                            elif len(day_parts) == 3:
+                                # Format could be: "Weekday Day Year" (missing month) or "Day Month Year"
+                                if day_parts[0].lower() in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]:
+                                    # It's "Weekday Day Year" format (missing month)
+                                    day_num = day_parts[1]
+                                    # Get current month for Rome timezone
+                                    rome_tz = pytz.timezone('Europe/Rome')
+                                    current_month = datetime.datetime.now(rome_tz).strftime('%B')
+                                    month_name = current_month
+                                    year = day_parts[2]
                                 else:
-                                    time_str_cet = time_str
-
-                                # Month map for conversion
-                                month_map = {
-                                    "January": "01", "February": "02", "March": "03", "April": "04",
-                                    "May": "05", "June": "06", "July": "07", "August": "08",
-                                    "September": "09", "October": "10", "November": "11", "December": "12"
-                                }
-                                month_num = month_map.get(month_name, "01")
-
-                                # Ensure day has leading zero if needed
-                                if len(day_num) == 1:
-                                    day_num = f"0{day_num}"
-
-                                # Create formatted date time
-                                year_short = year[2:4]
-                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
-
+                                    # Assume Day Month Year
+                                    day_num = day_parts[0]
+                                    month_name = day_parts[1]
+                                    year = day_parts[2]
                             else:
-                                print(f"Invalid date format after cleaning: {clean_day}")
-                                continue
+                                # Use current date from Rome timezone
+                                rome_tz = pytz.timezone('Europe/Rome')
+                                now = datetime.datetime.now(rome_tz)
+                                day_num = now.strftime('%d')
+                                month_name = now.strftime('%B')
+                                year = now.strftime('%Y')
+                                print(f"Using current Rome date for: {clean_day}")
+
+                            # Get time from game data
+                            time_str = game.get("time", "00:00")
+
+                            # Converti l'orario da UK a CET (aggiungi 2 ore per compensare il mancato aggiornamento)
+                            time_parts = time_str.split(":")
+                            if len(time_parts) == 2:
+                                hour = int(time_parts[0])
+                                minute = time_parts[1]
+                                # Aggiungi due ore all'orario UK
+                                hour_cet = (hour + 2) % 24
+                                # Assicura che l'ora abbia due cifre
+                                hour_cet_str = f"{hour_cet:02d}"
+                                # Nuovo time_str con orario CET
+                                time_str_cet = f"{hour_cet_str}:{minute}"
+                            else:
+                                # Se il formato dell'orario non è corretto, mantieni l'originale
+                                time_str_cet = time_str
+
+                            # Convert month name to number
+                            month_map = {
+                                "January": "01", "February": "02", "March": "03", "April": "04",
+                                "May": "05", "June": "06", "July": "07", "August": "08",
+                                "September": "09", "October": "10", "November": "11", "December": "12"
+                            }
+                            month_num = month_map.get(month_name, "01")  # Default to January if not found
+
+                            # Ensure day has leading zero if needed
+                            if len(str(day_num)) == 1:
+                                day_num = f"0{day_num}"
+
+                            # Create formatted date time
+                            year_short = str(year)[-2:]  # Extract last two digits of year
+                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
+
+                            # Also create proper datetime objects for EPG
+                            # Make sure we're using clean numbers for the date components
+                            date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
+                            start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+
+                            # Convert to Amsterdam timezone
+                            amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                            start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
+
+                            # Format for EPG
+                            mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
+                            mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
+
+                            # Build channel name with new date format
+                            if isinstance(channel, dict) and "channel_name" in channel:
+                                channelName = formatted_date_time + "  " + channel["channel_name"]
+                            else:
+                                channelName = formatted_date_time + "  " + str(channel)
+
+                            # Extract event name for the tvg-id
+                            event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
+                            event_details = game["event"]  # Keep the full event details for tvg-name
 
                         except Exception as e:
                             print(f"Error processing date '{day}': {e}")
                             print(f"Game time: {game.get('time', 'No time found')}")
                             continue
 
-                        # Build channel name with new date format
-                        # Remove this problematic line:
-                        # channelName = formatted_date_time + "  " + channel["channel_name"]
-                        
-                        # Keep only this correct implementation:
-                        if isinstance(channel, dict) and "channel_name" in channel:
-                            channelName = formatted_date_time + "  " + channel["channel_name"]
-                        else:
-                            channelName = formatted_date_time + "  " + str(channel)
-                        
-                        # Extract event name for the tvg-id
-                        event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
-                        event_details = game["event"]  # Keep the full event details for tvg-name
                         # Check if channel should be included based on keywords
                         if should_include_channel(channelName, event_name, sport_key):
                             # Process channel information
-                            # Around line 350 where you access channel['channel_id']
                             if isinstance(channel, dict) and "channel_id" in channel:
                                 channelID = f"{channel['channel_id']}"
                             else:
                                 # Generate a fallback ID
                                 channelID = str(uuid.uuid4())
-                            
+
                             # Around line 353 where you access channel["channel_name"]
                             if isinstance(channel, dict) and "channel_name" in channel:
                                 channel_name_str = channel["channel_name"]
                             else:
                                 channel_name_str = str(channel)
                             stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
-                            
+
                             if stream_url_dynamic:
                                 # Around line 361 where you access channel["channel_name"] again
                                 if isinstance(channel, dict) and "channel_name" in channel:
                                     channel_name_str = channel["channel_name"]
                                 else:
                                     channel_name_str = str(channel)
-                                
+
                                 with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
                                     # Estrai l'orario dal formatted_date_time
                                     time_only = time_str_cet if time_str_cet else "00:00"
-                                    
+
                                     # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
-                                    
+
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
                                     file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
