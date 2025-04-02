@@ -5,6 +5,12 @@
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium36/mono.m3u8
 
+#EXTINF:-1 tvg-id="England - League Two - Notts County vs Milton Keynes Dons" tvg-name="20:45 England - League Two : Notts County vs Milton Keynes Dons - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium176/mono.m3u8
+
 #EXTINF:-1 tvg-id="Portugal - Liga Revelação - Torreense vs Estrela Da Amadora Da Amadora" tvg-name="11:55 Portugal - Liga Revelação : Torreense vs Estrela Da Amadora Da Amadora - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal 11 Portugal
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -28,12 +34,6 @@ https://windnew.newkso.ru/wind/premium429/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium49/mono.m3u8
-
-#EXTINF:-1 tvg-id="CAF Confederation Cup - Stellenbosch vs Zamalek" tvg-name="15:00 CAF Confederation Cup : Stellenbosch vs Zamalek - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 1 Afrique
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium486/mono.m3u8
 
 #EXTINF:-1 tvg-id="CAF Confederation Cup - Stellenbosch vs Zamalek" tvg-name="15:00 CAF Confederation Cup : Stellenbosch vs Zamalek - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 4
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -347,12 +347,6 @@ https://dokko1new.newkso.ru/dokko1/premium95/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
 
-#EXTINF:-1 tvg-id="CAF Confederation Cup - ASEC Mimosas vs RSB Berkane" tvg-name="18:00 CAF Confederation Cup : ASEC Mimosas vs RSB Berkane - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 1 Afrique
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium486/mono.m3u8
-
 #EXTINF:-1 tvg-id="CAF Confederation Cup - ASEC Mimosas vs RSB Berkane" tvg-name="18:00 CAF Confederation Cup : ASEC Mimosas vs RSB Berkane - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 3
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -533,6 +527,12 @@ https://dokko1new.newkso.ru/dokko1/premium779/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium379/mono.m3u8
 
+#EXTINF:-1 tvg-id="Netherlands - Eredivisie - Feyenoord vs Groningen" tvg-name="20:00 Netherlands - Eredivisie : Feyenoord vs Groningen - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium173/mono.m3u8
+
 #EXTINF:-1 tvg-id="Netherlands - Eredivisie - Feyenoord vs Groningen" tvg-name="20:00 Netherlands - Eredivisie : Feyenoord vs Groningen - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportsnet World
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -592,6 +592,12 @@ https://windnew.newkso.ru/wind/premium155/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
+
+#EXTINF:-1 tvg-id="Switzerland Super League - Sion vs Winterthur" tvg-name="20:30 Switzerland Super League : Sion vs Winterthur - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Blue Sport 2 Live
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium175/mono.m3u8
 
 #EXTINF:-1 tvg-id="Switzerland - Super League - Zürich vs Lausanne Sport" tvg-name="20:30 Switzerland - Super League : Zürich vs Lausanne Sport - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SRF zwei
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -940,12 +946,6 @@ https://ddy6new.newkso.ru/ddy6/premium160/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium463/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - Premier League - Brighton & Hove Albion vs Aston Villa" tvg-name="20:45 England - Premier League : Brighton & Hove Albion vs Aston Villa - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 4 Afrique
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium489/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - Premier League - Brighton & Hove Albion vs Aston Villa" tvg-name="20:45 England - Premier League : Brighton & Hove Albion vs Aston Villa - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 4 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1474,6 +1474,12 @@ https://nfsnew.newkso.ru/nfs/premium21/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium437/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spain - Copa del Rey - Atlético Madrid vs Barcelona" tvg-name="21:30 Spain - Copa del Rey : Atlético Madrid vs Barcelona - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium172/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - Copa del Rey - Atlético Madrid vs Barcelona" tvg-name="21:30 Spain - Copa del Rey : Atlético Madrid vs Barcelona - 02/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SSC 1
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
