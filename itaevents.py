@@ -256,149 +256,107 @@ def process_events():
                             # Clean and format day
                             clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
                             day_parts = clean_day.split()
-                            
-                            # Handle various date formats
+
                             if len(day_parts) >= 4:
-                                # Standard format: Weekday Month Day Year
                                 day_num = day_parts[1]
                                 month_name = day_parts[2]
                                 year = day_parts[3]
-                            elif len(day_parts) == 3:
-                                # Format: Weekday Day Year or Day Month Year
-                                if day_parts[1].isdigit() and day_parts[2].isdigit() and len(day_parts[2]) == 4:
-                                    # Weekday Day Year (missing month)
-                                    day_num = day_parts[1]
-                                    # Get current month for Rome timezone
-                                    rome_tz = pytz.timezone('Europe/Rome')
-                                    current_month = datetime.datetime.now(rome_tz).strftime('%B')
-                                    month_name = current_month
-                                    year = day_parts[2]
+
+                                # Get time from game data
+                                time_str = game.get("time", "00:00")
+
+                                # Convert time from UK to CET (add 1 hour)
+                                time_parts = time_str.split(":")
+                                if len(time_parts) == 2:
+                                    hour = int(time_parts[0])
+                                    minute = time_parts[1]
+                                    hour_cet = (hour + 1) % 24
+                                    hour_cet_str = f"{hour_cet:02d}"
+                                    time_str_cet = f"{hour_cet_str}:{minute}"
                                 else:
-                                    # Assume Day Month Year
-                                    day_num = day_parts[0]
-                                    month_name = day_parts[1]
-                                    year = day_parts[2]
+                                    time_str_cet = time_str
+
+                                # Month map for conversion
+                                month_map = {
+                                    "January": "01", "February": "02", "March": "03", "April": "04",
+                                    "May": "05", "June": "06", "July": "07", "August": "08",
+                                    "September": "09", "October": "10", "November": "11", "December": "12"
+                                }
+                                month_num = month_map.get(month_name, "01")
+
+                                # Ensure day has leading zero if needed
+                                if len(day_num) == 1:
+                                    day_num = f"0{day_num}"
+
+                                # Create formatted date time
+                                year_short = year[2:4]
+                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
+
                             else:
-                                # Use current date from Rome timezone
-                                rome_tz = pytz.timezone('Europe/Rome')
-                                now = datetime.datetime.now(rome_tz)
-                                day_num = now.strftime('%d')
-                                month_name = now.strftime('%B')
-                                year = now.strftime('%Y')
-                                print(f"Using current Rome date for: {clean_day}")
-                            
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
-                            
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Add +1 hour to correct the time
-                                rome_time = rome_time + datetime.timedelta(hours=1)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
+                                print(f"Invalid date format after cleaning: {clean_day}")
+                                continue
+
                         except Exception as e:
                             print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                            print(f"Game time: {game.get('time', 'No time found')}")
+                            continue
 
-                                # Build channel name with new date format
-                                # Remove this problematic line:
-                                # channelName = formatted_date_time + "  " + channel["channel_name"]
-                                
-                                # Keep only this correct implementation:
+                        # Build channel name with new date format
+                        # Remove this problematic line:
+                        # channelName = formatted_date_time + "  " + channel["channel_name"]
+                        
+                        # Keep only this correct implementation:
+                        if isinstance(channel, dict) and "channel_name" in channel:
+                            channelName = formatted_date_time + "  " + channel["channel_name"]
+                        else:
+                            channelName = formatted_date_time + "  " + str(channel)
+                        
+                        # Extract event name for the tvg-id
+                        event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
+                        event_details = game["event"]  # Keep the full event details for tvg-name
+                        # Check if channel should be included based on keywords
+                        if should_include_channel(channelName, event_name, sport_key):
+                            # Process channel information
+                            # Around line 350 where you access channel['channel_id']
+                            if isinstance(channel, dict) and "channel_id" in channel:
+                                channelID = f"{channel['channel_id']}"
+                            else:
+                                # Generate a fallback ID
+                                channelID = str(uuid.uuid4())
+                            
+                            # Around line 353 where you access channel["channel_name"]
+                            if isinstance(channel, dict) and "channel_name" in channel:
+                                channel_name_str = channel["channel_name"]
+                            else:
+                                channel_name_str = str(channel)
+                            stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
+                            
+                            if stream_url_dynamic:
+                                # Around line 361 where you access channel["channel_name"] again
                                 if isinstance(channel, dict) and "channel_name" in channel:
-                                    channelName = formatted_date_time + "  " + channel["channel_name"]
+                                    channel_name_str = channel["channel_name"]
                                 else:
-                                    channelName = formatted_date_time + "  " + str(channel)
+                                    channel_name_str = str(channel)
                                 
-                                # Extract event name for the tvg-id
-                                event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
-                                event_details = game["event"]  # Keep the full event details for tvg-name
-                                # Check if channel should be included based on keywords
-                                if should_include_channel(channelName, event_name, sport_key):
-                                    # Process channel information
-                                    # Around line 350 where you access channel['channel_id']
-                                    if isinstance(channel, dict) and "channel_id" in channel:
-                                        channelID = f"{channel['channel_id']}"
-                                    else:
-                                        # Generate a fallback ID
-                                        channelID = str(uuid.uuid4())
+                                with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                    # Estrai l'orario dal formatted_date_time
+                                    time_only = time_str_cet if time_str_cet else "00:00"
                                     
-                                    # Around line 353 where you access channel["channel_name"]
-                                    if isinstance(channel, dict) and "channel_name" in channel:
-                                        channel_name_str = channel["channel_name"]
-                                    else:
-                                        channel_name_str = str(channel)
-                                    stream_url_dynamic = get_stream_link(channelID, event_details, channel_name_str)
+                                    # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
+                                    tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
                                     
-                                    if stream_url_dynamic:
-                                        # Around line 361 where you access channel["channel_name"] again
-                                        if isinstance(channel, dict) and "channel_name" in channel:
-                                            channel_name_str = channel["channel_name"]
-                                        else:
-                                            channel_name_str = str(channel)
-                                        
-                                        with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
-                                            # Estrai l'orario dal formatted_date_time
-                                            time_only = time_str_cet if time_str_cet else "00:00"
-                                            
-                                            # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
-                                            tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
-                                            
-                                            file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
-                                            file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
-                                            file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                                            file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
-                                            file.write(f"{stream_url_dynamic}\n\n")
+                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
+                                    file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
+                                    file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                                    file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
+                                    file.write(f"{stream_url_dynamic}\n\n")
 
-                                        processed_channels += 1
-                                        filtered_channels += 1
-                                    else:
-                                        print(f"Failed to get stream URL for channel ID: {channelID}")
-                                else:
-                                    print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
+                                processed_channels += 1
+                                filtered_channels += 1
+                            else:
+                                print(f"Failed to get stream URL for channel ID: {channelID}")
+                        else:
+                            print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
 
         except KeyError as e:
             print(f"KeyError: {e} - Key may not exist in JSON structure")
