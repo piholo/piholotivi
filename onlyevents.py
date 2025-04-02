@@ -232,1073 +232,254 @@ def addChannelsByLeagueSport():
                 for game in sport_events:
                     for channel in game.get("channels", []):
                         try:
-                            # Clean and format day
-                            clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            # Remove the "Schedule Time UK GMT" part and split the remaining string
+                            clean_day = day.replace(" - Schedule Time UK GMT", "")
+
+                            # Remove ordinal suffixes (st, nd, rd, th)
+                            clean_day = clean_day.replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+
+                            # Split the cleaned string
                             day_parts = clean_day.split()
-                            
-                            # Handle various date formats
-                            if len(day_parts) >= 4:
-                                # Standard format: Weekday Month Day Year
+
+                            if len(day_parts) >= 4:  # Make sure we have enough parts
                                 day_num = day_parts[1]
                                 month_name = day_parts[2]
                                 year = day_parts[3]
-                            elif len(day_parts) == 3:
-                                # Format: Weekday Day Year or Day Month Year
-                                if day_parts[1].isdigit() and day_parts[2].isdigit() and len(day_parts[2]) == 4:
-                                    # Weekday Day Year (missing month)
-                                    day_num = day_parts[1]
-                                    # Get current month for Rome timezone
-                                    rome_tz = pytz.timezone('Europe/Rome')
-                                    current_month = datetime.datetime.now(rome_tz).strftime('%B')
-                                    month_name = current_month
-                                    year = day_parts[2]
+
+                                # Get time from game data
+                                time_str = game.get("time", "00:00")
+
+                                # Converti l'orario da UK a CET (aggiungi 1 ora)
+                                time_parts = time_str.split(":")
+                                if len(time_parts) == 2:
+                                    hour = int(time_parts[0])
+                                    minute = time_parts[1]
+                                    # Aggiungi un'ora all'orario UK
+                                    hour_cet = (hour + 1) % 24
+                                    # Assicura che l'ora abbia due cifre
+                                    hour_cet_str = f"{hour_cet:02d}"
+                                    # Nuovo time_str con orario CET
+                                    time_str_cet = f"{hour_cet_str}:{minute}"
                                 else:
-                                    # Assume Day Month Year
-                                    day_num = day_parts[0]
-                                    month_name = day_parts[1]
-                                    year = day_parts[2]
+                                    # Se il formato dell'orario non è corretto, mantieni l'originale
+                                    time_str_cet = time_str
+
+                                # Convert month name to number
+                                month_map = {
+                                    "January": "01", "February": "02", "March": "03", "April": "04",
+                                    "May": "05", "June": "06", "July": "07", "August": "08",
+                                    "September": "09", "October": "10", "November": "11", "December": "12"
+                                }
+                                month_num = month_map.get(month_name, "01")  # Default to January if not found
+
+                                # Ensure day has leading zero if needed
+                                if len(day_num) == 1:
+                                    day_num = f"0{day_num}"
+
+                                # Create a datetime object in UTC (no timezone conversion yet)
+                                year_short = year[2:4]  # Extract last two digits of year
+
+                                # Format as requested: "01/03/25 - 10:10" con orario CET
+                                formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_cet}"
+
+                                # Also create proper datetime objects for EPG
+                                # Make sure we're using clean numbers for the date components
+                                date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
+                                start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+
+                                # Convert to Amsterdam timezone
+                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                                start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
+
+                                # Format for EPG
+                                mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
+                                mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
+
                             else:
-                                # Use current date from Rome timezone
-                                rome_tz = pytz.timezone('Europe/Rome')
-                                now = datetime.datetime.now(rome_tz)
-                                day_num = now.strftime('%d')
-                                month_name = now.strftime('%B')
-                                year = now.strftime('%Y')
-                                print(f"Using current Rome date for: {clean_day}")
-                            
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
-                            
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
+                                print(f"Invalid date format after cleaning: {clean_day}")
+                                continue
+
                         except Exception as e:
                             print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                            print(f"Game time: {game.get('time', 'No time found')}")
+                            continue
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                        # Get next unique ID
+                        UniqueID = unique_ids.pop(0)
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                        try:
+                            # Build channel name with new date format
+                          # channelName = game["event"] + " " + formatted_date_time + "  " + channel["channel_name"]
+                            channelName = formatted_date_time + "  " + channel["channel_name"]
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                            # Extract event part and channel part for TVG ID
+                           #if ":" in game["event"]:
+                           #    event_part = game["event"].split(":")[0].strip()
+                           #else:
+                           #    event_part = game["event"].strip()
+                            event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
+                            event_details = game["event"]  # Keep the full event details for tvg-name
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                           #channel_part = channel["channel_name"].strip()
+                           #custom_tvg_id = f"{event_part} - {channel_part}"
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                        except (TypeError, KeyError) as e:
+                            print(f"Error processing event: {e}")
+                            continue
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                        # Process channel information
+                        channelID = f"{channel['channel_id']}"
+                        tvgName = channelName
+                        tvLabel = tvgName
+                        channelCount += 1
+                        print(f"Processing channel {channelCount}: {clean_sport_key} - {channelName}")
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                        # Get stream URL
+                        stream_url_dynamic = get_stream_link(channelID, game["event"], channel["channel_name"])
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                        if stream_url_dynamic:
+                            # Write to M3U8 file
+                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                if channelCount == 1:
+                                    file.write('#EXTM3U\n')
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                            with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
+                                # Estrai l'orario dal formatted_date_time
+                                time_only = time_str_cet if time_str_cet else "00:00"
+                                
+                                # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
+                                tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
+                                
+                                file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
+                                file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
+                                file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+                                file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
+                                file.write(f"{stream_url_dynamic}\n\n")
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+                            processed_schedule_channels += 1
+                        else:
+                            print(f"Failed to get stream URL for channel ID: {channelID}")
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+        except KeyError as e:
+            print(f"KeyError: {e} - Key may not exist in JSON structure")
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+    # Print summary
+    print(f"\n=== Processing Summary ===")
+    print(f"Total events found: {total_events}")
+    print(f"Events skipped due to category filters: {skipped_events}")
+    print(f"Channels successfully processed: {processed_schedule_channels}")
+    print(f"===========================\n")
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+    return processed_schedule_channels
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+STATIC_LOGOS = {
+    "sky uno": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png",
+    "dazn 1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png"
+}
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+STATIC_TVG_IDS = {
+    "sky uno": "sky uno",
+    "20 mediaset": "Mediaset 20",
+}
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+STATIC_CATEGORIES = {
+    "sky uno": "Sky",
+    "20 mediaset": "Mediaset",
+}
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+def fetch_with_debug(filename, url):
+    try:
+        #print(f'Downloading {url}...') # Debug removed
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+        with open(filename, 'wb') as file:
+            file.write(response.content)
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+        #print(f'File {filename} downloaded successfully.') # Debug removed
+    except requests.exceptions.RequestException as e:
+        #print(f'Error downloading {url}: {e}') # Debug removed
+        pass # No debug print, just skip
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+def search_category(channel_name):
+    return STATIC_CATEGORIES.get(channel_name.lower().strip(), "Undefined")
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+def search_streams(file_path, keyword):
+    matches = []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            soup = BeautifulSoup(file.read(), 'html.parser')
+            links = soup.find_all('a', href=True)
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+        for link in links:
+            if keyword.lower() in link.text.lower():
+                href = link['href']
+                stream_number = href.split('-')[-1].replace('.php', '')
+                stream_name = link.text.strip()
+                match = (stream_number, stream_name)
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+                if match not in matches:
+                    matches.append(match)
+    except FileNotFoundError:
+        #print(f'The file {file_path} does not exist.') # Debug removed
+        pass # No debug print, just skip
+    return matches
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+def search_logo(channel_name):
+    channel_name_lower = channel_name.lower().strip()
+    for key, url in STATIC_LOGOS.items():
+        if key in channel_name_lower:
+            return url
+    return "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png"
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+def search_tvg_id(channel_name):
+    channel_name_lower = channel_name.lower().strip()
+    for key, tvg_id in STATIC_TVG_IDS.items():
+        if key in channel_name_lower:
+            return tvg_id
+    return "unknown"
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+def generate_m3u8_247(matches): # Rinominata per evitare conflitti, ma non sarà usata
+    if not matches:
+        #print("No matches found for 24/7 channels. Skipping M3U8 generation.") # Debug removed
+        return 0 # Return 0 as no 24/7 channels processed
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+    processed_247_channels = 0 # Counter for 24/7 channels, but will remain 0
+    with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file: # Appende al file esistente
+        pass # 24/7 generation is skipped, so the loop and content writing are removed
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+    #print("M3U8 file updated with 24/7 channels.") # Debug removed, and incorrect message
+    return processed_247_channels # Return count of processed 24/7 channels (always 0 now)
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+# Inizio del codice principale
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+# Inizializza contatore e genera ID univoci
+channelCount = 0
+unique_ids = generate_unique_ids(NUM_CHANNELS)
+total_schedule_channels = 0 # Counter for total schedule channels attempted
+total_247_channels = 0 # Counter for total 24/7 channels attempted - will remain 0
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+# Scarica il file JSON con la programmazione
+# fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+# Carica i dati dal JSON
+dadjson = loadJSON(DADDY_JSON_FILE)
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August": "08",
-                                "September": "09", "October": "10", "November": "11", "December": "12"
-                            }
-                            month_num = month_map.get(month_name, "01")
-                            
-                            # Ensure day has leading zero if needed
-                            if len(str(day_num)) == 1:
-                                day_num = f"0{day_num}"
-                            
-                            # Create formatted date time
-                            year_short = str(year)[-2:]
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
-                        except Exception as e:
-                            print(f"Error processing date '{day}': {e}")
-                            # Fallback to current Rome time
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            now = datetime.datetime.now(rome_tz)
-                            day_num = now.strftime('%d')
-                            month_num = now.strftime('%m')
-                            year_short = now.strftime('%y')
-                            time_str_rome = now.strftime('%H:%M')
-                            formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            print(f"Using fallback Rome date/time: {formatted_date_time}")
+# Aggiunge i canali reali
+total_schedule_channels = addChannelsByLeagueSport()
 
-                            # Get time from game data
-                            time_str = game.get("time", "00:00")
+# Verifica se sono stati creati canali validi
+if channelCount == 0:
+    print("Nessun canale valido trovato dalla programmazione.") # Modificata la frase
+    pass
 
-                            # Convert time to Rome timezone (CET/CEST)
-                            rome_tz = pytz.timezone('Europe/Rome')
-                            uk_tz = pytz.timezone('Europe/London')
-                            
-                            # Parse the time
-                            time_parts = time_str.split(":")
-                            if len(time_parts) == 2:
-                                hour = int(time_parts[0])
-                                minute = int(time_parts[1])
-                                
-                                # Create datetime objects
-                                now = datetime.datetime.now()
-                                uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
-                                rome_time = uk_time.astimezone(rome_tz)
-                                
-                                # Format for display
-                                time_str_rome = rome_time.strftime("%H:%M")
-                            else:
-                                # If time format is invalid, use current Rome time
-                                now_rome = datetime.datetime.now(rome_tz)
-                                time_str_rome = now_rome.strftime("%H:%M")
-                            
-                            # Month map for conversion
-                            month_map = {
-                                "January": "01", "February": "02", "March": "03", "April": "04",
-                                "May": "05", "June": "06", "July": "07", "August
+
+# Fetch e generazione M3U8 per i canali 24/7 - RIMOSSO COMPLETAMENTE
+# fetch_with_debug(daddyLiveChannelsFileName, daddyLiveChannelsURL)
+# matches_247 = search_streams(daddyLiveChannelsFileName, "Italy") # Cerca tutti i canali
+# total_247_channels = generate_m3u8_247(matches_247)
+
+print(f"Script completato. Canali eventi aggiunti: {total_schedule_channels}") # Messaggio finale modificato, solo canali eventi
