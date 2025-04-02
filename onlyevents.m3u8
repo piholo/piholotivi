@@ -845,12 +845,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium460/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium71/mono.m3u8
 
-#EXTINF:-1 tvg-id="Germany - DFB Pokal - Arminia Bielefeld vs Bayer Leverkusen" tvg-name="19:45 Germany - DFB Pokal : Arminia Bielefeld vs Bayer Leverkusen" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 3 NL
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium919/mono.m3u8
-
 #EXTINF:-1 tvg-id="Germany - DFB Pokal - Arminia Bielefeld vs Bayer Leverkusen" tvg-name="19:45 Germany - DFB Pokal : Arminia Bielefeld vs Bayer Leverkusen" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 2 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1067,12 +1061,6 @@ https://windnew.iosplayer.ru/wind/premium50/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium609/mono.m3u8
 
-#EXTINF:-1 tvg-id="Coppa Italia - Empoli vs Bologna" tvg-name="20:00 Coppa Italia : Empoli vs Bologna" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 2 NL
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://zekonew.iosplayer.ru/zeko/premium398/mono.m3u8
-
 #EXTINF:-1 tvg-id="Coppa Italia - Empoli vs Bologna" tvg-name="20:00 Coppa Italia : Empoli vs Bologna" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cytavision Sports 6 Cyprus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1162,12 +1150,6 @@ https://zekonew.iosplayer.ru/zeko/premium90/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium486/mono.m3u8
-
-#EXTINF:-1 tvg-id="CAF Champions League - Al Ahly vs Al Hilal Omdurman" tvg-name="20:00 CAF Champions League : Al Ahly vs Al Hilal Omdurman" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport LaLiga
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium415/mono.m3u8
 
 #EXTINF:-1 tvg-id="CAF Champions League - Al Ahly vs Al Hilal Omdurman" tvg-name="20:00 CAF Champions League : Al Ahly vs Al Hilal Omdurman" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 6
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
