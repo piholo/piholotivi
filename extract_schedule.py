@@ -71,10 +71,33 @@ def html_to_json(html_content):
     
     return result
 
+def clean_previous_files():
+    """Remove files generated from previous runs"""
+    files_to_clean = [
+        "main_schedule_container.html",
+        "daddyliveSchedule.json",
+        "schedule_screenshot.png"
+    ]
+    
+    # Also remove any error screenshots
+    error_screenshots = [f for f in os.listdir() if f.startswith("error_screenshot_attempt_")]
+    files_to_clean.extend(error_screenshots)
+    
+    for file in files_to_clean:
+        if os.path.exists(file):
+            try:
+                os.remove(file)
+                print(f"Removed previous file: {file}")
+            except Exception as e:
+                print(f"Could not remove file {file}: {str(e)}")
+
 def extract_schedule_container(max_retries=3, retry_delay=5):
     url = "https://daddylive.mp/"
     html_output = "main_schedule_container.html"
     json_output = "daddyliveSchedule.json"
+
+    # Clean up files from previous runs
+    clean_previous_files()
 
     print(f"Accesso alla pagina {url} per estrarre il main-schedule-container...")
 
