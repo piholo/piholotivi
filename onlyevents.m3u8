@@ -35,6 +35,12 @@ https://windnew.iosplayer.ru/wind/premium429/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium49/mono.m3u8
 
+#EXTINF:-1 tvg-id="CAF Confederation Cup - Stellenbosch vs Zamalek" tvg-name="14:00 CAF Confederation Cup : Stellenbosch vs Zamalek" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 1 Afrique
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium486/mono.m3u8
+
 #EXTINF:-1 tvg-id="CAF Confederation Cup - Stellenbosch vs Zamalek" tvg-name="14:00 CAF Confederation Cup : Stellenbosch vs Zamalek" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 4
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -346,6 +352,12 @@ https://dokko1new.iosplayer.ru/dokko1/premium95/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium147/mono.m3u8
+
+#EXTINF:-1 tvg-id="CAF Confederation Cup - ASEC Mimosas vs RSB Berkane" tvg-name="17:00 CAF Confederation Cup : ASEC Mimosas vs RSB Berkane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 1 Afrique
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://ddy6new.iosplayer.ru/ddy6/premium486/mono.m3u8
 
 #EXTINF:-1 tvg-id="CAF Confederation Cup - ASEC Mimosas vs RSB Berkane" tvg-name="17:00 CAF Confederation Cup : ASEC Mimosas vs RSB Berkane" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 3
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -3347,55 +3359,55 @@ https://ddy6new.iosplayer.ru/ddy6/premium85/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium93/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium40/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium46/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium701/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium472/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium393/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium396/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 5 NL
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 5 NL
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium383/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cytavision Sports 5 Cyprus
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cytavision Sports 5 Cyprus
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium915/mono.m3u8
 
-#EXTINF:-1 tvg-id="IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 IWTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Serbia
+#EXTINF:-1 tvg-id="WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest - WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-name="12:00 WTA 500 Charleston, WTA 250 Bogota, ATP 250 Houston, ATP 250 Marrakesh, ATP 250 Bucharest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Serbia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
