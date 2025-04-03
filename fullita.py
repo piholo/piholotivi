@@ -271,10 +271,10 @@ def process_events():
                             # Rimuovi anche i suffissi attaccati al numero (1st, 2nd, 3rd, etc.)
                             import re
                             clean_day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', clean_day)
-                            
+
                             print(f"Original day: '{day}'")
                             print(f"Clean day after processing: '{clean_day}'")
-                            
+
                             day_parts = clean_day.split()
                             print(f"Day parts: {day_parts}")  # Debug per vedere i componenti della data
 
@@ -282,7 +282,7 @@ def process_events():
                             day_num = None
                             month_name = None
                             year = None
-                            
+
                             if len(day_parts) >= 4:  # Standard format: Weekday Month Day Year
                                 weekday = day_parts[0]
                                 # Verifica se il secondo elemento contiene lettere (è il mese) o numeri (è il giorno)
@@ -340,35 +340,35 @@ def process_events():
                                 rome_tz = pytz.timezone('Europe/Rome')
                                 day_num = datetime.datetime.now(rome_tz).strftime('%d')
                                 print(f"Warning: Missing day number, using current day: {day_num}")
-                            
+
                             # Get time from game data
                             time_str = game.get("time", "00:00")
-                            
+
                             # Convert time to Rome timezone (CET/CEST)
                             rome_tz = pytz.timezone('Europe/Rome')
                             uk_tz = pytz.timezone('Europe/London')
-                            
+
                             # Parse the time
                             time_parts = time_str.split(":")
                             if len(time_parts) == 2:
                                 hour = int(time_parts[0])
                                 minute = int(time_parts[1])
-                                
+
                                 # Create datetime objects
                                 now = datetime.datetime.now()
                                 uk_time = uk_tz.localize(datetime.datetime(now.year, now.month, now.day, hour, minute))
                                 rome_time = uk_time.astimezone(rome_tz)
-                                
+
                                 # Add +1 hour to correct the time
-                                rome_time = rome_time + datetime.timedelta(hours=1)
-                                
+                                # rome_time = rome_time + datetime.timedelta(hours=1)
+
                                 # Format for display
                                 time_str_rome = rome_time.strftime("%H:%M")
                             else:
                                 # If time format is invalid, use current Rome time
                                 now_rome = datetime.datetime.now(rome_tz)
                                 time_str_rome = now_rome.strftime("%H:%M")
-                            
+
                             # Month map for conversion
                             month_map = {
                                 "January": "01", "February": "02", "March": "03", "April": "04",
@@ -376,15 +376,15 @@ def process_events():
                                 "September": "09", "October": "10", "November": "11", "December": "12"
                             }
                             month_num = month_map.get(month_name, "01")
-                            
+
                             # Ensure day has leading zero if needed
                             if len(str(day_num)) == 1:
                                 day_num = f"0{day_num}"
-                            
+
                             # Create formatted date time
                             year_short = str(year)[-2:]
                             formatted_date_time = f"{day_num}/{month_num}/{year_short} - {time_str_rome}"
-                            
+
                         except Exception as e:
                             print(f"Error processing date '{day}': {e}")
                             # Fallback to current Rome time
