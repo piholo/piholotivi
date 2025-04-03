@@ -1990,6 +1990,26 @@
         ],
         "MMA</span>": [
             {
+                "time": "00:00",
+                "event": "PFL World Tournament : Nathan Kelly vs Tae Kyun Kim",
+                "channels": []
+            },
+            {
+                "time": "00:20",
+                "event": "PFL World Tournament : Giannis Bachar vs Masayuki Kikuiri",
+                "channels": []
+            },
+            {
+                "time": "00:40",
+                "event": "PFL World Tournament : Gabriel Braga vs Fred Dupras",
+                "channels": []
+            },
+            {
+                "time": "01:00",
+                "event": "PFL World Tournament : Mukhamed Berkhamov vs Thad Jean",
+                "channels": []
+            },
+            {
                 "time": "02:00",
                 "event": "Professional Fighters League : Jason Jackson vs Andrey Koreshkov",
                 "channels": [
@@ -2002,6 +2022,21 @@
                         "channel_id": "375"
                     }
                 ]
+            },
+            {
+                "time": "02:20",
+                "event": "PFL World Tournament : Joseph Luciano vs Logan Storley",
+                "channels": []
+            },
+            {
+                "time": "02:40",
+                "event": "PFL World Tournament : Jesus Pinedo vs Adam Borics",
+                "channels": []
+            },
+            {
+                "time": "03:00",
+                "event": "PFL World Tournament : Jason Jackson vs Andrey Koreshkov",
+                "channels": []
             }
         ],
         "WWE</span>": [
