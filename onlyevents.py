@@ -313,13 +313,13 @@ def addChannelsByLeagueSport():
                             # Get time from game data
                             time_str = game.get("time", "00:00")
 
-                            # Converti l'orario da UK a CET (aggiungi 2 ore per compensare il mancato aggiornamento)
+                            # Converti l'orario da UK a CET (aggiungi 1 ora invece di 2)
                             time_parts = time_str.split(":")
                             if len(time_parts) == 2:
                                 hour = int(time_parts[0])
                                 minute = time_parts[1]
-                                # Aggiungi due ore all'orario UK
-                                hour_cet = (hour + 2) % 24
+                                # Aggiungi una ora all'orario UK
+                                hour_cet = (hour + 1) % 24
                                 # Assicura che l'ora abbia due cifre
                                 hour_cet_str = f"{hour_cet:02d}"
                                 # Nuovo time_str con orario CET
