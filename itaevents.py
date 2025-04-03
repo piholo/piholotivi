@@ -254,14 +254,41 @@ def process_events():
                     for channel in game.get("channels", []):
                         try:
                             # Clean and format day
-                            clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            clean_day = day.replace(" - Schedule Time UK GMT", "")
+                            # Rimuovi completamente i suffissi ordinali (st, nd, rd, th)
+                            clean_day = clean_day.replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            # Rimuovi anche i suffissi attaccati al numero (1st, 2nd, 3rd, etc.)
+                            import re
+                            clean_day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', clean_day)
+                            
+                            print(f"Original day: '{day}'")
+                            print(f"Clean day after processing: '{clean_day}'")
+                            
                             day_parts = clean_day.split()
+                            print(f"Day parts: {day_parts}")  # Debug per vedere i componenti della data
 
-                            # Handle various date formats
+                            # Handle various date formats with better validation
+                            day_num = None
+                            month_name = None
+                            year = None
+                            
                             if len(day_parts) >= 4:  # Standard format: Weekday Month Day Year
-                                day_num = day_parts[2]  # Day is usually the third part
-                                month_name = day_parts[1]  # Month is usually the second part
-                                year = day_parts[3]  # Year is usually the fourth part
+                                weekday = day_parts[0]
+                                # Verifica se il secondo elemento contiene lettere (è il mese) o numeri (è il giorno)
+                                if any(c.isalpha() for c in day_parts[1]):
+                                    # Formato: Weekday Month Day Year
+                                    month_name = day_parts[1]
+                                    day_num = day_parts[2]
+                                elif any(c.isalpha() for c in day_parts[2]):
+                                    # Formato: Weekday Day Month Year
+                                    day_num = day_parts[1]
+                                    month_name = day_parts[2]
+                                else:
+                                    # Se non riusciamo a determinare, assumiamo il formato più comune
+                                    day_num = day_parts[1]
+                                    month_name = day_parts[2]
+                                year = day_parts[3]
+                                print(f"Parsed date components: weekday={weekday}, day={day_num}, month={month_name}, year={year}")
                             elif len(day_parts) == 3:
                                 # Format could be: "Weekday Day Year" (missing month) or "Day Month Year"
                                 if day_parts[0].lower() in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]:
@@ -286,6 +313,23 @@ def process_events():
                                 year = now.strftime('%Y')
                                 print(f"Using current Rome date for: {clean_day}")
 
+                            # Validate day_num - ensure it's a number and extract only digits
+                            if day_num:
+                                # Extract only digits from day_num
+                                day_num_digits = re.sub(r'[^0-9]', '', str(day_num))
+                                if day_num_digits:
+                                    day_num = day_num_digits
+                                else:
+                                    # If no digits found, use current day
+                                    rome_tz = pytz.timezone('Europe/Rome')
+                                    day_num = datetime.datetime.now(rome_tz).strftime('%d')
+                                    print(f"Warning: Invalid day number '{day_num}', using current day: {day_num}")
+                            else:
+                                # If day_num is None, use current day
+                                rome_tz = pytz.timezone('Europe/Rome')
+                                day_num = datetime.datetime.now(rome_tz).strftime('%d')
+                                print(f"Warning: Missing day number, using current day: {day_num}")
+                            
                             # Get time from game data
                             time_str = game.get("time", "00:00")
 
@@ -310,6 +354,14 @@ def process_events():
                                 "May": "05", "June": "06", "July": "07", "August": "08",
                                 "September": "09", "October": "10", "November": "11", "December": "12"
                             }
+                            
+                            # Aggiungi controllo per il mese
+                            if not month_name or month_name not in month_map:
+                                print(f"Warning: Invalid month name '{month_name}', using current month")
+                                rome_tz = pytz.timezone('Europe/Rome')
+                                current_month = datetime.datetime.now(rome_tz).strftime('%B')
+                                month_name = current_month
+                                
                             month_num = month_map.get(month_name, "01")  # Default to January if not found
 
                             # Ensure day has leading zero if needed
@@ -322,16 +374,63 @@ def process_events():
 
                             # Also create proper datetime objects for EPG
                             # Make sure we're using clean numbers for the date components
-                            date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
-                            start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-
-                            # Convert to Amsterdam timezone
-                            amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
-                            start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
-
-                            # Format for EPG
-                            mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
-                            mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
+                            try:
+                                # Ensure all date components are valid
+                                if not day_num or day_num == "":
+                                    rome_tz = pytz.timezone('Europe/Rome')
+                                    day_num = datetime.datetime.now(rome_tz).strftime('%d')
+                                    print(f"Using current day as fallback: {day_num}")
+                                
+                                if not month_num or month_num == "":
+                                    month_num = "01"  # Default to January
+                                    print(f"Using January as fallback month")
+                                
+                                if not year or year == "":
+                                    rome_tz = pytz.timezone('Europe/Rome')
+                                    year = datetime.datetime.now(rome_tz).strftime('%Y')
+                                    print(f"Using current year as fallback: {year}")
+                                
+                                if not time_str or time_str == "":
+                                    time_str = "00:00"
+                                    print(f"Using 00:00 as fallback time")
+                                
+                                # Ensure day_num has proper format (1-31)
+                                try:
+                                    day_int = int(day_num)
+                                    if day_int < 1 or day_int > 31:
+                                        day_num = "01"  # Default to first day of month
+                                        print(f"Day number out of range, using 01 as fallback")
+                                except ValueError:
+                                    day_num = "01"  # Default to first day of month
+                                    print(f"Invalid day number format, using 01 as fallback")
+                                
+                                # Ensure day has leading zero if needed
+                                if len(str(day_num)) == 1:
+                                    day_num = f"0{day_num}"
+                                
+                                date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
+                                print(f"Attempting to parse date: '{date_str}'")
+                                start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                                
+                                # Convert to Amsterdam timezone
+                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                                start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
+                                
+                                # Format for EPG
+                                mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
+                                mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
+                            except ValueError as e:
+                                # Definisci date_str qui se non è già definita
+                                error_msg = str(e)
+                                if 'date_str' not in locals():
+                                    date_str = f"Error with: {year}-{month_num}-{day_num} {time_str}:00"
+                                
+                                print(f"Date parsing error: {error_msg} for date string '{date_str}'")
+                                # Use current time as fallback
+                                amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
+                                now = datetime.datetime.now(amsterdam_timezone)
+                                mStartTime = now.strftime("%Y%m%d%H%M%S")
+                                mStopTime = (now + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
 
                             # Build channel name with new date format
                             if isinstance(channel, dict) and "channel_name" in channel:

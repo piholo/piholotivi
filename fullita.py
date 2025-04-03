@@ -265,19 +265,45 @@ def process_events():
                     for channel in game.get("channels", []):
                         try:
                             # Clean and format day
-                            clean_day = day.replace(" - Schedule Time UK GMT", "").replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
-                            day_parts = clean_day.split()
+                            clean_day = day.replace(" - Schedule Time UK GMT", "")
+                            # Rimuovi completamente i suffissi ordinali (st, nd, rd, th)
+                            clean_day = clean_day.replace("st ", " ").replace("nd ", " ").replace("rd ", " ").replace("th ", " ")
+                            # Rimuovi anche i suffissi attaccati al numero (1st, 2nd, 3rd, etc.)
+                            import re
+                            clean_day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', clean_day)
                             
-                            # Handle various date formats
-                            if len(day_parts) >= 4:
-                                # Standard format: Weekday Month Day Year
-                                day_num = day_parts[1]
-                                month_name = day_parts[2]
+                            print(f"Original day: '{day}'")
+                            print(f"Clean day after processing: '{clean_day}'")
+                            
+                            day_parts = clean_day.split()
+                            print(f"Day parts: {day_parts}")  # Debug per vedere i componenti della data
+
+                            # Handle various date formats with better validation
+                            day_num = None
+                            month_name = None
+                            year = None
+                            
+                            if len(day_parts) >= 4:  # Standard format: Weekday Month Day Year
+                                weekday = day_parts[0]
+                                # Verifica se il secondo elemento contiene lettere (è il mese) o numeri (è il giorno)
+                                if any(c.isalpha() for c in day_parts[1]):
+                                    # Formato: Weekday Month Day Year
+                                    month_name = day_parts[1]
+                                    day_num = day_parts[2]
+                                elif any(c.isalpha() for c in day_parts[2]):
+                                    # Formato: Weekday Day Month Year
+                                    day_num = day_parts[1]
+                                    month_name = day_parts[2]
+                                else:
+                                    # Se non riusciamo a determinare, assumiamo il formato più comune
+                                    day_num = day_parts[1]
+                                    month_name = day_parts[2]
                                 year = day_parts[3]
+                                print(f"Parsed date components: weekday={weekday}, day={day_num}, month={month_name}, year={year}")
                             elif len(day_parts) == 3:
-                                # Format: Weekday Day Year or Day Month Year
-                                if day_parts[1].isdigit() and day_parts[2].isdigit() and len(day_parts[2]) == 4:
-                                    # Weekday Day Year (missing month)
+                                # Format could be: "Weekday Day Year" (missing month) or "Day Month Year"
+                                if day_parts[0].lower() in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]:
+                                    # It's "Weekday Day Year" format (missing month)
                                     day_num = day_parts[1]
                                     # Get current month for Rome timezone
                                     rome_tz = pytz.timezone('Europe/Rome')
@@ -297,6 +323,23 @@ def process_events():
                                 month_name = now.strftime('%B')
                                 year = now.strftime('%Y')
                                 print(f"Using current Rome date for: {clean_day}")
+
+                            # Validate day_num - ensure it's a number and extract only digits
+                            if day_num:
+                                # Extract only digits from day_num
+                                day_num_digits = re.sub(r'[^0-9]', '', str(day_num))
+                                if day_num_digits:
+                                    day_num = day_num_digits
+                                else:
+                                    # If no digits found, use current day
+                                    rome_tz = pytz.timezone('Europe/Rome')
+                                    day_num = datetime.datetime.now(rome_tz).strftime('%d')
+                                    print(f"Warning: Invalid day number '{day_num}', using current day: {day_num}")
+                            else:
+                                # If day_num is None, use current day
+                                rome_tz = pytz.timezone('Europe/Rome')
+                                day_num = datetime.datetime.now(rome_tz).strftime('%d')
+                                print(f"Warning: Missing day number, using current day: {day_num}")
                             
                             # Get time from game data
                             time_str = game.get("time", "00:00")
