@@ -5,6 +5,12 @@
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium185/mono.m3u8
 
+#EXTINF:-1 tvg-id="MotoAmerica Superbikes Barber - MotoAmerica Superbikes Barber" tvg-name="19:00 MotoAmerica Superbikes Barber" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium186/mono.m3u8
+
 #EXTINF:-1 tvg-id="PDRA East Coast Nationals - PDRA East Coast Nationals" tvg-name="19:00 PDRA East Coast Nationals" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Flotv
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -70,6 +76,36 @@ https://windnew.iosplayer.ru/wind/premium178/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium179/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - Athlone Town vs Bray Wanderers" tvg-name="19:45 Ireland Republic - First Division : Athlone Town vs Bray Wanderers" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium180/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - Cobh Ramblers vs Wexford" tvg-name="19:45 Ireland Republic - First Division : Cobh Ramblers vs Wexford" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium181/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - Finn Harps vs Longford Town" tvg-name="19:45 Ireland Republic - First Division : Finn Harps vs Longford Town" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium182/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - Treaty United vs Kerry" tvg-name="19:45 Ireland Republic - First Division : Treaty United vs Kerry" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium183/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - UCD vs Dundalk" tvg-name="19:45 Ireland Republic - First Division : UCD vs Dundalk" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://nfsnew.iosplayer.ru/nfs/premium184/mono.m3u8
 
 #EXTINF:-1 tvg-id="Australia - A-League - Brisbane Roar vs Macarthur" tvg-name="09:35 Australia - A-League : Brisbane Roar vs Macarthur" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -855,7 +891,7 @@ https://dokko1new.iosplayer.ru/dokko1/premium95/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium908/mono.m3u8
+https://zekonew.iosplayer.ru/zeko/premium90/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Augsburg vs Bayern München" tvg-name="19:30 Bundesliga : Augsburg vs Bayern München" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 1 Israel
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
