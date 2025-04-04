@@ -1,5 +1,117 @@
 {
     "Friday 04th April 2025 - Schedule Time UK GMT": {
+        "PPV Events</span>": [
+            {
+                "time": "18:00",
+                "event": "Colosseum Tournament 45: London",
+                "channels": [
+                    {
+                        "channel_name": "Triller Tv",
+                        "channel_id": "175"
+                    }
+                ]
+            },
+            {
+                "time": "18:00",
+                "event": "MotoAmerica Superbikes Barber",
+                "channels": [
+                    {
+                        "channel_name": "Event PPV",
+                        "channel_id": "176"
+                    }
+                ]
+            },
+            {
+                "time": "18:00",
+                "event": "PDRA East Coast Nationals",
+                "channels": [
+                    {
+                        "channel_name": "Flotv",
+                        "channel_id": "177"
+                    }
+                ]
+            },
+            {
+                "time": "20:30",
+                "event": "2025 AMSOIL Snocross National",
+                "channels": [
+                    {
+                        "channel_name": "Flotv",
+                        "channel_id": "163"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "2025 Fight to Win 277",
+                "channels": [
+                    {
+                        "channel_name": "Flotv",
+                        "channel_id": "164"
+                    }
+                ]
+            },
+            {
+                "time": "21:30",
+                "event": "2025 Porsche Sprint Challenge at Sonoma Raceway",
+                "channels": [
+                    {
+                        "channel_name": "Flotv",
+                        "channel_id": "165"
+                    }
+                ]
+            },
+            {
+                "time": "22:45",
+                "event": "Williams Grove Speedway Sprints",
+                "channels": [
+                    {
+                        "channel_name": "Event PPV",
+                        "channel_id": "166"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "WV Toughman Contest",
+                "channels": [
+                    {
+                        "channel_name": "Event PPV",
+                        "channel_id": "168"
+                    }
+                ]
+            },
+            {
+                "time": "23:30",
+                "event": "2025 IMCA Frostbuster at Marshalltown Speedway",
+                "channels": [
+                    {
+                        "channel_name": "Flotv",
+                        "channel_id": "169"
+                    }
+                ]
+            },
+            {
+                "time": "01:00",
+                "event": "Red Owl Boxing : Llamido vs. Jackson: BoxFest XIV",
+                "channels": [
+                    {
+                        "channel_name": "DAZN PPV",
+                        "channel_id": "170"
+                    }
+                ]
+            },
+            {
+                "time": "03:00",
+                "event": "Boxing : Tellez vs Chavez (In Spanish)",
+                "channels": [
+                    {
+                        "channel_name": "DAZN PPV",
+                        "channel_id": "171"
+                    }
+                ]
+            }
+        ],
         "TV Shows</span>": [
             {
                 "time": "12:30",
@@ -2726,8 +2838,43 @@
                 "channels": []
             },
             {
+                "time": "21:00",
+                "event": "Challenger - Morelos (MEX) : Dmitry Popko vs Juan Pablo Ficovich",
+                "channels": []
+            },
+            {
+                "time": "21:00",
+                "event": "Challenger - Morelos (MEX) - Double : J.Maginley/A.Perez vs J.C.Aguilar/M.Kiger",
+                "channels": []
+            },
+            {
+                "time": "21:00",
+                "event": "ATP - Houston (USA) - Double : M.C.Romios/A.Walton vs F.Romboli/J.P.Smith",
+                "channels": []
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - Bogota (COL) : Marie Bouzkova vs Katarzyna Kawa",
+                "channels": []
+            },
+            {
                 "time": "22:30",
                 "event": "Challenger - Morelos (MEX) : Rafael Jodar vs Rodrigo Pacheco Mendez",
+                "channels": []
+            },
+            {
+                "time": "23:00",
+                "event": "UTR (F) - Melbourne (AUS) : Alana Parnaby vs Larisa Arnautovic",
+                "channels": []
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Charleston (USA) - Double : C.Dolehide/D.Krawczyk vs D.Shnaider/P.Stearns",
+                "channels": []
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Bogota (COL) - Double : E.Bektas/A.Krunic vs I.Gamarra Martins/J.Riera",
                 "channels": []
             },
             {
@@ -2737,7 +2884,27 @@
             },
             {
                 "time": "00:10",
+                "event": "UTR (F) - Melbourne (AUS) : Laquisa Khan vs Belle Thompson",
+                "channels": []
+            },
+            {
+                "time": "00:10",
+                "event": "UTR (M) - Melbourne (AUS) : Luca Connaughton vs Lev Gorb",
+                "channels": []
+            },
+            {
+                "time": "00:10",
                 "event": "ATP - Houston (USA) - Double : R.Galloway/J.Withrow vs F.A.Gomez/S.Gonzalez",
+                "channels": []
+            },
+            {
+                "time": "00:10",
+                "event": "UTR (M) - Melbourne (AUS) : Scott Jones vs Matthew Hulme",
+                "channels": []
+            },
+            {
+                "time": "02:30",
+                "event": "UTR (M) - Melbourne (AUS) : Jera Staley vs Stefan Bianchet",
                 "channels": []
             }
         ],
@@ -3335,6 +3502,11 @@
                         "channel_id": "407"
                     }
                 ]
+            },
+            {
+                "time": "19:10",
+                "event": "MLB : Minnesota Twins vs Houston Astros",
+                "channels": []
             },
             {
                 "time": "20:10",
