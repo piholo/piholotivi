@@ -1,9 +1,10 @@
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 import os
 import json
 from datetime import datetime
 import re
 from bs4 import BeautifulSoup
+import time
 
 def html_to_json(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -85,7 +86,7 @@ def modify_json_file(json_file_path):
     
     print(f"File JSON modificato e salvato in {json_file_path}")
 
-def extract_schedule_container():
+def extract_schedule_container(max_retries=3, retry_delay=5):
     url = "https://daddylive.mp/"
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -93,43 +94,91 @@ def extract_schedule_container():
 
     print(f"Accesso alla pagina {url} per estrarre il main-schedule-container...")
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
+    for attempt in range(1, max_retries + 1):
+        print(f"Tentativo {attempt} di {max_retries}...")
+        
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"
+            )
+            page = context.new_page()
 
-        try:
-            print("Navigazione alla pagina...")
-            page.goto(url)
-            print("Attesa per il caricamento completo...")
-            page.wait_for_timeout(10000)  # 10 secondi
+            try:
+                print("Navigazione alla pagina...")
+                page.goto(url, timeout=60000)  # Aumentato a 60 secondi
+                print("Attesa per il caricamento completo...")
+                page.wait_for_timeout(10000)  # 10 secondi
 
-            schedule_content = page.evaluate("""() => {
-                const container = document.getElementById('main-schedule-container');
-                return container ? container.outerHTML : '';
-            }""")
+                schedule_content = page.evaluate("""() => {
+                    const container = document.getElementById('main-schedule-container');
+                    return container ? container.outerHTML : '';
+                }""")
 
-            if not schedule_content:
-                print("AVVISO: main-schedule-container non trovato o vuoto!")
-                return False
+                if not schedule_content:
+                    print("AVVISO: main-schedule-container non trovato o vuoto!")
+                    if attempt < max_retries:
+                        print(f"Attesa di {retry_delay} secondi prima del prossimo tentativo...")
+                        browser.close()
+                        time.sleep(retry_delay)
+                        # Incrementa il ritardo per il prossimo tentativo (backoff esponenziale)
+                        retry_delay *= 2
+                        continue
+                    return False
 
-            print("Conversione HTML in formato JSON...")
-            json_data = html_to_json(schedule_content)
+                print("Conversione HTML in formato JSON...")
+                json_data = html_to_json(schedule_content)
 
-            with open(json_output, "w", encoding="utf-8") as f:
-                json.dump(json_data, f, indent=4)
+                with open(json_output, "w", encoding="utf-8") as f:
+                    json.dump(json_data, f, indent=4)
 
-            print(f"Dati JSON salvati in {json_output}")
+                print(f"Dati JSON salvati in {json_output}")
 
-            modify_json_file(json_output)
-            browser.close()
-            return True
+                modify_json_file(json_output)
+                browser.close()
+                return True
 
-        except Exception as e:
-            print(f"ERRORE: {str(e)}")
-            return False
+            except PlaywrightTimeoutError as e:
+                print(f"ERRORE DI TIMEOUT: {str(e)}")
+                # Cattura uno screenshot in caso di errore per debug
+                try:
+                    page.screenshot(path=f"error_screenshot_attempt_{attempt}.png")
+                    print(f"Screenshot dell'errore salvato in error_screenshot_attempt_{attempt}.png")
+                except:
+                    pass
+                
+                browser.close()
+                
+                if attempt < max_retries:
+                    print(f"Attesa di {retry_delay} secondi prima del prossimo tentativo...")
+                    time.sleep(retry_delay)
+                    # Incrementa il ritardo per il prossimo tentativo (backoff esponenziale)
+                    retry_delay *= 2
+                else:
+                    print(f"Tutti i {max_retries} tentativi falliti.")
+                    return False
+                    
+            except Exception as e:
+                print(f"ERRORE: {str(e)}")
+                # Cattura uno screenshot in caso di errore per debug
+                try:
+                    page.screenshot(path=f"error_screenshot_attempt_{attempt}.png")
+                    print(f"Screenshot dell'errore salvato in error_screenshot_attempt_{attempt}.png")
+                except:
+                    pass
+                
+                browser.close()
+                
+                if attempt < max_retries:
+                    print(f"Attesa di {retry_delay} secondi prima del prossimo tentativo...")
+                    time.sleep(retry_delay)
+                    # Incrementa il ritardo per il prossimo tentativo (backoff esponenziale)
+                    retry_delay *= 2
+                else:
+                    print(f"Tutti i {max_retries} tentativi falliti.")
+                    return False
+
+    return False
 
 if __name__ == "__main__":
     success = extract_schedule_container()
