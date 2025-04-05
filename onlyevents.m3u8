@@ -1,33 +1,8 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Colosseum Tournament 45 - London" tvg-name="19:00 Colosseum Tournament 45: London" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Triller Tv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium185/mono.m3u8
-
 #EXTINF:-1 tvg-id="MotoAmerica Superbikes Barber - MotoAmerica Superbikes Barber" tvg-name="19:00 MotoAmerica Superbikes Barber" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium186/mono.m3u8
-
-#EXTINF:-1 tvg-id="PDRA East Coast Nationals - PDRA East Coast Nationals" tvg-name="19:00 PDRA East Coast Nationals" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Flotv
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://nfsnew.iosplayer.ru/nfs/premium187/mono.m3u8
-
-#EXTINF:-1 tvg-id="Williams Grove Speedway Sprints - Williams Grove Speedway Sprints" tvg-name="23:45 Williams Grove Speedway Sprints" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium166/mono.m3u8
-
-#EXTINF:-1 tvg-id="WV Toughman Contest - WV Toughman Contest" tvg-name="00:00 WV Toughman Contest" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
 
 #EXTINF:-1 tvg-id="2025 IMCA Frostbuster at Marshalltown Speedway - 2025 IMCA Frostbuster at Marshalltown Speedway" tvg-name="00:30 2025 IMCA Frostbuster at Marshalltown Speedway" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Flotv
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -64,12 +39,6 @@ https://windnew.iosplayer.ru/wind/premium176/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium177/mono.m3u8
-
-#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Galway United vs Shamrock Rovers" tvg-name="19:45 Ireland Republic - Premier Division : Galway United vs Shamrock Rovers" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium178/mono.m3u8
 
 #EXTINF:-1 tvg-id="Ireland Republic - Premier Division - St Patrick's vs Shelbourne" tvg-name="19:45 Ireland Republic - Premier Division : St Patrick's vs Shelbourne" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -142,12 +111,6 @@ https://zekonew.iosplayer.ru/zeko/premium147/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
-
-#EXTINF:-1 tvg-id="India - I-League - Gokulam vs Dempo" tvg-name="14:30 India - I-League : Gokulam vs Dempo" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SONY TEN 2 HD
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium886/mono.m3u8
 
 #EXTINF:-1 tvg-id="United Arab Emirates - UAE Pro League - Dibba Al Hisn vs Khor Fakkan" tvg-name="14:50 United Arab Emirates - UAE Pro League : Dibba Al Hisn vs Khor Fakkan" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Abu Dhabi Sports 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -809,12 +772,6 @@ https://ddy6new.iosplayer.ru/ddy6/premium499/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium21/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Augsburg vs Bayern München" tvg-name="19:30 Bundesliga : Augsburg vs Bayern München" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SONY TEN 2 HD
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium886/mono.m3u8
-
 #EXTINF:-1 tvg-id="Bundesliga - Augsburg vs Bayern München" tvg-name="19:30 Bundesliga : Augsburg vs Bayern München" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Match TV Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -862,12 +819,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium633/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium78/mono.m3u8
-
-#EXTINF:-1 tvg-id="Bundesliga - Augsburg vs Bayern München" tvg-name="19:30 Bundesliga : Augsburg vs Bayern München" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV3 Max Denmark
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium223/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Augsburg vs Bayern München" tvg-name="19:30 Bundesliga : Augsburg vs Bayern München" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Diema Sport 3 Bulgaria
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1169,12 +1120,6 @@ https://windnew.iosplayer.ru/wind/premium456/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://nfsnew.iosplayer.ru/nfs/premium8/mono.m3u8
 
-#EXTINF:-1 tvg-id="Spain - La Liga : Rayo Vallecano vs Espanyol" tvg-name="20:00 Spain : La Liga : Rayo Vallecano vs Espanyol" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://top2new.iosplayer.ru/top2/premium403/mono.m3u8
-
 #EXTINF:-1 tvg-id="Spain - La Liga : Rayo Vallecano vs Espanyol" tvg-name="20:00 Spain : La Liga : Rayo Vallecano vs Espanyol" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 3 Romania
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1270,12 +1215,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium629/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium466/mono.m3u8
-
-#EXTINF:-1 tvg-id="England - Championship - Blackburn Rovers vs Middlesbrough" tvg-name="20:00 England - Championship : Blackburn Rovers vs Middlesbrough" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport MaXimo 1
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://dokko1new.iosplayer.ru/dokko1/premium572/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - Championship - Blackburn Rovers vs Middlesbrough" tvg-name="20:00 England - Championship : Blackburn Rovers vs Middlesbrough" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA English 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -1727,12 +1666,6 @@ https://zekonew.iosplayer.ru/zeko/premium146/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium432/mono.m3u8
 
-#EXTINF:-1 tvg-id="BKFC - Austin Trout vs Carlos Trinidad" tvg-name="17:00 BKFC : Austin Trout vs Carlos Trinidad" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium68/mono.m3u8
-
 #EXTINF:-1 tvg-id="BKFC - Austin Trout vs Carlos Trinidad" tvg-name="17:00 BKFC : Austin Trout vs Carlos Trinidad" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", МАТЧ! БОЕЦ Russia
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1744,12 +1677,6 @@ https://windnew.iosplayer.ru/wind/premium395/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium75/mono.m3u8
-
-#EXTINF:-1 tvg-id="Boxing - Shakan Pitters vs Daniel Blenda Dos Santos" tvg-name="19:00 Boxing : Shakan Pitters vs Daniel Blenda Dos Santos" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Boxing", DAZN PPV
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium69/mono.m3u8
 
 #EXTINF:-1 tvg-id="ONE Fight Night - ONE Fight Night" tvg-name="13:30 ONE Fight Night" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", PPV Feed
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2158,12 +2085,6 @@ https://dokko1new.iosplayer.ru/dokko1/premium635/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://ddy6new.iosplayer.ru/ddy6/premium102/mono.m3u8
-
-#EXTINF:-1 tvg-id="Iceland Women's Basketball Premier League - UMF Tindastoll vs Keflavik" tvg-name="20:00 Iceland Women's Basketball Premier League : UMF Tindastoll vs Keflavik" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Stöð 2 Sport 5
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium166/mono.m3u8
 
 #EXTINF:-1 tvg-id="Iceland Women's Basketball Premier League - UMF Grindavik vs Haukar" tvg-name="20:30 Iceland Women's Basketball Premier League : UMF Grindavik vs Haukar" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Stöð 2 Sport 1
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
@@ -2633,12 +2554,6 @@ https://zekonew.iosplayer.ru/zeko/premium145/mono.m3u8
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://dokko1new.iosplayer.ru/dokko1/premium158/mono.m3u8
 
-#EXTINF:-1 tvg-id="Russian Cup - Chekhovskie Medvedi Chekhov vs Zenit St. Petersburg" tvg-name="17:30 Russian Cup : Chekhovskie Medvedi Chekhov vs Zenit St. Petersburg" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", МАТЧ! СТРАНА
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://windnew.iosplayer.ru/wind/premium168/mono.m3u8
-
 #EXTINF:-1 tvg-id="Asobal - Barcelona VS Granollers" tvg-name="18:00 Asobal : Barcelona VS Granollers" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Teledeporte Spain (TDP)
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2974,12 +2889,6 @@ https://nfsnew.iosplayer.ru/nfs/premium32/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://ilovetoplay.xyz
 https://windnew.iosplayer.ru/wind/premium58/mono.m3u8
-
-#EXTINF:-1 tvg-id="Men | Round Robin | World Championship - Scotland vs Germany" tvg-name="16:00 Men | Round Robin | World Championship : Scotland vs Germany" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", EuroSport 2 Spain
-#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
-https://ddy6new.iosplayer.ru/ddy6/premium525/mono.m3u8
 
 #EXTINF:-1 tvg-id="Men | Round Robin | World Championship - Scotland vs Germany" tvg-name="16:00 Men | Round Robin | World Championship : Scotland vs Germany" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", EuroSport 2 France
 #EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
