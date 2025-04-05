@@ -17,6 +17,18 @@ https://zekonew.newkso.ru/zeko/premium213/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium214/mono.m3u8
 
+#EXTINF:-1 tvg-id="Porsche Sprint Challenge at Sonoma Raceway - Porsche Sprint Challenge at Sonoma Raceway" tvg-name="16:30 Porsche Sprint Challenge at Sonoma Raceway - 05/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium215/mono.m3u8
+
+#EXTINF:-1 tvg-id="2025 AMSOIL Snocross National - 2025 AMSOIL Snocross National" tvg-name="17:00 2025 AMSOIL Snocross National - 05/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Floracing
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium216/mono.m3u8
+
 #EXTINF:-1 tvg-id="wXw - We Love Wrestling 68 - 16 Carat Gold Revenge" tvg-name="17:00 wXw: We Love Wrestling 68 - 16 Carat Gold Revenge - 05/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Triller TV
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -28,6 +40,12 @@ https://ddy6new.newkso.ru/ddy6/premium217/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium218/mono.m3u8
+
+#EXTINF:-1 tvg-id="Muay Thai GP - MTGP 93 London" tvg-name="19:30 Muay Thai GP : MTGP 93 London - 05/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", DAZN PPV
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://dokko1new.newkso.ru/dokko1/premium219/mono.m3u8
 
 #EXTINF:-1 tvg-id="NWMT Thompson - NASCAR Whelen Modified Tour - NWMT Thompson - NASCAR Whelen Modified Tour" tvg-name="20:30 NWMT Thompson - NASCAR Whelen Modified Tour - 05/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", Event PPV
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
