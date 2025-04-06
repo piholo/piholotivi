@@ -9,17 +9,12 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 import time
-import re
-from urllib.parse import quote_plus  # Add this import
 
 # Constants
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "itaevents.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
-
-# Add a cache for logos to avoid repeated requests
-LOGO_CACHE = {}
 
 # Define keywords for filtering channels
 EVENT_KEYWORDS = ["italy", "atp", "tennis", "formula uno", "f1", "motogp", "moto gp", "volley", "serie a", "serie b", "serie c", "uefa champions", "uefa europa",
@@ -43,132 +38,6 @@ headers = {
 # Remove existing M3U8 file if it exists
 if os.path.exists(M3U8_OUTPUT_FILE):
     os.remove(M3U8_OUTPUT_FILE)
-
-# Move the get_dynamic_logo function here, before it's called
-def get_dynamic_logo(event_name):
-    """
-    Cerca immagini dinamiche solo per eventi di Serie A e Serie B italiani
-    """
-    # Check if we already have this logo in cache
-    if event_name in LOGO_CACHE:
-        print(f"Logo trovato in cache per: {event_name}")
-        return LOGO_CACHE[event_name]
-    
-    # Verifica se l'evento è di Serie A o Serie B
-    is_serie_a_or_b = False
-    if "Italy - Serie A :" in event_name or "Italy - Serie B :" in event_name:
-        is_serie_a_or_b = True
-        print(f"Evento Serie A/B rilevato: {event_name}")
-    else:
-        print(f"Evento non di Serie A/B: {event_name}")
-    
-    # Se non è Serie A o Serie B, usa il logo predefinito
-    if not is_serie_a_or_b:
-        LOGO_CACHE[event_name] = LOGO
-        return LOGO
-    
-    # Try to extract team names from event format like "League : Team1 vs Team2"
-    teams_match = re.search(r':\s*([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
-    if not teams_match:
-        # Try alternative format "Team1 - Team2"
-        teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
-    if not teams_match:
-        # If no team names found, return default logo
-        print(f"Non sono riuscito a estrarre i nomi delle squadre da: {event_name}")
-        return LOGO
-    
-    team1 = teams_match.group(1).strip()
-    team2 = teams_match.group(2).strip()
-    print(f"Squadre estratte: '{team1}' vs '{team2}'")
-    
-    try:
-        # First try to get logos from guardacalcio.cam
-        guardacalcio_url = "https://guardacalcio.cam/partite-streaming.html"
-        headers_guardacalcio = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
-        }
-        
-        print(f"Cercando logo per {team1} vs {team2} su guardacalcio.cam...")
-        
-        response = requests.get(guardacalcio_url, headers=headers_guardacalcio, timeout=10)
-        html_content = response.text
-        
-        # Parse with BeautifulSoup
-        soup = BeautifulSoup(html_content, 'html.parser')
-        
-        # Normalizza i nomi delle squadre per la ricerca
-        team1_normalized = team1.lower().replace(" ", "").replace("-", "")
-        team2_normalized = team2.lower().replace(" ", "").replace("-", "")
-        
-        # Cerca tutte le immagini nella pagina
-        img_tags = soup.find_all('img')
-        print(f"Trovate {len(img_tags)} immagini su guardacalcio.cam")
-        
-        # Cerca immagini che contengono i nomi delle squadre nel src o nell'alt
-        for img in img_tags:
-            if img.has_attr('src'):
-                src = img['src']
-                alt = img.get('alt', '')
-                
-                # Normalizza src e alt per la ricerca
-                src_normalized = src.lower()
-                alt_normalized = alt.lower()
-                
-                # Verifica se il nome di una delle squadre è presente nel src o nell'alt
-                if (team1_normalized in src_normalized or team1.lower() in src_normalized or 
-                    team1_normalized in alt_normalized or team1.lower() in alt_normalized or
-                    team2_normalized in src_normalized or team2.lower() in src_normalized or
-                    team2_normalized in alt_normalized or team2.lower() in alt_normalized):
-                    
-                    # Assicurati che l'URL sia assoluto
-                    if src.startswith('http'):
-                        logo_url = src
-                    else:
-                        # Costruisci URL assoluto
-                        base_url = "https://guardacalcio.cam"
-                        if src.startswith('/'):
-                            logo_url = base_url + src
-                        else:
-                            logo_url = base_url + '/' + src
-                    
-                    print(f"Trovato logo su guardacalcio.cam: {logo_url}")
-                    LOGO_CACHE[event_name] = logo_url
-                    return logo_url
-        
-        # Se non troviamo immagini specifiche, cerchiamo immagini che contengono "serie-a" o "serie-b"
-        for img in img_tags:
-            if img.has_attr('src'):
-                src = img['src']
-                
-                if "serie-a" in src.lower() or "serie-b" in src.lower():
-                    # Assicurati che l'URL sia assoluto
-                    if src.startswith('http'):
-                        logo_url = src
-                    else:
-                        # Costruisci URL assoluto
-                        base_url = "https://guardacalcio.cam"
-                        if src.startswith('/'):
-                            logo_url = base_url + src
-                        else:
-                            logo_url = base_url + '/' + src
-                    
-                    print(f"Trovato logo generico Serie A/B: {logo_url}")
-                    LOGO_CACHE[event_name] = logo_url
-                    return logo_url
-        
-        # Se non troviamo nulla su guardacalcio.cam, usa il logo di default
-        print(f"Nessun logo trovato su guardacalcio.cam, uso il logo di default")
-        LOGO_CACHE[event_name] = LOGO
-        return LOGO
-        
-    except Exception as e:
-        print(f"Error fetching logo for {team1} vs {team2}: {e}")
-        import traceback
-        traceback.print_exc()
-        return LOGO
 
 def generate_unique_ids(count, seed=42):
     random.seed(seed)
@@ -464,13 +333,13 @@ def process_events():
                             # Get time from game data
                             time_str = game.get("time", "00:00")
 
-                            # Converti l'orario da UK a CET (aggiungi 2 ore invece di 1)
+                            # Converti l'orario da UK a CET (aggiungi 1 ora invece di 2)
                             time_parts = time_str.split(":")
                             if len(time_parts) == 2:
                                 hour = int(time_parts[0])
                                 minute = time_parts[1]
-                                # Aggiungi due ore all'orario UK
-                                hour_cet = (hour + 2) % 24
+                                # Aggiungi una ora all'orario UK
+                                hour_cet = (hour + 1) % 24
                                 # Assicura che l'ora abbia due cifre
                                 hour_cet_str = f"{hour_cet:02d}"
                                 # Nuovo time_str con orario CET
@@ -607,11 +476,8 @@ def process_events():
 
                                     # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
-                                    
-                                    # Get dynamic logo for this event
-                                    event_logo = get_dynamic_logo(game["event"])
 
-                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{clean_sport_key}", {channel_name_str}\n')
+                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel_name_str}\n')
                                     file.write('#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
                                     file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
                                     file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
