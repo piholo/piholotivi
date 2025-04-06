@@ -4646,6 +4646,56 @@
                 "channels": []
             }
         ],
+        "Tennis ATP - MONTE CARLO</span>": [
+            {
+                "time": "11:00",
+                "event": "ATP - MONTE CARLO : Arnaldi M. vs Gasquet R.",
+                "channels": []
+            },
+            {
+                "time": "12:00",
+                "event": "ATP - MONTE CARLO : Struff J-L. vs Vacherot V.",
+                "channels": []
+            },
+            {
+                "time": "12:30",
+                "event": "ATP - MONTE CARLO : Thompson J. vs Mpetshi Perricard G.",
+                "channels": []
+            }
+        ],
+        "Tennis ATP - BUCHAREST</span>": [
+            {
+                "time": "11:00",
+                "event": "ATP - BUCHAREST : Baez S. vs Cobolli F.",
+                "channels": []
+            }
+        ],
+        "Tennis ATP - MARRAKECH</span>": [
+            {
+                "time": "14:00",
+                "event": "ATP - MARRAKECH : Griekspoor T. vs Darderi L.",
+                "channels": []
+            },
+            {
+                "time": "19:00",
+                "event": "ATP - MARRAKECH : Final: TBD vs Brooksby J.",
+                "channels": []
+            }
+        ],
+        "Tennis WTA - CHARLESTON</span>": [
+            {
+                "time": "18:30",
+                "event": "WTA - CHARLESTON : Pegula J. vs Kenin S.",
+                "channels": []
+            }
+        ],
+        "Tennis WTA - BOGOTA</span>": [
+            {
+                "time": "17:00",
+                "event": "WTA - BOGOTA : Kawa K. vs Osorio C.",
+                "channels": []
+            }
+        ],
         "Tennis</span>": [
             {
                 "time": "11:00",
