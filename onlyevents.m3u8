@@ -215,6 +215,12 @@ https://windnew.newkso.ru/wind/premium581/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium291/mono.m3u8
 
+#EXTINF:-1 tvg-id="Super Lig - Kasımpaşa vs Beşiktaş" tvg-name="18:00 Super Lig : Kasımpaşa vs Beşiktaş - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport Klub 3 Croatia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium103/mono.m3u8
+
 #EXTINF:-1 tvg-id="Super Lig - Kasımpaşa vs Beşiktaş" tvg-name="18:00 Super Lig : Kasımpaşa vs Beşiktaş - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MAX 6 France
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
