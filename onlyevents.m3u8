@@ -5441,13 +5441,13 @@ https://ddy6new.newkso.ru/ddy6/premium79/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium79/mono.m3u8
 
-#EXTINF:-1 tvg-id="Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2 - Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2" tvg-name="16:00 Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2 - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", TNT Sports 3 UK
+#EXTINF:-1 tvg-id="Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2 - Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2" tvg-name="16:00 Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2 - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", TNT Sports 3 UK
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium33/mono.m3u8
 
-#EXTINF:-1 tvg-id="Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2 - Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2" tvg-name="16:00 Mont-Sainte-Anne | Snowboard Cross World Cup | Day 2 - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", Ziggo Sport 3 NL
+#EXTINF:-1 tvg-id="Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2 - Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2" tvg-name="16:00 Mont-Sainte-Anne | Snowboard Cross World Snooker | Day 2 - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Winter Sports", Ziggo Sport 3 NL
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
@@ -5519,6 +5519,12 @@ https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium465/mono.m3u8
 
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Septemvri Sofia vs Arda" tvg-name="13:00 Bulgaria - Parva Liga : Septemvri Sofia vs Arda - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport Klub 3 Croatia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium103/mono.m3u8
+
 #EXTINF:-1 tvg-id="United Arab Emirates - UAE Pro League - Al Jazira vs Al Wasl" tvg-name="14:50 United Arab Emirates - UAE Pro League : Al Jazira vs Al Wasl - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Abu Dhabi Sports 1
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5536,6 +5542,12 @@ https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium465/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Lokomotiv Plovdiv vs Spartak Varna" tvg-name="15:30 Bulgaria - Parva Liga : Lokomotiv Plovdiv vs Spartak Varna - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport Klub 3 Croatia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Romania - Liga I - Farul Constanța vs Unirea Slobozia" tvg-name="15:30 Romania - Liga I : Farul Constanța vs Unirea Slobozia - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -5788,12 +5800,6 @@ https://nfsnew.newkso.ru/nfs/premium2/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium379/mono.m3u8
-
-#EXTINF:-1 tvg-id="Netherlands - Eerste Divisie - AZ II vs PSV II" tvg-name="19:00 Netherlands - Eerste Divisie : AZ II vs PSV II - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN 2 NL
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium386/mono.m3u8
 
 #EXTINF:-1 tvg-id="Premier League 2 - Reading U21 vs Manchester United U21" tvg-name="19:00 Premier League 2 : Reading U21 vs Manchester United U21 - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MUTV UK
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
