@@ -49,10 +49,24 @@ def get_dynamic_logo(event_name):
     """
     Cerca immagini dinamiche per eventi di Serie A, Serie B, Serie C, La Liga, Premier League, Bundesliga e Ligue 1
     """
-    # Check if we already have this logo in cache
-    if event_name in LOGO_CACHE:
-        print(f"Logo trovato in cache per: {event_name}")
-        return LOGO_CACHE[event_name]
+    # Estrai i nomi delle squadre dall'evento per usarli come chiave di cache
+    teams_match = re.search(r':\s*([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
+    
+    if not teams_match:
+        # Try alternative format "Team1 - Team2"
+        teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
+    
+    # Crea una chiave di cache specifica per questa partita
+    cache_key = None
+    if teams_match:
+        team1 = teams_match.group(1).strip()
+        team2 = teams_match.group(2).strip()
+        cache_key = f"{team1} vs {team2}"
+        
+        # Check if we already have this specific match in cache
+        if cache_key in LOGO_CACHE:
+            print(f"Logo trovato in cache per: {cache_key}")
+            return LOGO_CACHE[cache_key]
     
     # Verifica se l'evento è di Serie A o altre leghe
     is_serie_a_or_other_leagues = any(league in event_name for league in ["Italy - Serie A :", "La Liga :", "Premier League :", "Bundesliga :", "Ligue 1 :"])
@@ -64,18 +78,12 @@ def get_dynamic_logo(event_name):
         print(f"Evento Serie B o Serie C rilevato: {event_name}")
     else:
         print(f"Evento non di Serie A, Serie B, Serie C o altre leghe: {event_name}")
-        LOGO_CACHE[event_name] = LOGO
+        if cache_key:
+            LOGO_CACHE[cache_key] = LOGO
         return LOGO
     
-    # Try to extract team names from event format like "League : Team1 vs Team2"
-    teams_match = re.search(r':\s*([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
+    # Se non abbiamo ancora estratto i nomi delle squadre, fallo ora
     if not teams_match:
-        # Try alternative format "Team1 - Team2"
-        teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
-    if not teams_match:
-        # If no team names found, return default logo
         print(f"Non sono riuscito a estrarre i nomi delle squadre da: {event_name}")
         return LOGO
     
@@ -141,7 +149,8 @@ def get_dynamic_logo(event_name):
                                 logo_url = base_url + '/' + src
                         
                         print(f"Trovato logo su guardacalcio.cam: {logo_url}")
-                        LOGO_CACHE[event_name] = logo_url
+                        if cache_key:
+                            LOGO_CACHE[cache_key] = logo_url
                         return logo_url
             
             # If no logo found on guardacalcio.cam, try skystreaming.directory
@@ -166,20 +175,45 @@ def get_dynamic_logo(event_name):
         media_spans = soup.find_all('span', class_='mediabg')
         print(f"Trovati {len(media_spans)} span con class='mediabg' su skystreaming.directory")
         
+        # Cerca span che contengono i nomi delle squadre nel testo
+        found_match = False
         for span in media_spans:
-            style = span.get('style', '')
-            if 'background-image:url(' in style:
-                # Estrai l'URL dell'immagine
-                match = re.search(r'background-image:url\((.*?)\)', style)
-                if match:
-                    logo_url = match.group(1)
-                    print(f"Trovato logo su skystreaming.directory: {logo_url}")
-                    LOGO_CACHE[event_name] = logo_url
-                    return logo_url
+            span_text = span.text.lower()
+            if (team1_normalized.lower() in span_text and team2_normalized.lower() in span_text) or \
+               (team1.lower() in span_text and team2.lower() in span_text):
+                style = span.get('style', '')
+                if 'background-image:url(' in style:
+                    # Estrai l'URL dell'immagine
+                    match = re.search(r'background-image:url\((.*?)\)', style)
+                    if match:
+                        logo_url = match.group(1)
+                        print(f"Trovato logo specifico su skystreaming.directory: {logo_url}")
+                        if cache_key:
+                            LOGO_CACHE[cache_key] = logo_url
+                        found_match = True
+                        return logo_url
+        
+        # Se non abbiamo trovato una corrispondenza esatta, cerchiamo una corrispondenza parziale
+        if not found_match:
+            for span in media_spans:
+                span_text = span.text.lower()
+                if (team1_normalized.lower() in span_text or team2_normalized.lower() in span_text) or \
+                   (team1.lower() in span_text or team2.lower() in span_text):
+                    style = span.get('style', '')
+                    if 'background-image:url(' in style:
+                        # Estrai l'URL dell'immagine
+                        match = re.search(r'background-image:url\((.*?)\)', style)
+                        if match:
+                            logo_url = match.group(1)
+                            print(f"Trovato logo parziale su skystreaming.directory: {logo_url}")
+                            if cache_key:
+                                LOGO_CACHE[cache_key] = logo_url
+                            return logo_url
         
         # Se non troviamo nulla, usa il logo di default
         print(f"Nessun logo trovato, uso il logo di default")
-        LOGO_CACHE[event_name] = LOGO
+        if cache_key:
+            LOGO_CACHE[cache_key] = LOGO
         return LOGO
         
     except Exception as e:
