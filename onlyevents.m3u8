@@ -9,7 +9,7 @@ https://zekonew.newkso.ru/zeko/premium36/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://dokko1new.newkso.ru/dokko1/premium153/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium170/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - Championship - Bristol City vs West Bromwich Albion" tvg-name="19:45 England - Championship : Bristol City vs West Bromwich Albion - 08/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -689,6 +689,12 @@ https://dokko1new.newkso.ru/dokko1/premium92/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium145/mono.m3u8
 
+#EXTINF:-1 tvg-id="UEFA Champions League - Arsenal vs Real Madrid" tvg-name="20:00 UEFA Champions League : Arsenal vs Real Madrid - 08/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Sports Ireland 1
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium771/mono.m3u8
+
 #EXTINF:-1 tvg-id="UEFA Champions League - Arsenal vs Real Madrid" tvg-name="20:00 UEFA Champions League : Arsenal vs Real Madrid - 08/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Vodafone Sport
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -705,7 +711,7 @@ https://windnew.newkso.ru/wind/premium887/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium436/mono.m3u8
+https://zekonew.newkso.ru/zeko/premium435/mono.m3u8
 
 #EXTINF:-1 tvg-id="UEFA Champions League - Arsenal vs Real Madrid" tvg-name="20:00 UEFA Champions League : Arsenal vs Real Madrid - 08/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Austria 3
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/

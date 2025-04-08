@@ -549,7 +549,7 @@
                 "channels": [
                     {
                         "channel_name": "Sky Sports+",
-                        "channel_id": "153"
+                        "channel_id": "170"
                     }
                 ]
             },
@@ -1372,6 +1372,10 @@
                 "time": "19:00",
                 "event": "UEFA Champions League : Arsenal vs Real Madrid",
                 "channels": [
+                    {
+                        "channel_name": "Premier Sports Ireland 1",
+                        "channel_id": "771"
+                    },
                     {
                         "channel_name": "Vodafone Sport",
                         "channel_id": "260"
