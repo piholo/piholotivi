@@ -71,14 +71,11 @@ def get_dynamic_logo(event_name):
     # Verifica se l'evento è di Serie A o altre leghe
     is_serie_a_or_other_leagues = any(league in event_name for league in ["Italy - Serie A :", "La Liga :", "Premier League :", "Bundesliga :", "Ligue 1 :"])
     is_serie_b_or_c = any(league in event_name for league in ["Italy - Serie B :", "Italy - Serie C :"])
-    is_uefa_or_coppa = any(league in event_name for league in ["UEFA Champions League :", "UEFA Europa League :", "Conference League :", "Coppa Italia :"])
     
     if is_serie_a_or_other_leagues:
         print(f"Evento Serie A o altre leghe rilevato: {event_name}")
     elif is_serie_b_or_c:
         print(f"Evento Serie B o Serie C rilevato: {event_name}")
-    elif is_uefa_or_coppa:
-        print(f"Evento UEFA o Coppa Italia rilevato: {event_name}")
     else:
         print(f"Evento non di Serie A, Serie B, Serie C o altre leghe: {event_name}")
         if cache_key:
@@ -103,21 +100,10 @@ def get_dynamic_logo(event_name):
     team1_normalized = normalize_team_name(team1)
     team2_normalized = normalize_team_name(team2)
     
-    # Special case for Bayern München and Internazionale
-    if "bayern" in team1.lower() or "bayern" in team1_normalized.lower():
-        team1_normalized = "Bayern"
-    elif "bayern" in team2.lower() or "bayern" in team2_normalized.lower():
-        team2_normalized = "Bayern"
-        
-    if "internazionale" in team1.lower() or "inter" in team1.lower():
-        team1_normalized = "Inter"
-    elif "internazionale" in team2.lower() or "inter" in team2.lower():
-        team2_normalized = "Inter"
-    
     print(f"Squadre normalizzate: '{team1_normalized}' vs '{team2_normalized}'")
     
     try:
-        if is_serie_a_or_other_leagues or is_uefa_or_coppa:
+        if is_serie_a_or_other_leagues:
             # First try to fetch logos from guardacalcio.cam
             guardacalcio_url = "https://guardacalcio.cam/partite-streaming.html"
             headers_guardacalcio = {
