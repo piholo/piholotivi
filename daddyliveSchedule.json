@@ -569,6 +569,91 @@
                 "time": "14:00",
                 "event": "Indian Premier League : Mumbai Indians vs Royal Challengers Bangalore",
                 "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Jarry N. vs Dimitrov G.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Popyrin A. vs Humbert U.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Sonego L. vs Martinez P.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Doumbia S./Reboul F. vs Galloway R./Withrow J.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Salisbury J./Skupski N. vs Ebden M./Peers J.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : Rune H. vs Borges N.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : Etcheverry T. M. vs Moutet C.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : De Minaur A./Struff J-L. vs Gonzalez M./Molteni A.",
+                "channels": []
+            },
+            {
+                "time": "11:00",
+                "event": "ATP - MONTE CARLO : Bautista-Agut R. vs Nakashima B.",
+                "channels": []
+            },
+            {
+                "time": "11:00",
+                "event": "ATP - MONTE CARLO : Lajovic D. vs Cobolli F.",
+                "channels": []
+            },
+            {
+                "time": "12:00",
+                "event": "ATP - MONTE CARLO : Tiafoe F. vs Kecmanovic M.",
+                "channels": []
+            },
+            {
+                "time": "12:00",
+                "event": "ATP - MONTE CARLO : Zverev A. vs Berrettini M.",
+                "channels": []
+            },
+            {
+                "time": "12:30",
+                "event": "ATP - MONTE CARLO : Griekspoor T. vs Fils A.",
+                "channels": []
+            },
+            {
+                "time": "12:30",
+                "event": "ATP - MONTE CARLO : Machac T. vs Baez S.",
+                "channels": []
+            },
+            {
+                "time": "13:30",
+                "event": "ATP - MONTE CARLO : Thompson J. vs Tsitsipas S.",
+                "channels": []
+            },
+            {
+                "time": "13:30",
+                "event": "ATP - MONTE CARLO : Murray J./Ram R. vs Nys H./Roger-Vasselin E.",
+                "channels": []
+            },
+            {
+                "time": "14:00",
+                "event": "ATP - MONTE CARLO : Draper J. vs Giron M.",
+                "channels": []
             }
         ],
         "Tennis ATP - MONTE CARLO</span>": [
@@ -2220,6 +2305,93 @@
                 "channels": []
             }
         ],
+        "ATP - MONTE CARLO</span>": [
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Jarry N. vs Dimitrov G.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Popyrin A. vs Humbert U.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Sonego L. vs Martinez P.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Doumbia S./Reboul F. vs Galloway R./Withrow J.",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "ATP - MONTE CARLO : Salisbury J./Skupski N. vs Ebden M./Peers J.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : Rune H. vs Borges N.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : Etcheverry T. M. vs Moutet C.",
+                "channels": []
+            },
+            {
+                "time": "10:30",
+                "event": "ATP - MONTE CARLO : De Minaur A./Struff J-L. vs Gonzalez M./Molteni A.",
+                "channels": []
+            },
+            {
+                "time": "11:00",
+                "event": "ATP - MONTE CARLO : Bautista-Agut R. vs Nakashima B.",
+                "channels": []
+            },
+            {
+                "time": "11:00",
+                "event": "ATP - MONTE CARLO : Lajovic D. vs Cobolli F.",
+                "channels": []
+            },
+            {
+                "time": "12:00",
+                "event": "ATP - MONTE CARLO : Tiafoe F. vs Kecmanovic M.",
+                "channels": []
+            },
+            {
+                "time": "12:00",
+                "event": "ATP - MONTE CARLO : Zverev A. vs Berrettini M.",
+                "channels": []
+            },
+            {
+                "time": "12:30",
+                "event": "ATP - MONTE CARLO : Griekspoor T. vs Fils A.",
+                "channels": []
+            },
+            {
+                "time": "12:30",
+                "event": "ATP - MONTE CARLO : Machac T. vs Baez S.",
+                "channels": []
+            },
+            {
+                "time": "13:30",
+                "event": "ATP - MONTE CARLO : Thompson J. vs Tsitsipas S.",
+                "channels": []
+            },
+            {
+                "time": "13:30",
+                "event": "ATP - MONTE CARLO : Murray J./Ram R. vs Nys H./Roger-Vasselin E.",
+                "channels": []
+            },
+            {
+                "time": "14:00",
+                "event": "ATP - MONTE CARLO : Draper J. vs Giron M.",
+                "channels": []
+            }
+        ],
         "Tennis</span>": [
             {
                 "time": "09:00",
@@ -2493,6 +2665,21 @@
         ],
         "Snooker</span>": [
             {
+                "time": "09:00",
+                "event": "World Snooker - Qualifiers : Andrew Pagett vs Iulian Boiko",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "World Snooker - Qualifiers : Jimmy White vs Anton Kazakov",
+                "channels": []
+            },
+            {
+                "time": "09:00",
+                "event": "World Snooker - Qualifiers : Oliver Lines vs Mohammed Shehab",
+                "channels": []
+            },
+            {
                 "time": "10:00",
                 "event": "World Snooker - World Snooker Championship Day 2",
                 "channels": []
@@ -2765,6 +2952,18 @@
             {
                 "time": "12:00",
                 "event": "Live racing from around the UK",
+                "channels": []
+            }
+        ],
+        "Handball</span>": [
+            {
+                "time": "19:30",
+                "event": "Iceland - Urvalsdeild - Playoff : IBV Vestmannaeyjar vs Afturelding",
+                "channels": []
+            },
+            {
+                "time": "19:30",
+                "event": "Iceland - Urvalsdeild - Playoff : Stjarnan vs Valur",
                 "channels": []
             }
         ],
