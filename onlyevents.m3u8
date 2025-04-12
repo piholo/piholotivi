@@ -3713,31 +3713,31 @@ https://zekonew.newkso.ru/zeko/premium265/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium109/mono.m3u8
 
-#EXTINF:-1 tvg-id="The Masters Holes 15 16 - The Masters Holes 15 16" tvg-name="02:45 The Masters Holes 15 16 - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", PPV EVENT 06
+#EXTINF:-1 tvg-id="The Masters Holes 15 16 - The Masters Holes 15 16" tvg-name="02:45 The Masters Holes 15 16 - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 06
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium215/mono.m3u8
 
-#EXTINF:-1 tvg-id="The Masters On The Range - The Masters On The Range" tvg-name="09:00 The Masters On The Range - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", PPV EVENT 02
+#EXTINF:-1 tvg-id="The Masters On The Range - The Masters On The Range" tvg-name="09:00 The Masters On The Range - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 02
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium216/mono.m3u8
 
-#EXTINF:-1 tvg-id="The Masters Holes 4 5 6 - The Masters Holes 4 5 6" tvg-name="09:15 The Masters Holes 4 5 6 - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", PPV EVENT 03
+#EXTINF:-1 tvg-id="The Masters Holes 4 5 6 - The Masters Holes 4 5 6" tvg-name="09:15 The Masters Holes 4 5 6 - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 03
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium217/mono.m3u8
 
-#EXTINF:-1 tvg-id="The Masters Featured Groups - The Masters Featured Groups" tvg-name="09:45 The Masters Featured Groups - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", PPV EVENT 04
+#EXTINF:-1 tvg-id="The Masters Featured Groups - The Masters Featured Groups" tvg-name="09:45 The Masters Featured Groups - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 04
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium218/mono.m3u8
 
-#EXTINF:-1 tvg-id="The Masters Amen Corner - The Masters Amen Corner" tvg-name="11:15 The Masters Amen Corner - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PPV Events", PPV EVENT 05
+#EXTINF:-1 tvg-id="The Masters Amen Corner - The Masters Amen Corner" tvg-name="11:15 The Masters Amen Corner - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 05
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
@@ -4949,6 +4949,12 @@ https://windnew.newkso.ru/wind/premium453/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium25/mono.m3u8
 
+#EXTINF:-1 tvg-id="Bosnia and Herzegovina - Premijer Liga - Željezničar vs GOŠK Gabela" tvg-name="14:00 Bosnia and Herzegovina - Premijer Liga : Željezničar vs GOŠK Gabela - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 8 Serbia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium166/mono.m3u8
+
 #EXTINF:-1 tvg-id="Turkey - 1. Lig - İstanbulspor vs Keçiörengücü" tvg-name="14:00 Turkey - 1. Lig : İstanbulspor vs Keçiörengücü - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TRT Spor Turkey
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -5782,12 +5788,6 @@ https://nfsnew.newkso.ru/nfs/premium15/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium16/mono.m3u8
-
-#EXTINF:-1 tvg-id="Bosnia and Herzegovina - Premijer Liga - Željezničar vs GOŠK Gabela" tvg-name="14:00 Bosnia and Herzegovina - Premijer Liga : Željezničar vs GOŠK Gabela - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 8 Serbia
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium166/mono.m3u8
 
 #EXTINF:-1 tvg-id="Morocco Botola Pro - Maghreb Fès vs FUS Rabat" tvg-name="16:00 Morocco Botola Pro : Maghreb Fès vs FUS Rabat - 12/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arryadia 3
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
