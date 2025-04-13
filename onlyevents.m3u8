@@ -1,14 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="The Masters Holes 15 16 - The Masters Holes 15 16" tvg-name="02:45 The Masters Holes 15 16 - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 06
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium215/mono.m3u8
+
 #EXTINF:-1 tvg-id="The Masters On The Range - The Masters On The Range" tvg-name="09:00 The Masters On The Range - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 02
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium216/mono.m3u8
-
-#EXTINF:-1 tvg-id="The Masters Holes 4 5 6 - The Masters Holes 4 5 6" tvg-name="09:15 The Masters Holes 4 5 6 - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 03
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium217/mono.m3u8
 
 #EXTINF:-1 tvg-id="The Masters Featured Groups - The Masters Featured Groups" tvg-name="09:45 The Masters Featured Groups - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 04
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -165,6 +166,12 @@ https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1174,6 +1181,12 @@ https://dokko1new.newkso.ru/dokko1/premium94/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium144/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="14:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Zona DAZN IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="14:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport TV3 Portugal
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2122,6 +2135,12 @@ https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium566/mono.m3u8
 
+#EXTINF:-1 tvg-id="South Africa - Nedbank Cup - Mamelodi Sundowns vs Kaizer Chiefs" tvg-name="17:00 South Africa - Nedbank Cup : Mamelodi Sundowns vs Kaizer Chiefs - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport PSL
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://zekonew.newkso.ru/zeko/premium413/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A - Como vs Torino" tvg-name="17:00 Italy - Serie A : Como vs Torino - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2842,6 +2861,12 @@ https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="19:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="19:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -3045,12 +3070,6 @@ https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="20:00 Spain - La Liga : Athletic Club vs Rayo Vallecano - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://wikinew.newkso.ru/wiki/premium585/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="20:00 Spain - La Liga : Athletic Club vs Rayo Vallecano - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 1 Serbia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4707,6 +4726,12 @@ https://zekonew.newkso.ru/zeko/premium145/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium153/mono.m3u8
+
+#EXTINF:-1 tvg-id="Lega A - Sassari vs Tortona" tvg-name="16:30 Lega A : Sassari vs Tortona - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Zona DAZN IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="Poland PLK - GTK Gliwice vs. Anwil Wroclawek" tvg-name="16:30 Poland PLK : GTK Gliwice vs. Anwil Wroclawek - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Polsat Sport 2 Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
