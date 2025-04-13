@@ -23,12 +23,6 @@ https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="12:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744540795_atalanta-x-bologna.png" group-title="Soccer", DAZN Zona IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="12:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744540795_atalanta-x-bologna.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -767,12 +761,6 @@ https://dokko1new.newkso.ru/dokko1/premium94/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium144/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="15:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744541041_fiorentina-x-parma.png" group-title="Soccer", Zona DAZN IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="15:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744541041_fiorentina-x-parma.png" group-title="Soccer", Sport TV3 Portugal
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -875,6 +863,12 @@ https://zekonew.newkso.ru/zeko/premium704/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie B - Cremonese vs Juve Stabia" tvg-name="15:00 Italy - Serie B : Cremonese vs Juve Stabia - 13/04/25" tvg-logo="https://skystreaming.asia/content/thumbs/ab92da44492da598198525219e57e1b9." group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie B - Cremonese vs Juve Stabia" tvg-name="15:00 Italy - Serie B : Cremonese vs Juve Stabia - 13/04/25" tvg-logo="https://skystreaming.asia/content/thumbs/ab92da44492da598198525219e57e1b9." group-title="Soccer", Fox Soccer Plus
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -886,6 +880,12 @@ https://ddy6new.newkso.ru/ddy6/premium756/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium146/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A (women) - Napoli vs Sassuolo" tvg-name="15:00 Italy - Serie A (women) : Napoli vs Sassuolo - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium105/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Stuttgart vs Werder Bremen" tvg-name="15:30 Bundesliga : Stuttgart vs Werder Bremen - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744542178_stuttgart-x-werder-bremen.png" group-title="Soccer", DAZN2 DE
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1696,12 +1696,6 @@ https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="20:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744540926_lazio-x-roma.png" group-title="Soccer", DAZN Zona IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="20:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://guardacalcio.cam/uploads/posts/2025-04/1744540926_lazio-x-roma.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
