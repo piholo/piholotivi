@@ -894,12 +894,6 @@ https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium445/mono.m3u8
 
-#EXTINF:-1 tvg-id="unknown" tvg-name="DAZN 2 Spain" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", DAZN 2 Spain
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium446/mono.m3u8
-
 #EXTINF:-1 tvg-id="unknown" tvg-name="DAZN 3 Spain" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", DAZN 3 Spain
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
@@ -946,25 +940,25 @@ https://dokko1new.newkso.ru/dokko1/premium802/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium400/mono.m3u8
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="unknown" tvg-name="Digi Sport 2 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", Digi Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="unknown" tvg-name="Digi Sport 3 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", Digi Sport 3 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
+https://top1new.newkso.ru/top1/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="unknown" tvg-name="Digi Sport 4 Romania" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", Digi Sport 4 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium403/mono.m3u8
+https://top1new.newkso.ru/top1/premium403/mono.m3u8
 
 #EXTINF:-1 tvg-id="unknown" tvg-name="Diema Sport Bulgaria" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddlive.png" group-title="Undefined", Diema Sport Bulgaria
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
