@@ -1,10 +1,3 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="The Masters Holes 15 16 - The Masters Holes 15 16" tvg-name="02:45 The Masters Holes 15 16 - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 06
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium215/mono.m3u8
-
 #EXTINF:-1 tvg-id="The Masters On The Range - The Masters On The Range" tvg-name="09:00 The Masters On The Range - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Golf PPV Events", PPV EVENT 02
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -173,12 +166,6 @@ https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -232,12 +219,6 @@ https://ddy6new.newkso.ru/ddy6/premium136/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium925/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Atalanta vs Bologna" tvg-name="11:30 Italy - Serie A : Atalanta vs Bologna - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -297,7 +278,7 @@ https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium400/mono.m3u8
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="Romania - Liga II - Csikszereda vs AFCM Reşiţa" tvg-name="11:30 Romania - Liga II : Csikszereda vs AFCM Reşiţa - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -351,7 +332,7 @@ https://windnew.newkso.ru/wind/premium129/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="Scottish Premiership - Aberdeen vs Rangers" tvg-name="12:00 Scottish Premiership : Aberdeen vs Rangers - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 1 Greece
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -489,7 +470,7 @@ https://windnew.newkso.ru/wind/premium581/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium104/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
 
 #EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Preußen Münster vs Karlsruher SC" tvg-name="12:30 Germany - Bundesliga 2 : Preußen Münster vs Karlsruher SC - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Bundesliga 4
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -603,13 +584,7 @@ https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium403/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Osasuna vs Girona" tvg-name="13:00 Spain - La Liga : Osasuna vs Girona - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://wikinew.newkso.ru/wiki/premium586/mono.m3u8
+https://top1new.newkso.ru/top1/premium403/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Osasuna vs Girona" tvg-name="13:00 Spain - La Liga : Osasuna vs Girona - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Deportes
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -747,7 +722,7 @@ https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium128/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
 
 #EXTINF:-1 tvg-id="Poland - Ekstraklasa - Piast Gliwice vs Pogoń Szczecin" tvg-name="13:45 Poland - Ekstraklasa : Piast Gliwice vs Pogoń Szczecin - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 3 Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -959,12 +934,6 @@ https://nfsnew.newkso.ru/nfs/premium343/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium595/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Liverpool vs West Ham United" tvg-name="14:00 England - Premier League : Liverpool vs West Ham United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN2 Spain
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium446/mono.m3u8
-
 #EXTINF:-1 tvg-id="England - Premier League - Liverpool vs West Ham United" tvg-name="14:00 England - Premier League : Liverpool vs West Ham United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Premier League DE
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1005,7 +974,7 @@ https://windnew.newkso.ru/wind/premium463/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - Premier League - Liverpool vs West Ham United" tvg-name="14:00 England - Premier League : Liverpool vs West Ham United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1205,12 +1174,6 @@ https://dokko1new.newkso.ru/dokko1/premium94/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium144/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="14:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Zona DAZN IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="14:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport TV3 Portugal
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1239,7 +1202,7 @@ https://ddy6new.newkso.ru/ddy6/premium136/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium400/mono.m3u8
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Fiorentina vs Parma" tvg-name="14:00 Italy - Serie A : Fiorentina vs Parma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1311,7 +1274,7 @@ https://zekonew.newkso.ru/zeko/premium704/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium77/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie B - Cremonese vs Juve Stabia" tvg-name="14:00 Italy - Serie B : Cremonese vs Juve Stabia - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1366,12 +1329,6 @@ https://zekonew.newkso.ru/zeko/premium62/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium63/mono.m3u8
-
-#EXTINF:-1 tvg-id="South Africa - Nedbank Cup - Orlando Pirates vs Marumo Gallants" tvg-name="14:00 South Africa - Nedbank Cup : Orlando Pirates vs Marumo Gallants - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport PSL
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium413/mono.m3u8
 
 #EXTINF:-1 tvg-id="South Africa - Nedbank Cup - Orlando Pirates vs Marumo Gallants" tvg-name="14:00 South Africa - Nedbank Cup : Orlando Pirates vs Marumo Gallants - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 4
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1431,7 +1388,7 @@ https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium104/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Stuttgart vs Werder Bremen" tvg-name="14:30 Bundesliga : Stuttgart vs Werder Bremen - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MAX 5 France
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1623,13 +1580,7 @@ https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium403/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Deportivo Alavés vs Real Madrid" tvg-name="15:15 Spain - La Liga : Deportivo Alavés vs Real Madrid - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://wikinew.newkso.ru/wiki/premium586/mono.m3u8
+https://top1new.newkso.ru/top1/premium403/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Deportivo Alavés vs Real Madrid" tvg-name="15:15 Spain - La Liga : Deportivo Alavés vs Real Madrid - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 1 Serbia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1803,7 +1754,7 @@ https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium400/mono.m3u8
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="Romania - Liga I - Unirea Slobozia vs UTA Arad" tvg-name="16:15 Romania - Liga I : Unirea Slobozia vs UTA Arad - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -1895,12 +1846,6 @@ https://nfsnew.newkso.ru/nfs/premium343/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium595/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Manchester United" tvg-name="16:30 England - Premier League : Newcastle United vs Manchester United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN2 Spain
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium446/mono.m3u8
-
 #EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Manchester United" tvg-name="16:30 England - Premier League : Newcastle United vs Manchester United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Premier League DE
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1947,7 +1892,7 @@ https://windnew.newkso.ru/wind/premium131/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Manchester United" tvg-name="16:30 England - Premier League : Newcastle United vs Manchester United - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2121,7 +2066,7 @@ https://windnew.newkso.ru/wind/premium150/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium104/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
 
 #EXTINF:-1 tvg-id="Bundesliga - Eintracht Frankfurt vs Heidenheim" tvg-name="16:30 Bundesliga : Eintracht Frankfurt vs Heidenheim - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 5
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2169,19 +2114,13 @@ https://windnew.newkso.ru/wind/premium259/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium128/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
 
 #EXTINF:-1 tvg-id="Poland - Ekstraklasa - Motor Lublin vs Lech Poznań" tvg-name="16:30 Poland - Ekstraklasa : Motor Lublin vs Lech Poznań - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Premium Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium566/mono.m3u8
-
-#EXTINF:-1 tvg-id="South Africa - Nedbank Cup - Mamelodi Sundowns vs Kaizer Chiefs" tvg-name="17:00 South Africa - Nedbank Cup : Mamelodi Sundowns vs Kaizer Chiefs - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport PSL
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://zekonew.newkso.ru/zeko/premium413/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Como vs Torino" tvg-name="17:00 Italy - Serie A : Como vs Torino - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2278,12 +2217,6 @@ https://windnew.newkso.ru/wind/premium914/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium431/mono.m3u8
-
-#EXTINF:-1 tvg-id="Argentina Primera B, Apertura - Fénix vs Deportivo Laferrere" tvg-name="17:00 Argentina Primera B, Apertura : Fénix vs Deportivo Laferrere - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium746/mono.m3u8
 
 #EXTINF:-1 tvg-id="Peru - Primera Division - Sporting Cristal vs Cusco" tvg-name="17:00 Peru - Primera Division : Sporting Cristal vs Cusco - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Liga 1 Max PERU
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2457,13 +2390,7 @@ https://zekonew.newkso.ru/zeko/premium117/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium403/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Real Betis vs Villarreal" tvg-name="17:30 Spain - La Liga : Real Betis vs Villarreal - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://wikinew.newkso.ru/wiki/premium586/mono.m3u8
+https://top1new.newkso.ru/top1/premium403/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Real Betis vs Villarreal" tvg-name="17:30 Spain - La Liga : Real Betis vs Villarreal - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 2 NL
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2715,7 +2642,7 @@ https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium104/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie C - Audace Cerignola vs Benevento" tvg-name="18:30 Italy - Serie C : Audace Cerignola vs Benevento - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2745,7 +2672,7 @@ https://nfsnew.newkso.ru/nfs/premium4/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium391/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium391/mono.m3u8
 
 #EXTINF:-1 tvg-id="Uruguay - Primera Division - Boston River vs Cerro Largo" tvg-name="19:00 Uruguay - Primera Division : Boston River vs Cerro Largo - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", GolTV USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2763,7 +2690,7 @@ https://windnew.newkso.ru/wind/premium581/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium400/mono.m3u8
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
 
 #EXTINF:-1 tvg-id="Romania - Liga I - CSU Craiova vs FCSB" tvg-name="19:00 Romania - Liga I : CSU Craiova vs FCSB - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2807,12 +2734,6 @@ https://nfsnew.newkso.ru/nfs/premium935/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium66/mono.m3u8
 
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - Almirante Brown vs Gimnasia Mendoza" tvg-name="19:00 Argentina - Primera Nacional : Almirante Brown vs Gimnasia Mendoza - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium746/mono.m3u8
-
 #EXTINF:-1 tvg-id="Poland - Ekstraklasa - Legia Warszawa vs Jagiellonia Białystok" tvg-name="19:15 Poland - Ekstraklasa : Legia Warszawa vs Jagiellonia Białystok - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 3 Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2847,7 +2768,7 @@ https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Argentina - Primera División - Instituto vs Deportivo Riestra" tvg-name="19:30 Argentina - Primera División : Instituto vs Deportivo Riestra - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports Argentina
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -2921,12 +2842,6 @@ https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="19:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="19:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", CBS Sports Golazo USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -2961,7 +2876,7 @@ https://windnew.newkso.ru/wind/premium914/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Lazio vs Roma" tvg-name="19:45 Italy - Serie A : Lazio vs Roma - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 2 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3131,12 +3046,6 @@ https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
 
-#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="20:00 Spain - La Liga : Athletic Club vs Rayo Vallecano - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
-
 #EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="20:00 Spain - La Liga : Athletic Club vs Rayo Vallecano - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 3 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -3239,12 +3148,6 @@ https://dokko1new.newkso.ru/dokko1/premium629/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium453/mono.m3u8
 
-#EXTINF:-1 tvg-id="Argentina - Primera Nacional - Temperley vs Chacarita Juniors" tvg-name="21:00 Argentina - Primera Nacional : Temperley vs Chacarita Juniors - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TyC Sports Argentina
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://ddy6new.newkso.ru/ddy6/premium746/mono.m3u8
-
 #EXTINF:-1 tvg-id="NWSL - NJ/NY Gotham FC vs North Carolina Courage" tvg-name="21:00 NWSL : NJ/NY Gotham FC vs North Carolina Courage - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 2 UK
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -3285,7 +3188,7 @@ https://nfsnew.newkso.ru/nfs/premium189/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium391/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium391/mono.m3u8
 
 #EXTINF:-1 tvg-id="Uruguay - Primera Division - Nacional vs Danubio" tvg-name="21:30 Uruguay - Primera Division : Nacional vs Danubio - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", GolTV USA
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3387,7 +3290,7 @@ https://dokko1new.newkso.ru/dokko1/premium643/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium391/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium391/mono.m3u8
 
 #EXTINF:-1 tvg-id="Argentina - Primera División - River Plate vs Talleres Córdoba" tvg-name="00:15 Argentina - Primera División : River Plate vs Talleres Córdoba - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Premium Argentina
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3537,13 +3440,13 @@ https://dokko1new.newkso.ru/dokko1/premium527/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium401/mono.m3u8
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
 
 #EXTINF:-1 tvg-id="Masters 1000 Monte-Carlo | Finale - Masters 1000 Monte-Carlo | Finale" tvg-name="14:00 Masters 1000 Monte-Carlo | Finale - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Digi Sport 4 Romania
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium403/mono.m3u8
+https://top1new.newkso.ru/top1/premium403/mono.m3u8
 
 #EXTINF:-1 tvg-id="Masters 1000 Monte-Carlo | Finale - Masters 1000 Monte-Carlo | Finale" tvg-name="14:00 Masters 1000 Monte-Carlo | Finale - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Polsat Sport 1 Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3897,7 +3800,7 @@ https://windnew.newkso.ru/wind/premium916/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Warm Up" tvg-name="13:30 MotoGP : Qatar Grand Prix Warm Up - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Ziggo Sport 1 NL
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3910,12 +3813,6 @@ https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium473/mono.m3u8
-
-#EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Warm Up" tvg-name="13:30 MotoGP : Qatar Grand Prix Warm Up - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Warm Up" tvg-name="13:30 MotoGP : Qatar Grand Prix Warm Up - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sport 5 Stars Israel
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -3993,19 +3890,13 @@ https://windnew.newkso.ru/wind/premium916/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Moto3 - Qatar Grand Prix Race" tvg-name="14:00 Moto3 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Ziggo Sport 1 NL
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
-
-#EXTINF:-1 tvg-id="Moto3 - Qatar Grand Prix Race" tvg-name="14:00 Moto3 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="Moto3 - Qatar Grand Prix Race" tvg-name="14:00 Moto3 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", MAX Sport 2 Bulgaria
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4197,19 +4088,13 @@ https://windnew.newkso.ru/wind/premium916/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Moto2 - Qatar Grand Prix Race" tvg-name="16:00 Moto2 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Ziggo Sport 1 NL
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
-
-#EXTINF:-1 tvg-id="Moto2 - Qatar Grand Prix Race" tvg-name="16:00 Moto2 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="Moto2 - Qatar Grand Prix Race" tvg-name="16:00 Moto2 : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", MAX Sport 2 Bulgaria
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4233,7 +4118,7 @@ https://windnew.newkso.ru/wind/premium75/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium48/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
 
 #EXTINF:-1 tvg-id="Formula 1 - Gulf Air Bahrain Grand Prix - Race" tvg-name="16:00 Formula 1 : Gulf Air Bahrain Grand Prix - Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4401,7 +4286,7 @@ https://dokko1new.newkso.ru/dokko1/premium626/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Race" tvg-name="17:15 MotoGP : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Canal+ France
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4426,12 +4311,6 @@ https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://windnew.newkso.ru/wind/premium473/mono.m3u8
-
-#EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Race" tvg-name="17:15 MotoGP : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://top2new.newkso.ru/top2/premium402/mono.m3u8
 
 #EXTINF:-1 tvg-id="MotoGP - Qatar Grand Prix Race" tvg-name="17:15 MotoGP : Qatar Grand Prix Race - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sport 5 Stars Israel
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4497,7 +4376,7 @@ https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium48/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
 
 #EXTINF:-1 tvg-id="IndyCar Series SeasonRace - Streets of Long Beach, California - IndyCar Series SeasonRace - Streets of Long Beach, California" tvg-name="21:30 IndyCar Series SeasonRace - Streets of Long Beach, California - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4665,7 +4544,7 @@ https://windnew.newkso.ru/wind/premium466/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium103/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy Serie A - Olimpia Milano vs. AS Pistoia Basket 2000" tvg-name="12:00 Italy Serie A : Olimpia Milano vs. AS Pistoia Basket 2000 - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 7 Serbia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4707,7 +4586,7 @@ https://windnew.newkso.ru/wind/premium468/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium48/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
 
 #EXTINF:-1 tvg-id="ACB - CB 1939 Canarias vs. Real Madrid" tvg-name="12:00 ACB : CB 1939 Canarias vs. Real Madrid - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena 3 Premium Serbia
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4828,12 +4707,6 @@ https://zekonew.newkso.ru/zeko/premium145/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://dokko1new.newkso.ru/dokko1/premium153/mono.m3u8
-
-#EXTINF:-1 tvg-id="Lega A - Sassari vs Tortona" tvg-name="16:30 Lega A : Sassari vs Tortona - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Zona DAZN IT
-#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="Poland PLK - GTK Gliwice vs. Anwil Wroclawek" tvg-name="16:30 Poland PLK : GTK Gliwice vs. Anwil Wroclawek - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Polsat Sport 2 Poland
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -5457,7 +5330,7 @@ https://nfsnew.newkso.ru/nfs/premium2/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
-https://windnew.newkso.ru/wind/premium77/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
 
 #EXTINF:-1 tvg-id="Men's Handball Hungarian Cup Finals - Men's Handball Hungarian Cup Finals" tvg-name="18:30 Men's Handball Hungarian Cup Finals - 13/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", M4 Sports Hungary
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
