@@ -1,8 +1,8 @@
-name: Update world 24 7
+name: Update 24 7 VV DD ita and world
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # ogni lunedi alle 3
+    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
   workflow_dispatch:
 
 jobs:
@@ -33,11 +33,14 @@ jobs:
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
-          rm -f daddyliveSchedule.json
           rm -f 247channels.html
           rm -f 247world.m3u8
           rm -f 247world.xml
+          rm -f 247ita.m3u8
           python 247world.py
+          python def.py
+          python vvworld.py
+          python 247ita.py
           
       - name: Commit and push changes
         run: |
