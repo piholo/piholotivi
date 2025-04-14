@@ -40,6 +40,7 @@ jobs:
         run: |
           python extract_schedule.py
           python itaevents.py
+          python fullita.py
           
       - name: Commit and push changes
         run: |
