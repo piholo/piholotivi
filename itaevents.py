@@ -118,14 +118,14 @@ def get_dynamic_logo(event_name):
     
     try:
         if is_serie_a_or_other_leagues or is_uefa_or_coppa:
-            # First try to fetch logos from guardacalcio.cam
-            guardacalcio_url = "https://guardacalcio.cam/partite-streaming.html"
+            # First try to fetch logos from guardacalcio.art
+            guardacalcio_url = "https://guardacalcio.art/partite-streaming.html"
             headers_guardacalcio = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
             }
             
-            print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su guardacalcio.cam...")
+            print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su guardacalcio.art...")
             
             response = requests.get(guardacalcio_url, headers=headers_guardacalcio, timeout=10)
             html_content = response.text
@@ -135,7 +135,7 @@ def get_dynamic_logo(event_name):
             
             # Cerca tutte le immagini nella pagina
             img_tags = soup.find_all('img')
-            print(f"Trovate {len(img_tags)} immagini su guardacalcio.cam")
+            print(f"Trovate {len(img_tags)} immagini su guardacalcio.art")
             
             # Cerca immagini che contengono i nomi delle squadre nel src o nell'alt
             for img in img_tags:
@@ -156,28 +156,28 @@ def get_dynamic_logo(event_name):
                             logo_url = src
                         else:
                             # Costruisci URL assoluto
-                            base_url = "https://guardacalcio.cam"
+                            base_url = "https://guardacalcio.art"
                             if src.startswith('/'):
                                 logo_url = base_url + src
                             else:
                                 logo_url = base_url + '/' + src
                         
-                        print(f"Trovato logo su guardacalcio.cam: {logo_url}")
+                        print(f"Trovato logo su guardacalcio.art: {logo_url}")
                         if cache_key:
                             LOGO_CACHE[cache_key] = logo_url
                         return logo_url
             
-            # If no logo found on guardacalcio.cam, try skystreaming.directory
-            print(f"Nessun logo trovato su guardacalcio.cam, cercando su skystreaming.directory...")
+            # If no logo found on guardacalcio.art, try skystreaming.asia
+            print(f"Nessun logo trovato su guardacalcio.art, cercando su skystreaming.asia...")
         
-        # Fetch logos from skystreaming.directory for Serie B, Serie C, and fallback for other leagues
-        skystreaming_url = "https://skystreaming.directory/"
+        # Fetch logos from skystreaming.asia for Serie B, Serie C, and fallback for other leagues
+        skystreaming_url = "https://skystreaming.asia/"
         headers_skystreaming = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
         }
         
-        print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su skystreaming.directory...")
+        print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su skystreaming.asia...")
         
         response = requests.get(skystreaming_url, headers=headers_skystreaming, timeout=10)
         html_content = response.text
@@ -187,7 +187,7 @@ def get_dynamic_logo(event_name):
         
         # Cerca span con class="mediabg" e style che contiene l'immagine
         media_spans = soup.find_all('span', class_='mediabg')
-        print(f"Trovati {len(media_spans)} span con class='mediabg' su skystreaming.directory")
+        print(f"Trovati {len(media_spans)} span con class='mediabg' su skystreaming.asia")
         
         # Cerca span che contengono i nomi delle squadre nel testo
         found_match = False
@@ -201,7 +201,7 @@ def get_dynamic_logo(event_name):
                     match = re.search(r'background-image:url\((.*?)\)', style)
                     if match:
                         logo_url = match.group(1)
-                        print(f"Trovato logo specifico su skystreaming.directory: {logo_url}")
+                        print(f"Trovato logo specifico su skystreaming.asia: {logo_url}")
                         if cache_key:
                             LOGO_CACHE[cache_key] = logo_url
                         found_match = True
@@ -219,7 +219,7 @@ def get_dynamic_logo(event_name):
                         match = re.search(r'background-image:url\((.*?)\)', style)
                         if match:
                             logo_url = match.group(1)
-                            print(f"Trovato logo parziale su skystreaming.directory: {logo_url}")
+                            print(f"Trovato logo parziale su skystreaming.asia: {logo_url}")
                             if cache_key:
                                 LOGO_CACHE[cache_key] = logo_url
                             return logo_url
