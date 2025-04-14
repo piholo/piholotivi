@@ -2,7 +2,7 @@ name: Update itaEvents
 
 on:
   schedule:
-    - cron: "0 8,11,13,16 * * *"
+    - cron: "0 9,11,13,16 * * *"
   workflow_dispatch:
 permissions:
   contents: write  # To push changes to repository
