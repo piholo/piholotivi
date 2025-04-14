@@ -2,7 +2,7 @@ name: Update fullita
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 3,9 * * *"
   workflow_dispatch:
 permissions:
   contents: write  # To push changes to repository
