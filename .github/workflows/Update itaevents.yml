@@ -16,11 +16,12 @@ jobs:
       cancel-in-progress: false
     
     steps:
-      - name: Checkout repository (no history)
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.WF }}  # Use your secret here
+          # Using the built-in GITHUB_TOKEN instead of a custom PAT
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -45,8 +46,8 @@ jobs:
           
       - name: Commit and push changes
         run: |
-          git config --global user.name "actions-user"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           # Ignore Python bytecode files to avoid binary conflicts
           echo "__pycache__/" >> .gitignore
@@ -60,11 +61,8 @@ jobs:
             # Commit changes
             git commit -m "Update Itaevents $(date +%H:%M)"
             
-            # Set the remote URL with the token for authentication
-            git remote set-url origin https://x-access-token:${{ secrets.WF }}@github.com/${{ github.repository }}.git
-            
-            # Push changes
-            git push origin HEAD:main
+            # Push changes using the built-in token
+            git push
           else
             echo "No changes to commit"
           fi
