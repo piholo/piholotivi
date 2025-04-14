@@ -2,7 +2,7 @@ name: Update Ita 24 7
 
 on:
   schedule:
-    - cron: "0 3 * * 2" # ogni martedi alle 3 di notte
+    - cron: "0 3 * * *" # ogni martedi alle 3 di notte
   workflow_dispatch:
 
 jobs:
