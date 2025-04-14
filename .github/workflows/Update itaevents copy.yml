@@ -60,11 +60,8 @@ jobs:
             # Commit changes
             git commit -m "Update Itaevents $(date +%H:%M)"
             
-            # Set the remote URL with the token for authentication
-            git remote set-url origin https://x-access-token:${{ secrets.WF }}@github.com/${{ github.repository }}.git
-            
-            # Push changes
-            git push origin HEAD:main
+            # Force push to avoid merge conflicts
+            git push --force origin HEAD:main
           else
             echo "No changes to commit"
           fi
