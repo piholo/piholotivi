@@ -2,7 +2,7 @@ name: Update 24 7 VV DD ita and world
 
 on:
   schedule:
-    - cron: "0 3 * * *" # ogni giorno alle 3 di notte
+    - cron: "0 1 */2 * *" # oogni 3 giorni alle 4 di notte
   workflow_dispatch:
 
 jobs:
