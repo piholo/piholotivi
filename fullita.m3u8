@@ -47,6 +47,12 @@ https://nfsnew.newkso.ru/nfs/premium189/mono.m3u8
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 https://nfsnew.newkso.ru/nfs/premium190/mono.m3u8
 
+#EXTINF:-1 tvg-id="Ireland Republic - First Division - Wexford vs Treaty United" tvg-name="17:00 Ireland Republic - First Division : Wexford vs Treaty United - 21/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://nfsnew.newkso.ru/nfs/premium191/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A - Torino vs Udinese" tvg-name="11:30 Italy - Serie A : Torino vs Udinese - 21/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -204,6 +210,24 @@ https://windnew.newkso.ru/wind/premium59/mono.m3u8
 https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="Serie A2 - Fortitudo Bologna vs Rimini" tvg-name="19:45 Serie A2 : Fortitudo Bologna vs Rimini - 21/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Derry City vs Sligo Rovers" tvg-name="19:45 Ireland Republic - Premier Division : Derry City vs Sligo Rovers - 22/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Manchester City vs Aston Villa" tvg-name="20:00 England - Premier League : Manchester City vs Aston Villa - 22/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 Women - Volley Conegliano vs. Volley Monza" tvg-name="19:30 Serie A1 Women : Volley Conegliano vs. Volley Monza - 22/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai Sport 1 IT
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
