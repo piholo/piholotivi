@@ -5,6 +5,12 @@
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://zekonew.newkso.ru/zeko/premium36/mono.m3u8
 
+#EXTINF:-1 tvg-id="England - League One - Mansfield Town vs Peterborough United" tvg-name="19:45 England - League One : Mansfield Town vs Peterborough United - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports+
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
+
 #EXTINF:-1 tvg-id="Belgium - Women's Super League - Standard Liège vs Anderlecht" tvg-name="12:30 Belgium - Women's Super League : Standard Liège vs Anderlecht - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Pro League 1 Belgium
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -389,6 +395,12 @@ https://windnew.newkso.ru/wind/premium886/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium887/mono.m3u8
 
+#EXTINF:-1 tvg-id="UEFA Champions League - Barcelona vs Internazionale" tvg-name="20:00 UEFA Champions League : Barcelona vs Internazionale - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RTK1 Kosovo
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium76/mono.m3u8
+
 #EXTINF:-1 tvg-id="UEFA Champions League - Barcelona vs Internazionale" tvg-name="20:00 UEFA Champions League : Barcelona vs Internazionale - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV2 Sport 1 Norway
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -424,6 +436,12 @@ https://ddy6new.newkso.ru/ddy6/premium432/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium819/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Champions League - Barcelona vs Internazionale" tvg-name="20:00 UEFA Champions League : Barcelona vs Internazionale - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", bTV Action Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium481/mono.m3u8
 
 #EXTINF:-1 tvg-id="UEFA Champions League - Barcelona vs Internazionale" tvg-name="20:00 UEFA Champions League : Barcelona vs Internazionale - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Brasil
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -701,6 +719,12 @@ https://zekonew.newkso.ru/zeko/premium430/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium915/mono.m3u8
 
+#EXTINF:-1 tvg-id="Masters 1000 Madrid | Round of 8 finals - Masters 1000 Madrid | Round of 8 finals" tvg-name="10:00 Masters 1000 Madrid | Round of 8 finals - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", NovaSports 6 GR
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium636/mono.m3u8
+
 #EXTINF:-1 tvg-id="Masters 1000 Madrid | Round of 8 finals - Masters 1000 Madrid | Round of 8 finals" tvg-name="10:00 Masters 1000 Madrid | Round of 8 finals - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -724,6 +748,12 @@ https://top1new.newkso.ru/top1/premium401/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium150/mono.m3u8
+
+#EXTINF:-1 tvg-id="Masters 1000 Madrid | Round of 8 finals - Masters 1000 Madrid | Round of 8 finals" tvg-name="10:00 Masters 1000 Madrid | Round of 8 finals - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium472/mono.m3u8
 
 #EXTINF:-1 tvg-id="Masters 1000 Madrid | Round of 8 finals - Masters 1000 Madrid | Round of 8 finals" tvg-name="10:00 Masters 1000 Madrid | Round of 8 finals - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Croatia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -851,11 +881,23 @@ https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://zekonew.newkso.ru/zeko/premium436/mono.m3u8
 
+#EXTINF:-1 tvg-id="Euroleague - FC Barcelona vs. AS Monaco" tvg-name="18:00 Euroleague : FC Barcelona vs. AS Monaco - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Nova Sports 4 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium634/mono.m3u8
+
 #EXTINF:-1 tvg-id="Euroleague - FC Barcelona vs. AS Monaco" tvg-name="18:00 Euroleague : FC Barcelona vs. AS Monaco - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena 1 Premium Serbia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium134/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - FC Barcelona vs. AS Monaco" tvg-name="18:00 Euroleague : FC Barcelona vs. AS Monaco - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Max Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
 
 #EXTINF:-1 tvg-id="Euroleague - FC Barcelona vs. AS Monaco" tvg-name="18:00 Euroleague : FC Barcelona vs. AS Monaco - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 3 Croatia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -887,11 +929,23 @@ https://dokko1new.newkso.ru/dokko1/premium527/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
 
+#EXTINF:-1 tvg-id="Euroleague - Anadolu Efes SK vs. Panathinaikos BC" tvg-name="18:45 Euroleague : Anadolu Efes SK vs. Panathinaikos BC - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Nova Sports Prime Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium638/mono.m3u8
+
 #EXTINF:-1 tvg-id="Euroleague - Anadolu Efes SK vs. Panathinaikos BC" tvg-name="18:45 Euroleague : Anadolu Efes SK vs. Panathinaikos BC - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport TV2 Portugal
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://dokko1new.newkso.ru/dokko1/premium74/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Anadolu Efes SK vs. Panathinaikos BC" tvg-name="18:45 Euroleague : Anadolu Efes SK vs. Panathinaikos BC - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Max Sport 4 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium475/mono.m3u8
 
 #EXTINF:-1 tvg-id="Euroleague - Anadolu Efes SK vs. Panathinaikos BC" tvg-name="18:45 Euroleague : Anadolu Efes SK vs. Panathinaikos BC - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 1 Croatia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -916,6 +970,12 @@ https://dokko1new.newkso.ru/dokko1/premium526/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="ACB - Basket Zaragoza 2002 vs. CB Coruna" tvg-name="19:00 ACB : Basket Zaragoza 2002 vs. CB Coruna - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Diema sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium467/mono.m3u8
 
 #EXTINF:-1 tvg-id="ACB - Basket Zaragoza 2002 vs. CB Coruna" tvg-name="19:00 ACB : Basket Zaragoza 2002 vs. CB Coruna - 30/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub HD Croatia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -1336,4 +1396,1918 @@ https://windnew.newkso.ru/wind/premium47/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://dokko1new.newkso.ru/dokko1/premium380/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spain - Primera División Femenina - Levante Las Planas vs Barcelona" tvg-name="11:00 Spain - Primera División Femenina : Levante Las Planas vs Barcelona - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", GOL PLAY Spain
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium530/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spain - Primera División Femenina - Levante Las Planas vs Barcelona" tvg-name="11:00 Spain - Primera División Femenina : Levante Las Planas vs Barcelona - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", M+ Ellas Vamos
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spain - Primera División Femenina - Levante Las Planas vs Barcelona" tvg-name="11:00 Spain - Primera División Femenina : Levante Las Planas vs Barcelona - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TVP Sport Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Juve Stabia vs Catanzaro" tvg-name="11:30 Italy - Serie B : Juve Stabia vs Catanzaro - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Juve Stabia vs Catanzaro" tvg-name="11:30 Italy - Serie B : Juve Stabia vs Catanzaro - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium756/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Juve Stabia vs Catanzaro" tvg-name="11:30 Italy - Serie B : Juve Stabia vs Catanzaro - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 5 PLUS Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium145/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Pro League 1 Belgium
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena 2 Premium Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 2 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SPORT1+ DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium640/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Nova Sports Prime Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium638/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://wikinew.newkso.ru/wiki/premium583/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN3 Mexico
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium927/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Antwerp vs Anderlecht" tvg-name="12:30 Belgium - Pro League : Antwerp vs Anderlecht - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 3 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Cosenza vs Bari 1908" tvg-name="14:00 Italy - Serie B : Cosenza vs Bari 1908 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Mantova vs Cesena" tvg-name="14:00 Italy - Serie B : Mantova vs Cesena - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Modena vs Reggiana" tvg-name="14:00 Italy - Serie B : Modena vs Reggiana - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Pisa vs Frosinone" tvg-name="14:00 Italy - Serie B : Pisa vs Frosinone - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium76/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sampdoria vs Cremonese" tvg-name="14:00 Italy - Serie B : Sampdoria vs Cremonese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sampdoria vs Cremonese" tvg-name="14:00 Italy - Serie B : Sampdoria vs Cremonese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium756/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sampdoria vs Cremonese" tvg-name="14:00 Italy - Serie B : Sampdoria vs Cremonese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 5 PLUS Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium145/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Spezia vs Salernitana" tvg-name="14:00 Italy - Serie B : Spezia vs Salernitana - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
+
+#EXTINF:-1 tvg-id="Egypt - Premier League - Ceramica Cleopatra vs National Bank of Egypt" tvg-name="15:00 Egypt - Premier League : Ceramica Cleopatra vs National Bank of Egypt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ontime Sports Egypt
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Pro League 1 Belgium
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena 2 Premium Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Nova Sports Start Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium637/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Sports 1 Argentina
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium787/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SPORT1+ DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium640/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://wikinew.newkso.ru/wiki/premium583/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+
+#EXTINF:-1 tvg-id="Belgium - Pro League - Club Brugge vs Gent" tvg-name="15:00 Belgium - Pro League : Club Brugge vs Gent - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 3 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen DFB Pokal - Bayern München vs Werder Bremen" tvg-name="15:00 Frauen DFB Pokal : Bayern München vs Werder Bremen - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Das Erste DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen DFB Pokal - Bayern München vs Werder Bremen" tvg-name="15:00 Frauen DFB Pokal : Bayern München vs Werder Bremen - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport MIX DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium557/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen DFB Pokal - Bayern München vs Werder Bremen" tvg-name="15:00 Frauen DFB Pokal : Bayern München vs Werder Bremen - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Top Event DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium556/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen DFB Pokal - Bayern München vs Werder Bremen" tvg-name="15:00 Frauen DFB Pokal : Bayern München vs Werder Bremen - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", V Sport Premium
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium4/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frauen DFB Pokal - Bayern München vs Werder Bremen" tvg-name="15:00 Frauen DFB Pokal : Bayern München vs Werder Bremen - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 4 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium143/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Nigeria U20 vs Tunisia U20" tvg-name="16:00 Africa U-20 Cup of Nations : Nigeria U20 vs Tunisia U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN SPORTS USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium425/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Nigeria U20 vs Tunisia U20" tvg-name="16:00 Africa U-20 Cup of Nations : Nigeria U20 vs Tunisia U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN SPORTS en Español
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium372/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Nigeria U20 vs Tunisia U20" tvg-name="16:00 Africa U-20 Cup of Nations : Nigeria U20 vs Tunisia U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 6
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium96/mono.m3u8
+
+#EXTINF:-1 tvg-id="Austria - ÖFB-Cup - Wolfsberger AC vs Hartberg" tvg-name="16:00 Austria - ÖFB-Cup : Wolfsberger AC vs Hartberg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ORF eins Austria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+
+#EXTINF:-1 tvg-id="Saudi Arabia - Pro League - Al Akhdoud vs Al Wehda" tvg-name="17:00 Saudi Arabia - Pro League : Al Akhdoud vs Al Wehda - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SSC
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+
+#EXTINF:-1 tvg-id="Saudi Arabia - Pro League - Al Riyadh vs Al Orubah" tvg-name="17:00 Saudi Arabia - Pro League : Al Riyadh vs Al Orubah - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SSC
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Hebar 1918 vs Krumovgrad" tvg-name="17:30 Bulgaria - Parva Liga : Hebar 1918 vs Krumovgrad - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Diema Sport Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium465/mono.m3u8
+
+#EXTINF:-1 tvg-id="United Arab Emirates - UAE Pro League - Al Sharjah vs Bani Yas" tvg-name="17:45 United Arab Emirates - UAE Pro League : Al Sharjah vs Bani Yas - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Abu Dhabi Sports 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium600/mono.m3u8
+
+#EXTINF:-1 tvg-id="Egypt - Premier League - Al Masry vs Zamalek" tvg-name="18:00 Egypt - Premier League : Al Masry vs Zamalek - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ontime Sports Egypt
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
+
+#EXTINF:-1 tvg-id="Denmark - DBU Pokalen - Viborg vs København" tvg-name="18:30 Denmark - DBU Pokalen : Viborg vs København - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV3 Sport Denmark
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium809/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sassuolo vs Carrarese" tvg-name="18:30 Italy - Serie B : Sassuolo vs Carrarese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sassuolo vs Carrarese" tvg-name="18:30 Italy - Serie B : Sassuolo vs Carrarese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium756/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sassuolo vs Carrarese" tvg-name="18:30 Italy - Serie B : Sassuolo vs Carrarese - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", 5 LIVE Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium146/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Kenya U20 vs Morocco U20" tvg-name="19:00 Africa U-20 Cup of Nations : Kenya U20 vs Morocco U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN SPORTS USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium425/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Kenya U20 vs Morocco U20" tvg-name="19:00 Africa U-20 Cup of Nations : Kenya U20 vs Morocco U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN SPORTS en Español
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium372/mono.m3u8
+
+#EXTINF:-1 tvg-id="Africa U-20 Cup of Nations - Kenya U20 vs Morocco U20" tvg-name="19:00 Africa U-20 Cup of Nations : Kenya U20 vs Morocco U20 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 6
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium96/mono.m3u8
+
+#EXTINF:-1 tvg-id="Saudi Arabia - Pro League - Al Fateh vs Al Shabab" tvg-name="19:00 Saudi Arabia - Pro League : Al Fateh vs Al Shabab - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SSC
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Optus Sport
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", NBC UNIVERSO USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium845/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", USA Network
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium343/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 8 NZ
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium595/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports Main Event UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium38/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sports Premier League UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium130/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Premier League DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 1 ES
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium445/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Live 5 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports 3 Turkeye
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium64/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cytavision Sports 7 Cyprus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium917/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 2 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium430/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Nova Sports Prime Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium638/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", See Denmark
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium811/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 4 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium580/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", NovaSports Premier League GR
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium599/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", V Sport Premium
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium4/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium81/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Diema Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium466/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport MaXimo 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium572/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 5
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium95/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Nottingham Forest vs Brentford" tvg-name="19:30 England - Premier League : Nottingham Forest vs Brentford - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA English 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League / Conference League - Simulcast" tvg-name="20:00 UEFA Europa League / Conference League : Simulcast - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Austria 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium559/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League / Conference League - Simulcast" tvg-name="20:00 UEFA Europa League / Conference League : Simulcast - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League / Conference League - Simulcast" tvg-name="20:00 UEFA Europa League / Conference League : Simulcast - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport360
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium464/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League / Conference League - Simulcast" tvg-name="20:00 UEFA Europa League / Conference League : Simulcast - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League / Conference League - Simulcast" tvg-name="20:00 UEFA Europa League / Conference League : Simulcast - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 1 HD
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium622/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 2 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium32/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", CBS Sports Network USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium308/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Sports 2 Ireland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium799/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Austria 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Eleven 1 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium455/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium13/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Polsat Sport Premium 2 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium14/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Foot France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium463/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Live 2 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 2 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cytavision Sports 3 Cyprus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium913/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TRT Spor Turkey
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium889/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://wikinew.newkso.ru/wiki/premium584/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 3 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Mexico
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium925/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 5 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium626/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 3 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium434/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MAX Sport 4 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium475/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN2 Argentina
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium150/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Variety 3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium418/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium92/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Bodø / Glimt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Bodø / Glimt - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 4 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium143/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 1 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Sports 1 Ireland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium771/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium435/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RTL DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium740/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport TV5 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium290/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Polsat Sport Premium 1 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium15/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium16/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium121/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Live 1 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium17/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", M4 Sports Hungary
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium265/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TRT 1 Turkey
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium18/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Stöð 2 Sport 2 Iceland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium19/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium400/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://wikinew.newkso.ru/wiki/premium583/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TUDN USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium66/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", UniMás
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium133/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ŠTV 1 Slovenia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium20/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Sports Mexico
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium929/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena 2 Premium Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 2 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium623/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 1 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium432/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Argentina
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium149/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport Football
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium56/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium91/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA English 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium61/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Europa League - Athletic Club vs Manchester United" tvg-name="20:00 UEFA Europa League : Athletic Club vs Manchester United - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 2 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium141/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 5 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium21/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV8 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium22/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Uno IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium24/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Austria 4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium25/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Eleven 3 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium457/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Polsat Sport Premium 3 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium26/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 5 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium383/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cytavision Sports 4 Cyprus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium914/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SRF zwei
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium27/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Sports Mexico
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium929/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Arena Sport 4 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium581/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 3 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium624/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ring bg
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium471/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", SuperSport La Liga
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium415/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium93/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Real Betis vs Fiorentina" tvg-name="20:00 UEFA Conference League : Real Betis vs Fiorentina - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 1 Israe
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TNT Sports 4 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium34/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Austria 3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Movistar Liga de Campeones 5
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium76/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Eleven 2 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium456/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Polsat Sport Premium 4 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium28/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium29/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Max IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium122/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Live 3 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Canal+ Sport 360 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium464/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cytavision Sports 6 Cyprus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium916/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium402/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Prima Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://wikinew.newkso.ru/wiki/premium586/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Stöð 2 Sport 3 Iceland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Ziggo Sport 3 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium919/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Cosmote Sport 7 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium628/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", bTV Action Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium481/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports MENA 4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium94/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Conference League - Djurgården vs Chelsea" tvg-name="20:00 UEFA Conference League : Djurgården vs Chelsea - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 3 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Colombia - Primera A - Envigado vs Once Caldas" tvg-name="20:00 Colombia - Primera A : Envigado vs Once Caldas - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Win+ Futbol Colombia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium392/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Operário PR vs Vasco da Gama" tvg-name="20:00 Copa do Brasil : Operário PR vs Vasco da Gama - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Operário PR vs Vasco da Gama" tvg-name="20:00 Copa do Brasil : Operário PR vs Vasco da Gama - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Brasil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium88/mono.m3u8
+
+#EXTINF:-1 tvg-id="Colombia - Primera B - Jaguares de Córdoba vs Cúcuta Deportivo" tvg-name="22:10 Colombia - Primera B : Jaguares de Córdoba vs Cúcuta Deportivo - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Win+ Futbol Colombia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium392/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Criciúma vs RB Bragantino" tvg-name="22:30 Copa do Brasil : Criciúma vs RB Bragantino - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Criciúma vs RB Bragantino" tvg-name="22:30 Copa do Brasil : Criciúma vs RB Bragantino - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Brasil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium88/mono.m3u8
+
+#EXTINF:-1 tvg-id="Campeonato Brasileiro Feminino De Futebol - Corinthians vs Grêmio" tvg-name="23:00 Campeonato Brasileiro Feminino De Futebol : Corinthians vs Grêmio - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv2 Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium79/mono.m3u8
+
+#EXTINF:-1 tvg-id="Canada - Northern Super League - AFC Toronto vs Calgary Wild" tvg-name="00:00 Canada - Northern Super League : AFC Toronto vs Calgary Wild - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="USL Championship - Louisville City vs Lexington" tvg-name="01:00 USL Championship : Louisville City vs Lexington - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sudamericano U-17 Femenino - Brazil U17 vs Peru U17" tvg-name="01:00 Sudamericano U-17 Femenino : Brazil U17 vs Peru U17 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv2 Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium79/mono.m3u8
+
+#EXTINF:-1 tvg-id="Peru - Primera Division - Melgar vs Comerciantes Unidos" tvg-name="01:30 Peru - Primera Division : Melgar vs Comerciantes Unidos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Liga 1 Max Peru
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Cruzeiro vs Vila Nova" tvg-name="01:30 Copa do Brasil : Cruzeiro vs Vila Nova - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sportv Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+
+#EXTINF:-1 tvg-id="Copa do Brasil - Cruzeiro vs Vila Nova" tvg-name="01:30 Copa do Brasil : Cruzeiro vs Vila Nova - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Premier Brasil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium88/mono.m3u8
+
+#EXTINF:-1 tvg-id="CONCACAF Champions Cup - Cruz Azul vs Tigrs UANL" tvg-name="03:00 CONCACAF Champions Cup : Cruz Azul vs Tigrs UANL - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Sports 2 USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium758/mono.m3u8
+
+#EXTINF:-1 tvg-id="CONCACAF Champions Cup - Cruz Azul vs Tigrs UANL" tvg-name="03:00 CONCACAF Champions Cup : Cruz Azul vs Tigrs UANL - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN 1 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium379/mono.m3u8
+
+#EXTINF:-1 tvg-id="CONCACAF Champions Cup - Cruz Azul vs Tigrs UANL" tvg-name="03:00 CONCACAF Champions Cup : Cruz Azul vs Tigrs UANL - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TUDN USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium66/mono.m3u8
+
+#EXTINF:-1 tvg-id="CONCACAF Champions Cup - Cruz Azul vs Tigrs UANL" tvg-name="03:00 CONCACAF Champions Cup : Cruz Azul vs Tigrs UANL - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", UniMás
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium133/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium113/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN5
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium115/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium46/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium884/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium701/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport TV3 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium454/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Polsat Sport 1 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Canal+ Sport 2 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium73/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN Sports 4 Max France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium494/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Movistar Deportes 2 Spain
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium438/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Movistar Deportes 4 Spain
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium527/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Arena Sport 1 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium429/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Arena Sport 2 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium430/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cytavision Sports 5 Cyprus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium915/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", NovaSports 6 GR
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium636/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Nova Sports 6Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium636/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", ESPN 2 Argentina
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium150/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium102/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium453/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport 2 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium141/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP and WTA 1000 Madrid | Quarterfinals - ATP and WTA 1000 Madrid | Quarterfinals" tvg-name="10:00 ATP and WTA 1000 Madrid | Quarterfinals - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport 1 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
+
+#EXTINF:-1 tvg-id="2025 US Open Pickleball Championships Quarterfinals, Day 5 - 2025 US Open Pickleball Championships Quarterfinals, Day 5" tvg-name="17:00 2025 US Open Pickleball Championships Quarterfinals, Day 5 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", CBS Sports Network USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium308/mono.m3u8
+
+#EXTINF:-1 tvg-id="PFL World Tournament - Phil Davis vs Rob Wilkinson" tvg-name="00:00 PFL World Tournament : Phil Davis vs Rob Wilkinson - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", DAZN PPV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+
+#EXTINF:-1 tvg-id="PFL World Tournament - Phil Davis vs Rob Wilkinson" tvg-name="00:00 PFL World Tournament : Phil Davis vs Rob Wilkinson - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", ESPN2 USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium45/mono.m3u8
+
+#EXTINF:-1 tvg-id="PFL World Tournament - Phil Davis vs Rob Wilkinson" tvg-name="00:00 PFL World Tournament : Phil Davis vs Rob Wilkinson - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", SuperSport Grandstand
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium412/mono.m3u8
+
+#EXTINF:-1 tvg-id="PFL World Tournament - Phil Davis vs Rob Wilkinson" tvg-name="00:00 PFL World Tournament : Phil Davis vs Rob Wilkinson - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="MMA", ESPN Deportes
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
+
+#EXTINF:-1 tvg-id="TNA iMPACT! - TNA iMPACT!" tvg-name="03:00 TNA iMPACT! - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="WWE", AXS TV USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium742/mono.m3u8
+
+#EXTINF:-1 tvg-id="TNA iMPACT! - TNA iMPACT!" tvg-name="03:00 TNA iMPACT! - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="WWE", Sportsnet 360
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium409/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sal's NBL - Bay Hawks vs Tauranga Whai" tvg-name="08:00 Sal's NBL: Bay Hawks vs Tauranga Whai - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sky Sport 2 NZ
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium589/mono.m3u8
+
+#EXTINF:-1 tvg-id="ACB - Tenerife vs Unicaja Malaga" tvg-name="12:30 ACB : Tenerife vs Unicaja Malaga - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", M+ #Vamos ES
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium521/mono.m3u8
+
+#EXTINF:-1 tvg-id="ACB - Tenerife vs Unicaja Malaga" tvg-name="12:30 ACB : Tenerife vs Unicaja Malaga - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 3 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="ACB - Tenerife vs Unicaja Malaga" tvg-name="12:30 ACB : Tenerife vs Unicaja Malaga - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", DAZN Eleven 1 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium455/mono.m3u8
+
+#EXTINF:-1 tvg-id="ACB - Tenerife vs Unicaja Malaga" tvg-name="12:30 ACB : Tenerife vs Unicaja Malaga - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Cosmote Sport 4 Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium625/mono.m3u8
+
+#EXTINF:-1 tvg-id="Russia Premier League, Women - Nadezhda Orenburg vs UMMC Ekaterinburg" tvg-name="15:00 Russia Premier League, Women : Nadezhda Orenburg vs UMMC Ekaterinburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Match TV Russia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium127/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's Basketball National League - CSO Voluntari vs CSM Corona Brașov" tvg-name="15:00 Men's Basketball National League : CSO Voluntari vs CSM Corona Brașov - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium402/mono.m3u8
+
+#EXTINF:-1 tvg-id="Basketball - UD Oliveirense vs Sporting CP" tvg-name="15:00 Basketball : UD Oliveirense vs Sporting CP - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", DAZN Eleven 2 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium456/mono.m3u8
+
+#EXTINF:-1 tvg-id="ABA League - Crvena zvezda vs Studentski Centar" tvg-name="15:00 ABA League : Crvena zvezda vs Studentski Centar - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Premium 1 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium134/mono.m3u8
+
+#EXTINF:-1 tvg-id="ABA League - Crvena zvezda vs Studentski Centar" tvg-name="15:00 ABA League : Crvena zvezda vs Studentski Centar - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 1 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium432/mono.m3u8
+
+#EXTINF:-1 tvg-id="Basketball African League - Petro Atletico vs Monastir" tvg-name="15:30 Basketball African League : Petro Atletico vs Monastir - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBA TV USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium404/mono.m3u8
+
+#EXTINF:-1 tvg-id="Basketball African League - Petro Atletico vs Monastir" tvg-name="15:30 Basketball African League : Petro Atletico vs Monastir - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport 5 Live Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium146/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 Men 2024/2025 - Semi-final - possible game 3 - Serie A1 Men 2024/2025 - Semi-final - possible game 3" tvg-name="15:50 Serie A1 Men 2024/2025 - Semi-final - possible game 3 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="Poland PLK - Wilki Morskie Szczecin vs. Anwil Wroclawek" tvg-name="16:30 Poland PLK : Wilki Morskie Szczecin vs. Anwil Wroclawek - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Polsat Sport 2 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium50/mono.m3u8
+
+#EXTINF:-1 tvg-id="Austria, Superliga - Oberwart Gunners vs. Traiskirchen Lions" tvg-name="17:00 Austria, Superliga : Oberwart Gunners vs. Traiskirchen Lions - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ORF Sport Plus
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's Basketball National League - CSM Oradea vs SCM Universitatea Craiova" tvg-name="17:00 Men's Basketball National League : CSM Oradea vs SCM Universitatea Craiova - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium402/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bulgaria NBL - BC Spartak Pleven vs Academic Bultex 99 Plovdiv" tvg-name="17:15 Bulgaria NBL : BC Spartak Pleven vs Academic Bultex 99 Plovdiv - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", MAX Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium473/mono.m3u8
+
+#EXTINF:-1 tvg-id="Basketball Africa League - ASC Ville de Dakar vs Kriol Star" tvg-name="18:30 Basketball Africa League : ASC Ville de Dakar vs Kriol Star - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBA TV USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium404/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A2 2024/2025-Play-in gara 1 - Serie A2 2024/2025-Play-in gara 1" tvg-name="19:50 Serie A2 2024/2025-Play-in gara 1 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Real Madrid vs Olympiacos" tvg-name="20:00 Euroleague : Real Madrid vs Olympiacos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", M+ #Vamos ES
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium521/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Real Madrid vs Olympiacos" tvg-name="20:00 Euroleague : Real Madrid vs Olympiacos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Premium 1 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium134/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Real Madrid vs Olympiacos" tvg-name="20:00 Euroleague : Real Madrid vs Olympiacos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Nova Sports Prime Greece
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium638/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Real Madrid vs Olympiacos" tvg-name="20:00 Euroleague : Real Madrid vs Olympiacos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", MAX Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium473/mono.m3u8
+
+#EXTINF:-1 tvg-id="Euroleague - Real Madrid vs Olympiacos" tvg-name="20:00 Euroleague : Real Madrid vs Olympiacos - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", 5 SPORT Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium144/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Home Feed
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TNT USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium338/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", MSG USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium765/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", FanDuel Sports Network Detroit
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium891/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", truTV USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium341/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium114/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN5
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium115/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", beIN Sports 1 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium116/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Cosmote Sport 4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium625/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", beIN SPORTS 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium91/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - New York Knicks vs Detroit Pistons" tvg-name="00:30 NBA : New York Knicks vs Detroit Pistons - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", beIN SPORTS English 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium61/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Home Feed
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TNT USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium338/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", truTV USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium341/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", FanDuel Sports Network SoCal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium902/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN3
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium113/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Denver Nuggets vs Los Angeles Clippers" tvg-name="03:00 NBA : Denver Nuggets vs Los Angeles Clippers - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN4
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium114/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Guatemala vs Japan" tvg-name="12:00 Beach Soccer World Cup : Guatemala vs Japan - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", NBC UNIVERSO
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium845/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Guatemala vs Japan" tvg-name="12:00 Beach Soccer World Cup : Guatemala vs Japan - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA 9
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium99/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Guatemala vs Japan" tvg-name="12:00 Beach Soccer World Cup : Guatemala vs Japan - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA English 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Mauritania vs Iran" tvg-name="13:30 Beach Soccer World Cup : Mauritania vs Iran - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", NBC UNIVERSO
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium845/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Mauritania vs Iran" tvg-name="13:30 Beach Soccer World Cup : Mauritania vs Iran - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", FOX Sports 2 USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium758/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Mauritania vs Iran" tvg-name="13:30 Beach Soccer World Cup : Mauritania vs Iran - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", TVP Sport Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Mauritania vs Iran" tvg-name="13:30 Beach Soccer World Cup : Mauritania vs Iran - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA English 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Mauritania vs Iran" tvg-name="13:30 Beach Soccer World Cup : Mauritania vs Iran - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium91/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Seychelles vs Belarus" tvg-name="16:00 Beach Soccer World Cup : Seychelles vs Belarus - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", NBC UNIVERSO
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium845/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Seychelles vs Belarus" tvg-name="16:00 Beach Soccer World Cup : Seychelles vs Belarus - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", FOX Sports 2 USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium758/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Seychelles vs Belarus" tvg-name="16:00 Beach Soccer World Cup : Seychelles vs Belarus - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA English 2
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Seychelles vs Belarus" tvg-name="16:00 Beach Soccer World Cup : Seychelles vs Belarus - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA 1
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium91/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Portugal vs Paraguay" tvg-name="17:30 Beach Soccer World Cup : Portugal vs Paraguay - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", NBC UNIVERSO
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium845/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Portugal vs Paraguay" tvg-name="17:30 Beach Soccer World Cup : Portugal vs Paraguay - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", RTP 1 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium719/mono.m3u8
+
+#EXTINF:-1 tvg-id="Beach Soccer World Cup - Portugal vs Paraguay" tvg-name="17:30 Beach Soccer World Cup : Portugal vs Paraguay - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Beach Soccer", beIN Sports MENA 9
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium99/mono.m3u8
+
+#EXTINF:-1 tvg-id="Futsal Fem Camp. Nac - Benfica x AtléticoCP" tvg-name="15:00 Futsal Fem Camp. Nac : Benfica x AtléticoCP - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Futsal", Canal 11 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
+
+#EXTINF:-1 tvg-id="Women's Futsal National Camp - Santa Luzia x Novasemente" tvg-name="16:30 Women's Futsal National Camp : Santa Luzia x Novasemente - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Futsal", Canal 11 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
+
+#EXTINF:-1 tvg-id="Women's Futsal National Camp - Nun´Àlvares x Feijó" tvg-name="18:00 Women's Futsal National Camp : Nun´Àlvares x Feijó - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Futsal", Canal 11 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
+
+#EXTINF:-1 tvg-id="Women's Futsal Camp. Nac - Porto Salvo Lions x Sta Marta Eagles" tvg-name="19:30 Women's Futsal Camp. Nac : Porto Salvo Lions x Sta Marta Eagles - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Futsal", Canal 11 Portugal
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium540/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", DAZN 1 DE
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium426/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", TV3 MAX Denmark
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium223/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Arena Premium 2 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Sport 1 Czech
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://top1new.newkso.ru/top1/premium401/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Eurosport 2 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium58/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - Veszprem KC vs. SC Magdeburg" tvg-name="17:45 Champions League : Veszprem KC vs. SC Magdeburg - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Sport 3 Israel
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium142/mono.m3u8
+
+#EXTINF:-1 tvg-id="Germany Bundesliga - SC DHfK Leipzig vs. HSG Wetzlar" tvg-name="18:00 Germany Bundesliga : SC DHfK Leipzig vs. HSG Wetzlar - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Arena Sport 3 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 tvg-id="Germany Bundesliga - SC DHfK Leipzig vs. HSG Wetzlar" tvg-name="18:00 Germany Bundesliga : SC DHfK Leipzig vs. HSG Wetzlar - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Nova Sport 1 Czech HD
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - FC Barcelona vs. SC Szeged" tvg-name="19:45 Champions League : FC Barcelona vs. SC Szeged - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", DAZN2 ES
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium446/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - FC Barcelona vs. SC Szeged" tvg-name="19:45 Champions League : FC Barcelona vs. SC Szeged - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - FC Barcelona vs. SC Szeged" tvg-name="19:45 Champions League : FC Barcelona vs. SC Szeged - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", TV3 MAX Denmark
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium223/mono.m3u8
+
+#EXTINF:-1 tvg-id="Champions League - FC Barcelona vs. SC Szeged" tvg-name="19:45 Champions League : FC Barcelona vs. SC Szeged - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Handball", Eurosport 2 Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium58/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's College Lacrosse Big Ten Tournament First Semifinal - Rutgers vs. Ohio State" tvg-name="22:00 Men's College Lacrosse Big Ten Tournament First Semifinal : Rutgers vs. Ohio State - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Lacrosse", BTN USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium397/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's College Lacrosse Big Ten Tournament First Semifinal - Marquette vs. Georgetown" tvg-name="23:00 Men's College Lacrosse Big Ten Tournament First Semifinal : Marquette vs. Georgetown - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Lacrosse", CBS Sports Network USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium308/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's College Lacrosse Big Ten Tournament Second Semifinal - Penn State vs. Maryland" tvg-name="00:30 Men's College Lacrosse Big Ten Tournament Second Semifinal : Penn State vs. Maryland - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Lacrosse", BTN USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium397/mono.m3u8
+
+#EXTINF:-1 tvg-id="Men's College Lacrosse Big East Tournament Second Semifinal - Providence vs. Villanova" tvg-name="02:00 Men's College Lacrosse Big East Tournament Second Semifinal : Providence vs. Villanova - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Lacrosse", CBS Sports Network USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium308/mono.m3u8
+
+#EXTINF:-1 tvg-id="Womens State of Origin - Queensland vs. New South Wales" tvg-name="10:00 Womens State of Origin : Queensland vs. New South Wales - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby League", Fox Sports 2 USA
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium758/mono.m3u8
+
+#EXTINF:-1 tvg-id="Womens State of Origin - Queensland vs. New South Wales" tvg-name="10:00 Womens State of Origin : Queensland vs. New South Wales - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby League", beIN SPORTS 3 France
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium118/mono.m3u8
+
+#EXTINF:-1 tvg-id="Womens State of Origin - Queensland vs. New South Wales" tvg-name="10:00 Womens State of Origin : Queensland vs. New South Wales - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby League", Sky Sports Action UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium37/mono.m3u8
+
+#EXTINF:-1 tvg-id="Womens State of Origin - Queensland vs. New South Wales" tvg-name="10:00 Womens State of Origin : Queensland vs. New South Wales - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby League", Sky Sports Main Event
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium38/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rugby Champis U20 '25 - NZL vs AUS" tvg-name="13:00 Rugby Champis U20 '25: NZL vs AUS - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", SuperSport Rugby
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium421/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rugby Champis U20 '25 - RSA vs ARG" tvg-name="15:00 Rugby Champis U20 '25: RSA vs ARG - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", SuperSport Rugby
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium421/mono.m3u8
+
+#EXTINF:-1 tvg-id="A1 Padel - Toledo Open (T2025): Round of 16 - Day 2" tvg-name="13:00 A1 Padel: Toledo Open (T2025): Round of 16 - Day 2 - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Squash", DAZN3 ES
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium447/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 - Lube Civitanova vs Trentino" tvg-name="17:15 Serie A1 : Lube Civitanova vs Trentino - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Arena Sport 2 Serbia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://zekonew.newkso.ru/zeko/premium430/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 - Lube Civitanova vs Trentino" tvg-name="17:15 Serie A1 : Lube Civitanova vs Trentino - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sportklub HD Croatia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium453/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 - Lube Civitanova vs Trentino" tvg-name="17:15 Serie A1 : Lube Civitanova vs Trentino - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+
+#EXTINF:-1 tvg-id="Russia Cup Women - Kaliningrad W vs Leningradka W" tvg-name="17:30 Russia Cup Women : Kaliningrad W vs Leningradka W - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Match TV Russia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium127/mono.m3u8
+
+#EXTINF:-1 tvg-id="Portugal Campeonato Nacional Women - Sl Benfica vs. SC Braga" tvg-name="19:00 Portugal Campeonato Nacional Women : Sl Benfica vs. SC Braga - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", BTV 1 Portugal HD
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://dokko1new.newkso.ru/dokko1/premium380/mono.m3u8
+
+#EXTINF:-1 tvg-id="Superliga Feminina De Vôlei - Osasco vs Sesi-Bauru" tvg-name="19:30 Superliga Feminina De Vôlei : Osasco vs Sesi-Bauru - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sportv2 Brazil
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium79/mono.m3u8
+
+#EXTINF:-1 tvg-id="Swimming - Polish Championships - Lublin 2025 4th day" tvg-name="16:00 Swimming: Polish Championships - Lublin 2025 4th day - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Water Sports", TVP Sport Poland
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium128/mono.m3u8
 
