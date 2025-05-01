@@ -17,12 +17,6 @@ https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium59/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie B - Modena vs Reggiana" tvg-name="14:00 Italy - Serie B : Modena vs Reggiana - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://windnew.newkso.ru/wind/premium68/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie B - Pisa vs Frosinone" tvg-name="14:00 Italy - Serie B : Pisa vs Frosinone - 01/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
