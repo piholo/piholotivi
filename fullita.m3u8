@@ -5,6 +5,12 @@
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
 
+#EXTINF:-1 tvg-id="England - Premier League - Aston Villa vs Fulham" tvg-name="12:30 England - Premier League : Aston Villa vs Fulham - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie A (women) - Lazio vs Sassuolo" tvg-name="14:00 Italy - Serie A (women) : Lazio vs Sassuolo - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
