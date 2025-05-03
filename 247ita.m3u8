@@ -179,11 +179,11 @@ https://ddy6new.newkso.ru/ddy6/premium868/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium869/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport", Sky Sport Calcio  (D)
+#EXTINF:-1 tvg-id="Sky Sport" tvg-name="Sky Calcio 1  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-1-alt-de.png" group-title="Sport", Sky Calcio 1   (D)
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
+https://zekonew.newkso.ru/zeko/premium871/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky Sport 2" tvg-name="Sky Calcio 2  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-2-alt-de.png" group-title="Sport", Sky Calcio 2   (D)
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
