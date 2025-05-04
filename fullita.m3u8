@@ -1,109 +1,193 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Inter Milano vs Fiorentina" tvg-name="11:30 Italy - Serie A (women) : Inter Milano vs Fiorentina - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTINF:-1 tvg-id="Italy - Serie A - Empoli vs Lazio" tvg-name="11:30 Italy - Serie A : Empoli vs Lazio - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Aston Villa vs Fulham" tvg-name="12:30 England - Premier League : Aston Villa vs Fulham - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Italy - Serie A (women) - Roma vs Milan" tvg-name="11:30 Italy - Serie A (women) : Roma vs Milan - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RAI Sport 1 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Brighton & Hove Albion vs Newcastle United" tvg-name="14:00 England - Premier League : Brighton & Hove Albion vs Newcastle United - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Lazio vs Sassuolo" tvg-name="14:00 Italy - Serie A (women) : Lazio vs Sassuolo - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTINF:-1 tvg-id="England - Premier League - West Ham United vs Tottenham Hotspur" tvg-name="14:00 England - Premier League : West Ham United vs Tottenham Hotspur - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Brentford vs Manchester United" tvg-name="14:00 England - Premier League : Brentford vs Manchester United - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Monza vs Atalanta" tvg-name="14:00 Italy - Serie A : Monza vs Atalanta - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Bari 1908 vs Pisa" tvg-name="14:00 Italy - Serie B : Bari 1908 vs Pisa - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Brescia vs Juve Stabia" tvg-name="14:00 Italy - Serie B : Brescia vs Juve Stabia - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium109/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Carrarese vs Modena" tvg-name="14:00 Italy - Serie B : Carrarese vs Modena - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium110/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Cagliari vs Udinese" tvg-name="14:00 Italy - Serie A : Cagliari vs Udinese - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTINF:-1 tvg-id="Italy - Serie B - Catanzaro vs Sampdoria" tvg-name="14:00 Italy - Serie B : Catanzaro vs Sampdoria - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium151/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - RB Leipzig vs Bayern München" tvg-name="14:30 Bundesliga : RB Leipzig vs Bayern München - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
+#EXTINF:-1 tvg-id="England - Premier League - Chelsea vs Liverpool" tvg-name="16:30 England - Premier League : Chelsea vs Liverpool - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Everton vs Ipswich Town" tvg-name="15:00 England - Premier League : Everton vs Ipswich Town - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Bundesliga - Freiburg vs Bayer Leverkusen" tvg-name="16:30 Bundesliga : Freiburg vs Bayer Leverkusen - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Renate vs Union ArzignanoChiampo" tvg-name="16:30 Italy - Serie C : Renate vs Union ArzignanoChiampo - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium106/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Giana Erminio vs Virtus Verona" tvg-name="16:30 Italy - Serie C : Giana Erminio vs Virtus Verona - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium14/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Roma vs Fiorentina" tvg-name="17:00 Italy - Serie A : Roma vs Fiorentina - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium15/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Roma vs Fiorentina" tvg-name="17:00 Italy - Serie A : Roma vs Fiorentina - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Leicester City vs Southampton" tvg-name="15:00 England - Premier League : Leicester City vs Southampton - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Max IT
+#EXTINF:-1 tvg-id="Bundesliga - Mainz 05 vs Eintracht Frankfurt" tvg-name="18:30 Bundesliga : Mainz 05 vs Eintracht Frankfurt - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Max IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Lecce vs Napoli" tvg-name="17:00 Italy - Serie A : Lecce vs Napoli - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTINF:-1 tvg-id="Bundesliga - Mainz 05 vs Eintracht Frankfurt" tvg-name="18:30 Bundesliga : Mainz 05 vs Eintracht Frankfurt - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Arena IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A (women) - Sampdoria vs Como" tvg-name="17:00 Italy - Serie A (women) : Sampdoria vs Como - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTINF:-1 tvg-id="Italy - Serie B - Cremonese vs Sassuolo" tvg-name="18:30 Italy - Serie B : Cremonese vs Sassuolo - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
 
-#EXTINF:-1 tvg-id="England - Premier League - Arsenal vs AFC Bournemouth" tvg-name="17:30 England - Premier League : Arsenal vs AFC Bournemouth - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Trento vs Atalanta II" tvg-name="19:00 Italy - Serie C : Trento vs Atalanta II - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium106/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Borussia Dortmund vs Wolfsburg" tvg-name="17:30 Bundesliga : Borussia Dortmund vs Wolfsburg - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Arezzo vs Gubbio" tvg-name="19:00 Italy - Serie C : Arezzo vs Gubbio - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie C - Avellino vs Calcio Padova" tvg-name="18:00 Italy - Serie C : Avellino vs Calcio Padova - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Pineto vs Pianese" tvg-name="19:00 Italy - Serie C : Pineto vs Pianese - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 258 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium107/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Hellas Verona" tvg-name="19:45 Italy - Serie A : Internazionale vs Hellas Verona - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Vis Pesaro vs Pontedera" tvg-name="19:00 Italy - Serie C : Vis Pesaro vs Pontedera - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 257 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium16/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Hellas Verona" tvg-name="19:45 Italy - Serie A : Internazionale vs Hellas Verona - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Italy - Serie C - Catania vs Giugliano" tvg-name="19:00 Italy - Serie C : Catania vs Giugliano - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium14/mono.m3u8
 
-#EXTINF:-1 tvg-id="Formula E - Monaco Race - Formula E - Monaco Race" tvg-name="14:05 Formula E - Monaco Race - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ITV 4 UK
+#EXTINF:-1 tvg-id="Italy - Serie C - Potenza Calcio vs Picerno" tvg-name="19:00 Italy - Serie C : Potenza Calcio vs Picerno - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Benevento vs Juventus II" tvg-name="19:00 Italy - Serie C : Benevento vs Juventus II - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Bologna vs Juventus" tvg-name="19:45 Italy - Serie A : Bologna vs Juventus - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Zona DAZN IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula E - Free Practice 3" tvg-name="08:30 Formula E : Free Practice 3 - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ITV 4 UK
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium353/mono.m3u8
 
-#EXTINF:-1 tvg-id="Lega A - Aquila Basket Trento vs. Pallacanestro Reggiana" tvg-name="19:00 Lega A : Aquila Basket Trento vs. Pallacanestro Reggiana - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Eurosport 2 IT
+#EXTINF:-1 tvg-id="Formula E - Monaco Qualifying - Formula E - Monaco Qualifying" tvg-name="09:40 Formula E - Monaco Qualifying - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ITV 4 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium353/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula E - Monaco Race 2 - Formula E - Monaco Race 2" tvg-name="14:05 Formula E - Monaco Race 2 - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", ITV 4 UK
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium353/mono.m3u8
+
+#EXTINF:-1 tvg-id="Lega A - Benetton Treviso vs Venezia" tvg-name="17:15 Lega A : Benetton Treviso vs Venezia - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Eurosport 2 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://windnew.newkso.ru/wind/premium879/mono.m3u8
 
-#EXTINF:-1 tvg-id="Super Rugby - Hurricanes vs Chiefs" tvg-name="08:05 Super Rugby : Hurricanes vs Chiefs - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Rugby Union", Sky Sport Arena IT
+#EXTINF:-1 tvg-id="Serie A1 - Trentino Volley vs. Volley Civitanova" tvg-name="14:20 Serie A1 : Trentino Volley vs. Volley Civitanova - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai 2 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
-
-#EXTINF:-1 tvg-id="Champions League Women - Vakifbank SK vs. Pallavolo Scandicci" tvg-name="17:00 Champions League Women : Vakifbank SK vs. Pallavolo Scandicci - 03/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Sky Sport Arena IT
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8
 
