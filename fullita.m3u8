@@ -35,6 +35,12 @@ https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
+#EXTINF:-1 tvg-id="Italy - Serie B - Bari 1908 vs Pisa" tvg-name="14:00 Italy - Serie B : Bari 1908 vs Pisa - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
+
 #EXTINF:-1 tvg-id="Italy - Serie B - Brescia vs Juve Stabia" tvg-name="14:00 Italy - Serie B : Brescia vs Juve Stabia - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -52,18 +58,6 @@ https://ddy6new.newkso.ru/ddy6/premium110/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium151/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie B - Cesena vs Palermo" tvg-name="14:00 Italy - Serie B : Cesena vs Palermo - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://ddy6new.newkso.ru/ddy6/premium152/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie B - Frosinone vs Cittadella" tvg-name="14:00 Italy - Serie B : Frosinone vs Cittadella - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://dokko1new.newkso.ru/dokko1/premium153/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie B - Reggiana vs Spezia" tvg-name="14:00 Italy - Serie B : Reggiana vs Spezia - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -131,12 +125,6 @@ https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie B - Cremonese vs Sassuolo" tvg-name="18:30 Italy - Serie B : Cremonese vs Sassuolo - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie C - Trento vs Atalanta II" tvg-name="19:00 Italy - Serie C : Trento vs Atalanta II - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -154,6 +142,12 @@ https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium107/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Vis Pesaro vs Pontedera" tvg-name="19:00 Italy - Serie C : Vis Pesaro vs Pontedera - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 257 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie C - Catania vs Giugliano" tvg-name="19:00 Italy - Serie C : Catania vs Giugliano - 04/05/ay" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -208,4 +202,58 @@ https://windnew.newkso.ru/wind/premium879/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Drogheda United vs Cork City" tvg-name="17:00 Ireland Republic - Premier Division : Drogheda United vs Cork City - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Galway United vs Bohemians" tvg-name="17:00 Ireland Republic - Premier Division : Galway United vs Bohemians - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Shelbourne vs Waterford United" tvg-name="17:00 Ireland Republic - Premier Division : Shelbourne vs Waterford United - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium69/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Shamrock Rovers vs Sligo Rovers" tvg-name="19:00 Ireland Republic - Premier Division : Shamrock Rovers vs Sligo Rovers - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium76/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ireland Republic - Premier Division - Derry City vs St Patrick's" tvg-name="19:45 Ireland Republic - Premier Division : Derry City vs St Patrick's - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", LOITV
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
+
+#EXTINF:-1 tvg-id="UEFA Women's Under-17 Championship - Poland U17 vs Italy U17" tvg-name="18:00 UEFA Women's Under-17 Championship : Poland U17 vs Italy U17 - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", RAI Sport 1 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Genoa vs Milan" tvg-name="19:45 Italy - Serie A : Genoa vs Milan - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Crystal Palace vs Nottingham Forest" tvg-name="20:00 England - Premier League : Crystal Palace vs Nottingham Forest - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="England - Premier League - Crystal Palace vs Nottingham Forest" tvg-name="20:00 England - Premier League : Crystal Palace vs Nottingham Forest - 05/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Uno IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 
