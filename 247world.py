@@ -22,7 +22,7 @@ mStopTime = 0
 
 # File e URL statici per la seconda parte dello script
 daddyLiveChannelsFileName = '247channels.html'
-daddyLiveChannelsURL = 'https://thedaddy.to/24-7-channels.php'
+daddyLiveChannelsURL = 'https://daddylive.dad/24-7-channels.php'
 
 # Headers and related constants from the first code block (assuming these are needed for requests)
 Referer = "https://ilovetoplay.xyz/"
