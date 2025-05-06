@@ -59,7 +59,7 @@ def get_stream_link(dlhd_id, event_name="", channel_name="", max_retries=3):
         try:
             # Use timeout for all requests
             response = requests.get(
-                f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
+                f"https://daddylive.dad/embed/stream-{dlhd_id}.php",
                 headers=headers,
                 timeout=base_timeout
             )
@@ -205,7 +205,7 @@ def should_include_channel(channel_name, event_name, sport_key):
 
 def process_events():
     # Fetch JSON schedule
-    # fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.mp/schedule/schedule-generated.json")
+    # fetcher.fetchHTML(DADDY_JSON_FILE, "https://daddylive.dad/schedule/schedule-generated.json")
 
     # Load JSON data
     dadjson = loadJSON(DADDY_JSON_FILE)
