@@ -10,7 +10,7 @@ M3U8_OUTPUT_FILE = "247ita.m3u8"
 
 # File e URL statici
 daddyLiveChannelsFileName = '247channels.html'
-daddyLiveChannelsURL = 'https://daddylive.mp/24-7-channels.php'
+daddyLiveChannelsURL = 'https://daddylive.dad/24-7-channels.php'
 
 # Headers per le richieste
 headers = {
@@ -167,7 +167,7 @@ def get_stream_link(dlhd_id, max_retries=3):
         try:
             # Use timeout for all requests
             response = requests.get(
-                f"https://daddylive.mp/embed/stream-{dlhd_id}.php",
+                f"https://daddylive.dad/embed/stream-{dlhd_id}.php",
                 headers=headers,
                 timeout=base_timeout
             )
