@@ -13,6 +13,8 @@ import re
 from urllib.parse import quote_plus  # Add this import
 
 # Constants
+PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp&d="
+HEADER = "&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2Fxextreamplay.xyz%2F&h_origin=https%3A%2F%2Fxextreamplay.xyz"
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "itaevents.m3u8"
@@ -678,11 +680,8 @@ def process_events():
                                     event_logo = get_dynamic_logo(game["event"])
 
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{clean_sport_key}", {channel_name_str}\n')
-                                    file.write('#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/\n')
-                                    file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-                                    file.write('#EXTVLCOPT:http-origin=https://xextreamplay.xyz\n')
-                                    file.write(f"{stream_url_dynamic}\n\n")
-
+                                    file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+                                    
                                 processed_channels += 1
                                 filtered_channels += 1
                             else:

@@ -7,6 +7,8 @@ import time
 
 # Costanti
 M3U8_OUTPUT_FILE = "247ita.m3u8"
+PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp&d="
+HEADER = "&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2Fxextreamplay.xyz%2F&h_origin=https%3A%2F%2Fxextreamplay.xyz"
 
 # File e URL statici
 daddyLiveChannelsFileName = '247channels.html'
@@ -376,10 +378,8 @@ def add_dazn1_channel():
     if stream_url_dynamic:
         with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
             file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
-            file.write(f'#EXTVLCOPT:http-referrer=https://webxzplay.cfd/\n')
-            file.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
-            file.write('#EXTVLCOPT:http-origin=https://webxzplay.cfd\n')
-            file.write(f"{stream_url_dynamic}\n\n")
+            file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+
             return 1
     else:
         print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
