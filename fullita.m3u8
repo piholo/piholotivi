@@ -1,23 +1,41 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="UEFA Champions League - Inter vs Barcelona" tvg-name="20:00 UEFA Champions League : Inter vs Barcelona - 06/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", TV8 IT
+#EXTINF:-1 tvg-id="Italy Serie C - AlbinoLeffe vs Atalanta II" tvg-name="19:00 Italy Serie C : AlbinoLeffe vs Atalanta II - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 254 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium28/mono.m3u8
 
-#EXTINF:-1 tvg-id="UEFA Champions League - Inter vs Barcelona" tvg-name="20:00 UEFA Champions League : Inter vs Barcelona - 06/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Italy Serie C - Renate vs Giana Erminio" tvg-name="19:00 Italy Serie C : Renate vs Giana Erminio - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 256 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium29/mono.m3u8
 
-#EXTINF:-1 tvg-id="UEFA Champions League - Inter vs Barcelona" tvg-name="20:00 UEFA Champions League : Inter vs Barcelona - 06/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
+#EXTINF:-1 tvg-id="Italy Serie C - Crotone vs Juventus II" tvg-name="19:00 Italy Serie C : Crotone vs Juventus II - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 251 IT
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
-https://nfsnew.newkso.ru/nfs/premium4/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
 
-#EXTINF:-1 tvg-id="Serie A1 Men 2024/2025 - Final - Game 1 - Serie A1 Men 2024/2025 - Final - Game 1" tvg-name="18:50 Serie A1 Men 2024/2025 - Final - Game 1 - 06/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Rai Sport 1 IT
+#EXTINF:-1 tvg-id="Italy Serie C - Catania vs Potenza Calcio" tvg-name="19:00 Italy Serie C : Catania vs Potenza Calcio - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 252 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy Serie C - Pescara vs Pianese" tvg-name="19:00 Italy Serie C : Pescara vs Pianese - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 253 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
+
+#EXTINF:-1 tvg-id="Italy Serie C - Arezzo vs Vis Pesaro" tvg-name="19:00 Italy Serie C : Arezzo vs Vis Pesaro - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport 255 IT
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+https://windnew.newkso.ru/wind/premium68/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A1 - Volley Civitanova vs Trentino Volley" tvg-name="19:30 Serie A1 : Volley Civitanova vs Trentino Volley - 07/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Volleyball", Rai Sport 1 Italy
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
