@@ -274,10 +274,6 @@ def save_m3u8(channels):
 
             # Gestione speciale per canali specifici
             tvg_id_modified = tvg_id_clean.lower().replace(" ", "").replace("[liveduringeventsonly]", "").replace("(backup)", "")
-            
-            # Mappatura speciale per canali specifici
-            if tvg_id_modified == "20mediaset" or tvg_id_modified == "mediaset20":
-                tvg_id_modified = "20mediasethd"
                 
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f"{PROXY}{url}{HEADER}\n\n")
