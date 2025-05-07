@@ -278,7 +278,14 @@ def save_m3u8(channels):
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f"{PROXY}{url}{HEADER}\n\n")
 
-def process_channels(channels_data, output_file):
+def create_m3u8(channels_data, output_file):
+    """
+    Funzione unificata per creare il file M3U8 dai dati dei canali.
+    
+    Args:
+        channels_data: Lista di dizionari contenenti i dati dei canali
+        output_file: Percorso del file di output M3U8
+    """
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
@@ -303,6 +310,7 @@ def process_channels(channels_data, output_file):
             # Controlla se il canale è nella mappatura speciale
             if tvg_id_modified in special_channel_mapping:
                 tvg_id_modified = special_channel_mapping[tvg_id_modified]
+                print(f"Canale mappato: {tvg_id_modified} (originale: {tvg_id})")  # Debug
             
             category = "Generale"
             for cat, keywords in CATEGORY_KEYWORDS.items():
