@@ -14,12 +14,12 @@ SPECIAL_CHANNEL_MAPPING = {
     "focus": "focustv",
     "discoveryfocus": "focustv",
     "discoverynove": "nove",
-    "skycinemacollection.it": "skycinemacollectionhd.it",
+    "skycinemacollection": "skycinemacollectionhd",
     "skysupertennis": "supertennis",
     "skysportsgolf": "skysportgolf",
     "skysportf1": "skysportf1",
-    "natgeowild.it": "nationalgeographicwild.it",
-    "natgeo.it": "nationalgeohd.it"
+    "natgeowild": "nationalgeographicwild",
+    "natgeo": "nationalgeohd"
 
 }
 CATEGORY_KEYWORDS = {
