@@ -264,6 +264,7 @@ def save_m3u8(channels):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n\n')
         user_agent = extract_user_agent()
+        
         for name, url, category in channels:
             tvg_id = normalize_tvg_id(name)
             tvg_id_clean = re.sub(r"\s*\(\d+\)$", "", tvg_id)  # Rimuove numeri tra parentesi solo per tvg-id
@@ -271,8 +272,52 @@ def save_m3u8(channels):
 
             logo = CHANNEL_LOGOS.get(base_tvg_id, "")
 
-            f.write(f'#EXTINF:-1 tvg-id="{tvg_id_clean}" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
+            # Gestione speciale per canali specifici
+            tvg_id_modified = tvg_id_clean.lower().replace(" ", "").replace("[liveduringeventsonly]", "").replace("(backup)", "")
+            
+            # Mappatura speciale per canali specifici
+            if tvg_id_modified == "20mediaset" or tvg_id_modified == "mediaset20":
+                tvg_id_modified = "20mediasethd"
+                
+            f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f"{PROXY}{url}{HEADER}\n\n")
+
+def process_channels(channels_data, output_file):
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        
+        # Dizionario per mappature speciali di canali
+        special_channel_mapping = {
+            "20mediaset": "20mediasethd",
+            "mediaset20": "20mediasethd",
+            "focus": "focustv",
+            "discoveryfocus": "focustv",
+            "discoverynove": "nove"
+        }
+        
+        for channel in channels_data:
+            name = channel.get("name", "")
+            url = channel.get("url", "")
+            tvg_id = channel.get("tvg_id", "").lower()
+            tvg_id_clean = tvg_id
+            
+            # Applica le trasformazioni standard
+            tvg_id_modified = tvg_id_clean.lower().replace(" ", "").replace("[liveduringeventsonly]", "").replace("(backup)", "")
+            
+            # Controlla se il canale è nella mappatura speciale
+            if tvg_id_modified in special_channel_mapping:
+                tvg_id_modified = special_channel_mapping[tvg_id_modified]
+            
+            category = "Generale"
+            for cat, keywords in CATEGORY_KEYWORDS.items():
+                if any(keyword.lower() in tvg_id.lower() for keyword in keywords):
+                    category = cat
+                    break
+            
+            logo = CHANNEL_LOGOS.get(tvg_id.lower(), "")
+            
+            f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
+            f.write(f"{PROXY}{url}{HEADER}\n")
 
 def main():
     channels = fetch_channels()
