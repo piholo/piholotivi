@@ -3,7 +3,8 @@ import json
 import re
 import os
 
-BASE_URL = "https://vavoo.to"
+PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp&d="
+HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
 OUTPUT_FILE = "channels_italy.m3u8"
 
 CATEGORY_KEYWORDS = {
@@ -270,9 +271,7 @@ def save_m3u8(channels):
             logo = CHANNEL_LOGOS.get(base_tvg_id, "")
 
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_clean}" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={user_agent}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={BASE_URL}/\n')
-            f.write(f"{url}\n\n")
+            f.write(f"{PROXY}{url}{HEADER}\n\n")
 
 def main():
     channels = fetch_channels()
