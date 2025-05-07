@@ -41,7 +41,6 @@ jobs:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
           python extract_schedule.py
-          # python itaevents.py
           python fullita.py
           
       - name: Commit and push changes
