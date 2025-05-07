@@ -7,6 +7,14 @@ PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
 OUTPUT_FILE = "channels_italy.m3u8"
 BASE_URL = "https://vavoo.to"
+
+SPECIAL_CHANNEL_MAPPING = {
+    "20mediaset": "20mediasethd",
+    "mediaset20": "20mediasethd",
+    "focus": "focustv",
+    "discoveryfocus": "focustv",
+    "discoverynove": "nove"
+}
 CATEGORY_KEYWORDS = {
     "Sport": ["sport", "dazn", "eurosport", "sky sport", "rai sport", "sport", "dazn", "tennis", "moto", "f1", "golf", "sportitalia", "sport italia", "solo calcio", "solocalcio"],
     "Film": ["primafila", "cinema", "movie", "film", "serie", "hbo", "fox"],
@@ -264,7 +272,7 @@ def save_m3u8(channels):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write('#EXTM3U url-tvg="http://epg-guide.com/it.gz"\n\n')
         user_agent = extract_user_agent()
-        
+
         for name, url, category in channels:
             tvg_id = normalize_tvg_id(name)
             tvg_id_clean = re.sub(r"\s*\(\d+\)$", "", tvg_id)  # Rimuove numeri tra parentesi solo per tvg-id
@@ -274,11 +282,11 @@ def save_m3u8(channels):
 
             # Gestione speciale per canali specifici
             tvg_id_modified = tvg_id_clean.lower().replace(" ", "").replace("[liveduringeventsonly]", "").replace("(backup)", "")
-            
+
             # Mappatura speciale per canali specifici
-            if tvg_id_modified == "20mediaset" or tvg_id_modified == "mediaset20":
-                tvg_id_modified = "20mediasethd"
-                
+            if tvg_id_modified in SPECIAL_CHANNEL_MAPPING:
+               tvg_id_modified = SPECIAL_CHANNEL_MAPPING[tvg_id_modified]
+
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f"{PROXY}{url}{HEADER}\n\n")
 
