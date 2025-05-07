@@ -43,6 +43,7 @@ jobs:
           python extract_schedule.py
           python itaevents.py
           python fullita.py
+          python epg.py
           
       - name: Commit and push changes
         run: |
