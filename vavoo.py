@@ -13,7 +13,14 @@ SPECIAL_CHANNEL_MAPPING = {
     "mediaset20": "20mediasethd",
     "focus": "focustv",
     "discoveryfocus": "focustv",
-    "discoverynove": "nove"
+    "discoverynove": "nove",
+    "skycinemacollection.it": "skycinemacollectionhd.it",
+    "skysupertennis": "supertennis",
+    "skysportsgolf": "skysportgolf",
+    "skysportf1": "skysportf1",
+    "natgeowild.it": "nationalgeographicwild.it",
+    "natgeo.it": "nationalgeohd.it"
+
 }
 CATEGORY_KEYWORDS = {
     "Sport": ["sport", "dazn", "eurosport", "sky sport", "rai sport", "sport", "dazn", "tennis", "moto", "f1", "golf", "sportitalia", "sport italia", "solo calcio", "solocalcio"],
@@ -62,6 +69,7 @@ CHANNEL_LOGOS = {
     "rai sport [live during events only]": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png",
     "rai premium": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-premium-it.png",
     "sky sport golf": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
+    "sky sport moto gp": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
     "sky sport motogp": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
     "sky sport tennis": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
     "sky sport f1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
