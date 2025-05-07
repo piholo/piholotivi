@@ -17,7 +17,7 @@ SPECIAL_CHANNEL_MAPPING = {
     "skycinemacollection": "skycinemacollectionhd",
     "skysupertennis": "supertennis",
     "skysportsgolf": "skysportgolf",
-    "skysportf1": "skysportf1",
+    "skysportsf1": "skysportf1",
     "natgeowild": "nationalgeographicwild",
     "natgeo": "nationalgeohd"
 
