@@ -6,7 +6,7 @@ import os
 PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp&d="
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
 OUTPUT_FILE = "channels_italy.m3u8"
-
+BASE_URL = "https://vavoo.to"
 CATEGORY_KEYWORDS = {
     "Sport": ["sport", "dazn", "eurosport", "sky sport", "rai sport", "sport", "dazn", "tennis", "moto", "f1", "golf", "sportitalia", "sport italia", "solo calcio", "solocalcio"],
     "Film": ["primafila", "cinema", "movie", "film", "serie", "hbo", "fox"],
