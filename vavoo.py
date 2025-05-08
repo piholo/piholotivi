@@ -19,8 +19,15 @@ SPECIAL_CHANNEL_MAPPING = {
     "skysportsgolf": "skysportgolf",
     "skysportsf1": "skysportf1",
     "natgeowild": "nationalgeographicwild",
-    "natgeo": "nationalgeohd"
-
+    "natgeo": "nationalgeohd",
+    "cine34mediaset": "cine34",
+    "mediasetiris": "iris",
+    "mediasetitalia2": "italia2",
+    "fox": "foxhd",
+    "crimeinvestigation": "crime+inv.",
+    "discoveryk2": "k2",
+    "rsila1": "la1",
+    "rsila2": "la2"
 }
 CATEGORY_KEYWORDS = {
     "Sport": ["sport", "dazn", "eurosport", "sky sport", "rai sport", "sport", "dazn", "tennis", "moto", "f1", "golf", "sportitalia", "sport italia", "solo calcio", "solocalcio"],
