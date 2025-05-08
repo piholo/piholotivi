@@ -114,7 +114,7 @@ STATIC_TVG_IDS = {
     "sky calcio 6": "skysport256.it",
     "sky calcio 7": "skysport257.it",
     "sky serie": "skyserie.it",
-    "20 mediaset": "20mediaset.it",
+    "20 mediaset": "20mediasethd.it",
 }
 
 # Mappa delle categorie per alcuni canali specifici
