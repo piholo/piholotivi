@@ -3,7 +3,7 @@ import json
 import re
 import os
 
-PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=mfp&d="
+PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
 OUTPUT_FILE = "channels_italy.m3u8"
 BASE_URL = "https://vavoo.to"
