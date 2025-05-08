@@ -21,6 +21,7 @@ M3U8_OUTPUT_FILE = "itaevents.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
 SKYSTR = "icu"
 GUARCAL = "stream"
+DADDY= "dad"
 
 # Add a cache for logos to avoid repeated requests
 LOGO_CACHE = {}
@@ -123,7 +124,7 @@ def get_dynamic_logo(event_name):
     try:
         if is_serie_a_or_other_leagues or is_uefa_or_coppa:
             # First try to fetch logos from guardacalcio.{GUARCAL}
-            guardacalcio_url = "https://guardacalcio.{GUARCAL}/partite-streaming.html"
+            guardacalcio_url = f"https://guardacalcio.{GUARCAL}/partite-streaming.html"
             headers_guardacalcio = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
@@ -160,7 +161,7 @@ def get_dynamic_logo(event_name):
                             logo_url = src
                         else:
                             # Costruisci URL assoluto
-                            base_url = "https://guardacalcio.art"
+                            base_url = f"https://guardacalcio.{GUARCAL}"
                             if src.startswith('/'):
                                 logo_url = base_url + src
                             else:
@@ -171,11 +172,11 @@ def get_dynamic_logo(event_name):
                             LOGO_CACHE[cache_key] = logo_url
                         return logo_url
             
-            # If no logo found on guardacalcio.art, try skystreaming.{SKYSTR}
+            # If no logo found on guardacalcio.{GUARCAL}, try skystreaming.{SKYSTR}
             print(f"Nessun logo trovato su guardacalcio.{GUARCAL}, cercando su skystreaming.{SKYSTR}...")
         
         # Fetch logos from skystreaming.asia for Serie B, Serie C, and fallback for other leagues
-        skystreaming_url = "https://skystreaming.{SKYSTR}/"
+        skystreaming_url = f"https://skystreaming.{SKYSTR}/"
         headers_skystreaming = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
@@ -257,7 +258,7 @@ def get_stream_link(dlhd_id, event_name="", channel_name="", max_retries=3):
         try:
             # Use timeout for all requests
             response = requests.get(
-                f"https://daddylive.dad/embed/stream-{dlhd_id}.php",
+                f"https://daddylive.{DADDY}/embed/stream-{dlhd_id}.php",
                 headers=headers,
                 timeout=base_timeout
             )
