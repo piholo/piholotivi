@@ -49,35 +49,34 @@ headers = {
 if os.path.exists(M3U8_OUTPUT_FILE):
     os.remove(M3U8_OUTPUT_FILE)
 
-# Move the get_dynamic_logo function here, before it's called
 def get_dynamic_logo(event_name):
     """
     Cerca immagini dinamiche per eventi di Serie A, Serie B, Serie C, La Liga, Premier League, Bundesliga e Ligue 1
     """
     # Estrai i nomi delle squadre dall'evento per usarli come chiave di cache
     teams_match = re.search(r':\s*([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
+
     if not teams_match:
         # Try alternative format "Team1 - Team2"
         teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
-    
+
     # Crea una chiave di cache specifica per questa partita
     cache_key = None
     if teams_match:
         team1 = teams_match.group(1).strip()
         team2 = teams_match.group(2).strip()
         cache_key = f"{team1} vs {team2}"
-        
+
         # Check if we already have this specific match in cache
         if cache_key in LOGO_CACHE:
             print(f"Logo trovato in cache per: {cache_key}")
             return LOGO_CACHE[cache_key]
-    
+
     # Verifica se l'evento è di Serie A o altre leghe
     is_serie_a_or_other_leagues = any(league in event_name for league in ["Italy - Serie A :", "La Liga :", "Premier League :", "Bundesliga :", "Ligue 1 :"])
     is_serie_b_or_c = any(league in event_name for league in ["Italy - Serie B :", "Italy - Serie C :"])
     is_uefa_or_coppa = any(league in event_name for league in ["UEFA Champions League :", "UEFA Europa League :", "Conference League :", "Coppa Italia :"])
-    
+
     if is_serie_a_or_other_leagues:
         print(f"Evento Serie A o altre leghe rilevato: {event_name}")
     elif is_serie_b_or_c:
@@ -89,38 +88,38 @@ def get_dynamic_logo(event_name):
         if cache_key:
             LOGO_CACHE[cache_key] = LOGO
         return LOGO
-    
+
     # Se non abbiamo ancora estratto i nomi delle squadre, fallo ora
     if not teams_match:
         print(f"Non sono riuscito a estrarre i nomi delle squadre da: {event_name}")
         return LOGO
-    
+
     team1 = teams_match.group(1).strip()
     team2 = teams_match.group(2).strip()
-    
+
     # Normalize team names by removing non-city or non-team names
     def normalize_team_name(team_name):
         # Example normalization logic: remove common non-city/team words
         words_to_remove = ["calcio", "fc", "club", "united", "city", "ac", "sc", "sport", "team"]
         normalized_name = ' '.join(word for word in team_name.split() if word.lower() not in words_to_remove)
         return normalized_name.strip()
-    
+
     team1_normalized = normalize_team_name(team1)
     team2_normalized = normalize_team_name(team2)
-    
+
     # Special case for Bayern München and Internazionale
     if "bayern" in team1.lower() or "bayern" in team1_normalized.lower():
         team1_normalized = "Bayern"
     elif "bayern" in team2.lower() or "bayern" in team2_normalized.lower():
         team2_normalized = "Bayern"
-        
+
     if "internazionale" in team1.lower() or "inter" in team1.lower():
         team1_normalized = "Inter"
     elif "internazionale" in team2.lower() or "inter" in team2.lower():
         team2_normalized = "Inter"
-    
+
     print(f"Squadre normalizzate: '{team1_normalized}' vs '{team2_normalized}'")
-    
+
     try:
         if is_serie_a_or_other_leagues or is_uefa_or_coppa:
             # First try to fetch logos from guardacalcio.{GUARCAL}
@@ -129,33 +128,33 @@ def get_dynamic_logo(event_name):
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
             }
-            
+
             print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su guardacalcio.{GUARCAL}...")
-            
+
             response = requests.get(guardacalcio_url, headers=headers_guardacalcio, timeout=10)
             html_content = response.text
-            
+
             # Parse with BeautifulSoup
             soup = BeautifulSoup(html_content, 'html.parser')
-            
+
             # Cerca tutte le immagini nella pagina
             img_tags = soup.find_all('img')
             print(f"Trovate {len(img_tags)} immagini su guardacalcio.{GUARCAL}")
-            
+
             # Cerca immagini che contengono i nomi delle squadre nel src o nell'alt
             for img in img_tags:
                 if img.has_attr('src'):
                     src = img['src']
                     alt = img.get('alt', '')
-                    
+
                     # Normalizza src e alt per la ricerca
                     src_normalized = src.lower()
                     alt_normalized = alt.lower()
-                    
+
                     # Verifica se il nome di una delle squadre è presente nel src o nell'alt
                     if (team1_normalized.lower() in src_normalized or team1_normalized.lower() in alt_normalized or
                         team2_normalized.lower() in src_normalized or team2_normalized.lower() in alt_normalized):
-                        
+
                         # Assicurati che l'URL sia assoluto
                         if src.startswith('http'):
                             logo_url = src
@@ -166,34 +165,53 @@ def get_dynamic_logo(event_name):
                                 logo_url = base_url + src
                             else:
                                 logo_url = base_url + '/' + src
-                        
+
                         print(f"Trovato logo su guardacalcio.{GUARCAL}: {logo_url}")
                         if cache_key:
                             LOGO_CACHE[cache_key] = logo_url
                         return logo_url
-            
+
             # If no logo found on guardacalcio.{GUARCAL}, try skystreaming.{SKYSTR}
             print(f"Nessun logo trovato su guardacalcio.{GUARCAL}, cercando su skystreaming.{SKYSTR}...")
-        
-        # Fetch logos from skystreaming.asia for Serie B, Serie C, and fallback for other leagues
-        skystreaming_url = f"https://skystreaming.{SKYSTR}/"
+
+        # Determina l'URL di skystreaming in base al tipo di evento
+        skystreaming_base_url = f"https://skystreaming.{SKYSTR}/"
+
+        # Seleziona l'URL appropriato in base al tipo di evento
+        if "Italy - Serie A :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/serie-a"
+        elif "La Liga :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/la-liga"
+        elif "Premier League :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/english-premier-league"
+        elif "Bundesliga :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/bundesliga"
+        elif "Ligue 1 :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/ligue-1"
+        elif "Italy - Serie B :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/a-serie-b"
+        elif "Italy - Serie C :" in event_name:
+            skystreaming_url = f"{skystreaming_base_url}channel/video/italia-serie-c"
+        else:
+            skystreaming_url = skystreaming_base_url
+
         headers_skystreaming = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
         }
-        
+
         print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su skystreaming.{SKYSTR}...")
-        
+
         response = requests.get(skystreaming_url, headers=headers_skystreaming, timeout=10)
         html_content = response.text
-        
+
         # Parse with BeautifulSoup
         soup = BeautifulSoup(html_content, 'html.parser')
-        
+
         # Cerca span con class="mediabg" e style che contiene l'immagine
         media_spans = soup.find_all('span', class_='mediabg')
         print(f"Trovati {len(media_spans)} span con class='mediabg' su skystreaming.{SKYSTR}")
-        
+
         # Cerca span che contengono i nomi delle squadre nel testo
         found_match = False
         for span in media_spans:
@@ -206,12 +224,12 @@ def get_dynamic_logo(event_name):
                     match = re.search(r'background-image:url\((.*?)\)', style)
                     if match:
                         logo_url = match.group(1)
-                        print(f"Trovato logo specifico su skystreaming.{SKYSTR}: {logo_url}")
+                        print(f"Trovato logo specifico su {skystreaming_url}: {logo_url}")
                         if cache_key:
                             LOGO_CACHE[cache_key] = logo_url
                         found_match = True
                         return logo_url
-        
+
         # Se non abbiamo trovato una corrispondenza esatta, cerchiamo una corrispondenza parziale
         if not found_match:
             for span in media_spans:
@@ -224,17 +242,63 @@ def get_dynamic_logo(event_name):
                         match = re.search(r'background-image:url\((.*?)\)', style)
                         if match:
                             logo_url = match.group(1)
-                            print(f"Trovato logo parziale su skystreaming.{SKYSTR}: {logo_url}")
+                            print(f"Trovato logo parziale su {skystreaming_url}: {logo_url}")
                             if cache_key:
                                 LOGO_CACHE[cache_key] = logo_url
                             return logo_url
-        
+
+        # Se non troviamo nulla nella pagina specifica, proviamo con la homepage come fallback
+        if skystreaming_url != skystreaming_base_url:
+            print(f"Nessun logo trovato nella pagina specifica, cercando nella homepage di skystreaming.{SKYSTR}...")
+
+            response = requests.get(skystreaming_base_url, headers=headers_skystreaming, timeout=10)
+            html_content = response.text
+
+            # Parse with BeautifulSoup
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            # Cerca span con class="mediabg" e style che contiene l'immagine
+            media_spans = soup.find_all('span', class_='mediabg')
+            print(f"Trovati {len(media_spans)} span con class='mediabg' nella homepage")
+
+            # Cerca span che contengono i nomi delle squadre nel testo
+            for span in media_spans:
+                span_text = span.text.lower()
+                if (team1_normalized.lower() in span_text and team2_normalized.lower() in span_text) or \
+                   (team1.lower() in span_text and team2.lower() in span_text):
+                    style = span.get('style', '')
+                    if 'background-image:url(' in style:
+                        # Estrai l'URL dell'immagine
+                        match = re.search(r'background-image:url\((.*?)\)', style)
+                        if match:
+                            logo_url = match.group(1)
+                            print(f"Trovato logo specifico nella homepage: {logo_url}")
+                            if cache_key:
+                                LOGO_CACHE[cache_key] = logo_url
+                            return logo_url
+
+            # Se non abbiamo trovato una corrispondenza esatta, cerchiamo una corrispondenza parziale
+            for span in media_spans:
+                span_text = span.text.lower()
+                if (team1_normalized.lower() in span_text or team2_normalized.lower() in span_text) or \
+                   (team1.lower() in span_text or team2.lower() in span_text):
+                    style = span.get('style', '')
+                    if 'background-image:url(' in style:
+                        # Estrai l'URL dell'immagine
+                        match = re.search(r'background-image:url\((.*?)\)', style)
+                        if match:
+                            logo_url = match.group(1)
+                            print(f"Trovato logo parziale nella homepage: {logo_url}")
+                            if cache_key:
+                                LOGO_CACHE[cache_key] = logo_url
+                            return logo_url
+
         # Se non troviamo nulla, usa il logo di default
         print(f"Nessun logo trovato, uso il logo di default")
         if cache_key:
             LOGO_CACHE[cache_key] = LOGO
         return LOGO
-        
+
     except Exception as e:
         print(f"Error fetching logo for {team1_normalized} vs {team2_normalized}: {e}")
         import traceback
@@ -462,10 +526,10 @@ def process_events():
                             # Rimuovi anche i suffissi attaccati al numero (1st, 2nd, 3rd, etc.)
                             import re
                             clean_day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', clean_day)
-                            
+
                             print(f"Original day: '{day}'")
                             print(f"Clean day after processing: '{clean_day}'")
-                            
+
                             day_parts = clean_day.split()
                             print(f"Day parts: {day_parts}")  # Debug per vedere i componenti della data
 
@@ -473,7 +537,7 @@ def process_events():
                             day_num = None
                             month_name = None
                             year = None
-                            
+
                             if len(day_parts) >= 4:  # Standard format: Weekday Month Day Year
                                 weekday = day_parts[0]
                                 # Verifica se il secondo elemento contiene lettere (è il mese) o numeri (è il giorno)
@@ -531,7 +595,7 @@ def process_events():
                                 rome_tz = pytz.timezone('Europe/Rome')
                                 day_num = datetime.datetime.now(rome_tz).strftime('%d')
                                 print(f"Warning: Missing day number, using current day: {day_num}")
-                            
+
                             # Get time from game data
                             time_str = game.get("time", "00:00")
 
@@ -556,14 +620,14 @@ def process_events():
                                 "May": "05", "June": "06", "July": "07", "August": "08",
                                 "September": "09", "October": "10", "November": "11", "December": "12"
                             }
-                            
+
                             # Aggiungi controllo per il mese
                             if not month_name or month_name not in month_map:
                                 print(f"Warning: Invalid month name '{month_name}', using current month")
                                 rome_tz = pytz.timezone('Europe/Rome')
                                 current_month = datetime.datetime.now(rome_tz).strftime('%B')
                                 month_name = current_month
-                                
+
                             month_num = month_map.get(month_name, "01")  # Default to January if not found
 
                             # Ensure day has leading zero if needed
@@ -582,20 +646,20 @@ def process_events():
                                     rome_tz = pytz.timezone('Europe/Rome')
                                     day_num = datetime.datetime.now(rome_tz).strftime('%d')
                                     print(f"Using current day as fallback: {day_num}")
-                                
+
                                 if not month_num or month_num == "":
                                     month_num = "01"  # Default to January
                                     print(f"Using January as fallback month")
-                                
+
                                 if not year or year == "":
                                     rome_tz = pytz.timezone('Europe/Rome')
                                     year = datetime.datetime.now(rome_tz).strftime('%Y')
                                     print(f"Using current year as fallback: {year}")
-                                
+
                                 if not time_str or time_str == "":
                                     time_str = "00:00"
                                     print(f"Using 00:00 as fallback time")
-                                
+
                                 # Ensure day_num has proper format (1-31)
                                 try:
                                     day_int = int(day_num)
@@ -605,19 +669,19 @@ def process_events():
                                 except ValueError:
                                     day_num = "01"  # Default to first day of month
                                     print(f"Invalid day number format, using 01 as fallback")
-                                
+
                                 # Ensure day has leading zero if needed
                                 if len(str(day_num)) == 1:
                                     day_num = f"0{day_num}"
-                                
+
                                 date_str = f"{year}-{month_num}-{day_num} {time_str}:00"
                                 print(f"Attempting to parse date: '{date_str}'")
                                 start_date_utc = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-                                
+
                                 # Convert to Amsterdam timezone
                                 amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
                                 start_date_amsterdam = start_date_utc.replace(tzinfo=pytz.UTC).astimezone(amsterdam_timezone)
-                                
+
                                 # Format for EPG
                                 mStartTime = start_date_amsterdam.strftime("%Y%m%d%H%M%S")
                                 mStopTime = (start_date_amsterdam + datetime.timedelta(days=2)).strftime("%Y%m%d%H%M%S")
@@ -626,7 +690,7 @@ def process_events():
                                 error_msg = str(e)
                                 if 'date_str' not in locals():
                                     date_str = f"Error with: {year}-{month_num}-{day_num} {time_str}:00"
-                                
+
                                 print(f"Date parsing error: {error_msg} for date string '{date_str}'")
                                 # Use current time as fallback
                                 amsterdam_timezone = pytz.timezone("Europe/Amsterdam")
@@ -678,13 +742,13 @@ def process_events():
 
                                     # Crea il nuovo formato per tvg-name con l'orario all'inizio e la data alla fine
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
-                                    
+
                                     # Get dynamic logo for this event
                                     event_logo = get_dynamic_logo(game["event"])
 
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{clean_sport_key}", {channel_name_str}\n')
                                     file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
-                                    
+
                                 processed_channels += 1
                                 filtered_channels += 1
                             else:
