@@ -19,8 +19,8 @@ NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "itaevents.m3u8"
 LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png"
-SKYSTR = "icu"
-GUARCAL = "stream"
+SKYSTR = "email"
+GUARCAL = "icu"
 DADDY= "dad"
 # Aggiungi l'URL placeholder per i canali tennis
 TENNIS_PLACEHOLDER_URL = "https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8"
