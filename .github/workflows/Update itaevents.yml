@@ -41,13 +41,23 @@ jobs:
           rm -f daddyliveSchedule.json
           echo "File JSON eliminati per garantire dati freschi"
           
-      - name: Run script
+      - name: Run script extract schedule
         env:
           M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
         run: |
           python extract_schedule.py
+
+      - name: Run script daddy ita e fullita
+        env:
+          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
+        run: |
           python itaevents.py
           python fullita.py
+          
+      - name: Run script epg
+        env:
+          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
+        run: |
           python epg.py
           
       - name: Commit and push changes
