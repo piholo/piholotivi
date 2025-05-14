@@ -34,6 +34,11 @@ jobs:
           pip install beautifulsoup4 playwright bs4 lxml
           playwright install chromium
           pip install chardet
+
+      - name: Pulisci file JSON esistenti
+        run: |
+          rm -f daddyliveSchedule.json
+          echo "File JSON eliminati per garantire dati freschi"
           
       - name: Run script
         env:
