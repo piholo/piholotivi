@@ -14,7 +14,7 @@ from urllib.parse import quote_plus  # Add this import
 
 # Constants
 PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
-HEADER = "&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2Fcaq21harderv991gpluralplay.xyz%2F&h_origin=https%3A%2F%2Fcaq21harderv991gpluralplay.xyz"
+HEADER = f"&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2F{REFERER}%2F&h_origin=https%3A%2F%2F{ORIGIN}"
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "itaevents.m3u8"
@@ -22,6 +22,8 @@ LOGO = "https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddspor
 SKYSTR = "email"
 GUARCAL = "icu"
 DADDY= "dad"
+REFERER = "forcedtoplay.xyz"
+ORIGIN = "forcedtoplay.xyz"
 # Aggiungi l'URL placeholder per i canali tennis
 TENNIS_PLACEHOLDER_URL = "https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8"
 
