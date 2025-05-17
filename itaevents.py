@@ -15,7 +15,8 @@ from urllib.parse import quote_plus  # Add this import
 # Constants
 REFERER = "forcedtoplay.xyz"
 ORIGIN = "forcedtoplay.xyz"
-PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
+PROXY = "https://prx.pibuco.duckdns.org/proxy/m3u?url="
+#PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
 HEADER = f"&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2F{REFERER}%2F&h_origin=https%3A%2F%2F{ORIGIN}"
 NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
@@ -769,9 +770,9 @@ def process_events():
                                     
                                     # Se è l'URL placeholder per i canali tennis, usa il proxy
                                     if stream_url_dynamic == TENNIS_PLACEHOLDER_URL:
-                                        file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+                                        file.write(f"{PROXY}{stream_url_dynamic}\n\n")
                                     else:
-                                        file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+                                        file.write(f"{PROXY}{stream_url_dynamic}\n\n")
 
                                 processed_channels += 1
                                 filtered_channels += 1
