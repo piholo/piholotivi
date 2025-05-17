@@ -13,7 +13,7 @@ import time
 # Constants
 REFERER = "forcedtoplay.xyz"
 ORIGIN = "forcedtoplay.xyz"
-PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
+PROXY = "https://prx.pibuco.duckdns.org/proxy/m3u?url="
 HEADER = f"&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2F{REFERER}%2F&h_origin=https%3A%2F%2F{ORIGIN}"
 NUM_CHANNELS = 1000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
@@ -428,7 +428,7 @@ def process_events():
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
 
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
-                                    file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+                                    file.write(f"{PROXY}{stream_url_dynamic}\n\n")
 
                                 processed_channels += 1
                                 filtered_channels += 1
