@@ -9,7 +9,7 @@ import time
 M3U8_OUTPUT_FILE = "247ita.m3u8"
 REFERER = "forcedtoplay.xyz"
 ORIGIN = "forcedtoplay.xyz"
-PROXY = "https://mfp.pibuco.duckdns.org/proxy/hls/manifest.m3u8?api_password=pibuco&d="
+PROXY = "https://prx.pibuco.duckdns.org/proxy/m3u?url="
 HEADER = f"&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2F{REFERER}%2F&h_origin=https%3A%2F%2F{ORIGIN}"
 # File e URL statici
 daddyLiveChannelsFileName = '247channels.html'
@@ -357,7 +357,7 @@ def generate_m3u8_247(matches):
 
             if stream_url_dynamic:
                 file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
-                file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+                file.write(f"{PROXY}{stream_url_dynamic}\n\n")
                 processed_247_channels += 1
             else:
                 print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.")
@@ -376,7 +376,7 @@ def add_dazn1_channel():
     if stream_url_dynamic:
         with open(M3U8_OUTPUT_FILE, 'a', encoding='utf-8') as file:
             file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
-            file.write(f"{PROXY}{stream_url_dynamic}{HEADER}\n\n")
+            file.write(f"{PROXY}{stream_url_dynamic}\n\n")
 
             return 1
     else:
