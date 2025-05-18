@@ -773,6 +773,9 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 #EXTINF:-1 tvg-id="LNB - Nancy vs Paris" tvg-name="17:45 LNB : Nancy vs Paris - 17/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 5 Croatia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium175/mono.m3u8
 
+#EXTINF:-1 tvg-id="LNB - Strasbourg vs Gravelines-Dunkerque" tvg-name="17:45 LNB : Strasbourg vs Gravelines-Dunkerque - 17/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", DAZN France
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium169/mono.m3u8
+
 #EXTINF:-1 tvg-id="LNB - Chalon/Saone vs Monaco" tvg-name="17:45 LNB : Chalon/Saone vs Monaco - 17/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", DAZN 4 France
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium170/mono.m3u8
 
@@ -1849,6 +1852,54 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/prem
 
 #EXTINF:-1 tvg-id="Brazil - Serie B - Atlético Goianiense vs Remo" tvg-name="21:00 Brazil - Serie B : Atlético Goianiense vs Remo - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN Brazil
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium81/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Arevalo M./Pavic M. vs Doumbia S./Reboul F." tvg-name="14:00 ATP - ROME : Arevalo M./Pavic M. vs Doumbia S./Reboul F. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Arevalo M./Pavic M. vs Doumbia S./Reboul F." tvg-name="14:00 ATP - ROME : Arevalo M./Pavic M. vs Doumbia S./Reboul F. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Sinner J. vs Alcaraz C." tvg-name="17:00 ATP - ROME : Sinner J. vs Alcaraz C. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Sinner J. vs Alcaraz C." tvg-name="17:00 ATP - ROME : Sinner J. vs Alcaraz C. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Sinner J. vs Alcaraz C." tvg-name="17:00 ATP - ROME : Sinner J. vs Alcaraz C. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - ROME - Sinner J. vs Alcaraz C." tvg-name="17:00 ATP - ROME : Sinner J. vs Alcaraz C. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - HAMBURG - Dedura D. vs Darderi L." tvg-name="14:30 ATP - HAMBURG : Dedura D. vs Darderi L. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - HAMBURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - HAMBURG - Martinez P. vs Cerundolo F." tvg-name="16:00 ATP - HAMBURG : Martinez P. vs Cerundolo F. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - HAMBURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - GENEVA - Popyrin A. vs Jarry N." tvg-name="12:00 ATP - GENEVA : Popyrin A. vs Jarry N. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - GENEVA", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="ATP - GENEVA - Borges N. vs Michelsen A." tvg-name="13:30 ATP - GENEVA : Borges N. vs Michelsen A. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - GENEVA", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - ROME - Errani S./Paolini J. vs Kudermetova V./Mertens E." tvg-name="12:00 WTA - ROME : Errani S./Paolini J. vs Kudermetova V./Mertens E. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - ROME - Errani S./Paolini J. vs Kudermetova V./Mertens E." tvg-name="12:00 WTA - ROME : Errani S./Paolini J. vs Kudermetova V./Mertens E. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - ROME", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - STRASBOURG - Noskova L. vs Samsonova L." tvg-name="13:00 WTA - STRASBOURG : Noskova L. vs Samsonova L. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - STRASBOURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - STRASBOURG - Krejcikova B. vs Linette M." tvg-name="14:30 WTA - STRASBOURG : Krejcikova B. vs Linette M. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - STRASBOURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - STRASBOURG - Putintseva Y. vs Sramkova R." tvg-name="14:30 WTA - STRASBOURG : Putintseva Y. vs Sramkova R. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - STRASBOURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="WTA - STRASBOURG - Parry D. vs Fernandez L." tvg-name="16:00 WTA - STRASBOURG : Parry D. vs Fernandez L. - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - STRASBOURG", Tennis Stream
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
 
 #EXTINF:-1 tvg-id="ATP and WTA 1000 Rome Final - ATP and WTA 1000 Rome Final" tvg-name="11:00 ATP and WTA 1000 Rome Final - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
