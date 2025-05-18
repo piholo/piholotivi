@@ -173,9 +173,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/prem
 #EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Simulcast" tvg-name="15:30 Germany - Bundesliga 2 : Simulcast - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Bundesliga 1
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium558/mono.m3u8
 
-#EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Simulcast" tvg-name="15:30 Germany - Bundesliga 2 : Simulcast - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN SPORTS Australia 3
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium493/mono.m3u8
-
 #EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Simulcast" tvg-name="15:30 Germany - Bundesliga 2 : Simulcast - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport Klub 4 Croatia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
 
@@ -232,9 +229,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 
 #EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Schalke 04 vs Elversberg" tvg-name="15:30 Germany - Bundesliga 2 : Schalke 04 vs Elversberg - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Bundesliga 4
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium19/mono.m3u8
-
-#EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Schalke 04 vs Elversberg" tvg-name="15:30 Germany - Bundesliga 2 : Schalke 04 vs Elversberg - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Match Football 2 Russia
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
 
 #EXTINF:-1 tvg-id="Germany - Bundesliga 2 - Schalke 04 vs Elversberg" tvg-name="15:30 Germany - Bundesliga 2 : Schalke 04 vs Elversberg - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Tivibu Spor 2 Turkey
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium26/mono.m3u8
@@ -551,9 +545,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/
 #EXTINF:-1 tvg-id="Spain - La Liga - Barcelona vs Villarreal" tvg-name="19:00 Spain - La Liga : Barcelona vs Villarreal - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747565047_barcelona-x-villarreal.jpg" group-title="Soccer", Arena Sport 2 Croatia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
 
-#EXTINF:-1 tvg-id="Spain - La Liga - Barcelona vs Villarreal" tvg-name="19:00 Spain - La Liga : Barcelona vs Villarreal - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747565047_barcelona-x-villarreal.jpg" group-title="Soccer", Match Football 2 Russia
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
-
 #EXTINF:-1 tvg-id="Spain - La Liga - Barcelona vs Villarreal" tvg-name="19:00 Spain - La Liga : Barcelona vs Villarreal - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747565047_barcelona-x-villarreal.jpg" group-title="Soccer", TV4 Sport Live 2
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium704/mono.m3u8
 
@@ -611,17 +602,11 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 #EXTINF:-1 tvg-id="Spain - La Liga - Valencia vs Athletic Club" tvg-name="19:00 Spain - La Liga : Valencia vs Athletic Club - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/63832579a238b1e97de345bb3960545c." group-title="Soccer", beIN Sports MENA 8
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium98/mono.m3u8
 
-#EXTINF:-1 tvg-id="Spain - La Liga - Mallorca vs Getafe" tvg-name="19:00 Spain - La Liga : Mallorca vs Getafe - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/b53c5d2396fece5864a775eb82ceb7a0." group-title="Soccer", DAZN LaLiga 5
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium69/mono.m3u8
-
 #EXTINF:-1 tvg-id="Spain - La Liga - Mallorca vs Getafe" tvg-name="19:00 Spain - La Liga : Mallorca vs Getafe - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/b53c5d2396fece5864a775eb82ceb7a0." group-title="Soccer", ESPN+ USA
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium177/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Real Sociedad vs Girona" tvg-name="19:00 Spain - La Liga : Real Sociedad vs Girona - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/91c064f25d268da5079f3c8d2506905a." group-title="Soccer", M+ LALIGA TV 5
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Real Sociedad vs Girona" tvg-name="19:00 Spain - La Liga : Real Sociedad vs Girona - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/91c064f25d268da5079f3c8d2506905a." group-title="Soccer", ESPN+ USA
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium178/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Real Sociedad vs Girona" tvg-name="19:00 Spain - La Liga : Real Sociedad vs Girona - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/91c064f25d268da5079f3c8d2506905a." group-title="Soccer", Nova Sports 5 Greece
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium635/mono.m3u8
@@ -676,9 +661,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Real Valladolid vs Deportivo Alavés" tvg-name="19:00 Spain - La Liga : Real Valladolid vs Deportivo Alavés - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN LaLiga 4
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium155/mono.m3u8
-
-#EXTINF:-1 tvg-id="Spain - La Liga - Real Valladolid vs Deportivo Alavés" tvg-name="19:00 Spain - La Liga : Real Valladolid vs Deportivo Alavés - 18/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", ESPN+ USA
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium180/mono.m3u8
 
 #EXTINF:-1 tvg-id="Spain - La Liga - Las Palmas vs Leganés" tvg-name="19:00 Spain - La Liga : Las Palmas vs Leganés - 18/05/25" tvg-logo="https://skystreaming.help/content/thumbs/f5075fde4abe218a23da956c128ac084." group-title="Soccer", M+ LALIGA TV 4
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium156/mono.m3u8
@@ -749,17 +731,8 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/prem
 #EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Sport TV3 Portugal
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium454/mono.m3u8
 
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Match Football 2 Russia
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", beIN SPORTS Australia 3
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium493/mono.m3u8
-
 #EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", FOX Deportes
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium643/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Cytavision Sports 4 Cyprus
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium914/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Ziggo Sport 4 NL
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium396/mono.m3u8
@@ -787,9 +760,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Cosmote Sport 2 Greece
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium623/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", SuperSport Football
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium56/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Lazio" tvg-name="20:45 Italy - Serie A : Internazionale vs Lazio - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564845_internazionale-x-lazio.png" group-title="Soccer", Sport 1 Israel
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
@@ -886,9 +856,6 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Roma vs Milan" tvg-name="20:45 Italy - Serie A : Roma vs Milan - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564869_roma-x-milan.png" group-title="Soccer", Ziggo Sport 5 NL
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium383/mono.m3u8
-
-#EXTINF:-1 tvg-id="Italy - Serie A - Roma vs Milan" tvg-name="20:45 Italy - Serie A : Roma vs Milan - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564869_roma-x-milan.png" group-title="Soccer", Cytavision Sports 2 Cyprus
-https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium912/mono.m3u8
 
 #EXTINF:-1 tvg-id="Italy - Serie A - Roma vs Milan" tvg-name="20:45 Italy - Serie A : Roma vs Milan - 18/05/25" tvg-logo="https://guardacalcio.icu/uploads/posts/2025-05/1747564869_roma-x-milan.png" group-title="Soccer", Match Football 3 Russia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium138/mono.m3u8
