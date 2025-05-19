@@ -14,8 +14,8 @@ https://toastremio-prx.hf.space/proxy/m3u?url=https://daddylive.dad/embed/stream
 #EXTINF:-1 tvg-id="test2 prx m3u8 Italy - Serie B - Salernitana vs Frosinone" tvg-name="PRX1 m3u 20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", prx m3u
 https://toastremio-prx.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium881/mono.m3u8
 
-#EXTINF:-1 tvg-id="PRX2 PHP test1 prx php Italy - Serie B - Salernitana vs Frosinone" tvg-name="PRX2 php 20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", prx2 php
+#EXTINF:-1 tvg-id="PRX2 PHP test1" tvg-name="PRX2 PHP test1" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="PRX", PRX2 PHP test1
 https://toastremio-prx2.hf.space/proxy/m3u?url=https://daddylive.dad/embed/stream-881.php
 
-#EXTINF:-1 tvg-id="PRX2 M3U test2 prx m3u8 Italy - Serie B - Salernitana vs Frosinone" tvg-name="PRX2 m3u 20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", prx2 m3u
+#EXTINF:-1 tvg-id="PRX2 M3U" tvg-name="PRX2 m3u" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", prx2 m3u
 https://toastremio-prx2.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium881/mono.m3u8
