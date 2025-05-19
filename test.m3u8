@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Russia - Premier League - Lokomotiv Moskva vs CSKA Moskva" tvg-name="19:30 Russia - Premier League : Lokomotiv Moskva vs CSKA Moskva - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Match Premier Russia
+https://mfp.pibuco.duckdns.org/extractor/video?host=DLHD&d=https://daddylive.dad/embed/stream-573.php&redirect_stream=true&api_password=mfp
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Salernitana vs Frosinone" tvg-name="20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN Italia
+https://mfp.pibuco.duckdns.org/extractor/video?host=DLHD&d=https://daddylive.dad/embed/stream-23.php&redirect_stream=true&api_password=mfp
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Salernitana vs Frosinone" tvg-name="20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+https://mfp.pibuco.duckdns.org/extractor/video?host=DLHD&d=https://daddylive.dad/embed/stream-756.php&redirect_stream=true&api_password=mfp
+
+#EXTINF:-1 tvg-id="test1 prx php Italy - Serie B - Salernitana vs Frosinone" tvg-name="20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+https://toastremio-prx.hf.space/proxy/m3u?url=https://daddylive.dad/embed/stream-756.php
+
+#EXTINF:-1 tvg-id="test2 prx m3u8 Italy - Serie B - Salernitana vs Frosinone" tvg-name="20:30 Italy - Serie B : Salernitana vs Frosinone - 19/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Fox Soccer Plus
+https://toastremio-prx.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium756/mono.m3u8
