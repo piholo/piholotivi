@@ -1,29 +1,47 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Bundesliga 1
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Sky Sport Bundesliga 1
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium558/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", beIN Sports 2 France
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Sky Sports Mix UK
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium449/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", beIN Sports 2 France
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium117/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Nova Sports 3 Greece
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Nova Sports 3 Greece
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium633/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", MATCH! Futbol 3 Russia
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", MATCH! Futbol 3 Russia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium138/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", DAZN 2 Portugal HD
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", DAZN 2 Portugal HD
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium456/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sky Sport Calcio IT
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Eleven Sport 1 Poland
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium71/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Sky Sport Calcio IT
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium870/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Digi Sport 3 Romania
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Digi Sport 3 Romania
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium402/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Tivibu Spor 1 Turkey
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Diema Sport 3 Bulgaria
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium467/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Tivibu Spor 1 Turkey
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
 
-#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer", Sport 4 Israel
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", SporTV Brazil
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Sportklub 1 Croatia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", beIN Sports MENA 5
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium95/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga - Heidenheim vs Elversberg" tvg-name="20:30 Bundesliga : Heidenheim vs Elversberg - 22/05/25" tvg-logo="https://skystreaming.help/content/thumbs/ce20c441dc79d04225d2b923f1b93eca." group-title="Soccer", Sport 4 Israel
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium143/mono.m3u8
 
 #EXTINF:-1 tvg-id="ATP - HAMBURG - Etcheverry T. M. vs Lehecka J." tvg-name="12:00 ATP - HAMBURG : Etcheverry T. M. vs Lehecka J. - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis ATP - HAMBURG", Tennis Stream 7
@@ -74,11 +92,20 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/prem
 #EXTINF:-1 tvg-id="WTA - RABAT - Cristian J. vs Sevastova A." tvg-name="16:30 WTA - RABAT : Cristian J. vs Sevastova A. - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis WTA - RABAT", Tennis Stream 3
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
 
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium40/mono.m3u8
+
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium46/mono.m3u8
 
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN5
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium115/mono.m3u8
+
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis DE
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium884/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN Sports 2 Malaysia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium713/mono.m3u8
 
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN SPORTS Australia 1
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium491/mono.m3u8
@@ -86,8 +113,20 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/prem
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN SPORTS Australia 2
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium492/mono.m3u8
 
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium701/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Polsat Sport 1 Poland
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium47/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cosmote Sport 7
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium628/mono.m3u8
+
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Nova Sports 6 Greece
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium636/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Movistar Deportes 2 Spain
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium438/mono.m3u8
 
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cytavision Sports 5 Cyprus
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium915/mono.m3u8
@@ -95,14 +134,59 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium472/mono.m3u8
 
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN Sports 2 Malaysia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium713/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Arena Premium 3 Serbia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium139/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Digi Sport 2 Romania
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium401/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", EuroSport 2 France
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium773/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium396/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 5 NL
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium383/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Croatia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium453/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Digi Sport 4 Romania
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium403/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 3 Bulgaria
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+
 #EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Croatia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium102/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Croatia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium101/mono.m3u8
+
+#EXTINF:-1 tvg-id="Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5" tvg-name="11:00 Hamburg-ATP, Geneva-ATP, Strasbourg-WTA & Rabat-WTA Day-5 - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport 5 Gold Israel
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium148/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula 3 - Tag Heuer Monaco Grand Prix - Practice" tvg-name="13:00 Formula 3 : Tag Heuer Monaco Grand Prix - Practice - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium60/mono.m3u8
 
 #EXTINF:-1 tvg-id="Formula 2 - Tag Heuer Monaco Grand Prix - Practice" tvg-name="15:00 Formula 2 : Tag Heuer Monaco Grand Prix - Practice - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", Sky Sports F1 UK
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium60/mono.m3u8
 
+#EXTINF:-1 tvg-id="Africa League, Group Nile - AL Ahly Tripoli (Lby) vs. Nairobi City Thunder" tvg-name="16:00 Africa League, Group Nile : AL Ahly Tripoli (Lby) vs. Nairobi City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBA TV USA
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium404/mono.m3u8
+
 #EXTINF:-1 tvg-id="Africa League, Group Nile - AL Ahly Tripoli (Lby) vs. Nairobi City Thunder" tvg-name="16:00 Africa League, Group Nile : AL Ahly Tripoli (Lby) vs. Nairobi City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport 5 Gold Israel
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium148/mono.m3u8
+
+#EXTINF:-1 tvg-id="Poland, PLK - Gornik Walbrzych vs. Legia Warszawa" tvg-name="17:30 Poland, PLK : Gornik Walbrzych vs. Legia Warszawa - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Polsat Sport 1 Poland
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium47/mono.m3u8
 
 #EXTINF:-1 tvg-id="Slovenian League - Playoff - 1/2 Final (G1) : Podčetrtek vs Cedevita Olimpija" tvg-name="18:00 Slovenian League: Playoff - 1/2 Final (G1) : Podčetrtek vs Cedevita Olimpija - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport Klub 6 Croatia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium25/mono.m3u8
@@ -113,8 +197,17 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premiu
 #EXTINF:-1 tvg-id="Romania, Liga Nationala - CS Valcea 1924 Rm Valcea vs. CS Universitatea Cluj-Napoca" tvg-name="18:00 Romania, Liga Nationala : CS Valcea 1924 Rm Valcea vs. CS Universitatea Cluj-Napoca - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Prima Sport 1 Romania
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium583/mono.m3u8
 
+#EXTINF:-1 tvg-id="Basketball African League - A.P.R. vs MBB Blue Soldiers" tvg-name="19:00 Basketball African League : A.P.R. vs MBB Blue Soldiers - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", NBA TV USA
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium404/mono.m3u8
+
 #EXTINF:-1 tvg-id="Lega A - Trieste 2004 vs. Pallacanestro Brescia" tvg-name="19:30 Lega A : Trieste 2004 vs. Pallacanestro Brescia - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Premium 2 Serbia
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 tvg-id="Lega A - Pallacanestro Reggiana vs. Trapani Shark" tvg-name="20:00 Lega A : Pallacanestro Reggiana vs. Trapani Shark - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena 1 Serbia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium429/mono.m3u8
+
+#EXTINF:-1 tvg-id="Lega A - Pallacanestro Reggiana vs. Trapani Shark" tvg-name="20:00 Lega A : Pallacanestro Reggiana vs. Trapani Shark - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 5 Croatia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium20/mono.m3u8
 
 #EXTINF:-1 tvg-id="Lega A - Pallacanestro Reggiana vs. Trapani Shark" tvg-name="20:00 Lega A : Pallacanestro Reggiana vs. Trapani Shark - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Eurosport 2 IT
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium879/mono.m3u8
@@ -137,8 +230,14 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premiu
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Away Feed
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TNT Sports 1 UK
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN USA
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium44/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPNews USA
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium288/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN3
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium113/mono.m3u8
@@ -152,11 +251,20 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/prem
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TSN5
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium115/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", RDS 2 CA
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium840/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Movistar Deportes Spain
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium436/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", M+ #Vamos ES
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium521/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Sport TV1 Portugal
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium49/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", beIN Sports 1 France
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium116/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN Deportes
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
@@ -167,6 +275,15 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/prem
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN 2 Mexico
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium926/mono.m3u8
 
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena 1 Premium Serbia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium134/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Cosmote Sport 4 Greece
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium625/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN BR
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium81/mono.m3u8
+
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", ESPN 2 Argentina
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium150/mono.m3u8
 
@@ -175,6 +292,9 @@ https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", TV2 Sport X Denmark
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium808/mono.m3u8
+
+#EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Arena Sport 1 Croatia
+https://prx.pibuco.duckdns.org/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium432/mono.m3u8
 
 #EXTINF:-1 tvg-id="NBA - Minnesota Timberwolves vs Oklahoma City Thunder" tvg-name="02:30 NBA : Minnesota Timberwolves vs Oklahoma City Thunder - 22/05/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basketball", Diema sport 3 Bulgaria
 https://prx.pibuco.duckdns.org/proxy/m3u?url=https://windnew.newkso.ru/wind/premium467/mono.m3u8
